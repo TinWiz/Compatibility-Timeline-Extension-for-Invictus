@@ -1,4 +1,4 @@
-namespace = te_barbarians
+﻿namespace = te_barbarians
 
 #Germanic
 te_barbarians.1 = {

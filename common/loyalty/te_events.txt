@@ -1,4 +1,4 @@
-spared_xians_sympathy = {
+﻿spared_xians_sympathy = {
 	value = 10
 	months = 30
 }

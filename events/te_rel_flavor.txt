@@ -1,4 +1,4 @@
-namespace = te_rel_flavor
+﻿namespace = te_rel_flavor
 
 te_rel_flavor.1 = {
 	type = country_event

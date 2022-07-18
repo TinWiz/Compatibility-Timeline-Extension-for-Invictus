@@ -1,6 +1,6 @@
-namespace = te_plagues
+ï»¿namespace = te_plagues
 
-#Antonine Plague AD 165–180
+#Antonine Plague AD 165ï¿½180
 te_plagues.1 = {
 type = country_event
 title = "te_plagues.1.t"
@@ -42,7 +42,7 @@ fire_only_once = yes
 	}
 }	
 
-#Antonine Plague epidemic – provinces
+#Antonine Plague epidemic ï¿½ provinces
 te_plagues.10 = {
 	type = province_event
 	hidden = yes
@@ -77,7 +77,7 @@ te_plagues.10 = {
 	}
 }
 
-#Antonine Plague epidemic — country
+#Antonine Plague epidemic ï¿½ country
 te_plagues.11 = {
 	type = country_event
 	title = "te_plagues.11.t"
@@ -146,7 +146,7 @@ te_plagues.12 = {
 	}
 }
 
-#Cyprian Plague AD249—262
+#Cyprian Plague AD249ï¿½262
 te_plagues.2 = {
 	type = country_event
 	title = "te_plagues.2.t"
@@ -188,7 +188,7 @@ te_plagues.2 = {
 	}
 }	
 
-#Cyprian Plague epidemic — provinces
+#Cyprian Plague epidemic ï¿½ provinces
 te_plagues.20 = {
 	type = province_event
 	hidden = yes
@@ -223,7 +223,7 @@ te_plagues.20 = {
 	}
 }
 
-#Cyprian Plague — country
+#Cyprian Plague ï¿½ country
 te_plagues.21 = {
 	type = country_event
 	title = "te_plagues.21.t"
@@ -569,7 +569,7 @@ te_plagues.35 = { #orient remove
 	}
 }
 
-###Late Antiquity population decline — Invictus map###
+###Late Antiquity population decline ï¿½ Invictus map###
 te_plagues.40 = { #Central add
 	type = country_event
 	hidden = yes

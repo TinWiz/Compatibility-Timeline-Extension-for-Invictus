@@ -1,4 +1,4 @@
-### Saints — can trigger events ###
+﻿### Saints — can trigger events ###
 deity_st_andrew = {
 	trigger = {
 		current_date > 854.1.1
