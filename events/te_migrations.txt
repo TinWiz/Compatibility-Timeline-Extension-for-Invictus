@@ -1,4 +1,4 @@
-namespace = te_migrations
+﻿namespace = te_migrations
 
 te_migrations.1 = {
 	type = country_event

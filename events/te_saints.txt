@@ -1,4 +1,4 @@
-namespace = te_saints
+﻿namespace = te_saints
 
 te_saints.1 = {
     type = country_event

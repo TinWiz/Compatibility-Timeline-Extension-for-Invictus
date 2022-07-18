@@ -1,4 +1,4 @@
-#
+﻿#
 5140=
 {
 	barbarian_power=0

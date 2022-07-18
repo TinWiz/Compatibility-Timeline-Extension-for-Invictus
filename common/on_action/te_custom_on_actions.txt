@@ -1,4 +1,4 @@
-
+﻿
 te_custom_on_action_yearly_country_xian = {
 
 	trigger = {

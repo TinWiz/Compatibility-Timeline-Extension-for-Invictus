@@ -1,4 +1,4 @@
-namespace = te_manichees
+﻿namespace = te_manichees
 
 #Manichaeism
 te_manichees.1 = {

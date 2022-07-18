@@ -1,4 +1,4 @@
-deity_manichaean_jesus = {
+﻿deity_manichaean_jesus = {
 	trigger = {
 		OR = {
 			religion = manichaeism
