@@ -1,5 +1,5 @@
 version="0.1"
-name="Inv_TE v0.1"
+name="Inv_TE"
 tags={
 	"Historical"
 }
