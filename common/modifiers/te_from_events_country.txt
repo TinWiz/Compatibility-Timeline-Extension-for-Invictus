@@ -1,4 +1,4 @@
-cursed_by_elohim = {
+﻿cursed_by_elohim = {
 	global_monthly_food_modifier = -0.1
     omen_power = -1
 	religious_tech_investment = -0.25

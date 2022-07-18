@@ -1,4 +1,4 @@
-deity_is_christian_trigger = {
+﻿deity_is_christian_trigger = {
     OR = {
         this = deity:omen_st_andrew
         this = deity:omen_st_thomas

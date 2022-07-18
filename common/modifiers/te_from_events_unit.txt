@@ -1,4 +1,4 @@
-barbarian_fury_rage = {
+﻿barbarian_fury_rage = {
     army_movement_speed = 1
     land_unit_attrition = -0.75
     discipline = 1.25
