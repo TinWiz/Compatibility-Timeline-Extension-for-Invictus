@@ -1,0 +1,8 @@
+﻿NGame = {
+	END_DATE = "1229.9.4" #Fall of Rome
+}
+
+NCountry = {
+	CIVIL_WAR_STATES_THRESHOLD = 2
+	CIVIL_WAR_CITIES_THRESHOLD = 4
+}

@@ -1,0 +1,3 @@
+﻿#IRCK3 mod
+ERE = "setup/countries/rome/eastern_roman_empire.txt"
+WRE = "setup/countries/rome/western_roman_empire.txt"

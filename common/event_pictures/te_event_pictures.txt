@@ -1,0 +1,39 @@
+te_jewish_emigration = {
+	theme = Uncategorized
+	picture = "gfx/interface/event_window/te_event_jewish_emigration.dds"
+}
+
+te_last_supper = {
+	theme = Uncategorized
+	picture = "gfx/interface/event_window/te_event_last_supper.dds"
+}
+
+te_holyfamily_temple = {
+	theme = Religion
+	picture ="gfx/interface/event_window/te_event_holyfamily_temple.dds"
+}
+
+te_mani_execution = {
+	theme = Uncategorized
+	picture ="gfx/interface/event_window/te_event_mani_execution.dds"
+}
+
+te_manichaean_cosmology = {
+	theme = Uncategorized
+	picture ="gfx/interface/event_window/te_event_manichaean_cosmology.dds"
+}
+
+te_receiving_jews = {
+	theme = Happy
+	picture ="gfx/interface/event_window/te_event_receiving_jews.dds"
+}
+
+te_early_xian_worship = {
+	theme = Religion
+	picture = "gfx/interface/event_window/te_event_early_xian_worship.dds"
+}
+
+te_minor_manichee = {
+	theme = Religion
+	picture = "gfx/interface/event_window/te_event_minor_manichee.dds"
+}

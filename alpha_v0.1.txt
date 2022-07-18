@@ -1,0 +1,43 @@
+Alpha — v0.1 [changes from Simple I:R Timeline Extender version 1.0.1-iii]
+
+*adjusted setup of impassable provinces in setup\provinces te_default.txt file
+-removed adjustments of p:5975 and replaced with p:5981
+	+changed to hunnic culture and eastern_animism
+	+Invictus v1.4 reassigns p:5975 to Sudan Impassable barbarian stronghold at game setup!
+
+*adjusted Hunnic invasion events
+	-switched all references from p:5975 to p:5981
+		+increased tribesmen pop count for all strongholds
+	-adding tribesmen pops directly to strongholds for barbarian invasion events
+		+Invictus v1.4 bug is causing these impassables to stop considering adjacent territories?
+
+*edited IRCK3_scripted_triggers for is_in_pars_occidentalis_inv_trigger
+	-added is_in_region = borysthenia_region
+		+split off western areas
+	-replaced is_in_region = africa_region with a list of areas in Invictus v1.4 africa_region (9 areas)
+	-replaced is_in_numidia_trigger = yes with list of areas in Invictus v1.4 numidia_region (8 areas)
+
+*edited IRCK3_decisions to divide Roman Empire
+	-removed entire divide_roman_empire decision for vanilla
+	-blocked lines #change_country_tag = ERE and #change_country_tag = WRE
+		+also blocked lines to set capitals as set_state_capital
+	-added list of areas for africa_region and set_owned_by for either ROM or scope:new_WRE if senior_pars or junior_pars, respectively
+
+*deleted all references to germania_magna_region in IRCK3_scripted_triggers, l6_christian and te_manichees events
+	-now back to base-game name: germania_region
+
+*edited l6_christian.5 #Gentiles Convert - provinces next to/with Christians
+	-added is_in_region = borysthenia_region to NOR triggers
+*added lower_nubia_region to te_christianity.91 conversions event
+
+*edited Manicheaism conversion events
+	-added country_culture_group = baltic & religion = matrist_religion & is_in_region = borysthenia_region to NOR trigger for te_manichees.1 for inception of Manichaeism
+	-added country_culture_group = baltic & religion = matrist_religion & is_in_region = borysthenia_region to NOR triggers for te_manichees.14 for spread of Manichaeism
+
+*restored has_global_variable = is_playing_invictus check to events and decisions
+	-map check as backup
+
+*added custom_on_action late_antiquity_deurbanization
+	-includes delay of between 1 and 364 days so events don't always trigger on same game date
+
+##########

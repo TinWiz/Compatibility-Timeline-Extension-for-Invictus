@@ -1,0 +1,110 @@
+#
+5140=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="istvaeonic"
+	province_rank=""
+	religion="germanic_religion"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+#Germanic Upland
+5141=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="istvaeonic"
+	province_rank=""
+	religion="germanic_religion"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+#
+5146=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="irminonic"
+	province_rank=""
+	religion="germanic_religion"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+#
+5278=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="huna"
+	province_rank=""
+	religion="eastern_animism"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+#
+5380=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="huna"
+	province_rank=""
+	religion="eastern_animism"
+	terrain="impassable_terrain"
+	trade_goods="silk"
+}
+#
+5970=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="hunnic"
+	province_rank=""
+	religion="eastern_animism"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+#
+5971=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="hunnic"
+	province_rank=""
+	religion="eastern_animism"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+#
+#5975=
+#{
+#	barbarian_power=0
+#	civilization_value=0
+#	culture="hunnic"
+#	province_rank=""
+#	religion="eastern_animism"
+#	terrain="impassable_terrain"
+#	trade_goods=""
+#}
+#
+5981=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="hunnic"
+	province_rank=""
+	religion="eastern_animism"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+#
+7296=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="huna"
+	province_rank=""
+	religion="eastern_animism"
+	terrain="impassable_terrain"
+	trade_goods=""
+}

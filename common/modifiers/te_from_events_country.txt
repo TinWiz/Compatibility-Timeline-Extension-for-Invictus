@@ -1,0 +1,47 @@
+cursed_by_elohim = {
+	global_monthly_food_modifier = -0.1
+    omen_power = -1
+	religious_tech_investment = -0.25
+	global_population_growth = -0.2
+	global_slaves_happyness = negative_happiness_huge_svalue
+	global_commerce_modifier = -0.2
+	land_morale_modifier = -0.2
+	naval_morale_modifier = -0.2
+	stability_cost_modifier = 0.1
+	manpower_recovery_speed = -0.2
+	war_exhaustion = 0.1
+}
+
+late_antiquity_pop_decline_central = {
+	global_population_growth = -0.22
+	global_monthly_civilization = -0.02
+	country_civilization_value = -25
+	global_population_capacity_modifier = -0.3
+	global_manpower_modifier = -0.3
+	global_commerce_modifier = -0.3
+	global_capital_trade_routes = -6
+}
+
+late_antiquity_pop_decline_occident = {
+	global_population_growth = -0.33
+	global_monthly_civilization = -0.03
+	country_civilization_value = -35
+	global_population_capacity_modifier = -0.4
+	global_manpower_modifier = -0.4
+	global_commerce_modifier = -0.4
+	global_capital_trade_routes = -9
+}
+
+late_antiquity_pop_decline_orient = {
+	global_population_growth = -0.11
+	global_monthly_civilization = -0.01
+	country_civilization_value = -15
+	global_population_capacity_modifier = -0.2
+	global_manpower_modifier = -0.2
+	global_commerce_modifier = -0.2
+	global_capital_trade_routes = -3
+}
+
+sirte_foederatus = {
+	loyalty_to_overlord = -50
+}

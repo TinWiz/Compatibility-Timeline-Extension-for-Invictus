@@ -1,0 +1,74 @@
+﻿l_french:
+  ## Saints ##
+ deity_st_andrew:0 "$omen_st_andrew$"
+ omen_st_andrew:1 "Saint-André"
+ omen_st_andrew_desc:2 "Saint André était le frère aîné de Simon Pierre, apôtres de Jésus de Nazareth. André fut d'abord un disciple de Saint Jean le Baptiste, qui l'envoya ensuite suivre Jésus. André a encouragé son frère Simon à se joindre à eux, en lui disant qu'ils avaient trouvé le Messie. C'est ainsi qu'André a été surnommé le premier appelé (Πρωτόκλητος). André prêchait en Épire, en Cappadoce, en Scythie, en Thrace, en Macédoine et en Achaïe. Il a prêché de l'est de l'Anatolie à l'ouest de la Géorgie. André est mort martyr, crucifié sur une croix en forme de X, qui est devenue connue sous le nom de Croix de Saint-André, pendant une persécution des chrétiens."
+
+ deity_st_thomas:0 "$omen_st_thomas$"
+ omen_st_thomas:1 "Saint Thomas"
+ omen_st_thomas_desc:2 "L'apôtre Thomas est l'un des douze apôtres qui ont accompagné Jésus comme amis et étudiants pendant trois ans. Thomas a fondé l'Église en Inde et dans les régions avoisinantes, voyageant jusqu'en Chine pour répandre l'Évangile du Ressuscité. Thomas a douté de la résurrection de Jésus de Nazareth jusqu'à ce qu'il ait vu et touché personnellement le Christ ressuscité, selon le témoignage des Apôtres. C'est pourquoi il a été surnommé "le Douteux". Thomas a fondé les sept premières communautés chrétiennes sur la côte de Malabar et est mort en martyr à Mailapur, sur la côte opposée de Coromandel."
+
+ deity_st_paul:0 "$omen_st_paul$"
+ omen_st_paul:1 "Saint Paul de Tarse"
+ omen_st_paul_desc:2 "Paul de Tarse était un missionnaire chrétien des premiers temps et l'un des premiers théologiens chrétiens. Juif ayant reçu une éducation grecque, pharisien respectueux des lois et citoyen romain, Paul - dont le nom hébreu était Saul - a d'abord persécuté les disciples de Jésus-Christ, qu'il n'a jamais rencontrés, sauf lors de sa conversion. Depuis sa conversion, cependant, il s'est considéré comme un apôtre de l'Évangile appelé par Dieu pour le peuple. En tant que tel, il a proclamé Jésus-Christ ressuscité, en particulier aux non-Juifs. Pour ce faire, il a voyagé en Méditerranée orientale et y a fondé plusieurs communautés chrétiennes. Il est resté en contact avec elles par le biais de ses lettres."
+
+ deity_st_john:0 "$omen_st_john$"
+ omen_st_john:1 "Saint Jean le Théologien"
+ omen_st_john_desc:2 "Jean, le fils de Zébédée, était un disciple de Jésus-Christ et est identifié dans la tradition chrétienne comme le "disciple préféré" de Jésus dans l'Évangile de Jean. Il est traditionnellement considéré comme l'auteur du quatrième évangile. En raison de la haute théologie de son évangile, il est traditionnellement appelé Jean le Théologien. Jean a été exilé sur l'île de Patmos, où il a reçu une vision mystique du destin de l'Église, qu'il a consignée par écrit dans l'Apocalypse ou Révélation."
+
+ deity_st_philip:0 "$omen_st_philip$"
+ omen_st_philip:1 "Saint Philippe"
+ omen_st_philip_desc:2 "Philippe est l'un des douze apôtres de Jésus. Il a travaillé avec André dans les régions situées sur la mer Noire, à Hiérapolis (Asie Mineure). Il est mort martyr en Scythie, en Ukraine."
+
+ deity_st_nathanael_bartholomew:0 "$omen_st_nathanael_bartholomew$"
+ omen_st_nathanael_bartholomew:1 "Saint Nathanael Bartholomé"
+ omen_st_nathanael_bartholomew_desc:2 "Barthélemy était un disciple de Jésus et l'un des douze apôtres nommés dans les listes d'apôtres des trois premiers évangiles. Il est nommé Nathanaël dans l'évangile de Jean. Son nom complet pourrait avoir été Natanaël Bar-Tolmai. On peut supposer que Natanaël Bar-Tolmai était un scribe ou un étudiant scribe."
+
+ deity_st_matthew_levi:0 "$omen_st_matthew_levi$"
+ omen_st_matthew_levi:1 "Saint Matthieu Levi"
+ omen_st_matthew_levi_desc:2 "Matthieu est un disciple de Jésus de Nazareth, nommé comme l'un des douze Apôtres. L'apôtre Matthieu est identifié comme l'auteur du premier des quatre évangiles du Nouveau Testament, et c'est pourquoi il est également vénéré comme évangéliste. Par solidarité avec l'apôtre et ancien collecteur d'impôts Matthieu, les autres évangélistes auraient utilisé le nom de la tribu de Lévi au lieu de Matthieu."
+
+ deity_st_cornelius_centurion:0 "$omen_st_cornelius_centurion$"
+ omen_st_cornelius_centurion:1 "Saint Cornelius"
+ omen_st_cornelius_centurion_desc:2 "Le centurion Cornelius était un centurion romain de Césarée de Maritima. Il est considéré comme l'un des premiers non-Juifs à avoir été baptisé en tant que chrétien. Selon le récit biblique, il a rencontré un ange qui lui a demandé d'amener l'apôtre Simon Pierre pour qu'il entende un message de sa part. L'apôtre Simon Pierre a été convaincu, également dans une vision, que le message du salut s'applique également aux païens. Jusque-là, il avait supposé qu'il ne s'appliquait qu'aux Juifs. Pierre se laissa alors conduire dans la maison de Cornelius par des serviteurs. Cornelius s'est prosterné devant Pierre, mais ce dernier ne lui a pas permis de l'adorer. Pendant que Pierre prêchait, le Saint-Esprit est tombé sur tous ceux qui écoutaient. Le fait que cela soit également arrivé à des non-Juifs est présenté comme une grande surprise pour Pierre et ses compagnons juifs. Pierre ordonne alors à Cornelius et à ses amis et parents de se faire baptiser. D'après le récit biblique, Cornelius est le premier chrétien romain d'origine païenne."
+
+ deity_st_joseph:0 "$omen_st_joseph$"
+ omen_st_joseph:1 "Saint Joseph"
+ omen_st_joseph_desc:2 "Joseph était le mari et plus tard le mari de Marie, la mère de Jésus. Il est appelé le « père adoptif » de Jésus. Joseph et sa femme ont dû se rendre à Bethléem, sa ville natale, à cause d’un recensement. Après la naissance de Jésus, ils sont retournés à Jérusalem, où la présentation du Seigneur a eu lieu dans le temple. À un moment indéterminé après la naissance de Jésus, la famille a dû fuir de Bethléem en Égypte sur l’ordre d’un ange, que Joseph a reçu en rêve, parce que le roi Hérode, de peur que le nouveau-né, le roi prophétisé des Juifs, ne le supplante, a tué tous les enfants de Bethléem. Plus tard, sur instruction divine, que Joseph a reçue dans un rêve, la famille est retournée en Palestine où, par la décision de Joseph, ils ne se sont pas installés en Judée, où se trouve Bethléem, mais en Galilée dans le village de Nazareth, où Jésus a grandi. Joseph mourut en paix quelques années avant que Jésus n’apparaisse en public."
+
+ deity_st_mary:0 "$omen_st_mary$"
+ omen_st_mary:1 "Sainte Marie"
+ omen_st_mary_desc:2 "Marie de Nazareth est la mère de Jésus. Saluée comme la Sainte Vierge et la Mère de Dieu, Marie vivait avec son mari Joseph et d'autres parents dans le village de Nazareth en Galilée. L'ange Gabriel, qui lui a été envoyé, lui a promis la naissance d'un fils, le Messie et Fils de Dieu attendu par Israël. L'adresse de l'ange ("Salutations, vous qui êtes favorisés, le Seigneur est avec vous") place Marie au centre de l'histoire du salut. Elle demande à l'ange comment cela doit se faire, puisqu'elle n'a jamais "connu" un homme dans l'intimité. En répondant, l'ange lui dit qu'elle concevra par l'Esprit Saint. À la fin de sa vie terrestre, Marie est assumée corps et âme dans la gloire céleste"
+
+ deity_st_luke_evangelist:0 "$omen_st_luke_evangelist$"
+ omen_st_luke_evangelist:1 "Saint Luc"
+ omen_st_luke_evangelist_desc:2 "L'évangéliste Luc est l'auteur de l'Évangile de Luc et des Actes des Apôtres dans le Nouveau Testament. Luc est parfois considéré comme l'un des soixante-dix disciples envoyés par Jésus-Christ. Il était le collaborateur de saint Paul, et a été décrit comme un médecin qui a accompagné certains des voyages de l'apôtre Paul. Luc est mort vers l'an 63 de notre ère, à l'âge de 84 ans, en tant qu'évêque de Thèbes, mais il n'est pas certain qu'il ait également subi le martyre."
+
+ deity_st_james_zebedee:0 "$omen_st_james$"
+ omen_st_james_zebedee:1 "Saint Jacques le Majeur"
+ omen_st_james_zebedee_desc:2 "Jacques le Majeur (qui signifie "Ancien") est l'un des douze apôtres de Jésus-Christ et l'un des saints chrétiens les plus célèbres au monde. Avec son frère Jean, Jacques est l'un des premiers disciples appelés, avec André et Simon Pierre. Jacques était sur le mont de la Transfiguration avec Pierre et Jean lorsque Jésus a parlé à Elie et Moïse, et dans le jardin de Gethsémani, il a assisté à l'agonie de Jésus avant la Passion qu'il a subie. Jacques et Jean ont reçu de Jésus le surnom araméen de "Boanerges", qui signifie fils du tonnerre, en raison de leur nature impétueuse. Après la Résurrection, Jacques se trouvait à Jérusalem avec les autres Apôtres. Il a été exécuté par l'épée sous le règne d'Hérode Agrippa Ier sur toute la Judée (41-44 ap. J.-C.)."
+
+ deity_st_peter:0 "$omen_st_peter$"
+ omen_st_peter:1 "Saint Pierre"
+ omen_st_peter_desc:2 "Simon Pierre est l'un des premiers Juifs appelés par Jésus de Nazareth, le Messie ou le Christ, à le suivre. Simon était le porte-parole des disciples ou apôtres, le premier confesseur, mais il a aussi renié Jésus lors de son procès. Il a été un témoin oculaire du Seigneur ressuscité et l'un des dirigeants de l'Église primitive de Jérusalem. Pierre a été le premier évêque de Rome et le Christ lui a donné, ainsi qu'aux évêques de Rome qui lui ont succédé, la priorité en tant que dirigeants, enseignants et juges de tous les chrétiens. Les papes sont donc également appelés "successeurs de Pierre". Selon les Écritures chrétiennes, Jésus a répondu à la confession de Simon par une promesse spéciale, 'Tu es Pierre [grec, petros] et sur cette pierre [petra], je bâtirai mon Église [ekklesia] et les puissances [pylai, littéralement les portes] du monde souterrain [hades] ne l'écraseront pas'."
+
+ deity_st_mark:0 "$omen_st_mark$"
+ omen_st_mark:1 "Saint Marc"
+ omen_st_mark_desc:2 "Jean-Marc (latin, Marcus; Grec, Μᾶρκος, araméen, ܡܪܩܘܣ Marqōs) était l’un des 70 disciples envoyés par Jésus-Christ. Il est l’auteur de l’Évangile de Marc, et son symbole est le lion ailé. L'apôtre Pierre rencontra Marc et le prit comme compagnon de voyage et interprète. Marc l'évangéliste a mis par écrit les sermons de Pierre, composant ainsi l'Évangile. Marc est né à Cyrène, une ville de la Pentapole en Afrique du Nord (aujourd'hui Libye) et pourrait être le cousin de Barnabé. Il a prêché l'Évangile à Alexandrie, y a fondé l'Église et en est devenu le premier évêque. Il a été martyrisé par les païens de cette ville en 68 après JC."
+
+ ## Archangels ##
+ deity_archangel_gabriel:0 "$omen_archangel_gabriel$"
+ omen_archangel_gabriel:1 "L'archange Gabriel"
+ omen_archangel_gabriel_desc:2 "Gabriel (hébreu גַּבְרִיאֵל "Ma force, c'est Dieu") est l'un des archanges et est considéré comme l'explicateur des visions et un messager de Dieu. Or, au sixième mois, l'ange Gabriel fut envoyé par Dieu dans une ville de Galilée, appelée Nazareth, auprès d'une vierge qui était fiancée à un homme nommé Joseph, de la maison de David, et dont le nom était Marie. Il entra chez elle et dit, 'Salutations, êtres privilégiés. Le Seigneur est avec vous'. Mais elle fut surprise par cette parole et se demanda de quelle sorte de salutation il s'agissait. L'ange lui dit, 'Ne crains pas, Marie, car tu as trouvé grâce devant Dieu. Et voici que tu vas concevoir et donner naissance à un fils, et tu lui donneras le nom de Jésus. Il sera grand, on l'appellera Fils du Très-Haut, et le Seigneur Dieu lui donnera le trône de David, son père. Il régnera sur la maison de Jacob pour toujours et son règne n'aura pas de fin'."
+
+ deity_archangel_michael:0 "$omen_archangel_michael$"
+ omen_archangel_michael:1 "L'archange Michael"
+ omen_archangel_michael_desc:2 "Michel (en hébreu מיכאל 'Qui est comme Dieu ?'') est un archange et apparaît comme le vainqueur de Satan, qu'il jette sur la terre. Une bataille éclata dans le ciel ; Michel et ses anges se levèrent pour combattre le dragon. Le dragon et ses anges combattirent, mais ils ne se levèrent pas et ils perdirent leur place dans le ciel. Il fut vaincu, le grand dragon, le vieux serpent appelé diable ou Satan, qui séduisait le monde entier ; le dragon fut précipité sur la terre, et avec lui ses anges furent précipités"."
+
+ deity_archangel_raphael:0 "$omen_archangel_raphael$"
+ omen_archangel_raphael:1 "L'archange Raphaël"
+ omen_archangel_raphael_desc:2 "Raphaël (en hébreu רפאל ' Dieu guérit ') est l'un des archanges des écritures juives et chrétiennes. Raphaël est l'ange qui entend la prière de Tobias (fils de Tobit), l'accompagne dans son voyage de Ninive à Rages, lui donne Sara à Ekbatana comme épouse et guérit le père de Tobias, Tobit. Raphaël est considéré comme le saint patron des malades et des pharmaciens, ainsi que des marins et des émigrants, mais aussi des pèlerins. Il est traditionnellement considéré comme le patron des couvreurs et des mineurs. Raphaël n'est pas seulement l'ange qui guérit les blessures (l'obsession de Sara, la cécité de Tobit), mais il permet également la 'guérison des relations'."
+
+ deity_archangel_uriel:0 "$omen_archangel_uriel$"
+ omen_archangel_uriel:1 "L'archange Uriel"
+ omen_archangel_uriel_desc:2 "Uriel (hébreu אוּרִיאֵל " la lumière de Dieu " ou " ma lumière est Dieu ") est le nom d'un ange dans la tradition hébraïque. Dans l'Église catholique romaine, la vénération d'Uriel en tant qu'archange a été occultée à la suite des interdictions du culte des anges et des cultes, discutables du point de vue de l'Église. C'est ainsi qu'en 343-380, le synode de Laodicée a interdit le faux culte des anges et la création de cultes d'anges, qui avaient déjà gagné en popularité à l'époque des apôtres. Uriel est mentionné dans l'ancienne écriture juive du 4e Esdras, 'L'ange qui m'a été envoyé m'a répondu par le nom d'Uriel'. La déclaration contenue dans l'éloge de l'Église copte, 'Nous vénérons Uriel, le quatrième parmi les anges' garantit sa position traditionnelle."

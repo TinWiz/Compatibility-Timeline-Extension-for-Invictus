@@ -1,0 +1,3 @@
+loyalty_sirte_foederatus = {
+	value = -50
+}
