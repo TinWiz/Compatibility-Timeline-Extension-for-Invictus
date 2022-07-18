@@ -1,0 +1,84 @@
+﻿l_german:
+ barbarian_fury_rage:0 "Wütend"
+ barbarian_invasion_skirmish:0 "Barbaren wandern"
+ barbarian_invasion_war:0 "Einmarsch der Barbaren!"
+
+ sirte_foederatus:0 "Foederatus"
+
+ late_antiquity_decentralization_city:0 "Spätantike Entvölkerung"
+ desc_late_antiquity_decentralization_city:1 "Die Menschen verlassen diese Stadt in weniger bevölkerte Provinzen."
+ late_antiquity_decentralization_settlement:0 "Spätantike Deurbanisierung"
+ desc_late_antiquity_decentralization_settlement:1 "Menschen ziehen in die Siedlungen."
+
+ #######CULTURE#######:0 ""
+ hunnic:0 "Hunnisch"
+ huna:0 "Huna"
+ ######RELIGIONS######:0 ""
+ convert_to_christian:0 "Evangelisierung"
+ convert_to_christian_desc:1 "Evangelisierung bezeichnet die Verbreitung des Evangeliums von Jesus Christus. Sie kann sowohl im Sinne der Missionierung Nicht- oder Andersgläubiger betrieben werden, die auf die Bekehrung (Konversion) und Taufe der Angesprochenen abzielt, als auch im Sinne einer Katechese zur Neubelebung oder Wiedererweckung des Glaubens bereits getaufter Christen."
+
+ christianity:0 "Christlich"
+ desc_christianity:0 "Das Christentum begann plötzlich um 785 ab urbe condita in der Provinz Palästina. Die Leute sagten, ein jüdischer Mann, der gekreuzigt, gestorben und begraben wurde, sei drei Tage später von den Toten auferstanden und dann nach 40 Tagen plötzlich verschwunden. Sie sagen, dieser Mann, Jesus von Nazareth, sei der fleischgewordene Sohn Gottes und werde eines Tages zurückkehren. Der neue Glaube breitet sich nun auf der ganzen Welt aus."
+
+ manichaeism:0 "Manichäismus"
+ desc_manichaeism:0 "Der Manichäismus war eine stark von der Gnosis beeinflusste Offenbarungsreligion der Spätantike und des frühen Mittelalters. Der Manichäismus ist nach seinem Gründer, dem Perser Mani, benannt. Er wird zu den synkretistischen Lehren gezählt, da Mani ältere Religionen als authentisch anerkannte und einzelne ihrer Ideen in seine Religion aufnahm."
+
+ arianism:0 "Arianismus"
+ desc_arianismus:0 "Der Arianismus war eine theologische Position innerhalb des Frühchristentums, die unmittelbar von ihrem namensgebenden Theologen Arius (ca. 260–327 n. Chr.) und dessen Anhängern vertreten wurde. Arius betrachtete die beispielsweise im Bekenntnis von Nicäa (325) behauptete Wesensgleichheit von Gott/Gott-Vater und Sohn als Irrlehre, da sie dem Monotheismus widerspreche, bei welchem der Sohn und der Heilige Geist nur in untergeordneter, nicht Gott gleichkommender Stellung und Würde denkbar waren. Positionen wie die im Nicäno-Konstantinopolitanum (381) zum Dogma erhobene Trinität mit einem Gott gleichrangigen Sohn und Heiligen Geist waren aus seiner theologischen Sicht noch „häretischer“. Umgekehrt wurde und wird aus Sicht der damaligen Vertreter der Trinitätslehre von Nicäa bzw. Konstantinopel und der christlichen Gemeinschaften sowie Kirchen, die diese noch heute anerkennen, der Arianismus als Häresie betrachtet (Arianischer Streit)."
+ catholic:0 "Katholisch"
+ desc_catholic:0 "Zentrales Element im Verständnis der römisch-katholischen Kirche ist die kirchliche Hierarchie mit dem Papst als oberstem Bischof. Die als „petrinisches Prinzip“ bezeichnete Funktion des Bischofs von Rom unterscheidet diese Kirche sichtbar von anderen Konfessionen. Als Nachfolger des Apostels Petrus gilt der Papst in der römisch-katholischen Kirche als Fels der Gesamtkirche und Stellvertreter Christi auf Erden."
+ orthodox:0 "Orthodox"
+ desc_orthodox:0 "Die kirchlichen Traditionen und Lehren der orthodoxen Kirchen gehen auf Jesus Christus zurück und fanden ihre volle Ausprägung im byzantinischen Reich mit dessen Zentrum Byzanz bzw. Konstantinopel. Deshalb spricht man auch von der „griechischen Kirche“ im Gegensatz zur lateinischen Kirche bzw. römischen Kirche."
+ coptic:0 "Koptisch"
+ desc_coptic:0 "Die koptische Kirche geht auf das alexandrinisch-ägyptische Christentum der Spätantike (Patriarchat von Alexandrien) zurück. Die Machtkonzentration beim Bischof von Alexandria war bereits vor dem Konzil von Chalcedon eine Besonderheit der kirchlichen Hierarchie in Ägypten.[4] Als Gründer der koptischen Kirche gilt der Überlieferung nach der Evangelist Markus, der im 1. Jahrhundert in Ägypten gelebt haben soll. Nach koptischer Tradition war Markus der erste Bischof von Alexandrien, wo er 68 n. Chr. als Märtyrer starb."
+ nestorian:0 "Nestorianisch"
+ desc_nestorian:0 "Auch die von der orthodoxen und römisch-katholischen Kirche oft als Nestorianer bezeichnete Assyrische Kirche des Ostens hat nie die vorgeworfenen Lehren vertreten, so dass man vom Nestorianismus lediglich als einem häresiologischen Konstrukt, nicht von einer historischen Bewegung, sprechen kann. Die miaphysitischen Kirchen haben den Nestorianismusvorwurf auch auf die Chalzedonensier, also Orthodoxe und Katholiken, ausgedehnt."
+
+ convert_to_christian:0 "Edikt der Evangelisierung"
+ convert_to_christian_desc:1 "Nehmen Sie das Evangelium an, das in unseren Ländern verbreitet ist, und dekretieren Sie, dass das Christentum die offizielle Religion dieses Landes wird."
+
+ convert_to_manichaean:0 "Manichäismus wahrnehmen"
+ convert_to_manichaean_desc:1 "Studieren Sie die gnostischen Texte, bewegt durch das Leben und die Schriften von Mani, dem letzten wiedergeborenen Propheten der großen Weltreligionen, gereinigt von Korruption, und widmen Sie das Reich dieser neuen Erleuchtung."
+
+ early_christian_community:0 "Frühchristliche Gemeinde"
+ desc_early_christian_community:0 "In dieser Provinz hat sich eine Gemeinschaft christlicher Gläubiger etabliert."
+
+ early_christian_church:0 "Frühchristliche Kirche"
+ desc_early_christian_church:0 "Eine große Anhängerschaft von Christen hat hier eine Ekklesia bzw. Kirche gebaut."
+
+ spared_xians_sympathy:0 "Christliche Sympathie"
+ spared_xians_hate:0 "Verschonte Christen"
+ persecuted_xians_glee:0 "Verfolgte Christen"
+ persecuted_xians_sorrow:0 "Christliches Leiden"
+ 
+ christian_church_embelishment:0 "Verschönerte Kathedrale"
+ desc_christian_church_embelishment:0 "Ursprünglich eine eher bescheidene Struktur, wurde unsere Kathedrale durch die großzügigen Spenden der christlichen Gläubigen und die Fürsprache des heiligen Petrus verschönert. Mit jeder Generation, die vergeht, wird die Kathedrale aufgewertet und mit der Zeit kann ihr Aussehen den Sitz des Bischofs als Nachfolger der Apostel angemessen widerspiegeln."
+ 
+ #####PLAGUES#####:0 ""
+ antonine_plague_epidemic:0 "Antonine-Pest-Epidemie"
+ desc_antonine_plague_epidemic:0 "Ein Ausbruch einer tödlichen Krankheit hat diese Provinz infiziert."
+
+ cyprian_plague_epidemic:0 "Cyprianische Pestepidemie"
+ desc_cyprian_plague_epidemic:0 "Eine tödliche Krankheit hat die Bevölkerung hier infiziert."
+
+ #####COUNTRY MODIFIERS#####:0 ""
+ cursed_by_elohim:0 "Verflucht von Elohim"
+ desc_cursed_by_elohim:0 "Wir haben jüdische Flüchtlinge verschmäht und uns geweigert, ihnen Obdach zu geben, und Unglück ist über das Land gekommen."
+
+ late_antiquity_pop_decline_central:0 "Bevölkerungsrückgang in der Spätantike"
+ desc_late_antiquity_pop_decline_central:0 "Ein weit verbreiteter Rückgang der Fruchtbarkeit wirkt sich auf unsere Bevölkerung aus."
+ late_antiquity_pop_decline_occident:1 "Bevölkerungsrückgang in der Spätantike"
+ desc_late_antiquity_pop_decline_occident:1 "Ein weit verbreiteter Rückgang der Fruchtbarkeit wirkt sich auf unsere Bevölkerung aus."
+ late_antiquity_pop_decline_orient:2 "Bevölkerungsrückgang in der Spätantike"
+ desc_late_antiquity_pop_decline_orient:2 "Ein weit verbreiteter Rückgang der Fruchtbarkeit wirkt sich auf unsere Bevölkerung aus."
+
+ ai_city_self_rule:0 "Kommunale Selbstverwaltung"
+ ai_city_self_rule_desc:0 "Vertrauen und Loyalität gehen Hand in Hand. Indem wir die Rechte einer der größeren Gemeinschaften dieser Kultur sanktionieren und ihnen eigens gewählte Regierungsvertreter, Steuerrechte und sogar ihre eigene Armee geben, können wir uns die Loyalität auch derjenigen sichern, die außerhalb der Gemeindegrenzen leben."
+
+ #####MISCELLANEOUS MINOR EVENTS#####:0 ""
+ te_migrations.2.t:0 "Foederati Gelegenheit"
+ te_migrations.2.desc:0 "Ein Barbarenstamm aus Germanien hat sich in der entvölkerten Provinz [foedus_target_province.GetName] niedergelassen, in einem Staat mit Territorium, das wir derzeit kontrollieren, und sie blühen auf. Wir könnten mit ihnen einen Foedus abmachen, und ihnen Land in der Gegend geben, im Austausch für ihre Loyalität zu uns und ihren Militärdienst."
+ te_migrations.2.a:0 "Ja, bieten wir ihnen an, sie zu unseren Vasallen zu machen."
+ make_foedus_now_plz:0 "#Y Sie gewähren diesem germanischen Migrationsstamm die Kontrolle über [foedus_target_state.GetName], der Treue schwört und Ihr Stammesvasall in diesem Gebiet des Landes wird.#!"
+ te_migrations.2.b:0 "Nein, dieser Stamm ist das Land hier nicht wert."
+ no_foedus_now_thx:0 "Nichts passiert."

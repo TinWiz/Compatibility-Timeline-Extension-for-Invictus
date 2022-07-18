@@ -1,0 +1,49 @@
+﻿l_german:
+ te_barbarians.1.t:0 "Barbaren an der Donau"
+ te_barbarians.1.desc:1 "Horden germanischer Barbaren sind über die Berge und Flüsse unserer Grenzen hinweg aufgetaucht. Wir wissen nicht, warum sie begonnen haben, in unser Territorium einzuwandern, aber sie richten auf dem Land Verwüstungen an und erschrecken unser Volk. Sie müssen gestoppt oder irgendwie verhandelt werden!"
+ te_barbarians.1.a:0 "Schicke unsere Kapitäne, um sie herauszufordern, und unsere Priester, Opfer darzubringen."
+
+ te_barbarians.10.t:0 "Barbaren am Rhein"
+ te_barbarians.10.desc:1 "Horden germanischer Barbaren überqueren weiterhin die Berge und Flüsse unserer Grenzen. Wir wissen nicht, warum sie begonnen haben, in unser Territorium einzuwandern, aber sie richten Chaos auf dem Land an und erschrecken unser Volk. Sie müssen aufgehalten oder irgendwie verhandelt werden!"
+ te_barbarians.10.a:0 "Sie fliehen vor einem unbekannten Schrecken in der Wildnis jenseits unserer Karten."
+
+ te_barbarians.11.t:0 "Fränkische Stämme wachsen"
+ te_barbarians.11.desc:1 "Mächtige Stämme aus Germanien haben sich organisiert und sind auf der anderen Seite des Rheins aufgetaucht und in unser Gebiet einmarschiert. Diese Menschen sind in der Kunst der Militärstrategie besser ausgerüstet und ausgebildet und müssen von ihren zivilisierteren Nachbarn gelernt haben. Sie sind eine bedeutende Bedrohung und scheinen entschlossen zu sein, das Land, das sie besetzen, zu erobern."
+ te_barbarians.11.a:0 "Wenn sie nicht besiegt oder bestochen werden können, vielleicht eine Allianz bilden?"
+
+ te_barbarians.12.t:0 "Germanische Stämme wandern aus"
+ te_barbarians.12.desc:1 "Die Wellen von Barbaren aus Germanien und darüber hinaus haben an Zahl zugenommen, wobei sich neue Stämme bilden und von ehemaligen Stämmen abzweigen. Kältere Wetterperioden im Norden und einige andere Nomadenbewegungen in weiter östlich gelegenen Ländern treiben eine Massenmigration von Völkern über den Kontinent voran und bedrohen die Stabilität unseres Landes."
+ te_barbarians.12.a:0 "Wir können diese Massenmigration nicht stoppen, aber wir müssen unser eigenes Volk schützen."
+
+ te_barbarians.2.t:0 "Die Hunnen erscheinen an der Wolga"
+ te_barbarians.2.desc:1 "Die Hunnen waren ein Nomadenvolk, das zwischen dem 4. und 6. Jahrhundert n. Chr. in Zentralasien, im Kaukasus und in Osteuropa lebte. Nach europäischer Tradition wurde zuerst berichtet, dass sie östlich der Wolga lebten, in einem Gebiet, dass zu dieser Zeit zu Skythien gehörte. Um 370 n. Chr. waren die Hunnen an der Wolga angekommen."
+ te_barbarians.2.a:0 "Was sind das für wilde Männer? Woher kommen sie? Warum sind sie hier?"
+
+ te_barbarians.3.t:0 "Hunnen auf der pontischen Steppe"
+ te_barbarians.3.desc:1 "Im Jahr 395 n. Chr. begannen die Hunnen ihre ersten groß angelegten Angriffe. Im Sommer desselben Jahres überquerten die Hunnen den Kaukasus, während im Winter 395 eine weitere hunnische Invasionsmacht die gefrorene Donau überquerte, Thrakien plünderte und Dalmatien bedrohte. Das viel größere Ausmaß der Angriffe auf Kleinasien und Persien deutet darauf hin, dass der Großteil der Hunnen in den pontischen Steppen geblieben war, anstatt zu dieser Zeit nach Europa zu ziehen. Hunnische Angriffe auf Armenien würden nach diesem Überfall fortgesetzt, wobei armenische Quellen einen hunnischen Stamm, der als Xailandur bekannt ist, als Täter angeben."
+ te_barbarians.3.a:0 "Diese barbarischen Reiter aus der Wildnis sind schlimmer als eine Pest."
+
+ te_barbarians.4.t:0 "Die Hunnen werden immer stärker"
+ te_barbarians.4.desc:1 "Die Wellen der Barbaren aus dem Osten haben sich fortgesetzt und zeigen keine Anzeichen eines Stillstands. Sie sind blutrünstig, gut organisiert, in den Künsten der militärischen Kriegsführung ausgebildet und beherrschen die Fähigkeit des Bogenschießens zu Pferd. Das sind keine gewöhnlichen Barbaren. Unsere Armeen werden es leid, sie bei ihren ständigen Überfällen und Plünderungen zu verfolgen, und einige ihrer Streitkräfte sind tief in zivilisierte Länder vorgedrungen, da die hilflose Bevölkerung nur zusehen und warten oder in Angst rennen kann."
+ te_barbarians.4.a:0 "Wir müssen unsere Macht darauf verwenden, unser Volk vor dieser neuen Geißel zu schützen."
+
+ te_barbarians.5.t:0 "Invasion der Hunnen"
+ te_barbarians.5.desc:1 "Ab 434 n. Chr. regierten die Brüder Attila und Bleda gemeinsam die Hunnen. Attila und Bleda waren so ehrgeizig wie ihr Onkel Rugila. Im Jahr 435 zwangen sie das Oströmische Reich, den Vertrag von Margus zu unterzeichnen, der den Hunnen Handelsrechte und einen jährlichen Tribut von den Römern gab. Im Jahr 447 fiel Attila in den Balkan und Thrakien ein. Der Krieg endete 449 mit einem Abkommen, in dem sich die Römer verpflichteten, Attila einen jährlichen Tribut von 2100 Pfund Gold zu zahlen. Im Jahr 451 drangen Attilas Truppen in Gallien ein. In Gallien angekommen, griffen die Hunnen zuerst Metz an, dann zogen ihre Armeen weiter nach Westen, vorbei an Paris und Troyes, um Orléans zu belagern."
+ te_barbarians.5.a:0 "Diese bösartigen Wildlinge schwärmen über die Grenzen und bedrohen uns alle!"
+
+ te_barbarians.60.t:0 "Barbaren jenseits die Berge"
+ te_barbarians.60.desc:1 "Nomadische Kriegerstämme zu Pferd haben begonnen, von den nördlichen Steppen jenseits der Bergpässe in unser Territorium einzudringen. Eine Migration von Menschen bedroht unseren Einfluss auf die Region. Die schiere Zahl und die wütende Verzweiflung dieser Eindringlinge sind erschreckend anzusehen."
+ te_barbarians.60.a:0 "Unsere Herrschaft muss mit deutlicher Stärke geschützt werden."
+
+ te_barbarians.6.t:0 "Kidariten und Alchon-Hunnen"
+ te_barbarians.6.desc:1 "Die Herrscher von Persien und Indien verloren allmählich die Kontrolle über Baktrien an Eindringlinge aus Zentralasien, zuerst die Kidariten ab etwa 335 n. Chr., dann die Alchon-Hunnen ab etwa 370 n. Chr., die ein Jahrhundert später die Invasion Indiens folgen ließen, und schließlich die Hephthaliten ab etwa 450 n. Chr."
+ te_barbarians.6.a:0 "Wir sind nicht aufzuhalten und diese seltsamen neuen Eindringlinge sind nur ein Ärgernis."
+
+ te_barbarians.70.t:0 "Hephthaliten"
+ te_barbarians.70.desc:1 "Als sie an Bedeutung gewannen, verdrängten die Hephthaliten die Kidariten und dann die Alchon-Hunnen, die nach Gandhara und Nordindien expandierten. Im Jahr 442 n. Chr. kämpften ihre Stämme gegen die Perser. In den Jahren 456–457 traf eine hephthalitische Gesandtschaft während der Regierungszeit von Kaiser Wen der Nördlichen Wei in China ein. Um 458 waren sie stark genug, um in Persien zu intervenieren. Um 466 nahmen sie wahrscheinlich mit persischer Hilfe transoxiananisches Land von den Kidariten, nahmen aber bald von Persien das Gebiet von Balkh und dem östlichen Kushanshahr ein. In der zweiten Hälfte des fünften Jahrhunderts kontrollierten sie die Wüsten Turkmenistans bis zum Kaspischen Meer und möglicherweise Merw."
+ te_barbarians.70.a:0 "Diese sind zurückgekehrt, um uns zu belästigen. Egal, unsere mächtigen Kräfte werden sie zermalmen!"
+
+ te_barbarians.7.t:0 "Invasion der Alchon-Hunnen in Indien"
+ te_barbarians.7.desc:1 "Zwischen 460 und 470 n. Chr. Übernahmen die Alchons Gandhara und den Punjab, die ebenfalls unter der Kontrolle der Kidariten geblieben waren, während das Gupta-Reich weiter östlich blieb. Die Alkhon-Hunnen könnten einfach das Machtvakuum gefüllt haben, das durch den Niedergang der Kidariten entstanden war, nach ihrer Niederlage in Indien gegen das Gupta-Reich von Skandagupta im Jahr 455 n. Chr. und ihrer anschließenden Niederlage im Jahr 467 n. Chr. gegen das Neopersische Reich, mit Hilfe von Hephthaliten und Alchon unter Mehama, was die kidaritische Herrschaft in Transoxiana ein für alle Mal beendete.\nDie Alchons unternahmen offenbar die Massenzerstörung buddhistischer Klöster und Stupas in Taxila, einem hohen Zentrum des Lernens, das sich nie von der Zerstörung erholte. Praktisch alle Alchon-Münzen, die in der Gegend von Taxila gefunden wurden, wurden in den Ruinen niedergebrannter Klöster gefunden, wo anscheinend einige der Eindringlinge neben lokalen Verteidigern während der Zerstörungswelle starben. Es wird angenommen, dass die Kanishka Stupa, eines der berühmtesten und höchsten Gebäude der Antike, von ihnen während ihrer Invasion der Gegend in den 460er Jahren zerstört wurde. Die Mankiala Stupa wurde auch während ihrer Invasionen vandalisiert."
+ te_barbarians.7.a:0 "Wo es anderen nicht gelungen ist, diese zerstörerischen Horden aufzuhalten, werden wir uns durchsetzen!"
+ 

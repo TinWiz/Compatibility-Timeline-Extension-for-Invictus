@@ -1,0 +1,89 @@
+﻿l_german:
+  ## Generic ##
+ deity_st_andrew:0 "$omen_st_andrew$"
+ omen_st_andrew:1 "Hl. Andreas"
+ omen_st_andrew_desc:2 "Andreas war ebenso wie sein Bruder Simon Petrus ein Apostel des Jesus von Nazaret. Andreas sei zuerst ein Jünger Johannes des Täufers gewesen, der ihn dann an Jesus wies, worauf er auch seinen Bruder Simon zu Jesus führte mit der Botschaft Wir haben den Messias gefunden. Darauf bezieht sich sein traditioneller Beiname »der Erstberufene« (Πρωτόκλητος). Andreas predigte in Epirus, Kappadokien, Skythien (heutige Dobrudscha), Thrakien, Makedonien und Achaia. Er soll sogar im heutigen Ostanatolien und im westlichen Georgien gepredigt haben. Andreas wurde zur Zeit Neros vom Statthalter Aegeas bzw. Aegeates in Patras, dem Sitz des Statthalters in der griechischen Präfektur Achaia, gekreuzigt. Die Kreuzigung geschah der Legende nach an einem Kreuz mit schrägen Balken, dem sogenannten Andreaskreuz."
+
+ deity_st_thomas:0 "$omen_st_thomas$"
+ omen_st_thomas:1 "Hl. Thomas"
+ omen_st_thomas_desc:2 "Der Apostel Thomas ist einer der zwölf Apostel bzw. Jünger, die Jesus drei Jahre lang als Freunde und Schüler begleiteten. Thomas hat in Indien und den umliegenden Gegenden die Kirche gegründet. Thomas zweifelte an der Auferstehung Jesu, bis er den auferstandenen Christus nach dem Zeugnis der Apostel persönlich sah und berührte. Daher erhielt er den Spitznamen, »der Zweifler«. Thomas gründete an der Malabarküste die ersten sieben christlichen Gemeinden und starb als Märtyr in Mailapur an der gegenüberliegenden Koromandelküste."
+
+ deity_st_paul:0 "$omen_st_paul$"
+ omen_st_paul:1 "Hl. Paulus von Tarsus"
+ omen_st_paul_desc:2 "Paulus von Tarsus war ein erfolgreicher Missionar des Urchristentums und einer der ersten christlichen Theologen. Als griechisch gebildeter Jude und gesetzestreuer Pharisäer mit römischem Bürgerrecht verfolgte Paulus zunächst die Anhänger Jesu Christi, dem er, abgesehen von dessen Erscheinung bei seiner Bekehrung, nie begegnete. Seit der Bekehrung verstand er sich jedoch als von Gott berufener Apostel des Evangeliums für die Völker. Als solcher verkündete er vor allem Nichtjuden den auferstandenen Jesus Christus. Dazu bereiste er den östlichen Mittelmeerraum und gründete dort einige christliche Gemeinden. Durch seine Briefe blieb er mit ihnen in Kontakt."
+
+ deity_st_john:0 "$omen_st_john$"
+ omen_st_john:1 "Hl. Johannes"
+ omen_st_john_desc:2 "Johannes, der Sohn des Zebedäus, war ein Jünger Jesu Christi und wird in der christlichen Tradition mit dem »Lieblingsjünger« Jesu aus dem Johannesevangelium identifiziert. Damit gilt er auch traditionell als Verfasser des vierten Evangeliums. Wegen der hochfliegenden Theologie seines Evangeliums wird er traditionell Johannes der Theologe genannt."
+
+ deity_st_philip:0 "$omen_st_philip$"
+ omen_st_philip:1 "Hl. Philippus"
+ omen_st_philip_desc:2 "Philippus gehört zu den zwölf Aposteln Jesu. Er wirkte gemeinsam mit Andreas in den Gebieten am Schwarzen Meer, zu Hierapolis (Kleinasien). Er starb einen Märtyrertod in Skythien im Gebiet der Ukraine."
+
+ deity_st_nathanael_bartholomew:0 "$omen_st_nathanael_bartholomew$"
+ omen_st_nathanael_bartholomew:1 "Hl. Nathanael Bartholomäus"
+ omen_st_nathanael_bartholomew_desc:2 "Bartholomäus war ein Jünger Jesu und einer der zwölf Apostel, der in den Apostellisten der drei ersten Evangelien genannt wird. Sein voller Name könnte Natanaël Bar-Tolmai gewesen sein. Es kann vermutet werden, dass Natanaël Bar-Tolmai ein Schriftgelehrter oder Schriftgelehrtenschüler war."
+
+ deity_st_matthew_levi:0 "$omen_st_matthew_levi$"
+ omen_st_matthew_levi:1 "Hl. Matthäus"
+ omen_st_matthew_levi_desc:2 "Matthäus ist eines Jüngers von Jesus von Nazaret, der in allen Apostellisten als einer der zwölf Apostel genannt wird. Der Apostel Matthäus ist mit dem Autor des ersten der vier Evangelien des Neuen Testaments identifiziert, und deswegen ist er auch als Evangelist verehrt. Aus Solidarität mit dem Apostel und Ex-Zöllner Matthäus hätten die anderen Evangelisten statt Matthäus den Stammesnamen Levi gesetzt."
+
+ deity_st_cornelius_centurion:0 "$omen_st_cornelius_centurion$"
+ omen_st_cornelius_centurion:1 "Hl. Hauptmann Kornelius"
+ omen_st_cornelius_centurion_desc:2 "Der Hauptmann Kornelius war ein römischer Centurio in Caesarea Maritima. Er gilt als einer der ersten Nichtjuden, der christlich getauft wurde. Nach der biblischen Erzählung begegnete ihm ein Engel, der ihn aufforderte, den Apostel Simon Petrus zu sich holen zu lassen, um von diesem eine Nachricht zu hören. Der Apostel Simon Petrus wurde, ebenfalls in einer Vision, davon überzeugt, dass die Heilsbotschaft auch den Heiden gelte. Bis dahin war er davon ausgegangen, sie gelte nur den Juden. Petrus ließ sich dann von Knechten des Kornelius in dessen Haus führen. Kornelius warf sich vor Petrus nieder, doch dieser erlaubte ihm nicht, ihn zu verehren. Während Petrus predigte, fiel der Heilige Geist auf alle Zuhörer. Dass dies auch mit Nichtjuden geschah, wird als eine große Überraschung für Petrus und seine jüdischen Begleiter dargestellt. Petrus befahl daraufhin, Kornelius, seine Freunde und Verwandten zu taufen. Kornelius ist somit nach biblischem Bericht der erste römische Heidenchrist."
+
+ deity_st_joseph:0 "$omen_st_joseph$"
+ omen_st_joseph:1 "Hl. Josef"
+ omen_st_joseph_desc:2 "Josef war der Bräutigam und spätere Mann Marias, der Mutter Jesu. Er wird als „Nährvater“ oder „Ziehvater“ Jesu bezeichnet. Josef musste wegen einer Volkszählung mit seiner Frau in seine Geburtsstadt Betlehem begeben. Nach der Geburt Jesu kehrten sie über Jerusalem, wo die Darstellung des Herrn im Tempel stattfand. Die Familie musste zu einem unbestimmten Zeitpunkt nach Jesu Geburt auf Befehl eines Engels, den Josef im Traum erhielt, aus Betlehem nach Ägypten fliehen, da König Herodes aus Angst vor dem ihm prophezeiten neugeborenen König der Juden, der ihn verdrängen würde, alle Kleinkinder in Betlehem töten ließ. Später zog die Familie auf göttliche Weisung, die Josef wiederum im Traum erhielt, nach Palästina zurück, wo sie sich auf Josefs Beschluss nicht in Judäa, wo Betlehem liegt, sondern in Galiläa in dem Dorf Nazaret niederließ, wo Jesus aufwuchs. Josef starb im Frieden einige Jahre vor des  öffentlichen Auftretens Jesu."
+
+ deity_st_mary:0 "$omen_st_mary$"
+ omen_st_mary:1 "Hl. Maria"
+ omen_st_mary_desc:2 "Maria von Nazaret ist die Mutter Jesu. Sie lebte mit ihrem Mann Josef und weiteren Angehörigen in dem Dorf Nazaret in Galiläa. Der zu ihr gesandte Engel Gabriel verheißt ihr die Geburt eines Sohnes, des von Israel erwarteten Messias und Gottessohn. Auch die Anrede des Engels („Sei gegrüßt, du Begnadete, der Herr ist mit dir“) rückt Maria in den Mittelpunkt des Geschehens. Sie fragt den Engel, wie das denn geschehen solle, da sie keinen Mann erkenne. Indem der Engel antwortet, von einer Empfängnis durch den Heiligen Geist. Maria wurde nach Ablauf ihres irdischen Lebens mit Leib und Seele in die himmlische Herrlichkeit aufgenommen."
+
+ deity_st_james_zebedee:0 "$omen_st_james$"
+ omen_st_james_zebedee:1 "Hl. Jakobus der Ältere"
+ omen_st_james_zebedee_desc:2 "Jakobus der Ältere zählt zu den zwölf Aposteln Jesu Christi und ist einer der bekanntesten Heiligen weltweit. Zusammen mit seinem Bruder Johannes gehört Jakobus neben Andreas und Simon Petrus zu den erstberufenen Jüngern. Jakobus ist zusammen mit Petrus und Johannes auf dem Berg der Verklärung, als Jesus mit Elija und Mose spricht, und im Garten Getsemani wird er Zeuge Jesu angesichts seines bevorstehenden Leidensweges. Jakobus und Johannes erhalten von Jesus wegen ihrer ungestümen Wesensart den aramäischen Beinamen »Boanerges«, was Donnersöhne bedeutet. Nach der Auferstehung befindet sich Jakobus mit den anderen Aposteln in Jerusalem. \nJakobus wurde während der Herrschaft des Herodes Agrippa I. über ganz Judäa (41–44 n. Chr.) mit dem Schwert hingerichtet."
+
+ deity_st_luke_evangelist:0 "$omen_st_luke_evangelist$"
+ omen_st_luke_evangelist:1 "Hl. Lukas"
+ omen_st_luke_evangelist_desc:2 "Der Evangelist Lukas ist der Verfasser des Lukasevangeliums und der Apostelgeschichte im Neuen Testament. Lukas wird vereinzelt als einer der siebzig Jünger angesehen, die Jesus Christus aussandte. Er war der Mitarbeiter des hl. Paulus, und wurde als einen Arzt bezeichnet, der bei einigen Reisen des Apostels Paulus dabei war. Lukas starb um das Jahr 63 im Alter von 84 Jahren als Bischof von Theben, ob er auch das Martyrium erlitt, ist hingegen ungewiss."
+
+ deity_st_peter:0 "$omen_st_peter$"
+ omen_st_peter:1 "Hl. Petrus"
+ omen_st_peter_desc:2 "Simon Petrus war einer der ersten Juden, die Jesus Christus in seine Nachfolge berief. Er war Sprecher der Jünger bzw. Apostel, erster Bekenner, aber auch Verleugner Jesu Christi, Augenzeuge des Auferstandenen und einer der Leiter der Jerusalemer Urgemeinde. Petrus sei der erste Bischof von Rom gewesen und Christus habe Petrus und dieser den folgenden Bischöfen von Rom einen Vorrang als Leiter, Lehrer und Richter aller Christen gegeben. Die Päpste werden daher auch als »Nachfolger Petri« bezeichnet. Nach christlichen Schriften beantwortete Jesus Simons Christusbekenntnis mit einer besonderen Zusage, »Du bist Petrus [griech. petros] und auf diesen Felsen [griech. petra] werde ich meine Kirche [ekklesia] bauen und die Mächte [griech. pylai, wörtlich Tore] der Unterwelt [griech. hades] werden sie nicht überwältigen«."
+
+ deity_st_mark:0 "$omen_st_mark$"
+ omen_st_mark:1 "Hl. Markus"
+ omen_st_mark_desc:2 "Johannes Markus (lateinisch, Marcus; Griechisch, Μᾶρκος, Aramäisch, ܡܪܩܘܣ Marqōs) war einer der 70 von Jesus Christus gesandten Jünger. Er ist der Autor des Markusevangeliums, und sein Symbol ist der geflügelte Löwe. Der Apostel Petrus begegnete Markus und nahm ihn als Reisebegleiter und Dolmetscher mit. Markus, der Evangelist, schrieb die Predigten des Petrus nieder und komponierte so das Evangelium. Markus wurde in Kyrene, einer Stadt in der Pentapolis von Nordafrika (heute Libyen) geboren und war möglicherweise der Vetter des Barnabas. Er predigte das Evangelium in Alexandria, gründete dort die Kirche und wurde ihr erster Bischof. Er wurde von den Heiden dieser Stadt im Jahr 68 n. Chr. Gemartert."
+
+ ## Erzengel ##
+ deity_archangel_gabriel:0 "$omen_archangel_gabriel$"
+ omen_archangel_gabriel:1 "Erzengel Gabriel"
+ omen_archangel_gabriel_desc:2 "Gabriel (hebr. גַּבְרִיאֵל „Meine Kraft ist Gott“) ist einer der Erzengel und gilt als Erklärer von Visionen und als Bote Gottes. „Im sechsten Monat aber wurde der Engel Gabriel von Gott in eine Stadt von Galiäa, mit Namen Nazareth gesandt, zu einer Jungfrau, die einem Mann namens Josef, aus dem Haus Davids, verlobt war, und der Name der Jungfrau war Maria. Und er kam zu ihr hinein und sprach, Sei gegrüßt, Begnadete. Der Herr ist mit dir. Sie aber wurde bestürzt über dieses Wort und überlegte, was das für ein Gruß sei. Und der Engel sprach zu ihr, Fürchte dich nicht, Maria! denn du hast Gnade bei Gott gefunden. Und siehe, du wirst schwanger werden und einen Sohn gebären, und du sollst seinen Namen Jesus nennen. Dieser wird groß sein und Sohn des Höchsten genannt werden, und der Herr, Gott, wird ihm den Thron seines Vaters David geben. Und er wird über das Haus Jakobs herrschen in Ewigkeit und seines Königreichs wird kein Ende sein.“"
+
+ deity_archangel_michael:0 "$omen_archangel_michael$"
+ omen_archangel_michael:1 "Erzengel Michael"
+ omen_archangel_michael_desc:2 "Michael (hebräisch מיכאל „Wer ist wie Gott?“) ist ein Erzengel und tritt als Bezwinger Satans auf, den er auf die Erde hinabstürzt. „Da entbrannte im Himmel ein Kampf; Michael und seine Engel erhoben sich, um mit dem Drachen zu kämpfen. Der Drache und seine Engel kämpften, aber sie hielten nicht stand und sie verloren ihren Platz im Himmel. Er wurde gestürzt, der große Drache, die alte Schlange, die Teufel oder Satan heißt und die ganze Welt verführt; der Drache wurde auf die Erde gestürzt, und mit ihm wurden seine Engel hinabgeworfen.“"
+
+ deity_archangel_raphael:0 "$omen_archangel_raphael$"
+ omen_archangel_raphael:1 "Erzengel Raphael"
+ omen_archangel_raphael_desc:2 "Raphael (hebräisch רפאל „Gott heilt“) ist einer erwähnten Erzengel. Raphael ist der Engel, der das Gebet von Tobias (Sohn des Tobit) hört, ihn auf seiner Reise von Ninive nach Rages begleitet, ihm Sara in Ekbatana als Ehefrau vermittelt und Tobias’ Vater Tobit heilt. Raphael gilt als Schutzpatron der Kranken und Apotheker, auch der Seeleute und Auswanderer sowie der Pilger. Er ist traditionell als ein Patron der Dachdecker und Bergleute angesehen. Raphael ist nicht nur der Engel, der Wunden heilt (Saras Besessenheit, Tobits Blindheit), sondern auch „heilsame Beziehungen“ ermöglicht."
+
+ deity_archangel_uriel:0 "$omen_archangel_uriel$"
+ omen_archangel_uriel:1 "Erzengel Uriel"
+ omen_archangel_uriel_desc:2 "Uriel (hebräisch אוּרִיאֵל „das Licht Gottes“ oder „mein Licht ist Gott“) ist der Name eines Engels der hebräischen Überlieferung. In der römisch-katholischen Kirche büßte Uriel seine Stellung als Erzengel im Zuge der Verbote der aus kirchlicher Sicht bedenklichen Engelanbetungen und -kulte ein. So wurde 343–380 in der Synode von Laodicea die falsche Verehrung der Engel und die Schaffung von Engelkulten verboten, die eine erste Hochphase schon zur Zeit der Apostel hatte. Uriel wird in der antiken jüdischen Schrift 4. Esra erwähnt, »Und es antwortete mir der Engel, welcher zu mir gesandt wurde, mit Namen Uriel« (4,1). Die im Eulogium der koptischen Kirche eingebettete Aussage „Wir verehren Uriel, als vierten unter den Engeln.“ sichert ihm seine traditionelle Stellung."
+
+ # deity_esther:0 "$omen_esther$"
+ # omen_esther:1 "Esther"
+ # omen_esther_desc:2 "Esthers Diplomatie und Schläue schafften es, den persischen König Xerxes I. zu überzeugen, und retteten unser # Volk vor Verfolgung: ein echtes Beispiel für die jüdische Diaspora.\nEsthers Grab soll sich in der alten persischen Hauptstadt # Ekbatana befinden."
+ # deity_daniel:0 "$omen_daniel$"
+ # omen_daniel:1 "Daniel"
+ # omen_daniel_desc:2 "Die Fähigkeit Daniels, die Gebote Jahwes auszulegen, inspiriert unser Volk und lässt es auf Gottes Führung # vertrauen.\nDaniel diente am persischen Hof und soll in Sousa begraben sein."
+ # deity_ezekiel:0 "$omen_ezekiel$"
+ # omen_ezekiel:1 "Hesekiel"
+ # omen_ezekiel_desc:2 "Hesekiels Hingabe, das jüdische Volk vor drohenden Bedrohungen zu warnen, erinnert unser Volk daran, standhaft # und wachsam zu bleiben.\nHesekiel diente am Hof von Babylon, und es wird angenommen, dass er in der Nähe begraben wurde."
+ # deity_ezra:0 "$omen_ezra$"
+ # omen_ezra:1 "Esra"
+ # omen_ezra_desc:2 "Esra der Schreiber ist ein leuchtendes Beispiel dafür, dass Gottes heilige Gesetze von der Gemeinschaft befolgt # werden sollten.\nEsra diente am Hof von Artaxerxes I. von Persien und soll in der Nähe von Apologos begraben sein."
+
+

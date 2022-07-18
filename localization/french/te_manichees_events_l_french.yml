@@ -1,0 +1,18 @@
+﻿l_french:
+ te_manichees.1.t:0 "Le manichéisme se répand en Orient et en Occident"
+ te_manichees.1.desc:1 "Le manichéisme a connu un succès rapide et s'est largement répandu dans les régions de langue araméenne. Il a prospéré entre le troisième et le septième siècle et était, à son apogée, l'une des religions les plus répandues au monde. Des églises et des écritures manichéennes existaient aussi loin à l'est que la Chine et aussi loin à l'ouest que l'Empire romain. Elle fut brièvement le principal rival du christianisme dans la compétition pour remplacer le paganisme classique. Un empereur païen connu pour avoir persécuté les chrétiens a également persécuté les manichéens, se plaignant du fait que ces derniers "ont créé des sectes nouvelles et jusqu'à présent inconnues en opposition aux anciens credo, afin de rejeter les doctrines qui nous ont été accordées dans le passé par la faveur divine au profit de leur propre doctrine dépravée"."
+ te_manichees.1.a:0 "Une autre nouvelle doctrine jaillit et chatouille nos oreilles. Devons-nous l'écouter ?"
+
+ te_manichees.2.t:0 "L'exécution de Mani"
+ te_manichees.2.desc:1 "Un empereur perse zoroastrien a emprisonné et ordonné l'exécution de Mani. Ses partisans ont dépeint la mort de Mani comme une crucifixion, dans une analogie consciente avec la crucifixion de Jésus. Une histoire prétend qu'il a été écorché et que son cadavre a été suspendu au-dessus de la porte principale de la grande ville de Gundeshapur ; cependant, ce récit n'a aucune base historique. Il est probable que son corps a été mutilé par décapitation post-mortem et que sa tête a été exposée, ce qui pourrait être la source originale de l'embellissement."
+ te_manichees.2.a:0 "Exécuter ces fanatiques religieux ne semble pas avoir l'effet désiré."
+
+ prophet_mani_man:0 "Vous avez découvert un portrait réaliste de Mani, le "prophète de la lumière"."
+
+ te_manichees.3.t:0 "Un auditeur éclairé"
+ te_manichees.3.desc:1 "Le crépuscule descend sur une autre journée difficile en tant que dirigeant, et vous vous détendez avec une promenade en soirée. Alors que vous tournez un coin d’une route ombragée, vous voyez un homme cagoulé debout sur votre chemin. Il vous sourit d’un air étrange. Vos gardes le poussent grossièrement à l’écart pour faire place et, alors que vous passez, il demande de manière énigmatique, « Avez-vous entendu la Lumière? » Vous remarquez son absence de peur et de regard constant sur vous, et vous le reconnaissez vaguement, un membre de l’élite mais des familles inférieures."
+ te_manichees.3.a:0 "Nous savons où le trouver."
+ minor_manichee_char_create:0 "Il y a une notable minorité de manichéens dans votre pays."
+
+ te_manichees.31.t:0 "Un autre auditeur éclairé"
+ te_manichees.31.desc:1 "Encore une fois, vous entendez parler d'un fervent adepte de la religion excentrique et syncrétique d'un 'dernier prophète' proclamé de Perse, Mani, parmi les familles mineures du pays. Ces fidèles semblent mélanger et adopter diverses coutumes et doctrines d'autres religions étrangères, anciennes et nouvelles, et ils ont une présence croissante parmi le peuple."

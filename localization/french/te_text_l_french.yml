@@ -1,0 +1,70 @@
+﻿l_french:
+ barbarian_fury_rage:0 "Furieux"
+ barbarian_invasion_skirmish:0 "Migrations des barbares"
+ barbarian_invasion_war:0 "Les barbares nous envahissent !"
+
+ sirte_foederatus:0 "Foederatus"
+
+ late_antiquity_decentralization_city:0 "Dépeuplement de l'Antiquité tardive"
+ desc_late_antiquity_decentralization_city:1 "Les gens quittent cette ville pour des provinces moins peuplées."
+ late_antiquity_decentralization_settlement:0 "La désurbanisation de l'Antiquité tardive"
+ desc_late_antiquity_decentralization_settlement:1 "Les gens s’installent ici à la campagne."
+
+ #######CULTURE#######:0 ""
+ hunnic:0 "Hunnique"
+ huna:0 "Huna"
+ ######RELIGIONS######:0 ""
+ christianity:0 "Chrétien"
+ desc_christianity:0 "Le christianisme est le nom donné à ce système défini de croyances et de pratiques religieuses fondé par un Juif, Jésus de Nazareth, dans le pays de Judée, et promulgué, après la mort de son fondateur, pour l'acceptation du monde entier, par certains hommes choisis parmi ses disciples. Ceux-ci ont commencé leur mission le jour de la Pentecôte, vers l'an 30 de notre ère, jour qui est considéré, en conséquence, comme l'anniversaire de l'Église chrétienne. Au départ, il s'agissait d'une secte obscure du judaïsme, mais les dirigeants choisis parmi les disciples de Jésus, appelés les apôtres, ont voyagé dans le monde entier pour répandre la "bonne nouvelle" selon laquelle leur fondateur, qu'ils ont salué comme le Messie ou le Christ ("l'oint") prophétisé, est le Fils du Dieu unique et est ressuscité d'entre les morts pour montrer sa puissance, promettant qu'il reviendrait un jour dans la gloire pour juger toutes les âmes humaines selon leurs actes. Les apôtres ont enseigné que quiconque se repent de ses mauvaises habitudes et prie ce Jésus pour obtenir sa miséricorde sera sauvé de la mort éternelle dans les enfers et glorifié par une nouvelle vie éternelle dans un royaume de bienheureux."
+
+ manichaeism:0 "Manichéen"
+ desc_manichaeism:0 "Le manichéisme enseignait une cosmologie dualiste élaborée décrivant la lutte entre un monde de lumière, bon et spirituel, et un monde des ténèbres, mauvais et matériel. Par un processus continu qui se déroule dans l'histoire de l'humanité, la lumière est progressivement retirée du monde de la matière et renvoyée au monde de la lumière, d'où elle est venue. Ses croyances étaient fondées sur les mouvements religieux mésopotamiens locaux et sur le gnosticisme."
+
+ convert_to_christian:0 "Édit d'évangélisation"
+ convert_to_christian_desc:1 "Embrasser l'évangile répandu dans nos pays et décréter que le christianisme devienne la religion officielle de ce pays."
+
+ convert_to_manichaean:0 "Adopter le manichéisme"
+ convert_to_manichaean_desc:1 "Étudier les textes gnostiques, s'émouvoir de la vie et des écrits de Mani, le dernier prophète réincarné des grandes religions du monde, purifié de la corruption, et consacrer le royaume à cette nouvelle illumination."
+
+ early_christian_community:0 "La communauté chrétienne primitive"
+ desc_early_christian_community:0 "Une communauté de croyants chrétiens s'est établie dans cette province."
+
+ early_christian_church:0 "Eglise chrétienne primitive"
+ desc_early_christian_church:0 "Un grand nombre de chrétiens ont construit une ekklesia, ou église, ici."
+
+ spared_xians_sympathy:0 "Sympathie chrétienne"
+ spared_xians_hate:0 "Chrétiens épargnés"
+ persecuted_xians_glee:0 "Chrétiens persécutés"
+ persecuted_xians_sorrow:0 "Chagrin chrétien"
+
+ christian_church_embelishment:0 "Cathédrale embellie"
+ desc_christian_church_embelishment:0 "D'origine plutôt modeste, notre cathédrale s'est embellie grâce aux généreuses donations des fidèles chrétiens et à l'intercession de saint Pierre. Avec chaque génération qui passe, la cathédrale s'améliore et, avec le temps, son apparence peut refléter correctement le siège de l'évêque en tant que successeur des apôtres."
+
+ #####PLAGUES#####:0 ""
+ antonine_plague_epidemic:0 "Epidémie de peste antonine"
+ desc_antonine_plague_epidemic:0 "Une épidémie d'une maladie mortelle a infecté cette province."
+
+ cyprian_plague_epidemic:0 "Épidémie de peste à Chypre"
+ desc_cyprian_plague_epidemic:0 "Une maladie mortelle a infecté la population ici."
+
+ #####COUNTRY MODIFIERS#####:0 ""
+ cursed_by_elohim:0 "Maudit par Elohim"
+ desc_cursed_by_elohim:0 "Vous avez méprisé les réfugiés juifs et refusé de leur donner un abri, et le malheur s'est abattu sur le pays."
+
+ late_antiquity_pop_decline_central:0 "Déclin démographique de l'Antiquité tardive"
+ desc_late_antiquity_pop_decline_central:0 "Une baisse générale de la fécondité affecte notre peuple."
+ late_antiquity_pop_decline_occident:1 "Déclin démographique de l'Antiquité tardive"
+ desc_late_antiquity_pop_decline_occident:1 "Une baisse générale de la fécondité affecte notre peuple."
+ late_antiquity_pop_decline_orient:2 "Déclin démographique de l'Antiquité tardive"
+ desc_late_antiquity_pop_decline_orient:2 "Une baisse générale de la fécondité affecte notre peuple."
+ 
+ ai_city_self_rule:0 "L'autorégulation municipale"
+ ai_city_self_rule_desc:0 "La confiance et la loyauté vont de pair. En sanctionnant les droits d'une des plus grandes communautés de cette culture, en leur donnant leurs propres organes élus, leurs droits d'imposition et même leur propre armée, nous pouvons gagner la loyauté de ceux qui restent en dehors des frontières municipales, lorsque nous sommes assez stables pour l'offrir."
+
+ #####MISCELLANEOUS MINOR EVENTS#####:0 ""
+ te_migrations.2.t:0 "Opportunité Foederati"
+ te_migrations.2.desc:0 "Une tribu barbare de Germanie s’est installée dans la province dépeuplée de [foedus_target_province.GetName] dans un État avec un territoire que nous contrôlons actuellement, et ils sont florissants. Nous pourrions chercher un foedus avec eux, et leur donner des terres dans la région en échange de leur loyauté envers nous et de leur service militaire."
+ te_migrations.2.a:0 "Oui, proposons d’en faire notre vassal."
+ make_foedus_now_plz:0 "#Y Vous accordez le contrôle de [foedus_target_state.GetName] à cette tribu migratoire germanique, qui jure fidélité et devient votre vassal tribal dans cette zone de terre.#!"
+ te_migrations.2.b:0 "Non, cette tribu ne vaut pas la terre ici."
+ no_foedus_now_thx:0 "Il ne se passe rien."

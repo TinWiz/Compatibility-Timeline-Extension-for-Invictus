@@ -1,0 +1,48 @@
+﻿l_german:
+ treasure_andrew_cross:0 "Heiliges Andreaskreuz"
+ treasure_andrew_cross_desc:1 "Das X-förmige oder decussate Kreuz, auf dem der heilige Andreas Prōtoklētos hingerichtet wurde. Er wurde auf Befehl eines Gouverneurs in Patrae in Achaia gekreuzigt, und er wurde an das Kreuz gebunden, nicht genagelt, um seine Leiden zu verlängern."
+
+ treasure_thomas_relics:0 "Reliquien des Hl. Thomas"
+ treasure_thomas_relics_desc:1 "In der Malayalam-Ballade Thomas Ramban Pattu (Das Lied des Herrn Thomas) kommt der Apostel in Indien an, reist dann weiter nach China und kehrt nach Indien zurück, wo er starb. Auf Befehl eines indischen Königs wurde er mit Lanzen durchgestoßen."
+
+ treasure_paul_epistle:0 "Brief des Hl. Paulus"
+ treasure_paul_epistle_desc:1 "Die authentischen Briefe des Paulus werden grob auf die Jahre um die Mitte des 1. Jahrhunderts n. Chr. Datiert. Sieben der 13 Buchstaben, die den Namen des Paulus tragen – Römer, 1. Korinther, 2. Korinther, Galater, Philipper, 1. Thessalonicher und Philemon – werden fast allgemein als vollständig von Paulus selbst verfasst akzeptiert."
+
+ treasure_john_patmos_manuscript:0 "Manuskript der Offenbarung"
+ treasure_john_patmos_manuscript_desc:1 "Auch Apokalypse genannt vom ersten Wort des koine griechischen Textes apokalypsis, was 'Enthüllung' oder 'Offenbarung' bedeutet. Während er auf der Insel Patmos verbannt ist, beschreibt Johannes der Offenbarer eine Reihe prophetischer Visionen, darunter Figuren wie den siebenköpfigen Drachen, die Schlange und das Tier, die im Zweiten Kommen Jesu gipfeln."
+
+ treasure_philip_relics:0 "Reliquien des Hl. Philippus"
+ treasure_philip_relics_desc:1 "Die Legende besagt, dass Philippus nach der Auferstehung Jesu mit seiner Schwester Mariamne und Bartholomäus gesandt wurde, um in Griechenland, Phrygien und Syrien zu predigen. Er wurde in der Stadt Hieropolis gemartert."
+
+ treasure_nathanael_bartholomew_relics:0 "Reliquien des Hl. Natanaël Bar-Tolmai"
+ treasure_nathanael_bartholomew_relics_desc:1 "Hl. Bartholomäus ist der prominenteste geschälte christliche Märtyrer. Der Legende nach wurde er lebendig gehäutet und enthauptet. Ein großes Stück seiner Haut und viele Knochen werden als Reliquien des heiligen Apostels aufbewahrt."
+
+ treasure_matthew_levi_relics:0 "Reliquien des Hl. Matthäus Levi"
+ treasure_matthew_levi_relics_desc:1 "Die Reliquien des hl. Matthäus befanden sich viele Jahre in der Stadt Naddaver in Äthiopien, wo er sein Martyrium erlitt. Der Heilige wurde auf Befehl des Königs von Äthiopien getötet, während er die Messe am Altar feierte. Der König sehnte sich nach seiner eigenen Nichte und war von Matthäus zurechtgewiesen worden, denn das Mädchen war eine Nonne und daher die Braut Christi."
+
+ treasure_cornelius_centurion_relics:0 "Rüstung des Hl. Cornelius"
+ treasure_cornelius_centurion_relics_desc:1 "Römische Rüstung, die dem hl. Cornelius dem Zenturio gehörte, auf wundersame Weise gut erhalten. Cornelius war ein Hauptmann der Cohors II Italica Civium Romanorum. Als frommer und gottesfürchtiger Mann war er auf dem Schlachtfeld tapfer, gab aber später den Soldatendienst auf, um der Kirche als Bischof zu dienen."
+
+ treasure_st_joseph_cloak:1 "Heiliger Umhang des Hl. Josef"
+ treasure_st_joseph_cloak_desc:0 "Dieser Mantel soll dem hl. Josef, dem Ziehvater Von Jesus von Nazareth, gehört haben. Die Überlieferung besagt, dass der Mantel des heiligen Josef Ende des 4. Jahrhunderts von St. Jerome von Jerusalem nach Rom gebracht wurde."
+
+ treasure_blessed_mary_hair:0 "Locke der Heiligen Jungfrau"
+ treasure_blessed_mary_hair_desc:1 "Während von der hl. Maria, der Mutter Jesu von Nazareth, kein Grab oder andere körperliche Reliquien erhalten sind, wird diese Haarlocke von den Gläubigen als heilige Reliquie verehrt."
+
+ treasure_luke_evangelist_relics:0 "Reliquien des Hl. Lukas"
+ treasure_luke_evangelist_relics_desc:1 "Ihr habt den verehrten Schädel und die Hand des Leichnams des Evangelisten Lukas gefunden, einem der 70 Jünger Jesu und Verfasser des Evangeliums nach Lukas. Der frommen Legende nach predigte Lukas das Evangelium nach dem Martyrium der hl. Petrus und Paulus und zog die Aufmerksamkeit von Heiden und Juden auf sich. Er wurde vom Kaiser verhaftet und ihm die Hand abgeschnitten. Nach einem Wunder, bei dem er in der Lage zu sein schien, seine Hand wieder zu befestigen und zu trennen, wurde er dann enthauptet."
+
+ treasure_james_zebedee_relics:0 "Reliquien des Hl. James"
+ treasure_james_zebedee_relics_desc:1 "Der Schädel des hl. Jakobus, Sohn des Zebedäus, auch bekannt als Hl. Jakobus der Größere. Er war einer der galiläischen Fischer, zusammen mit seinem jüngeren Bruder Johannes und den Brüdern Andreas und Petrus, die von Jesus von Nazareth berufen wurden, ihm als Jünger zu folgen, die später als Apostel bekannt wurden. Der hl. Jakobus reiste nach Galizien, um das Evangelium zu predigen. Nach seiner Rückkehr nach Jerusalem erlitt er den Märtyrertod."
+
+ treasure_peter_relics:0 "Reliquien des Hl. Petrus"
+ treasure_peter_relics_desc:1 "Menschliche Gebeine aus dem Leichnam von Simeon Petrus, Führer der Apostel, Nachfolger Jesu von Nazareth. Der heilige Petrus reiste nach Rom, um in der Hauptstadt des Reiches eine Kirche zu gründen. Dort wurde er durch Kreuzigung gemartert, an einem auf dem Kopf stehenden Kreuz, weil er sich unwürdig fühlte, auf die gleiche Weise wie sein Herr zu sterben." 
+ #Die Bischöfe, die Petrus als Führer der römischen Kirche nachfolgten, wurden als 'Papst' bekannt, ein Begriff der Zärtlichkeit für den Vater."
+
+ treasure_mark_relics:0 "Reliquien des Hl. Markus"
+ treasure_mark_relics_desc:1 "Der Schädel und die Gebeine des hl. Markus, Evangelist und Gründer der Kirche in Alexandria, die die Gerichtsbarkeit über alle Christen in Afrika beansprucht. Markus reiste mit Simon Petrus, dem Leiter der Apostel, und schrieb ein Evangelium nach dem Bericht des Petrus. Der hl. Markus wurde der erste Bischof von Alexandria, und die Patriarchen von Alexandria beanspruchen ihre Nachfolge von ihm."
+
+ treasure_arzhang_book:0 "Arzhang Bilderbuch"
+ treasure_arzhang_book_desc:1 "Das Arzhang, auch bekannt als das Buch der Bilder, war eines der heiligen Bücher des Manichäismus. Es war einzigartig als heiliger Text, da es zahlreiche Bilder enthielt, die die manichäische Kosmogonie darstellen sollten, die als integraler Bestandteil des Textes angesehen wurden. Mani glaubte, dass die Schaffung und Erfahrung von Kunst ein göttlicherer Akt war als jeder andere in der materiellen Welt."
+
+ 

@@ -1,0 +1,24 @@
+﻿l_german:
+ ######RELIGIONS######:0 ""
+ l6_christian.1.t:0 "Konvertierung des 3000"
+ l6_christian.1.desc:0 "Berichten zufolge hat eine kleine Gruppe von Galiläern in der Umgebung von Jerusalem Für Ärger gesorgt. Einige behaupten, dass diese ländlichen Fischer irgendwie in der Lage waren, die Sprachen der Parther, Meder, Elamiter, Mesopotamier, Judäer, Kappadokier, Pontiker, Phryger, Pamphylianer, Ägypter, Libyer, Römer, Kreter und Araber zu sprechen. Auf jeden Fall müssen ihre Worte eine Schnur getroffen haben, da sie anscheinend in der Lage waren, 3000 zu ihrer Zahl hinzuzufügen."
+ l6_christian.1.a:0 "Das Geschwätz betrunkener Narren!"
+
+ l6_christian.2.t:0 "Der Weg nach Damaskus"
+ l6_christian.2.desc:0 "Ein jüdischer Mann, der für seine eifrige Verurteilung und Verfolgung gegen die neue Sekte des Judentums bekannt ist, hat Berichten zufolge eine eifrige Verurteilung für genau diese Sekte erhalten. Von dem, was wir gesammelt haben, haben der Mann und seine Gefährten behauptet, eine Art Vision gesehen zu haben, wobei der Mann noch weiter ging und sagte, er habe mit dem gesprochen, den er verfolgt hatte."
+ l6_christian.2.a:0 "Das ändert gar nichts."
+
+ l6_christian.3.t:0 "Anhänger des auferstandenen Herrn"
+ l6_christian.3.desc:0 "Einige unserer Untertanen haben begonnen, von einem Herrn zu sprechen, der gestorben ist, aber von den Toten auferweckt wurde. Dies hat sicherlich einige überzeugt, aber im Moment ist dies eine lokalisierte Angelegenheit."
+ l6_christian.3.a:0 "Und das soll so bleiben."
+
+ l6_christian.4.t:0 "Jüdische Bekehrungen"
+ l6_christian.4.desc:0 "Eine Reihe von Juden in unseren Ländern ist zu der Ansicht gelangt, dass ihr prophezeiter Messias bereits auf diese Erde gekommen ist und dass er der einzige Weg zur Erlösung ist."
+ l6_christian.4.a:0 "Seltsam"
+
+ l6_christian.5.t:0 "Evangelisation in unseren Ländern"
+ l6_christian.5.desc:0 "Anhänger dessen, den sie Christus nennen, sind offener geworden, wenn es darum geht, über ihren Glauben zu sprechen. Während dies dazu geführt hat, dass viele von ihnen gemieden wurden, scheinen mehr unserer Probanden zuzuhören, was sie zu sagen haben."
+ l6_christian.5.a:0 "Sehr mutig von ihnen."
+ 
+ #l6_convert_to_christian:0 "Zum Christentum konvertieren"
+ #l6_convert_to_christian_desc:0 "[Platzhalterentscheidung. Die KI wird dies nicht akzeptieren, es sei denn, ihre Hauptstadt ist christlich.]"

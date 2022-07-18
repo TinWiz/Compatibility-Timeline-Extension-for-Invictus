@@ -1,0 +1,18 @@
+﻿l_german:
+ te_manichees.1.t:0 "Der Manichäismus breitet sich nach Osten und Westen"
+ te_manichees.1.desc:1 "Der Manichäismus war schnell erfolgreich und verbreitete sich weit über die aramäischsprachigen Regionen. Sie gedieh zwischen dem dritten und siebten Jahrhundert und war auf ihrem Höhepunkt eine der am weitesten verbreiteten Religionen der Welt. Manichäische Kirchen und Schriften existierten so weit östlich wie China und so weit westlich wie das Römische Reich. Es war kurzzeitig der Hauptrivale des Christentums im Wettbewerb, das klassische Heidentum zu ersetzen. Ein heidnischer Kaiser, der dafür bekannt war, Christen zu verfolgen, verfolgte auch die Manichäer und beschwerte sich, wie die Manichäer 'neue und bisher unbekannte Sekten im Gegensatz zu den älteren Glaubensbekenntnissen errichtet haben, damit sie die Lehren, die uns in der Vergangenheit durch die göttliche Gunst zum Wohle ihrer eigenen verdorbenen Lehre verbürgt wurden, ausstoßen konnten'."
+ te_manichees.1.a:0 "Eine weitere neue Lehre taucht auf und kitzelt unsere Ohren. Sollen wir zuhören?"
+
+ te_manichees.2.t:0 "Die Hinrichtung von Mani"
+ te_manichees.2.desc:1 "Ein zoroastrischer persischer Kaiser sperrte Mani ein und befahl seine Hinrichtung. Seine Anhänger stellten Manis Tod als Kreuzigung in bewusster Analogie zur Kreuzigung Jesu dar. Es gibt eine Geschichte, die besagt, dass er enthäutet und sein Körper über dem Haupttor der großen Stadt Gundeshapur aufgehängt wurde; es gibt jedoch keine historische Grundlage für diesen Bericht. Es ist wahrscheinlich, dass sein Körper durch postmortale Enthauptung verstümmelt und sein Kopf zur Schau gestellt wurde, was die ursprüngliche Quelle der Übertreibung sein könnte."
+ te_manichees.2.a:0 "Die Hinrichtung dieser religiösen Fanatiker scheint nicht den gewünschten Effekt zu haben."
+
+ prophet_mani_man:0 "Sie haben ein lebensechtes Porträt von Mani, dem „Propheten des Lichts“, entdeckt."
+
+ te_manichees.3.t:0 "Ein lichtsuchender Zuhörer"
+ te_manichees.3.desc:1 "Die Abenddämmerung kommt an einem weiteren herausfordernden Tag als Herrscher herein, und du entspannst dich bei einem Abendspaziergang. Als du um die Ecke einer schattigen Straße biegst, steht einen mit einem hellen Mantel bekleideten Mann auf deinem Weg. Er strahlt dich mit einem unheimlichen Lächeln an. Deine Wachen schieben ihn grob zur Seite, um Platz zu machen, und als du vorbeigehst, fragt er kryptisch, »Habt ihr das Licht gehört?« Du bemerkst seinen Mangel an Angst und seinen beständigen Blick auf dich, und du erkennst ihn vage, ein Mitglied der Elite, aber kleinerer Familien."
+ te_manichees.3.a:0 "Wir wissen, wo wir ihn finden."
+ minor_manichee_char_create:0 "In Ihrem Land gibt es eine bemerkenswerte Minderheit von Manichäern."
+
+ te_manichees.31.t:0 "Ein weiterer erleuchteter Zuhörer"
+ te_manichees.31.desc:1 "Wieder einmal hört man von einem frommen Anhänger der exzentrischen und synkretistischen Religion eines proklamierten „letzten Propheten“ aus Persien, Mani, unter den kleinen Familien des Landes. Diese Anhänger scheinen verschiedene Bräuche und Lehren anderer fremder Religionen, sowohl alter als auch neuer, zu mischen und zu übernehmen, und sie haben eine wachsende Präsenz in der Bevölkerung."

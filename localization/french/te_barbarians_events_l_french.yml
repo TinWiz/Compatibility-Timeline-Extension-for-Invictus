@@ -1,0 +1,49 @@
+﻿l_french:
+ te_barbarians.1.t:0 "Les barbares sur le Danube"
+ te_barbarians.1.desc:1 "Des hordes de barbares germaniques sont apparues à travers les montagnes et les rivières de nos frontières. Nous ne savons pas pourquoi ils ont commencé à migrer vers notre territoire, mais ils font des ravages dans les campagnes et terrifient notre peuple. Ils doivent être arrêtés ou négociés d'une manière ou d'une autre !"
+ te_barbarians.1.a:0 "Envoyez nos capitaines pour traiter avec eux, et nos prêtres pour offrir des sacrifices."
+
+ te_barbarians.10.t:0 "Les barbares sur le Rhin"
+ te_barbarians.10.desc:1 "Hordes of germanic barbarians continue to cross the mountains and rivers of our borders. We do not know why they have begun to migrate into our territory, but they are wreaking havoc across the countryside and terrifying our people. They must be stopped or bargained with somehow!"
+ te_barbarians.10.a:0 "Il semble qu'ils fuient une terreur inconnue dans les contrées sauvages au-delà de nos cartes."
+
+ te_barbarians.11.t:0 "Les tribus franques s'agrandissent"
+ te_barbarians.11.desc:1 "De puissantes tribus de Germanie se sont organisées et ont émergé de l'autre côté du Rhin, marchant vers notre territoire. Ces peuples sont mieux équipés et entraînés dans l'art de la stratégie militaire, et ont dû apprendre de leurs voisins plus civilisés. Ils représentent une menace importante et semblent déterminés à conquérir les terres qu'ils occupent."
+ te_barbarians.11.a:0 "S'ils ne peuvent être vaincus ou soudoyés, alors peut-être pouvons-nous former une alliance ?"
+
+ te_barbarians.12.t:0 "Les tribus germaniques migrent"
+ te_barbarians.12.desc:1 "Les vagues de Barbares venant de Germanie et d'ailleurs ont augmenté en nombre, avec de nouvelles tribus se formant et se ramifiant à partir d'anciennes tribus. Les périodes de froid au nord et un autre mouvement de nomades dans les terres plus à l'est entraînent une migration massive de peuples à travers le continent, menaçant la stabilité de notre royaume."
+ te_barbarians.12.a:0 "Nous ne pouvons pas arrêter cette migration massive, mais nous devons protéger notre propre population."
+
+ te_barbarians.2.t:0 "Les Huns apparaissent sur la Volga"
+ te_barbarians.2.desc:1 "Les Huns étaient un peuple nomade qui vivait en Asie centrale, dans le Caucase et en Europe de l'Est entre le 4e et le 6e siècle de notre ère. Selon la tradition européenne, ils vivraient pour la première fois à l'est de la Volga, dans une région qui faisait alors partie de la Scythie. En 370 de notre ère, les Huns étaient arrivés sur la Volga."
+ te_barbarians.2.a:0 "Quelle sorte d'hommes sauvages sont-ils ? D'où viennent-ils ? Pourquoi sont-ils ici ?"
+
+ te_barbarians.3.t:0 "Les huns dans la steppe pontique"
+ te_barbarians.3.desc:1 "En 395 de notre ère, les Huns lancent leurs premières attaques à grande échelle. Au cours de l'été de cette année-là, les Huns franchissent les montagnes du Caucase, tandis qu'au cours de l'hiver 395, une autre force d'invasion hunnique traverse le Danube gelé, pille la Thrace et menace la Dalmatie. L'ampleur bien plus grande des attaques contre l'Asie mineure et la Perse indique que le gros des Huns était resté dans les steppes pontiques au lieu de se déplacer en Europe à cette époque. Les attaques hunniques contre l'Arménie se poursuivront après ce raid, les sources arméniennes mentionnant une tribu hunnique connue sous le nom de Xailandur comme étant les auteurs de ces attaques."
+ te_barbarians.3.a:0 "Ces cavaliers barbares venus du désert sont pires que la peste."
+
+ te_barbarians.4.t:0 "Les huns gagnent en puissance"
+ te_barbarians.4.desc:1 "Les vagues de barbares venant de l'est ont continué et ne montrent aucun signe d'arrêt. Ils sont assoiffés de sang, bien organisés, entraînés aux arts de la guerre militaire et maîtrisent l'art du tir à l'arc à cheval. Ce ne sont pas des barbares ordinaires. Nos armées se lassent de les poursuivre dans leurs incessants raids et pillages, et certaines de leurs forces se sont enfoncées profondément dans les terres civilisées, tandis que la population impuissante ne peut que regarder et attendre ou fuir dans la peur."
+ te_barbarians.4.a:0 "Nous devons consacrer notre puissance militaire et diplomatique à la protection de notre peuple contre ce nouveau fléau."
+
+ te_barbarians.5.t:0 "L'invasion hunnique"
+ te_barbarians.5.desc:1 "A partir de 434 de notre ère, les frères Attila et Bleda dirigent ensemble les Huns. Attila et Bleda étaient aussi ambitieux que leur oncle Rugila. En 435, ils obligent l'Empire romain d'Orient à signer le traité de Margus, qui accorde aux Huns des droits commerciaux et un tribut annuel de la part des Romains. En 447, Attila envahit les Balkans et la Thrace. La guerre s'achève en 449 par un accord dans lequel les Romains acceptent de payer à Attila un tribut annuel de 2100 livres d'or. En 451, les forces d'Attila entrent en Gaule. Une fois en Gaule, les Huns ont d'abord attaqué Metz, puis leurs armées ont continué vers l'ouest, passant par Paris et Troyes pour assiéger Orléans."
+ te_barbarians.5.a:0 "Ces guerriers vicieux envahissent les frontières de l'Est et nous menacent tous!"
+
+ te_barbarians.60.t:0 "Barbares à travers les montagnes"
+ te_barbarians.60.desc:1 "Des tribus de guerriers nomades à cheval ont commencé à envahir notre territoire depuis les steppes du nord, au-delà des cols montagneux. Une migration de personnes menace notre emprise sur la région. Le simple nombre et le désespoir furieux de ces envahisseurs est effrayant à voir."
+ te_barbarians.60.a:0 "Notre souveraineté doit être protégée par la puissance et le pouvoir."
+
+ te_barbarians.6.t:0 "Les Kidarites et huns Alchon"
+ te_barbarians.6.desc:1 "Les souverains de Perse et d'Inde ont progressivement perdu le contrôle de la Bactriane au profit d'envahisseurs venus d'Asie centrale, d'abord les Kidarites vers 335 de notre ère, puis les Huns d'Alchon vers 370 de notre ère, qui poursuivront avec l'invasion de l'Inde un siècle plus tard, et enfin les Hephthalites vers 450 de notre ère."
+ te_barbarians.6.a:0 "Nous sommes inarrêtables et ces étranges nouveaux envahisseurs sont une simple nuisance."
+
+ te_barbarians.70.t:0 "Les héphthalites"
+ te_barbarians.70.desc:1 "Au fur et à mesure qu'ils prenaient de l'importance, les Hephthalites ont déplacé les Kidarites, puis les huns Alchon, qui se sont étendus au Gandhara et au nord de l'Inde. En 442 de notre ère, leurs tribus combattent les Perses. En 456-457, une ambassade des Hephthalites arrive en Chine, sous le règne de l'empereur Wen des Wei du Nord. En 458, ils étaient assez forts pour intervenir en Perse. 466 environ, ils ont probablement pris les terres de Transoxiane aux Kidarites avec l'aide des Perses, mais ils ont bientôt pris à la Perse la région de Balkh et l'est du Kushanshahr. Dans la seconde moitié du cinquième siècle, ils contrôlaient les déserts du Turkménistan jusqu'à la mer Caspienne et peut-être Merv."
+ te_barbarians.70.a:0 "Ces sauvageons sont revenus pour nous harceler. Peu importe, nos forces puissantes les écraseront!"
+
+ te_barbarians.7.t:0 "L'invasion de l'Inde des huns Alchon"
+ te_barbarians.7.desc:1 "Entre 460 et 470 de notre ère, les alchons s'emparent du Gandhara et du Pendjab qui étaient également restés sous le contrôle des Kidarites, tandis que l'Empire Gupta demeurait plus à l'est. Il est possible que les huns Alkhon aient simplement comblé le vide créé par le déclin des Kidarites, suite à leur défaite en Inde contre l'Empire Gupta de Skandagupta en 455 de notre ère, et à leur défaite ultérieure en 467 de notre ère contre l'Empire Sasanien de Peroz Ier, avec l'aide des Héphthalites et des Alchons sous Mehama, ce qui mit définitivement fin à la domination Kidarite en Transoxiane. Les alchon ont apparemment entrepris la destruction massive de monastères et de stupas bouddhistes à Taxila, un haut centre d'apprentissage, qui ne s'est jamais remis de cette destruction. La quasi-totalité des pièces alchon trouvées dans la région de Taxila l'ont été dans les ruines de monastères incendiés, où apparemment certains des envahisseurs sont morts aux côtés des défenseurs locaux pendant la vague de destructions. On pense que le stupa de Kanishka, l'un des bâtiments les plus célèbres et les plus hauts de l'Antiquité, a été détruit par eux lors de leur invasion de la région dans les années 460 de notre ère. Le stupa de Mankiala a également été vandalisé lors de leurs invasions."
+ te_barbarians.7.a:0 "Là où d'autres ont pu échouer à arrêter ces hordes destructrices, nous vaincrons!"
+ 
