@@ -4,9 +4,6 @@
 		potential = {
 			has_global_variable = is_playing_invictus
 			current_date >= 1148.1.1 # Historical date 1148.1.17
-			any_province = { #Invictus map check
-				is_in_region = fezzan_region
-			}
 			num_of_cities >= 2
 			OR = { 
 				government = imperium
