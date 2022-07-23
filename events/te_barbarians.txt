@@ -948,6 +948,31 @@ te_barbarians.5 = {
             set_global_variable = huns_fourth_wave
         }      
     }
+
+    after = {
+        if = {
+            limit = {
+                NOT = {
+                    has_global_variable = huns_fourth_wave
+                }
+            }
+            p:5299 = {
+                while = {
+                    limit = {
+                        any_pops_in_province = {
+                            count < 360
+                        }
+                    }
+                    create_pop = tribesmen
+                }
+                remove_province_modifier = barbarian_invasion_skirmish  
+                add_province_modifier = {
+                    name = "barbarian_invasion_war"
+                    duration = 7280
+                }
+            }
+        }    
+    }
 }
 
 te_barbarians.50 = {
