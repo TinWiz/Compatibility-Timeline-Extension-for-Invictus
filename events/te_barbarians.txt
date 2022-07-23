@@ -64,7 +64,7 @@ te_barbarians.1 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 60
+                            count < 120
                         }
                     }    
                     create_pop = tribesmen
@@ -74,7 +74,7 @@ te_barbarians.1 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 60
+                            count < 120
                         }
                     }    
                     create_pop = tribesmen
@@ -126,7 +126,7 @@ te_barbarians.1 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 60
+                            count < 120
                         }
                     }    
                     create_pop = tribesmen
@@ -136,7 +136,7 @@ te_barbarians.1 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 60
+                            count < 120
                         }
                     }    
                     create_pop = tribesmen
@@ -203,7 +203,7 @@ te_barbarians.10 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 120
+                            count < 180
                         }
                     }    
                     create_pop = tribesmen
@@ -213,7 +213,7 @@ te_barbarians.10 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 120
+                            count < 180
                         }
                     }    
                     create_pop = tribesmen
@@ -293,7 +293,7 @@ te_barbarians.11 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 180
+                            count < 360
                         }
                     }    
                     create_pop = tribesmen
@@ -303,7 +303,7 @@ te_barbarians.11 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 180
+                            count < 360
                         }
                     }    
                     create_pop = tribesmen
@@ -334,7 +334,7 @@ te_barbarians.11 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 180
+                            count < 360
                         }
                     }    
                     create_pop = tribesmen
@@ -344,7 +344,7 @@ te_barbarians.11 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 180
+                            count < 360
                         }
                     }    
                     create_pop = tribesmen
