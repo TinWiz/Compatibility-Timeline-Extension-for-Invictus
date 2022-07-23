@@ -1241,10 +1241,10 @@ te_barbarians.53 = {
         has_global_variable = huns_second_wave
         OR = {
             primary_culture = hunnic
-            any_country_culture = {
-                culture = culture:hunnic
-                is_integrated = yes       
-            }
+            #any_country_culture = {
+            #    culture = culture:hunnic
+            #    is_integrated = yes       
+            #}
             current_ruler = {
                 has_culture = hunnic
             }
@@ -1254,6 +1254,7 @@ te_barbarians.53 = {
             any_neighbor_province = {
                 AND = {
                     OR = {
+                        province_id = 5299
                         province_id = 5970
                         province_id = 5971
                         province_id = 5981
@@ -1271,6 +1272,45 @@ te_barbarians.53 = {
     }
 
     option = {
+        if = {
+            limit = {
+                any_owned_province = {
+                    AND = {
+                        num_of_tribesmen > 100
+                        any_neighbor_province = {
+                            AND = { 
+                                province_id = 5299
+                                has_province_modifier = barbarian_invasion_war
+                            }    
+                        }
+                    }
+                }    
+            }
+            p:5299 = {
+                remove_province_modifier = barbarian_invasion_war
+                add_permanent_province_modifier = {
+                    name = "barbarian_invasion_skirmish"
+                }
+            }    
+        }
+        if = {
+            limit = {
+                any_owned_province = {
+                    AND = {
+                        num_of_tribesmen > 200
+                        any_neighbor_province = {
+                            AND = { 
+                                province_id = 5299
+                                has_province_modifier = barbarian_invasion_skirmish
+                            }    
+                        }
+                    }
+                }    
+            }
+            p:5299 = {
+                remove_province_modifier = barbarian_invasion_skirmish
+            }    
+        }
         if = {
             limit = {
                 any_owned_province = {
@@ -1399,10 +1439,10 @@ te_barbarians.54 = {
         has_global_variable = huns_fourth_wave
         OR = {
             country_culture_group = bactrian
-            any_country_culture = {
-                culture = culture:huna
-                is_integrated = yes
-            }    
+            #any_country_culture = {
+            #    culture = culture:huna
+            #    is_integrated = yes
+            #}    
             current_ruler = {
                 has_culture = huna
             }
