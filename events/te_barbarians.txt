@@ -1021,18 +1021,7 @@ te_barbarians.5 = {
                     name = "barbarian_invasion_war"
                     duration = 7280
                 }
-            } 
-            set_global_variable = huns_fourth_wave
-        }      
-    }
-
-    after = {
-        if = {
-            limit = {
-                NOT = {
-                    has_global_variable = huns_fourth_wave
-                }
-            }
+            }    
             p:5299 = {
                 while = {
                     limit = {
@@ -1048,7 +1037,12 @@ te_barbarians.5 = {
                     duration = 7280
                 }
             }
-        }    
+            set_global_variable = huns_fourth_wave
+        }      
+    }
+
+    after = {
+            
     }
 }
 
