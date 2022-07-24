@@ -151,7 +151,7 @@
 						}
 					}
 					scope:new_ERE = {
-						#change_country_tag = ERE
+						change_country_tag = ERE
 						#set_capital = 1453 # Constantinople
 						#hidden_effect = {
 						#	p:1453.state = {
@@ -489,7 +489,7 @@
 						}
 					}
 					scope:new_WRE = {
-						#change_country_tag = WRE
+						change_country_tag = WRE
 						#set_capital = 1 # Rome
 						#hidden_effect = {
 						#	capital_scope.state = {
@@ -597,7 +597,7 @@
 					}
 				}	
 				
-				change_country_tag = ERE
+				#change_country_tag = ERE
 				change_country_flag = ERE
 				change_country_color = "eastern_roman_color"
 				change_country_name = "ERE"
