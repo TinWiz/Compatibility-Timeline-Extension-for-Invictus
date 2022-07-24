@@ -105,15 +105,37 @@ te_barbarians.1 = {
                 NOR = {
                     p:5142 = {
                         any_neighbor_province = {
-                            owner = {
-                                country_culture_group = germanic
+                            AND = {
+                                exists = owner 
+                                owner = {
+                                    AND = {
+                                        country_culture_group = germanic
+                                        NOR = {
+                                            tag = BAR
+                                            tag = REB
+                                            tag = PIR
+                                            tag = MER
+                                        }
+                                    }    
+                                } 
                             }
                         }
                     }
                     p:5143 = {
                         any_neighbor_province = {
-                            owner = {
-                                country_culture_group = germanic
+                            AND = {
+                                exists = owner 
+                                owner = {
+                                    AND = {
+                                        country_culture_group = germanic
+                                        NOR = {
+                                            tag = BAR
+                                            tag = REB
+                                            tag = PIR
+                                            tag = MER
+                                        }
+                                    }    
+                                } 
                             }
                         }
                     }
@@ -379,10 +401,21 @@ te_barbarians.12 = {
                 NOR = {
                     country_culture_group = germanic
                     p:5142 = {
-                        any_neighbor_province = { 
-                            owner = {
-                                country_culture_group = germanic
-                            } 
+                        any_neighbor_province = {
+                            AND = {
+                                exists = owner 
+                                owner = {
+                                    AND = {
+                                        country_culture_group = germanic
+                                        NOR = {
+                                            tag = BAR
+                                            tag = REB
+                                            tag = PIR
+                                            tag = MER
+                                        }
+                                    }    
+                                } 
+                            }    
                         }
                     }
                 }
@@ -505,15 +538,37 @@ te_barbarians.12 = {
                 NOR = {
                     p:5142 = {
                         any_neighbor_province = {
-                            owner = {
-                                country_culture_group = germanic
+                            AND = {
+                                exists = owner 
+                                owner = {
+                                    AND = {
+                                        country_culture_group = germanic
+                                        NOR = {
+                                            tag = BAR
+                                            tag = REB
+                                            tag = PIR
+                                            tag = MER
+                                        }
+                                    }    
+                                } 
                             }
                         }
                     }
                     p:5143 = {
                         any_neighbor_province = {
-                            owner = {
-                                country_culture_group = germanic
+                            AND = {
+                                exists = owner 
+                                owner = {
+                                    AND = {
+                                        country_culture_group = germanic
+                                        NOR = {
+                                            tag = BAR
+                                            tag = REB
+                                            tag = PIR
+                                            tag = MER
+                                        }
+                                    }    
+                                } 
                             }
                         }
                     }
@@ -552,15 +607,37 @@ te_barbarians.12 = {
                     NOR = {
                         p:5142 = {
                             any_neighbor_province = {
-                                owner = {
-                                    country_culture_group = germanic
+                                AND = {
+                                    exists = owner 
+                                    owner = {
+                                        AND = {
+                                            country_culture_group = germanic
+                                            NOR = {
+                                                tag = BAR
+                                                tag = REB
+                                                tag = PIR
+                                                tag = MER
+                                            }
+                                        }    
+                                    } 
                                 }
                             }
                         }
                         p:5143 = {
                             any_neighbor_province = {
-                                owner = {
-                                    country_culture_group = germanic
+                                AND = {
+                                    exists = owner 
+                                    owner = {
+                                        AND = {
+                                            country_culture_group = germanic
+                                            NOR = {
+                                                tag = BAR
+                                                tag = REB
+                                                tag = PIR
+                                                tag = MER
+                                            }
+                                        }    
+                                    } 
                                 }
                             }
                         }
@@ -570,7 +647,7 @@ te_barbarians.12 = {
                     } 
                 }       
             }
-            p:5143 = {
+            p:5142 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
