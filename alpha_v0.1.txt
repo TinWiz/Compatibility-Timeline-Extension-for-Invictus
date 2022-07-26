@@ -12,6 +12,13 @@ Alpha — v0.1 [changes from Simple I:R Timeline Extender version 1.0.1-iii]
 		+Invictus v1.4 bug is causing these impassables to stop considering adjacent territories?
 	-added p:5299 [Carpathian impassable] barbarian stronghold
 
+*added land_morale_recovery = 0.25 for furious barbarian hordes
+
+*added germanic_migrations modifier to buff late-timeline Germanic tribes
+	-added to countries in te_migrations.1 and new hidden event te_migrations.10 
+
+*added ai_plan_goals te_historic_country te_has_germanisch_wanderung_aimod for germanic migratory tribes in the last century of the timeline to increase aggressiveness and migration_chance
+
 *edited IRCK3_scripted_triggers for is_in_pars_occidentalis_inv_trigger
 	-added is_in_region = borysthenia_region
 		+split off western areas
