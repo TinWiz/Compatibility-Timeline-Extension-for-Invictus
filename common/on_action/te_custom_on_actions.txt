@@ -445,6 +445,7 @@ te_custom_on_action_yearly_country_migrations = {
 
 	events = {
 		te_migrations.1
+		te_migrations.10
 		te_migrations.3
 	}
 
