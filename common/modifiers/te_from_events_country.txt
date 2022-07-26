@@ -12,6 +12,37 @@
 	war_exhaustion = 0.1
 }
 
+germanisch_wanderung = { 
+	global_tribesmen_output = 0.2
+	## Repeat Invictus base modifiers for tribal_chiefdom
+	levy_size_multiplier = 0.175 # +0.05 added from Antagonist below
+	global_manpower_modifier = 0.9 # +0.5 added from Very hard AI below
+	manpower_recovery_speed = 0.3 # +0.1 added from Antagonist below
+	land_morale_recovery = 0.05
+	land_morale = 0.15
+
+	## Very hard AI mods +50% from Antagonist cumulative bonus
+	land_morale_modifier = 0.15
+	naval_morale_modifier = 0.15
+	global_tax_modifier = 0.75 
+	#global_manpower_modifier = 0.75 # Added above
+	ruler_popularity_gain = 1.5
+	monthly_tyranny = -0.06
+	#agressive_expansion_monthly_change = -0.03 # Added below
+	global_monthly_state_loyalty = 0.015
+
+	happiness_for_same_culture_modifier = 0.2 # +0.025 added from Antagonist below
+	#civil_war_threshold = 0.15 # Added below
+
+	## Antagonist mods
+	civil_war_threshold = 0.25 # +0.1 added from Very hard AI above
+	#happiness_for_same_culture_modifier = 0.025 # Added above
+	agressive_expansion_monthly_change = -0.23 # +0.03 added from Very hard AI above
+	#levy_size_multiplier = 0.05 # Added above
+	#manpower_recovery_speed = 0.1 # Added above
+	war_exhaustion = -0.1
+}
+
 late_antiquity_pop_decline_central = {
 	global_population_growth = -0.22
 	global_monthly_civilization = -0.02
