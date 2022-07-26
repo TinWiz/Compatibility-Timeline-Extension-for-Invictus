@@ -64,7 +64,7 @@ te_barbarians.1 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 60
+                            count < 120
                         }
                     }    
                     create_pop = tribesmen
@@ -74,7 +74,7 @@ te_barbarians.1 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 60
+                            count < 120
                         }
                     }    
                     create_pop = tribesmen
@@ -105,15 +105,37 @@ te_barbarians.1 = {
                 NOR = {
                     p:5142 = {
                         any_neighbor_province = {
-                            owner = {
-                                country_culture_group = germanic
+                            AND = {
+                                exists = owner 
+                                owner = {
+                                    AND = {
+                                        country_culture_group = germanic
+                                        NOR = {
+                                            tag = BAR
+                                            tag = REB
+                                            tag = PIR
+                                            tag = MER
+                                        }
+                                    }    
+                                } 
                             }
                         }
                     }
                     p:5143 = {
                         any_neighbor_province = {
-                            owner = {
-                                country_culture_group = germanic
+                            AND = {
+                                exists = owner 
+                                owner = {
+                                    AND = {
+                                        country_culture_group = germanic
+                                        NOR = {
+                                            tag = BAR
+                                            tag = REB
+                                            tag = PIR
+                                            tag = MER
+                                        }
+                                    }    
+                                } 
                             }
                         }
                     }
@@ -126,7 +148,7 @@ te_barbarians.1 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 60
+                            count < 120
                         }
                     }    
                     create_pop = tribesmen
@@ -136,7 +158,7 @@ te_barbarians.1 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 60
+                            count < 120
                         }
                     }    
                     create_pop = tribesmen
@@ -203,7 +225,7 @@ te_barbarians.10 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 120
+                            count < 180
                         }
                     }    
                     create_pop = tribesmen
@@ -213,7 +235,7 @@ te_barbarians.10 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 120
+                            count < 180
                         }
                     }    
                     create_pop = tribesmen
@@ -293,7 +315,7 @@ te_barbarians.11 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 180
+                            count < 360
                         }
                     }    
                     create_pop = tribesmen
@@ -303,7 +325,7 @@ te_barbarians.11 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 180
+                            count < 360
                         }
                     }    
                     create_pop = tribesmen
@@ -334,7 +356,7 @@ te_barbarians.11 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 180
+                            count < 360
                         }
                     }    
                     create_pop = tribesmen
@@ -344,7 +366,7 @@ te_barbarians.11 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 180
+                            count < 360
                         }
                     }    
                     create_pop = tribesmen
@@ -379,10 +401,21 @@ te_barbarians.12 = {
                 NOR = {
                     country_culture_group = germanic
                     p:5142 = {
-                        any_neighbor_province = { 
-                            owner = {
-                                country_culture_group = germanic
-                            } 
+                        any_neighbor_province = {
+                            AND = {
+                                exists = owner 
+                                owner = {
+                                    AND = {
+                                        country_culture_group = germanic
+                                        NOR = {
+                                            tag = BAR
+                                            tag = REB
+                                            tag = PIR
+                                            tag = MER
+                                        }
+                                    }    
+                                } 
+                            }    
                         }
                     }
                 }
@@ -505,15 +538,37 @@ te_barbarians.12 = {
                 NOR = {
                     p:5142 = {
                         any_neighbor_province = {
-                            owner = {
-                                country_culture_group = germanic
+                            AND = {
+                                exists = owner 
+                                owner = {
+                                    AND = {
+                                        country_culture_group = germanic
+                                        NOR = {
+                                            tag = BAR
+                                            tag = REB
+                                            tag = PIR
+                                            tag = MER
+                                        }
+                                    }    
+                                } 
                             }
                         }
                     }
                     p:5143 = {
                         any_neighbor_province = {
-                            owner = {
-                                country_culture_group = germanic
+                            AND = {
+                                exists = owner 
+                                owner = {
+                                    AND = {
+                                        country_culture_group = germanic
+                                        NOR = {
+                                            tag = BAR
+                                            tag = REB
+                                            tag = PIR
+                                            tag = MER
+                                        }
+                                    }    
+                                } 
                             }
                         }
                     }
@@ -552,15 +607,37 @@ te_barbarians.12 = {
                     NOR = {
                         p:5142 = {
                             any_neighbor_province = {
-                                owner = {
-                                    country_culture_group = germanic
+                                AND = {
+                                    exists = owner 
+                                    owner = {
+                                        AND = {
+                                            country_culture_group = germanic
+                                            NOR = {
+                                                tag = BAR
+                                                tag = REB
+                                                tag = PIR
+                                                tag = MER
+                                            }
+                                        }    
+                                    } 
                                 }
                             }
                         }
                         p:5143 = {
                             any_neighbor_province = {
-                                owner = {
-                                    country_culture_group = germanic
+                                AND = {
+                                    exists = owner 
+                                    owner = {
+                                        AND = {
+                                            country_culture_group = germanic
+                                            NOR = {
+                                                tag = BAR
+                                                tag = REB
+                                                tag = PIR
+                                                tag = MER
+                                            }
+                                        }    
+                                    } 
                                 }
                             }
                         }
@@ -570,7 +647,7 @@ te_barbarians.12 = {
                     } 
                 }       
             }
-            p:5143 = {
+            p:5142 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
@@ -944,9 +1021,28 @@ te_barbarians.5 = {
                     name = "barbarian_invasion_war"
                     duration = 7280
                 }
-            } 
+            }    
+            p:5299 = {
+                while = {
+                    limit = {
+                        any_pops_in_province = {
+                            count < 360
+                        }
+                    }
+                    create_pop = tribesmen
+                }
+                remove_province_modifier = barbarian_invasion_skirmish  
+                add_province_modifier = {
+                    name = "barbarian_invasion_war"
+                    duration = 7280
+                }
+            }
             set_global_variable = huns_fourth_wave
         }      
+    }
+
+    after = {
+            
     }
 }
 
@@ -1216,10 +1312,10 @@ te_barbarians.53 = {
         has_global_variable = huns_second_wave
         OR = {
             primary_culture = hunnic
-            any_country_culture = {
-                culture = culture:hunnic
-                is_integrated = yes       
-            }
+            #any_country_culture = {
+            #    culture = culture:hunnic
+            #    is_integrated = yes       
+            #}
             current_ruler = {
                 has_culture = hunnic
             }
@@ -1229,6 +1325,7 @@ te_barbarians.53 = {
             any_neighbor_province = {
                 AND = {
                     OR = {
+                        province_id = 5299
                         province_id = 5970
                         province_id = 5971
                         province_id = 5981
@@ -1246,6 +1343,45 @@ te_barbarians.53 = {
     }
 
     option = {
+        if = {
+            limit = {
+                any_owned_province = {
+                    AND = {
+                        num_of_tribesmen > 100
+                        any_neighbor_province = {
+                            AND = { 
+                                province_id = 5299
+                                has_province_modifier = barbarian_invasion_war
+                            }    
+                        }
+                    }
+                }    
+            }
+            p:5299 = {
+                remove_province_modifier = barbarian_invasion_war
+                add_permanent_province_modifier = {
+                    name = "barbarian_invasion_skirmish"
+                }
+            }    
+        }
+        if = {
+            limit = {
+                any_owned_province = {
+                    AND = {
+                        num_of_tribesmen > 200
+                        any_neighbor_province = {
+                            AND = { 
+                                province_id = 5299
+                                has_province_modifier = barbarian_invasion_skirmish
+                            }    
+                        }
+                    }
+                }    
+            }
+            p:5299 = {
+                remove_province_modifier = barbarian_invasion_skirmish
+            }    
+        }
         if = {
             limit = {
                 any_owned_province = {
@@ -1374,10 +1510,10 @@ te_barbarians.54 = {
         has_global_variable = huns_fourth_wave
         OR = {
             country_culture_group = bactrian
-            any_country_culture = {
-                culture = culture:huna
-                is_integrated = yes
-            }    
+            #any_country_culture = {
+            #    culture = culture:huna
+            #    is_integrated = yes
+            #}    
             current_ruler = {
                 has_culture = huna
             }

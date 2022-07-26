@@ -10,6 +10,7 @@ Alpha — v0.1 [changes from Simple I:R Timeline Extender version 1.0.1-iii]
 		+increased tribesmen pop count for all strongholds
 	-adding tribesmen pops directly to strongholds for barbarian invasion events
 		+Invictus v1.4 bug is causing these impassables to stop considering adjacent territories?
+	-added p:5299 [Carpathian impassable] barbarian stronghold
 
 *edited IRCK3_scripted_triggers for is_in_pars_occidentalis_inv_trigger
 	-added is_in_region = borysthenia_region
@@ -29,6 +30,7 @@ Alpha — v0.1 [changes from Simple I:R Timeline Extender version 1.0.1-iii]
 *edited l6_christian.5 #Gentiles Convert - provinces next to/with Christians
 	-added is_in_region = borysthenia_region to NOR triggers
 *added lower_nubia_region to te_christianity.91 conversions event
+*added parisia_area to te_christianity.92
 
 *edited Manicheaism conversion events
 	-added country_culture_group = baltic & religion = matrist_religion & is_in_region = borysthenia_region to NOR trigger for te_manichees.1 for inception of Manichaeism
@@ -39,5 +41,9 @@ Alpha — v0.1 [changes from Simple I:R Timeline Extender version 1.0.1-iii]
 
 *added custom_on_action late_antiquity_deurbanization
 	-includes delay of between 1 and 364 days so events don't always trigger on same game date
+
+*added buildings\te_inv_default.txt
+	-restored defaults where Invictus lowered building cost or build time
+	-removed civilization boosts where Invictus raised or added these
 
 ##########

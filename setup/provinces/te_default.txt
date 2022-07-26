@@ -43,6 +43,17 @@
 	trade_goods=""
 }
 #
+5299=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="hunnic"
+	province_rank=""
+	religion="eastern_animism"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+#
 5380=
 {
 	barbarian_power=0
