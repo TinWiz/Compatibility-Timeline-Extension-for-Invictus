@@ -1,9 +1,0 @@
-te_has_germanisch_wanderung_aimod = {
-	trigger = {
-        current_date = 1129.6.21
-		has_country_modifier = germanisch_wanderung
-	}
-	aggressive = 200
-	migration_chance = 20
-	trustworthy = -20
-}
