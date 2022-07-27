@@ -31,7 +31,7 @@ germanisch_wanderung = {
 	#agressive_expansion_monthly_change = -0.03 # Added below
 	global_monthly_state_loyalty = 0.015
 
-	happiness_for_same_culture_modifier = 0.2 # +0.025 added from Antagonist below
+	happiness_for_same_culture_modifier = 0.25 # +0.025 added from Antagonist below
 	#civil_war_threshold = 0.15 # Added below
 
 	## Antagonist mods
