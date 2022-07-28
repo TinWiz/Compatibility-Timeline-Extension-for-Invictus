@@ -12,6 +12,6 @@ te_has_germanisch_wanderung_aimod = {
 		}
 	}
 	aggressive = 400
-	migration_chance = 40
+	migration_chance = 20
 	trustworthy = -40
 }
