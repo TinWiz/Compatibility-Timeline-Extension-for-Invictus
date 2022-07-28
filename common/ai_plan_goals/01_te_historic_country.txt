@@ -1,0 +1,17 @@
+te_has_germanisch_wanderung_aimod = {
+	trigger = {
+        	current_date > 1129.6.21
+		has_country_modifier = germanisch_wanderung
+		any_neighbour_country = {
+			AND = {
+				NOT = {
+					country_culture_group = germanic
+				}
+				rank = great_power
+			}
+		}
+	}
+	aggressive = 400
+	migration_chance = 20
+	trustworthy = -40
+}

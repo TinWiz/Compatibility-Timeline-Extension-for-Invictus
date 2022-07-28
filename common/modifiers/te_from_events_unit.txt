@@ -4,5 +4,6 @@
     discipline = 1.25
     experience_decay = -0.1
     land_morale_modifier = 1.75
+    land_morale_recovery = 0.25
     monthly_experience_gain = 0.2
 }

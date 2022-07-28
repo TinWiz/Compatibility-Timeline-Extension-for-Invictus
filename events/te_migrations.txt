@@ -50,7 +50,50 @@ te_migrations.1 = {
 		}
 	}
 
+	#option = {
+	#	if = {
+	#		limit = {
+	#			NOT = {
+	#				has_country_modifier = germanisch_wanderung
+	#			}
+	#		}
+	#		add_country_modifier = {
+	#			name = "germanisch_wanderung"
+	#			duration = -1
+	#		}
+	#	}
+	#}
+
 }
+
+te_migrations.10 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		current_date > 1129.6.21
+		country_culture_group = germanic
+		num_of_cities >= 1
+		OR = { 
+			government = tribal_federation
+			government = tribal_kingdom
+			government = tribal_chiefdom
+		}
+		#is_ai = yes # Why not give this to the player also?
+		NOT = {
+			has_country_modifier = germanisch_wanderung
+		}
+	}
+
+	immediate = {
+		add_country_modifier = {
+			name = "germanisch_wanderung"
+			duration = -1
+		}	
+	}
+
+}
+
 ##Foederati Events##
 te_migrations.2 = {
 	type = minor_country_event
