@@ -8,7 +8,8 @@ jobs:
         with:
           fetch-depth: 2
           submodules: recursive
-      - run: |
+      - name: "Download and run script"
+        run: |
           wget https://raw.githubusercontent.com/IhateTrains/braces-mismatch-finder/main/bracket_script.py &&
           echo "Script downloaded" &&
           python3 bracket_script.py
