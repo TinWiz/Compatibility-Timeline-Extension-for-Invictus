@@ -1,4 +1,4 @@
-on_game_initialized = {
+﻿on_game_initialized = {
 	on_actions = {
 		inv_te_on_game_initialized
 	}
