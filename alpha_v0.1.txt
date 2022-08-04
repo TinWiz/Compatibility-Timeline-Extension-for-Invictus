@@ -49,5 +49,8 @@ Alpha — v0.1 [changes from Simple I:R Timeline Extender version 1.0.1-iii]
 *added buildings\te_inv_default.txt
 	-restored defaults where Invictus lowered building cost or build time
 	-removed civilization boosts where Invictus raised or added these
+	
+*updated some localization
 
 ##########
+TO DO: Further testing with Invictus v1.4+
