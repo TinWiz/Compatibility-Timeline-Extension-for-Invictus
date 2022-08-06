@@ -53,9 +53,9 @@
 					capital_scope = { is_in_pars_occidentalis_inv_trigger = yes }
 				}
 				set_variable = western_roman_senior_pars
-				p:1453 = {
-					set_owned_by = ERE
-				}
+				#p:1453 = {
+				#	set_owned_by = ERE
+				#}
 				hidden_effect = {
 					p:1453 = { ## Constantinople
 						create_country = {
@@ -80,17 +80,17 @@
 					save_scope_as = new_ERE_ruler
 				}
 
-				scope:new_ERE_ruler = {
-					move_country = ERE
-					every_holdings = {
-						limit = { 
-							is_in_pars_occidentalis_inv_trigger = yes 
-						}
-						holding_owner = {
-							remove_holding = PREV	
-						}	
-					}
-				}
+				#scope:new_ERE_ruler = {
+				#	move_country = ERE
+				#	every_holdings = {
+				#		limit = { 
+				#			is_in_pars_occidentalis_inv_trigger = yes 
+				#		}
+				#		holding_owner = {
+				#			remove_holding = PREV	
+				#		}	
+				#	}
+				#}
 				
 				hidden_effect = {
 					scope:new_ERE_ruler = {
@@ -292,22 +292,6 @@
 							release_subject = PREV	
 						}
 					}
-					#every_owned_province = {
-					#	limit = { 
-					#		OR = {
-					#			#is_in_area = gaetulia_orientalis_area
-					#			province_id = 3195 
-					#			province_id = 3194 
-					#			province_id = 3196 
-					#			province_id = 3198 
-					#			province_id = 3199 
-					#			province_id = 3200 
-					#			province_id = 3201 
-					#			province_id = 3202
-					#		}
-					#	}	
-					#	set_owned_by = ROOT
-					#}
 					if = {
 						limit = {
 							has_country_modifier = embellished_temple_jupiter_optimus_maximus
@@ -633,22 +617,6 @@
 							release_subject = PREV	
 						}
 					}
-					#every_owned_province = {
-					#	limit = { 
-					#		OR = {
-					#			#is_in_area = gaetulia_orientalis_area
-					#			province_id = 3195 
-					#			province_id = 3194 
-					#			province_id = 3196 
-					#			province_id = 3198 
-					#			province_id = 3199 
-					#			province_id = 3200 
-					#			province_id = 3201 
-					#			province_id = 3202
-					#		}
-					#	}	
-					#	set_owned_by = scope:new_WRE
-					#}
 					if = {
 						limit = {
 							has_country_modifier = embellished_temple_jupiter_optimus_maximus
