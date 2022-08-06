@@ -31,6 +31,9 @@ Alpha — v0.1 [changes from Simple I:R Timeline Extender version 1.0.1-iii]
 		+also blocked lines to set capitals as set_state_capital
 	-added list of areas for africa_region and set_owned_by for either ROM or scope:new_WRE if senior_pars or junior_pars, respectively
 
+*added eastern borysthenia_region areas, dacia region and both sarmatia regions to central population decline events te_plagues.40 and te_plagues.41
+	-excluded from occident modifier events te_plagues.44 and te_plagues.45
+
 *deleted all references to germania_magna_region in IRCK3_scripted_triggers, l6_christian and te_manichees events
 	-now back to base-game name: germania_region
 
