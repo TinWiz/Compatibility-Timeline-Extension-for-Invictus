@@ -42,7 +42,7 @@ Alpha — v0.1 [changes from Simple I:R Timeline Extender version 1.0.1-iii]
 *added lower_nubia_region to te_christianity.91 conversions event
 *added parisia_area to te_christianity.92
 
-*edited Manicheaism conversion events
+*edited Manichaeism conversion events
 	-added country_culture_group = baltic & religion = matrist_religion & is_in_region = borysthenia_region to NOR trigger for te_manichees.1 for inception of Manichaeism
 	-added country_culture_group = baltic & religion = matrist_religion & is_in_region = borysthenia_region to NOR triggers for te_manichees.14 for spread of Manichaeism
 
