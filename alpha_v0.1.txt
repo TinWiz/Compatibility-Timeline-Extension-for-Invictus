@@ -1,59 +1,6 @@
-Alpha — v0.1 [changes from Simple I:R Timeline Extender version 1.0.1-iii]
+Alpha — v0.1.1
 
-*adjusted setup of impassable provinces in setup\provinces te_default.txt file
--removed adjustments of p:5975 and replaced with p:5981
-	+changed to hunnic culture and eastern_animism
-	+Invictus v1.4 reassigns p:5975 to Sudan Impassable barbarian stronghold at game setup!
-
-*adjusted Hunnic invasion events
-	-switched all references from p:5975 to p:5981
-		+increased tribesmen pop count for all strongholds
-	-adding tribesmen pops directly to strongholds for barbarian invasion events
-		+Invictus v1.4 bug is causing these impassables to stop considering adjacent territories?
-	-added p:5299 [Carpathian impassable] barbarian stronghold
-
-*added land_morale_recovery = 0.25 for furious barbarian hordes
-
-*added germanic_migrations modifier to buff late-timeline Germanic tribes
-	-added to countries in te_migrations.1 and new hidden event te_migrations.10 
-
-*added ai_plan_goal te_historic_country te_has_germanisch_wanderung_aimod for germanic migratory tribes in the last century of the timeline to increase aggressiveness and migration_chance if they border a non-germanic great_power
-
-*edited IRCK3_scripted_triggers for is_in_pars_occidentalis_inv_trigger
-	-added is_in_region = borysthenia_region
-		+split off western areas
-	-replaced is_in_region = africa_region with a list of areas in Invictus v1.4 africa_region (9 areas)
-	-replaced is_in_numidia_trigger = yes with list of areas in Invictus v1.4 numidia_region (8 areas)
-
-*edited IRCK3_decisions to divide Roman Empire
-	-removed entire divide_roman_empire decision for vanilla
-	-blocked lines #change_country_tag = ERE and #change_country_tag = WRE
-		+also blocked lines to set capitals as set_state_capital
-	-added list of areas for africa_region and set_owned_by for either ROM or scope:new_WRE if senior_pars or junior_pars, respectively
-
-*added eastern borysthenia_region areas, dacia region and both sarmatia regions to central population decline events te_plagues.40 and te_plagues.41
-	-excluded from occident modifier events te_plagues.44 and te_plagues.45
-
-*deleted all references to germania_magna_region in IRCK3_scripted_triggers, l6_christian and te_manichees events
-	-now back to base-game name: germania_region
-
-*edited l6_christian.5 #Gentiles Convert - provinces next to/with Christians
-	-added is_in_region = borysthenia_region to NOR triggers
-*added lower_nubia_region to te_christianity.91 conversions event
-*added parisia_area to te_christianity.92
-
-*edited Manichaeism conversion events
-	-added country_culture_group = baltic & religion = matrist_religion & is_in_region = borysthenia_region to NOR trigger for te_manichees.1 for inception of Manichaeism
-	-added country_culture_group = baltic & religion = matrist_religion & is_in_region = borysthenia_region to NOR triggers for te_manichees.14 for spread of Manichaeism
-
-*added custom_on_action late_antiquity_deurbanization
-	-includes delay of between 1 and 364 days so events don't always trigger on same game date
-
-*added buildings\te_inv_default.txt
-	-restored defaults where Invictus lowered building cost or build time
-	-removed civilization boosts where Invictus raised or added these
-	
-*updated some localization
+*added Imperator: Invictus as a dependency in the mod file
 
 ##########
 TO DO: Further testing with Invictus v1.4+
