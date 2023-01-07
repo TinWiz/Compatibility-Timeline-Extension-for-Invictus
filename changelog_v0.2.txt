@@ -1,0 +1,24 @@
+Beta — v0.2
+
+*added Imperator: Invictus as a dependency in the mod file
+
+*experimented with levy_size_multiplier maluses to late_antiquity_pop_decline modifiers
+	-also with cursed_by_elohim country modifier
+*added army_maintenance_cost and navy_maintenance_cost modifiers to late_antiquity_pop_decline modifiers
+	-army and navy sizes declined historically as they became more difficult to maintain
+	-should reduce number of legions in the late game
+
+*buffed germanic migrations modifier
+	-more in line with very hard AI, plus more added morale
+
+*added event te_migrations.11 to remove germanic migrations modifier for a country that is no longer a tribe (or no longer germanic)
+
+*added event te_barbarians.55
+	-for AI countries, if a province has more than 300 tribesmen (because of barbarian strongholds) check for dominant_province_culture and if it is huna, hunnic, istvaeonic or irminonic, set ruler and primary culture to that culture
+	-should work in tandem with other te_barbarians.5* events to make invasions have more of an effect on the map, and prevent some provinces from getting massive populations from settling tribesmen
+	-added in te_custom_on_action_yearly_country_tribesmen 
+
+*corrected te_migrations.2 line 282 religion effect to set_country_religion 
+
+##########
+TO DO: Further testing with Invictus v1.4+
