@@ -24,7 +24,7 @@ Beta — v0.2
 	-should work in tandem with other te_barbarians.5* events to make invasions have more of an effect on the map, and prevent some provinces from getting massive populations from settling tribesmen
 	-added in te_custom_on_action_yearly_country_tribesmen 
 
-*corrected te_migrations.2 line 282 religion effect to set_country_religion 
+*corrected te_migrations.2 line 307 religion effect to set_country_religion 
 
 ##########
 TO DO: Further testing with Invictus v1.5+
