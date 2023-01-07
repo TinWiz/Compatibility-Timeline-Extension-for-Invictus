@@ -94,6 +94,31 @@ te_migrations.10 = {
 
 }
 
+te_migrations.11 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		current_date > 1129.7.21
+		num_of_cities >= 1
+		has_country_modifier = germanisch_wanderung
+		NOT = { 
+			AND = {
+				OR = {
+					government = tribal_federation
+					government = tribal_kingdom
+					government = tribal_chiefdom
+				}
+				country_culture_group = germanic
+			}	
+		}
+	}
+
+	immediate = {
+		remove_country_modifier = germanisch_wanderung	
+	}
+}
+
 ##Foederati Events##
 te_migrations.2 = {
 	type = minor_country_event
@@ -279,7 +304,7 @@ te_migrations.2 = {
 			scope:foedus_target_province = {
 				create_country = {
 					hidden_effect = {
-						religion = scope:foedus_target_country.religion
+						set_country_religion = scope:foedus_target_country.religion
 						change_government = tribal_kingdom
 						set_as_ruler = scope:foedus_target_chief
 					}	
