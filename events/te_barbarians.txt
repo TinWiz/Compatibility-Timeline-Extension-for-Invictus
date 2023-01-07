@@ -1659,6 +1659,94 @@ te_barbarians.54 = {
         }
     }
 }
+
+te_barbarians.55 = {
+    type = country_event
+	hidden = yes
+
+    trigger = {
+        current_date > 1203.12.13
+        is_ai = yes
+        NOR = {
+            primary_culture = istvaeonic
+            primary_culture = irminonic
+            primary_culture = huna
+            primary_culture = hunnic    
+            current_ruler = {
+                NOR = {
+                    has_culture = huna
+                    has_culture = hunnic
+                    has_culture = istvaeonic
+                    has_culture = irminonic
+                }
+            }
+        }
+        num_of_cities > 1               
+        any_owned_province = {
+            AND = {
+                OR = {
+                    dominant_province_culture = huna
+                    dominant_province_culture = hunnic
+                    dominant_province_culture = istvaeonic
+                    dominant_province_culture = irminonic
+                }
+                num_of_tribesmen > 300
+            }
+        }
+    }
+
+    option = {
+        random_owned_province = {
+            limit = {
+                num_of_tribesmen > 300
+            }
+            if = {
+                limit = {
+                    dominant_province_culture = irminonic
+                }
+                owner = {
+                    current_ruler = {
+                        set_culture = irminonic
+                    }
+                    set_primary_culture = irminonic
+                }
+            }
+            else_if = {
+                limit = {
+                    dominant_province_culture = istvaeonic
+                }
+                owner = {
+                    current_ruler = {
+                        set_culture = istvaeonic
+                    }
+                    set_primary_culture = istvaeonic
+                }
+            }
+            else_if = {
+                limit = {
+                    dominant_province_culture = hunnic
+                }
+                owner = {
+                    current_ruler = {
+                        set_culture = hunnic
+                    }
+                    set_primary_culture = hunnic
+                }
+            }
+            else_if = {
+                limit = {
+                    dominant_province_culture = huna
+                }
+                owner = {
+                    current_ruler = {
+                        set_culture = huna
+                    }
+                    set_primary_culture = huna
+                }
+            }
+        }
+    }
+}    
 ##################################################################
 
 te_barbarians.60 = {

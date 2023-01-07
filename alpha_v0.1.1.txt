@@ -1,6 +1,0 @@
-Alpha — v0.1.1
-
-*added Imperator: Invictus as a dependency in the mod file
-
-##########
-TO DO: Further testing with Invictus v1.4+
