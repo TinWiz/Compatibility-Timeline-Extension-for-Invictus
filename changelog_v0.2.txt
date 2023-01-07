@@ -1,6 +1,9 @@
 Beta — v0.2
 
 *added Imperator: Invictus as a dependency in the mod file
+*updated setup in countries.txt file
+*blocked chefia_area in IRCK3 is_in_pars_occidentalis_inv_trigger
+	-removed from regions in Invictus v1.5
 
 *experimented with levy_size_multiplier maluses to late_antiquity_pop_decline modifiers
 	-also with cursed_by_elohim country modifier
@@ -13,6 +16,9 @@ Beta — v0.2
 
 *added event te_migrations.11 to remove germanic migrations modifier for a country that is no longer a tribe (or no longer germanic)
 
+*added events te_barbarians.13–15 if Scandinavian provinces next to p:5952 are overtaken by a non-germanic country after 1054 AUC / 300 CE
+	-should add some challenge for AI or a player to hold this area as non-Germanic
+
 *added event te_barbarians.55
 	-for AI countries, if a province has more than 300 tribesmen (because of barbarian strongholds) check for dominant_province_culture and if it is huna, hunnic, istvaeonic or irminonic, set ruler and primary culture to that culture
 	-should work in tandem with other te_barbarians.5* events to make invasions have more of an effect on the map, and prevent some provinces from getting massive populations from settling tribesmen
@@ -21,4 +27,4 @@ Beta — v0.2
 *corrected te_migrations.2 line 282 religion effect to set_country_religion 
 
 ##########
-TO DO: Further testing with Invictus v1.4+
+TO DO: Further testing with Invictus v1.5+
