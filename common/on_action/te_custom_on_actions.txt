@@ -356,6 +356,7 @@ te_custom_on_action_yearly_country_tribesmen = {
 		te_barbarians.52
 		te_barbarians.53
 		te_barbarians.54
+		te_barbarians.55
 	}
 
 }
@@ -446,6 +447,7 @@ te_custom_on_action_yearly_country_migrations = {
 	events = {
 		te_migrations.1
 		te_migrations.10
+		te_migrations.11
 		te_migrations.3
 	}
 
