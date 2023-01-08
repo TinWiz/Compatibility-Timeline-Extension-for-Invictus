@@ -821,7 +821,10 @@ te_barbarians.15 = {
     }
     option = {
         scope:germanic_invaded_country = {
-            set_primary_culture = scope:germanic_invaded_province.dominant_province_culture
+            set_primary_culture_cleanup_effect = {
+                NEW_PRIMARY_CULTURE = scope:germanic_invaded_province.dominant_province_culture
+                MAKE_OLD_CULTURE_INTEGRATED = no
+            }    
         }
     }
 
@@ -1870,7 +1873,10 @@ te_barbarians.55 = {
                     current_ruler = {
                         set_culture = irminonic
                     }
-                    set_primary_culture = irminonic
+                    set_primary_culture_cleanup_effect = {
+                        NEW_PRIMARY_CULTURE = irminonic
+                        MAKE_OLD_CULTURE_INTEGRATED = yes
+                    }    
                 }
             }
             else_if = {
@@ -1881,7 +1887,10 @@ te_barbarians.55 = {
                     current_ruler = {
                         set_culture = istvaeonic
                     }
-                    set_primary_culture = istvaeonic
+                    set_primary_culture_cleanup_effect = {
+                        NEW_PRIMARY_CULTURE = istvaeonic
+                        MAKE_OLD_CULTURE_INTEGRATED = yes
+                    }    
                 }
             }
             else_if = {
@@ -1892,7 +1901,10 @@ te_barbarians.55 = {
                     current_ruler = {
                         set_culture = hunnic
                     }
-                    set_primary_culture = hunnic
+                    set_primary_culture_cleanup_effect = {
+                        NEW_PRIMARY_CULTURE = hunnic
+                        MAKE_OLD_CULTURE_INTEGRATED = no
+                    }    
                 }
             }
             else_if = {
@@ -1903,7 +1915,10 @@ te_barbarians.55 = {
                     current_ruler = {
                         set_culture = huna
                     }
-                    set_primary_culture = huna
+                    set_primary_culture_cleanup_effect = {
+                        NEW_PRIMARY_CULTURE = huna
+                        MAKE_OLD_CULTURE_INTEGRATED = no
+                    }    
                 }
             }
         }
