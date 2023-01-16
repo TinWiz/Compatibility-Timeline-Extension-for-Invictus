@@ -2,6 +2,7 @@
 	#####FOR INVICTUS MAP CHANGES — USES is_in_pars_occidentalis_inv_trigger#####
 	divide_roman_empire_invictus = { # Divide the Roman Empire - East-West 'Theodosius' division
 		potential = {
+			NOT = { has_global_variable = roman_empire_divided }
 			has_global_variable = is_playing_invictus
 			current_date >= 1148.1.1 # Historical date 1148.1.17
 			num_of_cities >= 2
@@ -165,7 +166,7 @@
 						set_as_ruler = scope:new_ERE_ruler
 						while = {
 							limit = {
-								civic_tech < 50
+								civic_tech < 40
 							}
 							add_research = {
 								technology = civic_tech
@@ -173,13 +174,13 @@
 									add = 1
 									multiply = 100
 									min = 100
-									max = 5000
+									max = 4000
 								}	
 							}
 						}
 						while = {
 							limit = {
-								military_tech < 50 
+								military_tech < 40 
 							}
 							add_research = {
 								technology = military_tech
@@ -187,13 +188,13 @@
 									add = 1
 									multiply = 100
 									min = 100
-									max = 5000
+									max = 4000
 								}	
 							}
 						}
 						while = {
 							limit = {
-								oratory_tech < 50
+								oratory_tech < 40
 							}
 							add_research = {
 								technology = oratory_tech
@@ -201,13 +202,13 @@
 									add = 1
 									multiply = 100
 									min = 100
-									max = 5000
+									max = 4000
 								}
 							}
 						}
 						while = {
 							limit = {
-								religious_tech < 50
+								religious_tech < 40
 							}
 							add_research = {
 								technology = religious_tech
@@ -215,7 +216,7 @@
 									add = 1
 									multiply = 100
 									min = 100
-									max = 5000
+									max = 4000
 								}
 							}
 						}
@@ -487,7 +488,7 @@
 						set_as_ruler = scope:new_WRE_ruler
 						while = {
 							limit = {
-								civic_tech < 40
+								civic_tech < 35
 							}
 							add_research = {
 								technology = civic_tech
@@ -495,13 +496,13 @@
 									add = 1
 									multiply = 100
 									min = 100
-									max = 4000
+									max = 3500
 								}	
 							}
 						}
 						while = {
 							limit = {
-								military_tech < 40 
+								military_tech < 35 
 							}
 							add_research = {
 								technology = military_tech
@@ -509,13 +510,13 @@
 									add = 1
 									multiply = 100
 									min = 100
-									max = 4000
+									max = 3500
 								}	
 							}
 						}
 						while = {
 							limit = {
-								oratory_tech < 40
+								oratory_tech < 35
 							}
 							add_research = {
 								technology = oratory_tech
@@ -523,13 +524,13 @@
 									add = 1
 									multiply = 100
 									min = 100
-									max = 4000
+									max = 3500
 								}
 							}
 						}
 						while = {
 							limit = {
-								religious_tech < 40
+								religious_tech < 35
 							}
 							add_research = {
 								technology = religious_tech
@@ -537,7 +538,7 @@
 									add = 1
 									multiply = 100
 									min = 100
-									max = 4000
+									max = 3500
 								}
 							}
 						}
