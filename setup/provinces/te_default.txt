@@ -65,6 +65,17 @@
 	trade_goods="silk"
 }
 #
+5952=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="scandian"
+	province_rank=""
+	religion="germanic_religion"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+#
 5970=
 {
 	barbarian_power=0
