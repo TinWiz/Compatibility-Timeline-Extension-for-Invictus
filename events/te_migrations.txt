@@ -71,7 +71,7 @@ te_migrations.10 = {
 	hidden = yes
 
 	trigger = {
-		current_date > 1129.6.21
+		current_date > 1128.6.28 #375 CE
 		country_culture_group = germanic
 		num_of_cities >= 1
 		OR = { 
@@ -304,7 +304,7 @@ te_migrations.2 = {
 			scope:foedus_target_province = {
 				create_country = {
 					hidden_effect = {
-						set_country_religion = scope:foedus_target_country.religion
+						#set_country_religion = scope:foedus_target_country.religion
 						change_government = tribal_kingdom
 						set_as_ruler = scope:foedus_target_chief
 					}	

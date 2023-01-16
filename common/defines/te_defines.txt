@@ -3,6 +3,17 @@
 }
 
 NCountry = {
+	#INNOVATIONS_PER_TECHLEVEL = 0.75 #lowered from 1.00? Not sure if this rounds up anyway
+
+	TECH_ENTRY_YEARS = 20 #raised from 16
+	TECH_AHEAD_OF_TIME = -0.15 #lowered from -0.12
+	TECH_BEHIND_OF_TIME = -0.15 #lowered from -0.12
+
 	CIVIL_WAR_STATES_THRESHOLD = 2
 	CIVIL_WAR_CITIES_THRESHOLD = 4
 }
+
+NGreatWork = {	
+	#GW_BASE_CONSTRUCTION_SPEED = 1
+	GW_WORK_COST_SCALEFACTOR = 2 #raised from 1
+}	
