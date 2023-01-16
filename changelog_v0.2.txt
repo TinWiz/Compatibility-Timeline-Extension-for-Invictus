@@ -1,4 +1,4 @@
-Beta — v0.2
+Beta — v0.2.0.1
 
 *added Imperator: Invictus as a dependency in the mod file
 *updated setup in countries.txt file
@@ -38,6 +38,7 @@ Beta — v0.2
 	-should work in tandem with other te_barbarians.5* events to make invasions have more of an effect on the map, and prevent some provinces from getting massive populations from settling tribesmen
 	-added in te_custom_on_action_yearly_country_tribesmen 
 	-fixed set_primary_culture to set_primary_culture_cleanup_effect
+	-corrected second NOR in trigger to OR
 *edited event te_barbarians.53 to add don_river_area provinces for removing barbarian stronghold on province_id 5970
 	-all provinces are next to the don_river_area and do not neighbor the stronghold directly, causing removal to fail
 *added event te_barbarians.98 to cleanup any strongholds over Pontic Steppe that might be added and left running after fourth hunnic wave
