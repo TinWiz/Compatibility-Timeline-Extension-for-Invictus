@@ -99,6 +99,9 @@ te_plagues.11 = {
 			}
 			has_variable = antonine_plague_country	
 		}
+		any_owned_province = {
+			total_population >= 20
+		}
 	}
 
 	immediate = {
@@ -245,6 +248,9 @@ te_plagues.21 = {
 				owner = root
 			}
 		}
+		any_owned_province = {
+			total_population >= 30
+		}
 	}
 
 	immediate = {
@@ -308,6 +314,7 @@ te_plagues.30 = { #Central add
 				is_in_pars_occidentalis_trigger = yes
 			}
 			tag = MRY
+			tag = BHA
 		}	
 		NOR = {
 			country_culture_group = germanic
@@ -377,6 +384,7 @@ te_plagues.31 = { #Central remove
 					is_in_pars_occidentalis_trigger = yes
 				}
 				tag = MRY
+				tag = BHA
 			}	
 			AND = {	
 				current_date > 1104.4.30
@@ -511,6 +519,7 @@ te_plagues.34 = { #orient add
 				has_variable = eastern_roman_senior_pars
 			}
 			tag = MRY
+			tag = BHA
 		}
 	}
 
@@ -557,6 +566,7 @@ te_plagues.35 = { #orient remove
 				has_variable = eastern_roman_senior_pars
 			}
 			tag = MRY
+			tag = BHA
 		}
 		has_country_modifier = late_antiquity_pop_decline_orient
 		NOT = {
@@ -598,6 +608,7 @@ te_plagues.40 = { #Central add
 				}
 			}		
 			tag = MRY
+			tag = BHA
 		}	
 		NOR = {
 			country_culture_group = germanic
@@ -679,6 +690,7 @@ te_plagues.41 = { #Central remove
 					}
 				}
 				tag = MRY
+				tag = BHA
 			}	
 			AND = {	
 				current_date > 1104.4.30
@@ -821,6 +833,7 @@ te_plagues.44 = { #orient add
 				has_variable = eastern_roman_senior_pars
 			}
 			tag = MRY
+			tag = BHA
 		}
 	}
 
@@ -878,6 +891,7 @@ te_plagues.45 = { #orient remove
 				has_variable = eastern_roman_senior_pars
 			}
 			tag = MRY
+			tag = BHA
 		}
 		has_country_modifier = late_antiquity_pop_decline_orient
 		NOT = {
