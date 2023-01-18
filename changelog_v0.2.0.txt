@@ -28,7 +28,6 @@ Beta — v0.2.0
 
 *added barbarian_fury_discipline country modifier for discipline 0.05, siege_ability 0.1 and siege_engineers 1
 	-added to event te_barbarians.50
-		+added 1 siege_engineers to barbarian_fury_rage unit modifier
 *added events te_barbarians.13–15 if Scandinavian provinces next to p:5952 are overtaken by a non-germanic country after 1054 AUC / 300 CE
 	-should add some challenge for AI or a player to hold this area as non-Germanic
 	-added in events under te_custom_on_action_yearly_country_barbarians
