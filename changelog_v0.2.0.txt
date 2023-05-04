@@ -1,58 +1,8 @@
-Beta — v0.2.0
+Gamma — v0.3.0
 
-*added Imperator: Invictus as a dependency in the mod file
-*updated setup in countries.txt file
-*blocked chefia_area in IRCK3 is_in_pars_occidentalis_inv_trigger
-	-removed from regions in Invictus v1.5
-
-*added BHA tag for Bharatavarsha end game formable to late antiquity decline modifiers
-
-*added NOT has_global_variable roman_empire_divided check in potential for divide_roman_empire_invictus IRCK3 decision
-	-should not show up twice if severed half conquers other half!
-
-*experimented with levy_size_multiplier maluses to late_antiquity_pop_decline modifiers
-	-added to cursed_by_elohim country modifier
-*added army_maintenance_cost and navy_maintenance_cost modifiers to late_antiquity_pop_decline modifiers
-	-army and navy sizes declined historically as they became more difficult to maintain
-	-should reduce number of legions in the late game
-
-*added cyrenaica_region and lower_nubia_region for triggering st_mark theosis event
-	-lower_nubia_region added in Invictus v1.4
-
-*added province population checks to triggers for te_plagues.11 (Antonine plague) and te_plagues.21 (Cyprian plague) to avoid error log complaints of unset scope where no city of sufficient population is found in a country
-
-*buffed germanic migrations modifier
-	-more in line with very hard AI, plus more added morale
-*edited date for te_migrations.10 and 01_te_historic_country ai_plan_goal to start in 1128 AUC / 375 CE
-*added event te_migrations.11 to remove germanic migrations modifier for a country that is no longer a tribe (or no longer germanic)
-
-*added barbarian_fury_discipline country modifier for discipline 0.05, siege_ability 0.1 and siege_engineers 1
-	-added to event te_barbarians.50
-*added events te_barbarians.13–15 if Scandinavian provinces next to p:5952 are overtaken by a non-germanic country after 1054 AUC / 300 CE
-	-should add some challenge for AI or a player to hold this area as non-Germanic
-	-added in events under te_custom_on_action_yearly_country_barbarians
-*changed culture of impassable province 5952 from suiones to scandian 
-*added event te_barbarians.55
-	-for AI countries, if a province has more than 300 tribesmen (because of barbarian strongholds) check for dominant_province_culture and if it is huna, hunnic, istvaeonic or irminonic, set ruler and primary culture to that culture
-	-should work in tandem with other te_barbarians.5* events to make invasions have more of an effect on the map, and prevent some provinces from getting massive populations from settling tribesmen
-	-added in te_custom_on_action_yearly_country_tribesmen 
-	-fixed set_primary_culture to set_primary_culture_cleanup_effect
-	-corrected second NOR in trigger to OR
-*edited event te_barbarians.53 to add don_river_area provinces for removing barbarian stronghold on province_id 5970
-	-all provinces are next to the don_river_area and do not neighbor the stronghold directly, causing removal to fail
-*added event te_barbarians.98 to cleanup any strongholds over Pontic Steppe that might be added and left running after fourth hunnic wave
-	-added to te_custom_on_action_yearly_country_barbarians
-
-*blocked te_migrations.2 line 307 set_country_religion effect to avoid creating new countries with no set religion due to unset scope
-
-*doubled the WORK_COST_SCALEFACTOR in defines.txt
-	-extends time required for building great wonders, as there tend to be too many great works in the late game
-*increased TECH_ENTRY_YEARS to 20, TECH_AHEAD_OF_TIME lowered to -0.15 and TECH_BEHIND_OF_TIME lowered to -0.15
-
-*lowered added technology to 3500 for severed WRE and 4000 for severed ERE, respectively, in IRCK3 decision
-	-tech check changed for WRE < 35 or ERE < 40
-
-*tiny edits to localizations for l6_conversions_l_english.yml and deities_christianity_l_english.yml
+*added Russian localization thanks to Podvoh
+*added Spanish localization thanks to SantiD10
+*small update to localization te_text_l_german.yml
+	-small edits to other localization
 
 ##########
-TO DO: Further testing with Invictus v1.5+
