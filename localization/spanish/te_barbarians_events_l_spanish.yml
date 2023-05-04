@@ -1,0 +1,49 @@
+﻿l_spanish:
+ te_barbarians.1.t:0 "Bárbaros en el Danubio"
+ te_barbarians.1.desc:1 "Hordas de bárbaros germánicos han aparecido por las montañas y ríos de nuestras fronteras. No sabemos por qué han comenzado a migrar a nuestro territorio, pero están causando estragos en el campo y aterrorizando a nuestra gente. ¡Deben ser detenidos o nosotros debemos negociar con ellos de alguna manera!"
+ te_barbarians.1.a:0 "Envía a nuestros capitanes a tratar con ellos, y a nuestros sacerdotes a ofrecer sacrificios."
+
+ te_barbarians.10.t:0 "Bárbaros en el Rin"
+ te_barbarians.10.desc:1 "Hordas de bárbaros germánicos han aparecido por las montañas y ríos de nuestras fronteras. No sabemos por qué han comenzado a migrar a nuestro territorio, pero están causando estragos en el campo y aterrorizando a nuestra gente. ¡Deben ser detenidos o nosotros debemos negociar con ellos de alguna manera!"
+ te_barbarians.10.a:0 "Parece que están huyendo de un terror desconocido en el desierto más allá de a donde llegan nuestros mapas."
+
+ te_barbarians.11.t:0 "Las tribus Francas Crecen"
+ te_barbarians.11.desc:1 "Poderosas tribus de Germania se han organizado y surgido al otro lado del Rin, marchando hacia nuestro territorio. Estas personas están mejor equipadas y entrenadas en el arte de la estrategia militar y deben haber aprendido de sus vecinos más civilizados. Son una amenaza significativa y parecen decididos a conquistar la tierra que ocupan."
+ te_barbarians.11.a:0 "Si no pueden ser derrotados o sobornados, ¿quizás podamos formar una alianza?"
+
+ te_barbarians.12.t:0 "Las Tribus Germánicas Migran"
+ te_barbarians.12.desc:1 "Las oleadas de bárbaros de Germania y más allá han aumentado en número, con nuevas tribus que se forman y se separan de tribus anteriores. Los vientos de climas más fríos en el norte y algunos otros movimientos de nómadas en las tierras más al este están impulsando una migración masiva de personas a través del continente, amenazando la estabilidad de nuestro reino."
+ te_barbarians.12.a:0 "No podemos detener esta migración masiva, pero debemos proteger a nuestra propia gente."
+
+ te_barbarians.2.t:0 "Los Hunos Aparecen en el Volga"
+ te_barbarians.2.desc:1 "Los hunos eran un pueblo nómada que vivió en Asia Central, el Cáucaso y Europa del Este entre los siglos IV y VI d.c. Según la tradición europea, se informó por primera vez que vivían al este del río Volga, en un área que era parte de Scythia en ese momento. Para el año 370 d.c, los hunos habían llegado al Volga."
+ te_barbarians.2.a:0 "¿Qué clase de hombres salvajes son estos? ¿De dónde son? ¿Por qué están ellos aquí?"
+
+ te_barbarians.3.t:0 "Hunos en la Estepa Póntica"
+ te_barbarians.3.desc:1 "En el 395 d.c, los hunos comenzaron sus primeros ataques a gran escala. En el verano de ese año, los hunos cruzaron las montañas del Cáucaso, mientras que en el invierno del 395, otra fuerza de invasión huna cruzó el congelado Danubio, saqueó Tracia y amenazó a Dalmacia. La escala aun mayor los ataques a Asia Menor y Persia indica que la mayor parte de los hunos se habría quedado en las estepas pónticas en lugar de trasladarse a Europa en este momento. Los ataques de los hunos contra Armenia continuarían después de esta incursión, y fuentes armenias señalaron a una tribu huna conocida como Xailandur como los perpetradores."
+ te_barbarians.3.a:0 "Estos bárbaros jinetes del desierto son peores que una pestilencia."
+
+ te_barbarians.4.t:0 "Los Hunos Crecen en Fuerza"
+ te_barbarians.4.desc:1 "Las oleadas de bárbaros del este continuan y no dan señales de detenerse. Son sanguinarios, estan bien organizados, entrenados en las artes de la guerra militar y han dominado la habilidad del tiro con arco a caballo. Estos no son bárbaros ordinarios. Nuestros ejércitos se están cansando de perseguirlos en sus constantes incursiones y saqueos, y algunas de sus fuerzas se han adentrado en tierras civilizadas mientras la población indefensa solo puede mirar y esperar o huir asustada."
+ te_barbarians.4.a:0 "Debemos volcar todo nuestro poder militar y diplomático a proteger a nuestro pueblo de este nuevo flagelo."
+
+ te_barbarians.5.t:0 "Invasión Huna"
+ te_barbarians.5.desc:1 "Desde 434 EC, los hermanos Attila y Bleda gobernaron a los hunos juntos. Attila y Bleda eran tan ambiciosos como su tío Rugila. En el 435 obligaron al Imperio Romano de Oriente a firmar el Tratado de Margus, otorgando a los hunos derechos comerciales y un tributo anual de los romanos. En el 447, Atila invadió los Balcanes y Tracia. La guerra llegó a su fin en el 449 con un acuerdo en el que los romanos acordaron pagar a Atila un tributo anual de 2100 libras de oro. En el 451, las fuerzas de Atila entraron en la Galia. Una vez en la Galia, los hunos primero atacaron Metz, luego sus ejércitos continuaron hacia el oeste, pasando tanto por París como por Troyes para finalmente sitiar Orleans."
+ te_barbarians.5.a:0 "¡Estos guerreros viciosos pululan por las fronteras orientales y nos amenazan a todos!"
+
+ te_barbarians.60.t:0 "Bárbaros Más Allá de las Montañas"
+ te_barbarians.60.desc:1 "Tribus de guerreros nómadas a caballo han comenzado a invadir nuestro territorio desde las estepas del norte más allá de los pasos de las montaña. Una migración de estos extranjeros amenaza nuestro dominio sobre la región. El gran número y la furiosa desesperación de estos invasores es aterrador de contemplar."
+ te_barbarians.60.a:0 "Nuestro gobierno debe ser protegido con poder y fuerza."
+
+ te_barbarians.6.t:0 "Hunos Kidaritas y Alchones"
+ te_barbarians.6.desc:1 "Los gobernantes de Persia e India perdieron gradualmente el control de Bactria ante los invasores de Asia Central, primero los kidaritas alrededor del 335 d.c, luego los hunos de Alchon alrededor del 370 d.c, los heftalitas alrededor del 450 d.c."
+ te_barbarians.6.a:0 "Somos imparables y estos extraños nuevos invasores son una mera molestia."
+
+ te_barbarians.70.t:0 "Heftalitas"
+ te_barbarians.70.desc:1 "A medida que adquirieron prominencia, los heftalitas desplazaron a los kidaritas y luego a los hunos de Alchon, que se expandieron hacia Gandhara y el norte de la India. En el 442 d.c sus tribus luchaban contra los persas. En 456-457 llegó a China una embajada heftalita, durante el reinado del emperador Wen del norte de Wei. En el 458 eran lo suficientemente fuertes como para intervenir en Persia. Alrededor del 466 probablemente tomaron las tierras de Transoxianan de los Kkidaritas con la ayuda persa, pero pronto tomaron de Persia el área de Balkh y el este de Kushanshahr. En la segunda mitad del siglo V controlaban los desiertos de Turkmenistán hasta el Mar Caspio y posiblemente Merv."
+ te_barbarians.70.a:0 "Estos salvajes han vuelto para acosarnos. ¡No importa, nuestras poderosas fuerzas los aplastarán!"
+
+ te_barbarians.7.t:0 "Hunos de Alchon invaden la India"
+ te_barbarians.7.desc:1 "Entre el 460 y 470 d.c, los alchones se apoderaron de Gandhara y Punjab, que también habían permanecido bajo el control de los kidaritas, mientras que el Imperio Gupta permaneció más al este. Es posible que los hunos de Alchon simplemente hayan llenado el vacío de poder creado por el declive de los kidaritas, luego de su derrota en la India contra el Imperio Gupta de Skandagupta en el 455 d.c, y su posterior derrota en el 467 d.c contra el Imperio Sasánida de Peroz I, con ayuda heftalita. La ayuda de Alchon bajo Mehama puso fin al gobierno de los kidarita en Transoxiana de una vez por todas. Los hunos de Alchon aparentemente llevaron a cabo la destrucción masiva de los monasterios y estupas budistas en Taxila, un alto centro de aprendizaje, que nunca se recuperó de la destrucción. Prácticamente todas las monedas de Alchon encontradas en el área de Taxila se encontraron en las ruinas de monasterios incendiados, donde aparentemente algunos de los invasores murieron junto a los defensores locales durante la ola de destrucciones. Se cree que la estupa de Kanishka, uno de los edificios más famosos y más altos de la antigüedad, fue destruida por ellos durante su invasión del área en el año 460 d.c. La estupa de Mankiala también fue destrozada durante sus invasiones."
+ te_barbarians.7.a:0 "¡Donde otros pueden haber fallado en detener estas hordas destructivas, nosotros prevaleceremos!"
+ 

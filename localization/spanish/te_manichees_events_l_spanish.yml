@@ -1,0 +1,18 @@
+﻿l_spanish:
+ te_manichees.1.t:0 "El Maniqueísmo se extiende por Oriente y Occidente."
+ te_manichees.1.desc:1 "El maniqueísmo tuvo éxito rápidamente y se extendió por las regiones de habla aramea. Floreció entre los siglos III y VII, y en su apogeo fue una de las religiones más difundidas en el mundo. Las iglesias y escrituras maniqueas existían en el este hasta China y en el oeste hasta el Imperio Romano. Fue brevemente el principal rival del cristianismo en la competencia por reemplazar el paganismo clásico. Un emperador pagano conocido por perseguir a los cristianos también persiguió a los maniqueos, quejándose de que los maniqueos "han establecido sectas nuevas y hasta ahora inauditas en oposición a los credos más antiguos para que puedan desechar las doctrinas que se nos concedió en el pasado el divino favor en beneficio de su propia doctrina depravada'."
+ te_manichees.1.a:0 "Otra nueva doctrina brota y nos susurra a los oídos. ¿Deberíamos escuchar?"
+
+ te_manichees.2.t:0 "La Ejecución de Mani"
+ te_manichees.2.desc:1 "Un emperador persa de la fe de Zoroastro encarceló y ordenó la ejecución de Mani. Sus seguidores describieron la muerte de Mani como una crucifixión en una analogía consciente con Jesús. Hay una historia que afirma que fue desollado y su cadáver colgado sobre la puerta principal de la gran ciudad de Gundeshapur; sin embargo, no existe una base histórica para este relato. Es probable que su cuerpo haya sido mutilado mediante decapitación post-mortem y su cabeza expuesta."
+ te_manichees.2.a:0 "Ejecutar a estos fanáticos religiosos no pareció tener el efecto deseado."
+
+ prophet_mani_man:0 "Has descubierto un retrato realista de Mani, el 'Profeta de la Luz'."
+
+ te_manichees.3.t:0 "Un Oyente ilustrado"
+ te_manichees.3.desc:1 "Cae el anochecer en otro día desafiante como gobernante, y te relajas con un paseo nocturno. Cuando giras en la esquina de un camino sombreado, ves a un hombre encapuchado parado en tu camino. Él te lanza una sonrisa espeluznante. Tus guardias lo empujan a un lado bruscamente para dejar paso y, cuando pasas, te pregunta enigmáticamente, "¿Has oído la luz?" Notas su falta de miedo y su mirada fija sobre ti, y lo reconoces vagamente, un miembro de la élite, pero de las familias menores."
+ te_manichees.3.a:0 "Sabemos dónde encontrarlo."
+ minor_manichee_char_create:0 "Hay una minoría notable de maniqueos en tu país."
+
+ te_manichees.31.t:0 "Otro Oyente Ilustrado"
+ te_manichees.31.desc:1 "Una vez más se oye hablar de un devoto seguidor de la excéntrica y sincrética religión de un tal proclamado 'Último Profeta' de Persia, Mani, entre las familias menores del país. Estos devotos parecen mezclar y adoptar diversas costumbres y doctrinas de otras religiones extranjeras, tanto antiguas como nuevas, y poseen una presencia creciente entre la gente."
