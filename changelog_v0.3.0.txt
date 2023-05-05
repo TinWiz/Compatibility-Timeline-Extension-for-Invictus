@@ -1,5 +1,7 @@
 Gamma — v0.3.0
 
+*added tibet_region to NOR list for l6_christian.5
+
 *added Russian localization thanks to Podvoh
 *added Spanish localization thanks to SantiD10
 *small update to localization te_text_l_german.yml
