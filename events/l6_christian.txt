@@ -317,6 +317,7 @@ l6_christian.5 = {
 				is_in_region = bohemia_region
 				is_in_region = vistulia_region
 				is_in_region = borysthenia_region
+				is_in_region = tibet_region
 			}
 			OR = {
 				any_neighbor_province = {
@@ -346,6 +347,7 @@ l6_christian.5 = {
 					is_in_region = bohemia_region
 					is_in_region = vistulia_region
 					is_in_region = borysthenia_region
+					is_in_region = tibet_region
 				}
 				OR = {
 					any_neighbor_province = {
