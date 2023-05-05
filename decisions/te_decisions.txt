@@ -59,6 +59,7 @@
 				OR = {
 					tag = JUD
 					tag = SMA
+					tag = ISR
 				}
 			}
 		}
