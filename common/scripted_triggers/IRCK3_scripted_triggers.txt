@@ -18,13 +18,7 @@
 is_in_pars_occidentalis_inv_trigger = {
 	has_global_variable = is_playing_invictus
 	OR = {
-		####Invictus v1.4 regions####
-		##is_in_region = borysthenia_region
-		is_in_area = volyn_area
-		is_in_area = milograd_area
-		is_in_area = minsk_area
-		is_in_area = polatsk_area
-		is_in_area = ozeros_area
+		####Invictus v1.6 regions####
 		is_in_britain_trigger = yes
 		is_in_gaul_trigger = yes
 		is_in_belgium_trigger = yes
