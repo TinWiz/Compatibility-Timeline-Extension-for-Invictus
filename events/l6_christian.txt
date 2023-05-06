@@ -160,8 +160,8 @@ l6_christian.3 = {
 		NOR = {
 			religion = manichaeism
 			religion = christianity
-			tag = JUD
-			tag = SMA
+			#tag = JUD
+			#tag = SMA
 			#tag = ISR
 		}
 		any_owned_province = {
@@ -175,11 +175,16 @@ l6_christian.3 = {
 				has_province_modifier = early_christian_community
 				has_variable = early_xian_persecution
 			}
+			any_pops_in_province = {
+				NOR = { 
+					pop_religion = christianity 
+					pop_religion = judaism
+				}
+			}
 		}
 	}
-	
-	option = {
-		name = "l6_christian.3.a"
+
+	immediate = {
 		random_owned_province = {
 			limit = {
 				OR = {
@@ -198,7 +203,14 @@ l6_christian.3 = {
 						pop_religion = judaism
 					}
 				}
-			}
+			}	
+			save_scope_as = l6_christian_3_target
+		}	
+	}
+	
+	option = {
+		name = "l6_christian.3.a"
+		scope:l6_christian_3_target = {
 			ordered_pops_in_province = {
 				limit = {
 					NOR = {
@@ -250,7 +262,16 @@ l6_christian.4 = {
 	
 	trigger = {
 		has_global_variable = christianity_spreads_locally
-		has_global_variable = jewish_diaspora
+		OR = {
+			has_global_variable = jewish_diaspora
+			NOR = {
+				has_global_variable = jewish_diaspora
+				religion_pops_in_country = {
+					target = christianity
+					value >= rare_deity_svalue
+				}
+			}		 
+		}
 		NOR = {
 			religion = manichaeism
 			religion = christianity
@@ -259,6 +280,9 @@ l6_christian.4 = {
 		any_owned_province = {
 			any_pops_in_province = {
 				pop_religion = judaism
+			}
+			NOT = {
+				dominant_province_religion = christianity
 			}
 		}
 	}
@@ -269,6 +293,9 @@ l6_christian.4 = {
 			limit = {
 				NOT = {
 					province_id = 687
+				}
+				any_pops_in_province = {
+					count > 6
 				}
 				any_pops_in_province = {
 					pop_religion = judaism
