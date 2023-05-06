@@ -59,17 +59,7 @@ te_barbarians.1 = {
                 NOT = {
                     has_global_variable = germanic_migration
                 }
-            }
-            p:5144 = {
-                while = {
-                    limit = {
-                        any_pops_in_province = {
-                            count < 120
-                        }
-                    }    
-                    create_pop = tribesmen
-                }   
-            }   
+            }  
             p:5146 = {
                 while = {
                     limit = {
@@ -83,12 +73,6 @@ te_barbarians.1 = {
                     name = "barbarian_invasion_skirmish"
                 }
             }
-            #p:5145 = {
-            #    add_province_modifier = {
-            #        name = "barbarian_invasion_war"
-            #        duration = 2555
-            #    }
-            #}
             set_global_variable = {
                 name = germanic_migration
             }
@@ -143,17 +127,7 @@ te_barbarians.1 = {
                         has_province_modifier = barbarian_invasion_skirmish
                     }
                 }
-            }
-            p:5143 = {
-                while = {
-                    limit = {
-                        any_pops_in_province = {
-                            count < 120
-                        }
-                    }    
-                    create_pop = tribesmen
-                }   
-            }   
+            }  
             p:5142 = {
                 while = {
                     limit = {
@@ -221,16 +195,6 @@ te_barbarians.10 = {
                     has_global_variable = germanic_migration_2
                 }
             }
-            p:5141 = {
-                while = {
-                    limit = {
-                        any_pops_in_province = {
-                            count < 180
-                        }
-                    }    
-                    create_pop = tribesmen
-                }
-            }
             p:5140 = {
                 while = {
                     limit = {
@@ -244,12 +208,6 @@ te_barbarians.10 = {
                     name = "barbarian_invasion_war"
                 }
             }
-            #p:5141 = {
-            #    add_province_modifier = {
-            #        name = "barbarian_invasion_war"
-            #        duration = 2555
-            #    }
-            #}
             set_global_variable = {
                 name = germanic_migration_2
             }    
@@ -311,16 +269,6 @@ te_barbarians.11 = {
                     }
                 }
             }
-            p:5141 = {
-                while = {
-                    limit = {
-                        any_pops_in_province = {
-                            count < 360
-                        }
-                    }    
-                    create_pop = tribesmen
-                }
-            }
             p:5140 = {
                 while = {
                     limit = {
@@ -351,16 +299,6 @@ te_barbarians.11 = {
                         } 
                     }
                 }    
-            }
-            p:5141 = {
-                while = {
-                    limit = {
-                        any_pops_in_province = {
-                            count < 360
-                        }
-                    }    
-                    create_pop = tribesmen
-                }
             }
             p:5140 = {
                 while = {
@@ -464,16 +402,6 @@ te_barbarians.12 = {
                     }
                 }
             }
-            p:5144 = {
-                while = {
-                    limit = {
-                        any_pops_in_province = {
-                            count < 240
-                        }
-                    }    
-                    create_pop = tribesmen
-                }
-            }
             p:5146 = {
                 while = {
                     limit = {
@@ -500,16 +428,6 @@ te_barbarians.12 = {
                     p:5146 = {
                         has_province_modifier = barbarian_invasion_skirmish
                     }
-                }
-            }
-            p:5144 = {
-                while = {
-                    limit = {
-                        any_pops_in_province = {
-                            count < 240
-                        }
-                    }    
-                    create_pop = tribesmen
                 }
             }
             p:5146 = {
@@ -576,16 +494,6 @@ te_barbarians.12 = {
                         has_province_modifier = barbarian_invasion_skirmish
                     }
                 }
-            }
-            p:5143 = {
-                while = {
-                    limit = {
-                        any_pops_in_province = {
-                            count < 240
-                        }
-                    }    
-                    create_pop = tribesmen
-                }   
             }   
             p:5142 = {
                 while = {
@@ -648,16 +556,6 @@ te_barbarians.12 = {
                 }       
             }
             p:5142 = {
-                while = {
-                    limit = {
-                        any_pops_in_province = {
-                            count < 240
-                        }
-                    }    
-                    create_pop = tribesmen
-                }   
-            }
-            p:5143 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
