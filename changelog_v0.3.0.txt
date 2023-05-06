@@ -1,8 +1,53 @@
 Gamma — v0.3.0
 
-*added tibet_region to NOR list for l6_christian.5
+*rearranged te_default.txt provinces for hunnic invasions
+	-blocked provinces 5971 and 5981
+		+Invictus v1.6 added barbarian stronghold to 5971 on setup
+	-added Carpathia province 5297
+*revised te_custom_on_action inv_te_on_game_initialized for barbarian province cultures and religions
 
-*added tag ISR to NOR list for te_decisions.txt for edict of evangelization
+*edited te_barbarians Huns events for barbarian stronghold changes
+	-removed province strongholds on 5981 and 5971
+		+also removed additional pops to 5141, 5143, 5144, 5279, 5963, and 7295
+			►not needed for Invictus
+	-added province 5297
+
+*increased barbarian_fury_discipline modifier from 0.05 to 0.1
+	-5% to 10%
+
+*revised countries.txt file for setup
+*revised IRCK3_scripted_triggers.txt for splitting Roman Empire
+	-borysthenia_region removed; will be entirely ERE
+
+*updated buildings default file 
+	-local_country_civilization_value for port_building lowered from 3 to 1
+	-local_base_trade_routes_modifier for commerce_building lowered back to vanilla 0.025
+		+local_base_trade_routes lowered to 0.1
+	-cost of barracks building increased to vanilla 200
+	-cost of granary increased to vanilla 100
+	-town_hall_building cost increased and bonus lowered to vanilla values
+
+*edited te_christianity events for Invictus v1.6 map changes
+	-mostly te_christianity.91 for Arabia region
+
+*updated te_bactrian for Invictus v1.6 changes
+
+*added tibet_region to NOR list for l6_christian.5
+	-and burma_region to NOR list
+
+*added NAND trigger to l6_christian.5 to slow spread of Christianity in non-Hellenic countries before 954 AUC / 200 CE
+*added dominant_province_religion christianity to NOR triggers for l6_christian.5
+	-will no longer trigger on provinces with a christian majority
+		+should not convert all pops of non-christian countries
+
+*lowered trigger dates for full effects of te_christianity.96 and te_christianity.97 to 1000 AUC 
+	-balance for provinces with early_christian_community or early_christian_church
+
+*added tag ISR to factor 0 list in te_decisions.txt for edict of evangelization
+
+*renamed prices file 00_hardcoded to te_hardcoded
+  -removed all prices except buy_military_tradition, which was increased from 80 to 120
+    +do not need to copy all of the base game prices
 
 *added Russian localization thanks to Podvoh
 *added Spanish localization thanks to SantiD10
