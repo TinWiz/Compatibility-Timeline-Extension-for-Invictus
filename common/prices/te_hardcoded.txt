@@ -1,0 +1,3 @@
+﻿buy_military_tradition = {
+	military_experience = 120
+}
