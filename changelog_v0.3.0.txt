@@ -1,5 +1,9 @@
 Gamma — v0.3.0
 
+*deleted tribal_flavour_events.txt event file
+	-reworked by Invictus v1.6
+	-would soon be moot with v2.0.4 changes
+
 *rearranged te_default.txt provinces for hunnic invasions
 	-blocked provinces 5971 and 5981
 		+Invictus v1.6 added barbarian stronghold to 5971 on setup
@@ -12,7 +16,7 @@ Gamma — v0.3.0
 			►not needed for Invictus
 	-added province 5297
 
-*increased barbarian_fury_discipline modifier from 0.05 to 0.1
+*increased barbarian_fury_discipline in modifier from 0.05 to 0.1
 	-5% to 10%
 
 *revised countries.txt file for setup
