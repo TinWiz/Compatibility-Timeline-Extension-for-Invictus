@@ -33,6 +33,7 @@ Gamma — v0.3.0
 
 *edited te_christianity events for Invictus v1.6 map changes
 	-mostly te_christianity.91 for Arabia region
+*edited te_christianity.96 and te_christianity.97 to limit effect if country religion is judaism
 
 *updated te_bactrian for Invictus v1.6 changes
 
@@ -44,6 +45,8 @@ Gamma — v0.3.0
 *added dominant_province_religion christianity to NOR triggers for l6_christian.5
 	-will no longer trigger on provinces with a christian majority
 		+should not convert all pops of non-christian countries
+*edited trigger for l6_christan.4 to limit effect if global_variable jewish_diaspora is not set	
+*organized script for l6_christian.3 to trigger even if tag is JUD, SMA, or ISR	
 
 *lowered trigger dates for full effects of te_christianity.96 and te_christianity.97 to 1000 AUC 
 	-balance for provinces with early_christian_community or early_christian_church
@@ -57,6 +60,7 @@ Gamma — v0.3.0
 *added Russian localization thanks to Podvoh
 *added Spanish localization thanks to SantiD10
 *small update to localization te_text_l_german.yml
+*typo correction to l6_conversions_l_english.yml
 	-small edits to other localization
 
 ##########
