@@ -38,6 +38,7 @@ Gamma — v0.3.0
 
 *added tibet_region to NOR list for l6_christian.5
 	-and burma_region to NOR list
+		+and central_asian_steppes_region to NOR list
 
 *added NAND trigger to l6_christian.5 to slow spread of Christianity in non-Hellenic countries before 954 AUC / 200 CE
 *added dominant_province_religion christianity to NOR triggers for l6_christian.5
