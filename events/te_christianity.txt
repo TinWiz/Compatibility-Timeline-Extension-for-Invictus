@@ -1588,6 +1588,9 @@ te_christianity.96 = {
 					current_date < 1000.10.1
 					dominant_province_religion = christianity
 				}
+				NOT = {
+					owner = { religion = judaism }
+				}
 			}
 			random_pops_in_province = {
 				limit = {
@@ -1604,6 +1607,15 @@ te_christianity.96 = {
 						pop_religion = judaism
 					}
 				}
+				set_pop_religion = christianity
+			}
+		}
+		else_if = {
+			limit = {
+				owner = { religion = judaism }
+				dominant_province_religion = judaism
+			}
+			random_pops_in_province = {
 				set_pop_religion = christianity
 			}
 		}
@@ -1630,13 +1642,14 @@ te_christianity.97 = {
 					current_date < 1000.10.1
 					#province_id = 1
 					dominant_province_religion = christianity
+				}
+				NOT = {
+					owner = { religion = judaism }
+				}
+				any_pops_in_province = {
+					count > 8
 				}	
 			}
-			#random_pops_in_province = {
-			#	set_pop_religion = christianity
-			#}
-		#}
-		#else = {
 			ordered_pops_in_province = {
 				limit = {
 					NOT = {
@@ -1649,6 +1662,31 @@ te_christianity.97 = {
 					divide = 8
 				}
 				check_range_bounds = no
+				set_pop_religion = christianity
+			}
+		}
+		else_if = {
+			limit = {
+			    owner = { religion = judaism }
+				any_pops_in_province = {
+					count > 8
+				}
+				dominant_province_religion = judaism
+			}
+			random_pops_in_province = {
+				set_pop_religion = christianity
+			}
+			random_pops_in_province = {
+				set_pop_religion = christianity
+			}
+		}
+		else_if = {
+			limit = {
+				any_pops_in_province = {
+					count < 8
+				}
+			}
+			random_pops_in_province = {
 				set_pop_religion = christianity
 			}
 		}		
