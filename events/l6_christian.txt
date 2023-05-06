@@ -334,6 +334,7 @@ l6_christian.5 = {
 				is_in_region = tibet_region
 				###Invictus v1.6###########
 				is_in_region = burma_region
+				is_in_region = central_asian_steppes_region
 				dominant_province_religion = christianity
 			}
 			OR = {
@@ -367,6 +368,7 @@ l6_christian.5 = {
 					is_in_region = tibet_region
 					###Invictus v1.6###########
 					is_in_region = burma_region
+					is_in_region = central_asian_steppes_region
 					dominant_province_religion = christianity
 				}
 				OR = {
