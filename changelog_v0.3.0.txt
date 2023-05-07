@@ -47,6 +47,7 @@ Gamma — v0.3.0
 		+should not convert all pops of non-christian countries
 *edited trigger for l6_christan.4 to limit effect if global_variable jewish_diaspora is not set	
 *organized script for l6_christian.3 to trigger even if tag is JUD, SMA, or ISR	
+*set end date for l6_christian.2 on 818.1.25 =, 65AD
 
 *lowered trigger dates for full effects of te_christianity.96 and te_christianity.97 to 1000 AUC 
 	-balance for provinces with early_christian_community or early_christian_church
