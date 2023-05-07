@@ -57,7 +57,17 @@
 					save_scope_as = municipium
 					create_country = {
 						hidden_effect = {
-							set_primary_culture = scope:target_culture.culture
+							if = {
+								limit = {
+									NOT = {
+										primary_culture = scope:target_culture.culture
+									}
+								}
+								set_primary_culture_cleanup_effect = {
+									NEW_PRIMARY_CULTURE = scope:target_culture.culture
+									MAKE_OLD_CULTURE_INTEGRATED = yes
+								}
+							}	
 							add_treasury = 50.0
 							PREV = {
 								if = {
@@ -215,7 +225,17 @@
 					save_scope_as = municipium
 					create_country = {
 						hidden_effect = {
-							set_primary_culture = scope:target_culture.culture
+							if = {
+								limit = {
+									NOT = {
+										primary_culture = scope:target_culture.culture
+									}
+								}
+								set_primary_culture_cleanup_effect = {
+									NEW_PRIMARY_CULTURE = scope:target_culture.culture
+									MAKE_OLD_CULTURE_INTEGRATED = yes
+								}
+							}		
 							add_treasury = 50.0
 							PREV = {
 								if = {
