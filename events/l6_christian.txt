@@ -93,6 +93,7 @@ l6_christian.2 = {
 	
 	trigger = {
 		current_date >= 789.5.20 #36AD 
+		current_date <= 818.1.25 #65AD
 		has_global_variable = christianity_spreads_locally
 		#p:750 = {
 		#	owner = root
