@@ -35,6 +35,8 @@ Gamma — v0.3.0
 	-mostly te_christianity.91 for Arabia region
 *edited te_christianity.96 and te_christianity.97 to limit effect if country religion is judaism
 
+*edited te_manichees.13 to trigger for dominant_province_culture_group aryan, pracyan, and pu
+
 *updated te_bactrian for Invictus v1.6 changes
 
 *added tibet_region to NOR list for l6_christian.5
