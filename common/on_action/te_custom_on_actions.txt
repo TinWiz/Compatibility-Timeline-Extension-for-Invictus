@@ -210,12 +210,6 @@ te_custom_on_action_yearly_country_plagues = {
 		te_plagues.2
 		te_plagues.21
 		te_plagues.22
-		te_plagues.30
-		te_plagues.31
-		te_plagues.32
-		te_plagues.33
-		te_plagues.34
-		te_plagues.35
 		te_plagues.40
 		te_plagues.41
 		te_plagues.42
@@ -343,7 +337,7 @@ te_custom_on_action_yearly_country_tribesmen = {
 		te_barbarians.53
 		te_barbarians.54
 		te_barbarians.55
-		#te_barbarians.56
+		#te_barbarians.58
 	}
 
 }
