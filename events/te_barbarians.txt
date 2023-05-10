@@ -1706,8 +1706,10 @@ te_barbarians.55 = {
                     #has_culture = irminonic
                 }
             }
-            any_neighbor_province = {
-                province_id = 5952
+            any_owned_province = {
+                any_neighbor_province = {
+                    province_id = 5952
+                } 
             }
             has_variable = barbarian_conquest_cooldown
         }               
