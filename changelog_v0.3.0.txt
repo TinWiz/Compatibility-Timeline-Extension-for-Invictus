@@ -7,10 +7,11 @@ Gamma — v0.3.0
 	-added a bit of flavour to description for IRCK3 decision only, not necessary
 	-caused crashes with each Invictus map update
 	-deletion recommended by modders
-		+not necessary for converters?
+		+apparently not required for converters
 
 *removed te_plagues.3* events
-	-not needed for Invictus timeline extension	
+	-not needed for Invictus timeline extension
+		+duplicated in te_plagues.4* events 
 
 *rearranged te_default.txt provinces for hunnic invasions
 	-blocked provinces 5971 and 5981
