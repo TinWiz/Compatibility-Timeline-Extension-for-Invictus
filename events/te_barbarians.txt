@@ -273,7 +273,7 @@ te_barbarians.11 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 360
+                            count < 320
                         }
                     }    
                     create_pop = tribesmen
@@ -304,7 +304,7 @@ te_barbarians.11 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 360
+                            count < 320
                         }
                     }    
                     create_pop = tribesmen
@@ -668,6 +668,7 @@ te_barbarians.15 = {
                     owner = {
                         AND = {
                             is_ai = yes
+                            THIS = ROOT
                             NOT = {
                                 country_culture_group = germanic
                             }
@@ -692,6 +693,7 @@ te_barbarians.15 = {
                     owner = {
                         AND = {
                             is_ai = yes
+                            THIS = ROOT
                             NOT = {
                                 country_culture_group = germanic
                             }
@@ -705,7 +707,6 @@ te_barbarians.15 = {
                     }
                 }
                 owner = {
-                    save_scope_as = germanic_invaded_country
                     random_owned_province = {
                         limit = {
                             num_of_tribesmen > 200
@@ -718,12 +719,15 @@ te_barbarians.15 = {
         }
     }
     option = {
-        scope:germanic_invaded_country = {
-            set_primary_culture_cleanup_effect = {
-                NEW_PRIMARY_CULTURE = scope:germanic_invaded_province.dominant_province_culture
-                MAKE_OLD_CULTURE_INTEGRATED = no
-            }    
+        scope:germanic_invaded_province = {
+            create_country = {
+                save_scope_as = scandinavian_conquest
+            }
         }
+        every_owned_province = {
+            limit = { is_in_region = scandinavia_region }
+            set_owned_by = scope:scandinavian_conquest
+        }    
     }
 
     after = {
@@ -777,7 +781,7 @@ te_barbarians.2 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 100
+                            count < 180
                         }
                     }
                     create_pop = tribesmen
@@ -839,7 +843,7 @@ te_barbarians.3 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 200
+                            count < 240
                         }
                     }
                     create_pop = tribesmen
@@ -931,7 +935,7 @@ te_barbarians.4 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 275
+                            count < 250
                         }
                     }
                     create_pop = tribesmen
@@ -1038,7 +1042,7 @@ te_barbarians.5 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 400
+                            count < 360
                         }
                     }
                     create_pop = tribesmen
@@ -1049,7 +1053,7 @@ te_barbarians.5 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 360
+                            count < 300
                         }
                     }
                     create_pop = tribesmen
@@ -1528,7 +1532,7 @@ te_barbarians.54 = {
     trigger = {
         has_global_variable = huns_fourth_wave
         OR = {
-            country_culture_group = bactrian
+            primary_culture = huna
             #any_country_culture = {
             #    culture = culture:huna
             #    is_integrated = yes
@@ -1679,107 +1683,175 @@ te_barbarians.54 = {
     }
 }
 
+####FORCE BARBARIAN CONQUEST####
+###Great Power
 te_barbarians.55 = {
     type = country_event
 	hidden = yes
 
     trigger = {
         current_date > 1203.12.13
+        num_of_cities > 500
         is_ai = yes
         NOR = {
-            primary_culture = istvaeonic
-            primary_culture = irminonic
+            #primary_culture = istvaeonic
+            #primary_culture = irminonic
             primary_culture = huna
             primary_culture = hunnic    
             current_ruler = {
                 OR = {
                     has_culture = huna
                     has_culture = hunnic
-                    has_culture = istvaeonic
-                    has_culture = irminonic
+                    #has_culture = istvaeonic
+                    #has_culture = irminonic
                 }
             }
-        }
-        num_of_cities > 1               
+            any_neighbor_province = {
+                province_id = 5952
+            }
+            has_variable = barbarian_conquest_cooldown
+        }               
         any_owned_province = {
             AND = {
                 OR = {
                     dominant_province_culture = huna
                     dominant_province_culture = hunnic
-                    dominant_province_culture = istvaeonic
-                    dominant_province_culture = irminonic
+                    #dominant_province_culture = istvaeonic
+                    #dominant_province_culture = irminonic
                 }
-                num_of_tribesmen > 300
+                num_of_tribesmen > 200
+            }
+        }
+    }
+
+    immediate = {
+        #if = {
+        #    limit = {
+        #        any_owned_province = {
+        #            num_of_tribesmen > 200
+        #            dominant_province_culture = irminonic
+        #        }
+        #    }
+        #    random_owned_province = {
+        #        limit = {
+        #            num_of_tribesmen > 200
+        #            dominant_province_culture = irminonic
+        #        }
+        #        save_scope_as = irminonic_invaded_province
+        #    }
+        #}
+        #else_if = {
+        #    limit = {
+        #        any_owned_province = {
+        #            num_of_tribesmen > 200
+        #            dominant_province_culture = istvaeonic
+        #        }
+        #    }
+        #    random_owned_province = {
+        #        limit = {
+        #            num_of_tribesmen > 200
+        #            dominant_province_culture = istvaeonic
+        #        }
+        #        save_scope_as = istvaeonic_invaded_province
+        #    }
+        #}
+        if = {
+            limit = {
+                any_owned_province = {
+                    num_of_tribesmen > 200
+                    dominant_province_culture = huna
+                }
+            }
+            random_owned_province = {
+                limit = {
+                    num_of_tribesmen > 200
+                    dominant_province_culture = huna
+                }
+                save_scope_as = huna_invaded_province
+            }
+        }
+        else = {
+            random_owned_province = {
+                limit = {
+                    num_of_tribesmen > 200
+                    dominant_province_culture = hunnic
+                }
+                save_scope_as = hunnic_invaded_province
             }
         }
     }
 
     option = {
-        random_owned_province = {
-            limit = {
-                num_of_tribesmen > 300
+        trigger = {
+            any_owned_province = {
+                THIS = scope:huna_invaded_province
             }
-            if = {
-                limit = {
-                    dominant_province_culture = irminonic
-                }
-                owner = {
-                    current_ruler = {
-                        set_culture = irminonic
-                    }
-                    set_primary_culture_cleanup_effect = {
-                        NEW_PRIMARY_CULTURE = irminonic
-                        MAKE_OLD_CULTURE_INTEGRATED = yes
-                    }    
-                }
+        }
+        exclusive = yes
+        scope:huna_invaded_province = {
+            create_country = {
+                save_scope_as = huna_conquest
+                set_variable = barbarian_conquest_cooldown
             }
-            else_if = {
-                limit = {
-                    dominant_province_culture = istvaeonic
-                }
-                owner = {
-                    current_ruler = {
-                        set_culture = istvaeonic
-                    }
-                    set_primary_culture_cleanup_effect = {
-                        NEW_PRIMARY_CULTURE = istvaeonic
-                        MAKE_OLD_CULTURE_INTEGRATED = yes
-                    }    
-                }
+        }
+        every_owned_province = {
+            limit = { is_in_region = scope:huna_invaded_province }
+            set_owned_by = scope:huna_conquest
+        }
+        set_variable = {
+            name = barbarian_conquest_cooldown
+            days = 3600
+        }
+    }
+
+    option = {
+        trigger = {
+            any_owned_province = {
+                THIS = scope:hunnic_invaded_province
             }
-            else_if = {
-                limit = {
-                    dominant_province_culture = hunnic
-                }
-                owner = {
-                    current_ruler = {
-                        set_culture = hunnic
-                    }
-                    set_primary_culture_cleanup_effect = {
-                        NEW_PRIMARY_CULTURE = hunnic
-                        MAKE_OLD_CULTURE_INTEGRATED = no
-                    }    
-                }
+        }
+        exclusive = yes
+        scope:hunnic_invaded_province = {
+            create_country = {
+                save_scope_as = hunnic_conquest
+                set_variable = barbarian_conquest_cooldown
             }
-            else_if = {
-                limit = {
-                    dominant_province_culture = huna
-                }
-                owner = {
-                    current_ruler = {
-                        set_culture = huna
-                    }
-                    set_primary_culture_cleanup_effect = {
-                        NEW_PRIMARY_CULTURE = huna
-                        MAKE_OLD_CULTURE_INTEGRATED = no
-                    }    
-                }
-            }
+        }
+        every_owned_province = {
+            limit = { is_in_area = scope:hunnic_invaded_province }
+            set_owned_by = scope:hunnic_conquest
+        }
+        set_variable = {
+            name = barbarian_conquest_cooldown
+            days = 1800
         }
     }
 }   
 
-te_barbarians.56 = {
+#te_barbarians.56 = {
+#    type = country_event
+#    hidden = yes
+#
+#    trigger = {
+#       num_of_cities > 100
+#       num_of_cities < 500
+#    }
+#
+#    immediate = {
+#
+#    }
+#
+#    option = { 
+#            scope:irminonic_invaded_province = {
+#                area = {
+#                    save_scope_as = irminonic_invaded_area
+#                }
+#            }    
+#        }
+#    }
+#}
+
+te_barbarians.58 = {
     type = country_event
     hidden = yes
 
