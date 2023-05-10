@@ -15,6 +15,12 @@ Gamma — v0.3.0
 		+also removed additional pops to 5141, 5143, 5144, 5279, 5963, and 7295
 			►not needed for Invictus
 	-added province 5297
+	-adjusted numbers of pops for strongholds
+
+*edited te_barbarians.15 to create a new country and give provinces in scandinavia_region
+*edited te_barbarians.55 to create a new country in a great power invaded by huns
+	-creates new countries from provinces that are overrun by barbarians depending on owner state rank
+		+if province has more than 200 tribesmen of hunnic or huna culture 
 
 *increased barbarian_fury_discipline in modifier from 0.05 to 0.1
 	-5% to 10%
