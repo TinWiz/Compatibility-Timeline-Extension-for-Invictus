@@ -3,6 +3,10 @@ Gamma — v0.3.0
 *deleted tribal_flavour_events.txt event override
 	-reworked by Invictus v1.6
 	-would soon be moot with v2.0.4 changes
+*deleted setup/countries directory
+	-added a bit of flavour to description for IRCK3 decision only, not necessary
+	-caused crashes with each Invictus map update
+	-deletion recommended by modders
 
 *removed te_plagues.3* events
 	-not needed for Invictus timeline extension	
