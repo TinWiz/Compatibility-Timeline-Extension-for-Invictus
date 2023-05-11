@@ -26,8 +26,8 @@ Gamma — v0.3.0
 	-added province 5297
 	-adjusted numbers of pops for strongholds
 
-*edited ai_diplochance factors for barbarians
-	-aim to accept client state if heavily occupied
+*edited ai_diplochance factor for barbarian_create_client
+	-enable accept client state scale by barbarian_occupation?
 
 *edited te_barbarians.15 to create a new country and give provinces in scandinavia_region
 *edited te_barbarians.55 to create a new country in a great power invaded by huns
