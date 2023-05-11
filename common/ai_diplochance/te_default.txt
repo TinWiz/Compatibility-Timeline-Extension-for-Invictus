@@ -1,32 +1,8 @@
-barbarian_demand_surrender = {
-	base = {
-		offset = -40
-	}
-}
-
 barbarian_create_client = {
 	base = {
 		offset = -200
 	}
 	barbarian_occupation = {
 		scale = 1
-	}
-}
-
-barbarian_payoff = {
-	base = {
-		offset = -30
-	}
-	in_debt = {
-		scale = -0.1
-	}
-}
-
-barbarian_settle = {
-	base = {
-		offset = -20
-	}
-	negative_stability = {
-		scale = -1
 	}
 }
