@@ -12,6 +12,7 @@ Gamma — v0.3.0
 *removed te_plagues.3* events
 	-not needed for Invictus timeline extension
 		+duplicated in te_plagues.4* events 
+*adjusted regions in te_plagues.4* events for Invictus v1.6 map changes
 
 *rearranged te_default.txt provinces for hunnic invasions
 	-blocked provinces 5971 and 5981
@@ -25,14 +26,15 @@ Gamma — v0.3.0
 			►not needed for Invictus
 	-added province 5297
 	-adjusted numbers of pops for strongholds
+	-added tag BHA to te_barbarians.6 and te_barbarians.7
 
 *edited ai_diplochance factor for barbarian_create_client
 	-enable accept client state scale by barbarian_occupation?
 
 *edited te_barbarians.15 to create a new country and give provinces in scandinavia_region
-*edited te_barbarians.55 to create a new country in a great power invaded by huns
+*edited te_barbarians.55 and added te_barbarians.56 to create a new country in a great power invaded by huns
 	-creates new countries from provinces that are overrun by barbarians depending on owner state rank
-		+if province has more than 200 tribesmen of hunnic or huna culture 
+		+if province has more than 200 tribesmen of huna or hunnic culture 
 
 *increased barbarian_fury_discipline in modifier from 0.05 to 0.1
 	-5% to 10%
