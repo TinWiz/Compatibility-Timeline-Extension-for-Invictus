@@ -1694,17 +1694,9 @@ te_barbarians.55 = {
         num_of_cities > 500
         is_ai = yes
         NOR = {
-            #primary_culture = istvaeonic
-            #primary_culture = irminonic
-            primary_culture = huna
-            primary_culture = hunnic    
+            primary_culture = huna   
             current_ruler = {
-                OR = {
-                    has_culture = huna
-                    has_culture = hunnic
-                    #has_culture = istvaeonic
-                    #has_culture = irminonic
-                }
+                has_culture = huna
             }
             any_owned_province = {
                 any_neighbor_province = {
@@ -1714,15 +1706,8 @@ te_barbarians.55 = {
             has_variable = barbarian_conquest_cooldown
         }               
         any_owned_province = {
-            AND = {
-                OR = {
-                    dominant_province_culture = huna
-                    dominant_province_culture = hunnic
-                    #dominant_province_culture = istvaeonic
-                    #dominant_province_culture = irminonic
-                }
-                num_of_tribesmen > 200
-            }
+            dominant_province_culture = huna
+            num_of_tribesmen > 200   
         }
     }
 
@@ -1757,39 +1742,16 @@ te_barbarians.55 = {
         #        save_scope_as = istvaeonic_invaded_province
         #    }
         #}
-        if = {
+        random_owned_province = {
             limit = {
-                any_owned_province = {
-                    num_of_tribesmen > 200
-                    dominant_province_culture = huna
-                }
+                num_of_tribesmen > 200
+                dominant_province_culture = huna
             }
-            random_owned_province = {
-                limit = {
-                    num_of_tribesmen > 200
-                    dominant_province_culture = huna
-                }
-                save_scope_as = huna_invaded_province
-            }
-        }
-        else = {
-            random_owned_province = {
-                limit = {
-                    num_of_tribesmen > 200
-                    dominant_province_culture = hunnic
-                }
-                save_scope_as = hunnic_invaded_province
-            }
+            save_scope_as = huna_invaded_province
         }
     }
 
     option = {
-        trigger = {
-            any_owned_province = {
-                THIS = scope:huna_invaded_province
-            }
-        }
-        exclusive = yes
         scope:huna_invaded_province = {
             create_country = {
                 save_scope_as = huna_conquest
@@ -1800,19 +1762,83 @@ te_barbarians.55 = {
             limit = { is_in_region = scope:huna_invaded_province }
             set_owned_by = scope:huna_conquest
         }
+    }
+
+    after = {
         set_variable = {
             name = barbarian_conquest_cooldown
             days = 3600
         }
     }
+}   
+
+te_barbarians.56 = {
+    type = country_event
+	hidden = yes
+
+    trigger = {
+        current_date > 1203.12.13
+        num_of_cities > 500
+        is_ai = yes
+        NOR = {
+            primary_culture = hunnic    
+            current_ruler = {
+                has_culture = hunnic
+            }
+            any_owned_province = {
+                any_neighbor_province = {
+                    province_id = 5952
+                } 
+            }
+            has_variable = barbarian_conquest_cooldown
+        }               
+        any_owned_province = {
+            dominant_province_culture = hunnic
+            num_of_tribesmen > 200
+        }
+    }
+
+    immediate = {
+        #if = {
+        #    limit = {
+        #        any_owned_province = {
+        #            num_of_tribesmen > 200
+        #            dominant_province_culture = irminonic
+        #        }
+        #    }
+        #    random_owned_province = {
+        #        limit = {
+        #            num_of_tribesmen > 200
+        #            dominant_province_culture = irminonic
+        #        }
+        #        save_scope_as = irminonic_invaded_province
+        #    }
+        #}
+        #else_if = {
+        #    limit = {
+        #        any_owned_province = {
+        #            num_of_tribesmen > 200
+        #            dominant_province_culture = istvaeonic
+        #        }
+        #    }
+        #    random_owned_province = {
+        #        limit = {
+        #            num_of_tribesmen > 200
+        #            dominant_province_culture = istvaeonic
+        #        }
+        #        save_scope_as = istvaeonic_invaded_province
+        #    }
+        #}
+        random_owned_province = {
+            limit = {
+                num_of_tribesmen > 200
+                dominant_province_culture = hunnic
+            }
+            save_scope_as = hunnic_invaded_province
+        }
+    }
 
     option = {
-        trigger = {
-            any_owned_province = {
-                THIS = scope:hunnic_invaded_province
-            }
-        }
-        exclusive = yes
         scope:hunnic_invaded_province = {
             create_country = {
                 save_scope_as = hunnic_conquest
@@ -1823,14 +1849,16 @@ te_barbarians.55 = {
             limit = { is_in_area = scope:hunnic_invaded_province }
             set_owned_by = scope:hunnic_conquest
         }
+    }
+    after = {
         set_variable = {
             name = barbarian_conquest_cooldown
             days = 1800
         }
     }
-}   
+}
 
-#te_barbarians.56 = {
+#te_barbarians.57 = {
 #    type = country_event
 #    hidden = yes
 #
@@ -2133,6 +2161,7 @@ te_barbarians.6 = {
             }
             tag = SEL
             tag = MRY
+            tag = BHA
         }
     }
     
@@ -2302,7 +2331,7 @@ te_barbarians.70 = {
                     while = {
                         limit = {
                             any_pops_in_province = {
-                                count < 300
+                                count < 250
                             }
                         }    
                         create_pop = tribesmen
@@ -2330,7 +2359,7 @@ te_barbarians.70 = {
                     while = {
                         limit = {
                             any_pops_in_province = {
-                                count < 300
+                                count < 250
                             }
                         }    
                         create_pop = tribesmen
@@ -2363,6 +2392,7 @@ te_barbarians.7 = {
             }
             tag = SEL
             tag = MRY
+            tag = BHA
         }
     }
 
@@ -2403,7 +2433,7 @@ te_barbarians.7 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 400
+                            count < 300
                         }
                     }    
                     create_pop = tribesmen
@@ -2425,7 +2455,7 @@ te_barbarians.7 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 400
+                            count < 300
                         }
                     }    
                     create_pop = tribesmen
@@ -2459,7 +2489,7 @@ te_barbarians.71 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 400
+                            count < 300
                         }
                     }    
                     create_pop = tribesmen
@@ -2480,7 +2510,7 @@ te_barbarians.71 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 400
+                            count < 300
                         }
                     }    
                     create_pop = tribesmen
@@ -2513,7 +2543,7 @@ te_barbarians.72 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 400
+                            count < 360
                         }
                     }    
                     create_pop = tribesmen
@@ -2533,7 +2563,7 @@ te_barbarians.72 = {
                 while = {
                     limit = {
                         any_pops_in_province = {
-                            count < 400
+                            count < 360
                         }
                     }    
                     create_pop = tribesmen
