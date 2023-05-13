@@ -1,8 +1,0 @@
-barbarian_create_client = {
-	base = {
-		offset = -200
-	}
-	barbarian_occupation = {
-		scale = 1
-	}
-}
