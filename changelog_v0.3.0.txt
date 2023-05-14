@@ -28,6 +28,8 @@ Gamma — v0.3.0
 	-adjusted numbers of pops for strongholds
 	-added tag BHA to te_barbarians.6 and te_barbarians.7
 
+*added tag BHA to option te_judaism.21.b
+
 *edited te_barbarians.15 to create a new country and give provinces in scandinavia_region
 *edited te_barbarians.55 and added te_barbarians.56 to create a new country in a great power invaded by huns
 	-creates new countries from provinces that are overrun by barbarians depending on owner state rank
