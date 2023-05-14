@@ -182,6 +182,7 @@ te_judaism.21 = {
         trigger = {
             OR = {
                 tag = MRY
+                tag = BHA
                 is_ai = no
                 #p:4440 = {
                 #    owner = root
