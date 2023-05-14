@@ -790,8 +790,18 @@ te_christianity.72 = {
 					has_religion = christianity
 				}
 			}
-			add_political_influence = 200
-			add_legitimacy = 70
+			while = {
+				limit = {
+					legitimacy < 70
+				}
+				add_legitimacy = 5
+			}
+			while = {
+				limit = {
+					political_influence < 200
+				}
+				add_political_influence = 20
+			}
 		}
 		else_if = {
 			limit = {
