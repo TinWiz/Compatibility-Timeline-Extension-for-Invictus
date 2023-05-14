@@ -70,6 +70,8 @@ Gamma — v0.3.0
 *organized script for l6_christian.3 to trigger even if tag is JUD, SMA, or ISR	
 *set end date for l6_christian.2 on 818.1.25, 65AD
 
+*edited political influence and legitimacy effects to te_christianity.72 to add while loops
+
 *lowered trigger dates for full effects of te_christianity.96 and te_christianity.97 to 1000 AUC 
 	-balance for provinces with early_christian_community or early_christian_church
 
