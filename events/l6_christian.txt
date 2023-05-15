@@ -161,9 +161,6 @@ l6_christian.3 = {
 		NOR = {
 			religion = manichaeism
 			religion = christianity
-			#tag = JUD
-			#tag = SMA
-			#tag = ISR
 		}
 		any_owned_province = {
 			OR = {
