@@ -248,7 +248,7 @@
 						}
 						add_truce = {
 							target = root
-							duration = -1
+							duration = 3000
 						}
 						set_variable = severed_roman_half_traditions
 					}
@@ -268,7 +268,7 @@
 				hidden_effect = {
 					add_truce = {
 						target = scope:new_ERE
-						duration = -1
+						duration = 3000
 					}
 					every_character = {
 						limit = {
@@ -570,7 +570,7 @@
 						}
 						add_truce = {
 							target = ROOT
-							duration = -1
+							duration = 3000
 						}
 						set_variable = {
 							name = severed_roman_half_traditions
@@ -593,7 +593,7 @@
 				hidden_effect = {
 					add_truce = {
 						target = scope:new_WRE
-						duration = -1
+						duration = 3000
 					}
 					every_character = {
 						limit = {
