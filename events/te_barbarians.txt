@@ -571,8 +571,11 @@ te_barbarians.12 = {
 
 #Suioni revenge
 te_barbarians.13 = {
-    type = country_event
-    hidden = yes
+    type = minor_country_event
+    title= "te_barbarians.13.t"
+    desc = "te_barbarians.13.desc"
+    interface_lock = no
+    left_portrait = current_ruler
 
     trigger = {
         current_date > 1054.5.14
@@ -611,24 +614,8 @@ te_barbarians.13 = {
     }
 
     option = {
-        if = {
-            limit = {
-                p:5952 = { 
-                    NOT = {
-                        has_province_modifier = barbarian_invasion_skirmish
-                    }
-                }
-            }
-            p:5952 = {
-                add_permanent_province_modifier = {
-                    name = "barbarian_invasion_skirmish"
-                }
-            }
-        }
-    }
-
-    after = {
-        if = {
+    	name = "te_barbarians.13.a"
+	if = {
             limit = {
                 #is_tribal = no
                 num_of_cities >= 100
@@ -642,12 +629,28 @@ te_barbarians.13 = {
             }
             add_stability = -15
         }
+    }
+
+    after = {
+    	if = {
+            limit = {
+                p:5952 = { 
+                    NOT = {
+                        has_province_modifier = barbarian_invasion_skirmish
+                    }
+                }
+            }
+            p:5952 = {
+                add_permanent_province_modifier = {
+                    name = "barbarian_invasion_skirmish"
+                }
+            }
+        }
         set_variable = {
             name = scandian_invasion
             days = 3600
         }
     }
-
 }
 
 te_barbarians.14 = {
@@ -684,6 +687,9 @@ te_barbarians.15 = {
 
     trigger = {
         current_date > 1054.5.14
+	NOT = {
+		has_variable = scandian_invasion
+	}	
         p:5952 = {
             AND = {
                 has_province_modifier = barbarian_invasion_skirmish
@@ -699,6 +705,7 @@ te_barbarians.15 = {
                             any_owned_province = {
                                 AND = {
                                     num_of_tribesmen > 200
+				    is_in_region = scandinavia_region
                                     dominant_province_culture_group = culture_group:germanic
                                 }    
                             }
@@ -708,7 +715,6 @@ te_barbarians.15 = {
             }
         }
     }
-
     immediate = {
         p:5952 = {
             random_neighbor_province = {
@@ -724,6 +730,7 @@ te_barbarians.15 = {
                             any_owned_province = {
                                 AND = {
                                     num_of_tribesmen > 200
+				    is_in_region = scandinavia_region
                                     dominant_province_culture_group = culture_group:germanic
                                 }
                             }
@@ -734,6 +741,7 @@ te_barbarians.15 = {
                     random_owned_province = {
                         limit = {
                             num_of_tribesmen > 200
+			    is_in_region = scandinavia_region
                             dominant_province_culture_group = culture_group:germanic
                         }
                         save_scope_as = germanic_invaded_province
@@ -753,7 +761,6 @@ te_barbarians.15 = {
             set_owned_by = scope:scandinavian_conquest
         }    
     }
-
     after = {
         p:5952 = {
             remove_province_modifier = barbarian_invasion_skirmish
@@ -763,7 +770,6 @@ te_barbarians.15 = {
             days = 9000
         }
     }
-
 }
 
 ## Migration Era — Huns!
