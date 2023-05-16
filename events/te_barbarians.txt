@@ -584,18 +584,19 @@ te_barbarians.13 = {
 	}	
         p:5952 = {
             AND = {
-                OR = {
-                    NOT = { has_province_modifier = barbarian_invasion_skirmish }
-                    THIS = { num_of_tribesmen < 120 }
-                } 
-                any_neighbor_province = {
+	    	any_neighbor_province = {
                     has_owner = yes
                     owner = {
+		    	THIS = ROOT
                         NOT = {
                             country_culture_group = germanic
                         } 
                     }
                 }
+                OR = {
+                    NOT = { has_province_modifier = barbarian_invasion_skirmish }
+                    THIS = { num_of_tribesmen < 120 }
+                } 
             }
         }
     }
