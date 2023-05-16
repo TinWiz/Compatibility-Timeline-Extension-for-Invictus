@@ -627,7 +627,7 @@ te_barbarians.13 = {
     after = {
         if = {
             limit = {
-                is_tribal = no
+                #is_tribal = no
                 num_of_cities >= 100
                 NOT = {
                     has_variable = scandian_invasion
@@ -637,7 +637,7 @@ te_barbarians.13 = {
         }
         else_if = {
             limit = {
-                is_tribal = no
+                #is_tribal = no
                 num_of_cities < 100
                 NOT = {
                     has_variable = scandian_invasion
