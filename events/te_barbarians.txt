@@ -624,6 +624,33 @@ te_barbarians.13 = {
         }
     }
 
+    after = {
+        if = {
+            limit = {
+                is_tribal = no
+                num_of_cities >= 100
+                NOT = {
+                    has_variable = scandian_invasion
+                }
+            }
+            add_stability = -30
+        }
+        else_if = {
+            limit = {
+                is_tribal = no
+                num_of_cities < 100
+                NOT = {
+                    has_variable = scandian_invasion
+                }
+            }
+            add_stability = -15
+        }
+        set_variable = {
+            name = scandian_invasion
+            days = 3600
+        }
+    }
+
 }
 
 te_barbarians.14 = {
@@ -733,6 +760,10 @@ te_barbarians.15 = {
     after = {
         p:5952 = {
             remove_province_modifier = barbarian_invasion_skirmish
+        }
+        set_variable = {
+            name = scandian_invasion
+            days = 9000
         }
     }
 
