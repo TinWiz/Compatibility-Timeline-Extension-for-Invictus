@@ -576,6 +576,9 @@ te_barbarians.13 = {
 
     trigger = {
         current_date > 1054.5.14
+	NOT = {
+		has_variable = scandian_invasion
+	}	
         p:5952 = {
             AND = {
                 OR = {
@@ -629,9 +632,6 @@ te_barbarians.13 = {
             limit = {
                 #is_tribal = no
                 num_of_cities >= 100
-                NOT = {
-                    has_variable = scandian_invasion
-                }
             }
             add_stability = -30
         }
@@ -639,9 +639,6 @@ te_barbarians.13 = {
             limit = {
                 #is_tribal = no
                 num_of_cities < 100
-                NOT = {
-                    has_variable = scandian_invasion
-                }
             }
             add_stability = -15
         }
