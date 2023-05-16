@@ -14,6 +14,10 @@
  te_barbarians.12.t:0 "Les tribus germaniques migrent"
  te_barbarians.12.desc:1 "Les vagues de Barbares venant de Germanie et d'ailleurs ont augmenté en nombre, avec de nouvelles tribus se formant et se ramifiant à partir d'anciennes tribus. Les périodes de froid au nord et un autre mouvement de nomades dans les terres plus à l'est entraînent une migration massive de peuples à travers le continent, menaçant la stabilité de notre royaume."
  te_barbarians.12.a:0 "Nous ne pouvons pas arrêter cette migration massive, mais nous devons protéger notre propre population."
+ 
+ te_barbarians.13.t:0 "Vengeance nordique"
+ te_barbarians.13.desc:1 "Votre pays en expansion a atteint les limites septentrionales du monde connu, repoussant les habitants autochtones vers les montagnes infranchissables. Désespérés et furieux, leurs armées barbares envahissent vos territoires et attaquent les colonies de votre propre peuple, tandis que les sauvages nordiques cherchent à reconquérir la patrie que vous leur avez prise."
+ te_barbarians.13.a:0 "Devrions-nous leur résister ou abandonner ces terres?"
 
  te_barbarians.2.t:0 "Les Huns apparaissent sur la Volga"
  te_barbarians.2.desc:1 "Les Huns étaient un peuple nomade qui vivait en Asie centrale, dans le Caucase et en Europe de l'Est entre le 4e et le 6e siècle de notre ère. Selon la tradition européenne, ils vivraient pour la première fois à l'est de la Volga, dans une région qui faisait alors partie de la Scythie. En 370 de notre ère, les Huns étaient arrivés sur la Volga."
