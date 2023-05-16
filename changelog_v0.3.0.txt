@@ -42,6 +42,9 @@ Gamma — v0.3.0
 *revised IRCK3_scripted_triggers.txt for splitting Roman Empire
 	-borysthenia_region removed; will be entirely ERE
 
+*changed truce duration from -1 to 3000 in IRCK3 decision between WRE and ERE
+	-stop error log complaints
+
 *updated buildings default file 
 	-local_country_civilization_value for port_building lowered from 3 to 1
 	-local_base_trade_routes_modifier for commerce_building lowered back to vanilla 0.025
