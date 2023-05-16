@@ -14,6 +14,10 @@
  te_barbarians.12.t:0 "Germanic Tribes Migrate"
  te_barbarians.12.desc:1 "The waves of Barbarians from Germania and beyond have increased in numbers, with new tribes forming and branching off from former tribes. Colder weather spells in the north and some other movement of nomads in the lands farther east are driving a mass migration of peoples across the continent, threatening the stability of our realm."
  te_barbarians.12.a:0 "We cannot stop this mass migration, but we must protect our own people."
+ 
+ te_barbarians.13.t:0 "Nordic Vengeance"
+ te_barbarians.13.desc:1 "Your expanding realm has reached the northern limits of the known world, driving the native inhabitants into the impassable mountains. Desperate and enraged, their barbarian armies invade your territories and attack the settlements of your own people, as the wild northmen seek to regain the homeland that you have taken from them."
+ te_barbarians.13.a: "Shall we resist them, or relinquish this land?"
 
  te_barbarians.2.t:0 "The Huns Appear on the Volga"
  te_barbarians.2.desc:1 "The Huns were a nomadic people who lived in Central Asia, the Caucasus, and Eastern Europe between the 4th and 6th century CE. According to European tradition, they were first reported living east of the Volga River, in an area that was part of Scythia at the time. By 370 CE, the Huns had arrived on the Volga."
