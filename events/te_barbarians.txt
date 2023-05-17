@@ -587,7 +587,7 @@ te_barbarians.13 = {
 	    	any_neighbor_province = {
                     has_owner = yes
                     owner = {
-		    	THIS = ROOT
+		    	        THIS = ROOT
                         NOT = {
                             country_culture_group = germanic
                         } 
@@ -616,7 +616,7 @@ te_barbarians.13 = {
 
     option = {
     	name = "te_barbarians.13.a"
-	if = {
+	    if = {
             limit = {
                 #is_tribal = no
                 num_of_cities >= 100
