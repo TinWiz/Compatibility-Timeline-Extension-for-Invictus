@@ -85,6 +85,7 @@ Gamma — v0.3.0
 	-edited player decisions to lower requirement for converted pops
 *scripted triggers added in te_religion_triggers.txt for christianity and manichaeism with lower requirements for converted pops
 	-lowered to 10% for christianity and 5% for manichaeism (from 20% in vanilla trigger)
+		+custom localization tooltips added for these
 	
 *edited te_christianity.72 to trigger if culture is roman and capital is in Rome 
 	-even if Rome has previously lost a civil war and tag is dynamic, not ROM
