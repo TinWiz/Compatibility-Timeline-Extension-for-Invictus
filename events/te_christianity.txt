@@ -745,6 +745,12 @@ te_christianity.72 = {
 		has_global_variable = christianity_expands
 		OR = {
 			tag = ROM
+			AND = {
+				capital_scope = {
+					province_id = 1
+				}
+				primary_culture = roman
+			}
 			tag = MAC
 			tag = TRE
 			tag = EGY
@@ -1724,7 +1730,7 @@ te_christianity.98 = {
 		}
 		religion_pops_in_country = {
 			target = christianity
-			value >= 20
+			value >= 10 #changed from 20 v0.3.0
 		}
 	}
 
