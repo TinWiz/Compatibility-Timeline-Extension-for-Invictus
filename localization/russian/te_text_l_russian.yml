@@ -26,8 +26,12 @@
  convert_to_christian:0 "Указ о евангелизации"
  convert_to_christian_desc:1 "Примите Евангелие, распространяемое в наших землях, и постановите, чтобы христианство стало официальной религией этой страны."
 
+ small_religion_in_country_tooltip:0 "Не менее 10% населения державы [SCOPE.GetRootScope.GetCountry.GetName] исповедует эту религию."
+
  convert_to_manichaean:0 "Принять манихейство"
  convert_to_manichaean_desc:1 "Изучайте гностические тексты, движимые жизнью и писаниями Мани, последнего перевоплощенного пророка великих мировых религий, очищенного от порчи, и посвятите царство этому новому просветлению."
+
+ minor_religion_in_country_tooltip:0 "Не менее 5% населения державы [SCOPE.GetRootScope.GetCountry.GetName] исповедует эту религию."
 
  early_christian_community:0 "Раннехристианское сообщество"
  desc_early_christian_community:0 "В этой провинции обосновалась община верующих христиан."
