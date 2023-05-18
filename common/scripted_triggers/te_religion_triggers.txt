@@ -34,7 +34,7 @@
 		}
 		AND = {
 			custom_tooltip = {
-				text = big_religion_in_country_tooltip
+				text = small_religion_in_country_tooltip
 				religion_pops_in_country = {
 					target = $RELIGION$
 					value >= 10 #changed from 20 only for players
@@ -86,7 +86,7 @@ could_change_religion_mani_trigger = { #Adjusted vanilla trigger to lower requir
 		}
 		AND = {
 			custom_tooltip = {
-				text = big_religion_in_country_tooltip
+				text = minor_religion_in_country_tooltip
 				religion_pops_in_country = {
 					target = $RELIGION$
 					value >= 5 #changed from 20 only for players
