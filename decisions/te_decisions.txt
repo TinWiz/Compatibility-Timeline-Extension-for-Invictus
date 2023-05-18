@@ -2,17 +2,40 @@
 	
 	convert_to_christian = {
 		potential = {
-			OR = {
-				current_date > 953.12.31
-				AND = {
-					current_date > 854.1.1
-					is_ai = no
-				}	
-			}
+			current_date > 854.1.1
+			is_ai = no
 			has_global_variable = christianity_expands
 			num_of_cities >= 1
 			potential_change_religion_trigger = {
-					RELIGION = christianity
+				RELIGION = christianity
+			}
+		}
+
+		allow = {
+			could_change_religion_xian_trigger = {
+				RELIGION = christianity
+			}
+		}
+		
+		effect = {
+			change_religion_effect = {
+				RELIGION = christianity
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ai_convert_to_christian = {
+		potential = {
+			is_ai = yes
+			current_date > 953.12.31
+			has_global_variable = christianity_expands
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = christianity
 			}
 		}
 
@@ -44,6 +67,12 @@
 				factor = 1000
 				OR = {
 					tag = ROM
+					AND = {
+						capital_scope = {
+							province_id = 1
+						}
+						primary_culture = roman
+					}
 					tag = MAC
 					tag = PRY
 					tag = EGY
@@ -67,9 +96,36 @@
 
 	convert_to_manichaean = {
 		potential = {
+			is_ai = no
 			num_of_cities >= 1
 			potential_change_religion_trigger = {
-					RELIGION = manichaeism
+				RELIGION = manichaeism
+			}
+		}
+
+		allow = {
+			could_change_religion_mani_trigger = {
+				RELIGION = manichaeism
+			}
+		}
+		
+		effect = {
+			change_religion_effect = {
+				RELIGION = manichaeism
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ai_convert_to_manichaean = {
+		potential = {
+			is_ai = yes
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = manichaeism
 			}
 		}
 
@@ -98,6 +154,7 @@
 				OR = {
 					tag = JUD
 					tag = SMA
+					tag = ISR
 				}
 			}
 		}
