@@ -81,7 +81,18 @@ Gamma — v0.3.0
 *lowered trigger dates for full effects of te_christianity.96 and te_christianity.97 to 1000 AUC 
 	-balance for provinces with early_christian_community or early_christian_church
 
+*edited te_decisions to split ai and player only decisions to convert to christianity and manichaeism
+	-edited player decisions to lower requirement for converted pops
+*scripted triggers added in te_religion_triggers.txt for christianity and manichaeism with lower requirements for converted pops
+	-lowered to 10% for christianity and 5% for manichaeism (from 20% in vanilla trigger)
+	
+*edited te_christianity.72 to trigger if culture is roman and capital is in Rome 
+	-even if Rome has previously lost a civil war and tag is dynamic, not ROM
+*edited te_christianity.98 to trigger if 10% of pops are christian
+	-lowered from 20%
+
 *added tag ISR to factor 0 list in te_decisions.txt for edict of evangelization
+	-also added to ai_convert_to_manichaean decision
 
 *renamed prices file 00_hardcoded to te_hardcoded
   -removed all prices except buy_military_tradition, which was increased from 80 to 120
