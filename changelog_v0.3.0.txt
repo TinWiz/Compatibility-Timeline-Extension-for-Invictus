@@ -88,7 +88,7 @@ Gamma — v0.3.0
 	
 *edited te_christianity.72 to trigger if culture is roman and capital is in Rome 
 	-even if Rome has previously lost a civil war and tag is dynamic, not ROM
-*edited te_christianity.98 to trigger if 10% of pops are christian
+*edited te_christianity.98 to trigger and create a christian character if 10% of pops are christian
 	-lowered from 20%
 
 *added tag ISR to factor 0 list in te_decisions.txt for edict of evangelization
