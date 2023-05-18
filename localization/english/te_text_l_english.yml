@@ -26,8 +26,12 @@
  convert_to_christian:0 "Edict of Evangelization"
  convert_to_christian_desc:1 "Embrace the gospel spread in our lands and decree that Christianity become the official religion of this country."
 
+ small_religion_in_country_tooltip:0 "At least 10% of the people in [SCOPE.GetRootScope.GetCountry.GetName] follow this religion."
+
  convert_to_manichaean:0 "Adopt Manichaeism"
  convert_to_manichaean_desc:1 "Study the gnostic texts, moved by the life and writings of Mani, the final reincarnated prophet of the world's great religions, purified of corruption, and dedicate the realm to this new enlightenment."
+
+ minor_religion_in_country_tooltip:0 "At least 5% of the people in [SCOPE.GetRootScope.GetCountry.GetName] follow this religion."
 
  early_christian_community:0 "Early Christian Community"
  desc_early_christian_community:0 "A community of Christian believers have established themselves in this province."
