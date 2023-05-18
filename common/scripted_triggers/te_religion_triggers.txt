@@ -1,4 +1,108 @@
-﻿deity_is_christian_trigger = {
+﻿could_change_religion_xian_trigger = { #Adjusted vanilla trigger to lower requirement for converted pops
+	political_influence >= 200
+	trigger_if = { #monarchy
+		limit = { is_monarchy = yes }
+		legitimacy >= 70
+	}
+	trigger_else_if = { #Republic
+		limit = { is_republic = yes }
+		has_senate_approval >= 0.3
+	}
+	trigger_else = { #Tribe
+		any_character = {
+			count = all
+			OR = {
+				is_clan_chief = no
+				loyalty >= 60
+			}
+		}
+	}
+	NOT = {
+		has_country_modifier = recent_convert_modifier
+	}
+	
+	OR = {
+		hidden:capital_scope = {
+			custom_tooltip = {
+				text = big_religion_in_capital_tooltip
+				any_pops_in_province = {
+					count >= majority_of_free_men_in_capital_svalue
+					pop_religion = $RELIGION$
+					NOT = { pop_type = slaves }
+				}
+			}
+		}
+		AND = {
+			custom_tooltip = {
+				text = big_religion_in_country_tooltip
+				religion_pops_in_country = {
+					target = $RELIGION$
+					value >= 10 #changed from 20 only for players
+				}
+			}
+			custom_tooltip = {
+				text = pantheon_deity_tooltip
+				any_pantheon_deity = {
+					deity_religion = $RELIGION$
+				}
+			}
+		}
+	}
+}
+
+could_change_religion_mani_trigger = { #Adjusted vanilla trigger to lower requirement for converted pops
+	political_influence >= 200
+	trigger_if = { #monarchy
+		limit = { is_monarchy = yes }
+		legitimacy >= 70
+	}
+	trigger_else_if = { #Republic
+		limit = { is_republic = yes }
+		has_senate_approval >= 0.3
+	}
+	trigger_else = { #Tribe
+		any_character = {
+			count = all
+			OR = {
+				is_clan_chief = no
+				loyalty >= 60
+			}
+		}
+	}
+	NOT = {
+		has_country_modifier = recent_convert_modifier
+	}
+	
+	OR = {
+		hidden:capital_scope = {
+			custom_tooltip = {
+				text = big_religion_in_capital_tooltip
+				any_pops_in_province = {
+					count >= majority_of_free_men_in_capital_svalue
+					pop_religion = $RELIGION$
+					NOT = { pop_type = slaves }
+				}
+			}
+		}
+		AND = {
+			custom_tooltip = {
+				text = big_religion_in_country_tooltip
+				religion_pops_in_country = {
+					target = $RELIGION$
+					value >= 5 #changed from 20 only for players
+				}
+			}
+			custom_tooltip = {
+				text = pantheon_deity_tooltip
+				any_pantheon_deity = {
+					deity_religion = $RELIGION$
+				}
+			}
+		}
+	}
+}
+
+deity_is_christian_trigger = {
     OR = {
         this = deity:omen_st_andrew
         this = deity:omen_st_thomas
