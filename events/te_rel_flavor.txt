@@ -8,8 +8,6 @@ te_rel_flavor.1 = {
 			triggered_desc = { 
 				trigger = {
 					NOT = {
-					#	tag = JUD
-					#	tag = SMA
 						religion = judaism
 					}
 				}
@@ -17,12 +15,7 @@ te_rel_flavor.1 = {
 			}
 			triggered_desc = { # Judea or Samaria
 				trigger = { 
-					#OR = {
-					#	tag = JUD
-					#	tag = SMA
-					#	tag = ISR
 						religion = judaism
-					#}
 				}	
 				desc = "te_rel_flavor.1.desc_2"
 			}
@@ -188,9 +181,6 @@ te_rel_flavor.2 = {
 			triggered_desc = { 
 				trigger = {
 					NOT = {
-						#tag = JUD
-						#tag = SMA
-						#tag = ISR
 						religion = judaism
 					}
 				}
@@ -198,12 +188,7 @@ te_rel_flavor.2 = {
 			}
 			triggered_desc = { # Judea or Samaria
 				trigger = { 
-					#OR = {
-					#	#tag = JUD
-					#	#tag = SMA
-					#	#tag = ISR
-						religion = judaism
-					#}
+					religion = judaism
 				}	
 				desc = "te_rel_flavor.2.desc_2"
 			}
