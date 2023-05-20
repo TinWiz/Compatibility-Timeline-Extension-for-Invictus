@@ -1761,8 +1761,6 @@ te_christianity.99 = {
 			triggered_desc = { 
 				trigger = {
 					NOT = {
-					#	tag = JUD
-					#	tag = SMA
 						religion = judaism
 					}
 				}
@@ -1770,12 +1768,7 @@ te_christianity.99 = {
 			}
 			triggered_desc = { # Judea or Samaria
 				trigger = { 
-					#OR = {
-					#	tag = JUD
-					#	tag = SMA
-					#	tag = ISR
 						religion = judaism
-					#}
 				}	
 				desc = "te_christianity.99.desc_2"
 			}
