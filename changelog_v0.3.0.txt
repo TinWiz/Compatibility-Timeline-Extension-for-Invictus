@@ -41,7 +41,6 @@ Gamma — v0.3.0
 *increased barbarian_fury_discipline in modifier from 0.05 to 0.1
 	-5% to 10%
 
-*revised countries.txt file for setup
 *revised IRCK3_scripted_triggers.txt for splitting Roman Empire
 	-borysthenia_region removed; will be entirely ERE
 
