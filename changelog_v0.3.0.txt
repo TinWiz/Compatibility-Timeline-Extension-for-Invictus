@@ -73,7 +73,7 @@ Gamma — v0.3.0
 	-will no longer trigger on provinces with a christian majority
 		+should not convert all pops of non-christian countries
 *edited trigger for l6_christan.4 to limit effect if global_variable jewish_diaspora is not set	
-*organized script for l6_christian.3 to trigger even if tag is JUD, SMA, or ISR	
+*organized script for l6_christian.3 to trigger even if tag is JUD, SMA
 *set end date for l6_christian.2 on 818.1.25, 65AD
 
 *edited political influence and legitimacy effects to te_christianity.72 to add while loops
@@ -91,9 +91,6 @@ Gamma — v0.3.0
 	-even if Rome has previously lost a civil war and tag is dynamic, not ROM
 *edited te_christianity.98 to trigger and create a christian character if 10% of pops are christian
 	-lowered from 20%
-
-*added tag ISR to factor 0 list in te_decisions.txt for edict of evangelization
-	-also added to ai_convert_to_manichaean decision
 
 *renamed prices file 00_hardcoded to te_hardcoded
   -removed all prices except buy_military_tradition, which was increased from 80 to 120
