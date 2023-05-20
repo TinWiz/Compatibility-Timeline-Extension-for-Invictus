@@ -42,6 +42,17 @@
 	terrain="impassable_terrain"
 	trade_goods=""
 }
+#Carpathia
+5297=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="hunnic"
+	province_rank=""
+	religion="eastern_animism"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
 #
 5299=
 {
@@ -77,39 +88,6 @@
 }
 #
 5970=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="hunnic"
-	province_rank=""
-	religion="eastern_animism"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-#
-5971=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="hunnic"
-	province_rank=""
-	religion="eastern_animism"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-#
-#5975=
-#{
-#	barbarian_power=0
-#	civilization_value=0
-#	culture="hunnic"
-#	province_rank=""
-#	religion="eastern_animism"
-#	terrain="impassable_terrain"
-#	trade_goods=""
-#}
-#
-5981=
 {
 	barbarian_power=0
 	civilization_value=0

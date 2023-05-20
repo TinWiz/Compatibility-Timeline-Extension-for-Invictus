@@ -1,0 +1,74 @@
+﻿l_spanish:
+  ## Saints ##
+ deity_st_andrew:0 "$omen_st_andrew$"
+ omen_st_andrew:1 "San Andrés"
+ omen_st_andrew_desc:2 "Andrés era el hermano mayor de Simón Pedro, ambos apóstoles de Jesús de Nazaret. Andrés fue al principio discípulo de San Juan el Bautista, quien luego lo envió a seguir a Jesús. Andrés animó a su hermano Simón a unirse a ellos, diciéndole que habían encontrado al Mesías. Así fue como Andrés llegó a ser aclamado como el Primero Llamado; (Πρωτόκλητος). Andrés predicó en Epiro, Capadocia, Escitia, Tracia, Macedonia y Acaya. Predicó desde el este de Anatolia hasta el oeste de Georgia. Andrés murió como mártir, crucificado en una cruz en forma de X, que se conoció como la Cruz de San Andrés, durante una persecución a los cristianos."
+
+ deity_st_thomas:0 "$omen_st_thomas$"
+ omen_st_thomas:1 "Santo Tomás"
+ omen_st_thomas_desc:2 "El Apóstol Tomás es uno de los doce Apóstoles que acompañaron a Jesús como amigos y alumnos durante tres años. Tomás fundó la Iglesia en la India y sus alrededores, y viajó hasta China para difundir el evangelio del Resucitado. Tomás dudó de la resurrección de Jesús de Nazaret hasta que vio y tocó personalmente al Cristo resucitado según el testimonio de los Apóstoles. Por eso fue apodado 'el Escéptico'. Thomas fundó las primeras siete comunidades cristianas en la costa de Malabar y murió mártir en Mailapur, en la costa opuesta del Coromandel."
+
+ deity_st_paul:0 "$omen_st_paul$"
+ omen_st_paul:1 "San Pablo de Tarso"
+ omen_st_paul_desc:2 "Saulo de Tarso fue un exitoso misionero cristiano primitivo y uno de los primeros teólogos cristianos. Como judío educado en Grecia y fariseo respetuoso de la ley con ciudadanía romana, Saulo, también conocido como Pablo, inicialmente persiguió a los seguidores de Jesucristo, a quienes, aparte de su aparición en su conversión, nunca conoció. Sin embargo, desde su conversión, se vio a sí mismo como un Apóstol del evangelio para el pueblo llamado por Dios. Como tal, proclamó a Jesucristo resucitado, especialmente a los no judíos o 'gentiles'. Para ello viajó al Mediterráneo oriental y fundó allí varias comunidades cristianas. Se mantuvo en contacto con ellas a través de sus cartas, conservadas como epístolas en las escrituras cristianas."
+
+ deity_st_john:0 "$omen_st_john$"
+ omen_st_john:1 "San Juan el Teólogo"
+ omen_st_john_desc:2 "Juan, hijo de Zebedeo, hermano de Santiago, fue discípulo de Jesucristo y se identifica en la tradición cristiana con el 'discípulo predilecto' de Jesús del Evangelio de Juan. Se le considera tradicionalmente como el autor del cuarto evangelio. Debido a la elevada teología de su evangelio, también se le llama tradicionalmente Juan el Teólogo. Juan fue exiliado a la isla de Patmos, donde recibió una visión mística del destino de la Iglesia, que escribió como Apocalipsis o Revelación."
+
+ deity_st_philip:0 "$omen_st_philip$"
+ omen_st_philip:1 "San Felipe"
+ omen_st_philip_desc:2 "Felipe fue uno de los doce Apóstoles de Jesús. Trabajó junto con Andrés en misiones en las áreas alrededor del Mar Negro y en Hierápolis (Asia Menor). Murió como un mártir en Scythia, Ucrania."
+
+ deity_st_nathanael_bartholomew:0 "$omen_st_nathanael_bartholomew$"
+ omen_st_nathanael_bartholomew:1 "San Natanael Bartolomé"
+ omen_st_nathanael_bartholomew_desc:2 "Bartolomé fue un discípulo de Jesús y uno de los doce Apóstoles nombrados en las listas de Apóstoles de los primeros tres Evangelios. Se le llama Natanael en el evangelio de Juan. Su nombre completo podría haber sido Natanael bar Tolomeo. Se puede suponer que Natanael bar tolomeo era escriba o estudiante de escriba."
+
+ deity_st_matthew_levi:0 "$omen_st_matthew_levi$"
+ omen_st_matthew_levi:1 "San Mateo Leví"
+ omen_st_matthew_levi_desc:2 "Mateo fue discípulo de Jesús de Nazaret, nombrado como uno de los doce Apóstoles. El Apóstol Mateo es identificado como el autor del primero de los cuatro evangelios del Nuevo Testamento, y por eso también es venerado como evangelista. En solidaridad con el Apóstol y ex recaudador de impuestos, los otros evangelistas habrían usado el nombre de la tribu Leví en lugar de Mateo."
+
+ deity_st_cornelius_centurion:0 "$omen_st_cornelius_centurion$"
+ omen_st_cornelius_centurion:1 "San Cornelio"
+ omen_st_cornelius_centurion_desc:2 "Cornelio era un centurión romano en Cesarea Marítima. Se le considera uno de los primeros no judíos en ser bautizado como cristiano. Según la historia bíblica, se encontró con un ángel que le pidió que trajera al apóstol Simón Pedro para escuchar un mensaje de él. El apóstol Simón Pedro se convenció, también en una visión, de que el mensaje de salvación también se aplica a los gentiles. Hasta entonces, había asumido que solo se aplicaba a los judíos. Entonces Pedro permitió que los sirvientes lo condujeran a la casa de Cornelio. Cornelio se postró ante Pedro, pero este no permitió que lo adorara. Mientras Pedro predicaba, el Espíritu Santo cayó sobre todos los que escuchaban. Que esto también les sucediera a los no judíos se presenta como una gran sorpresa para Pedro y sus compañeros judíos. Entonces Pedro ordenó que Cornelio y sus amigos y parientes fueran bautizados. Según el registro bíblico, Cornelio es el primer gentil romano en convertirse al Cristianismo."
+
+ deity_st_joseph:0 "$omen_st_joseph$"
+ omen_st_joseph:1 "San José"
+ omen_st_joseph_desc:2 "José fue el prometido y mas tarde esposo de María, la madre de Jesús. Se le conoce como el 'padre adoptivo' de Jesús. José y su esposa tuvieron que ir a Belén, la ciudad donde nació, debido a un censo. Después del nacimiento de Jesús regresaron a Jerusalén, donde se efectuaba la presentación del Señor en el templo. En un momento no especificado después del nacimiento de Jesús, la familia tuvo que huir a Egipto por orden de un ángel, que José recibió en un sueño, segun el cual el rey Herodes, por temor a un rey recién nacido profetizado de los judíos que lo desplazaría , mataría a todos los niños pequeños en Belén. Más tarde, por dirección divina, que José recibió en un sueño, la familia se mudó de regreso a Palestina, donde, por decisión de José, no se establecieron en Judea, donde está Belén, sino en Galilea, en el pueblo de Nazaret, donde creció Jesús. José murió en paz algunos años antes de que Jesús apareciera en público."
+
+ deity_st_mary:0 "$omen_st_mary$"
+ omen_st_mary:1 "Santa María"
+ omen_st_mary_desc:2 "María de Nazaret es la madre de Jesús. Aclamada como la Santísima Virgen y Madre de Dios, María vivía con su esposo José y otros parientes en el pueblo de Nazaret en Galilea. El ángel Gabriel, que le fue enviado, le prometió el nacimiento de un hijo, el Mesías esperado por Israel. El discurso del ángel ("Saludos, amada, el Señor está contigo") sitúa a María en el centro de la historia de la salvación. Ella le pregunta al ángel cómo debe hacerse esto, ya que nunca había conocido íntimamente a un hombre. Al responder, el ángel le dijo que concebiría por obra del Espíritu Santo. Al final de su vida terrenal, María fue ascendida en cuerpo y alma a la gloria celestial."
+
+ deity_st_luke_evangelist:0 "$omen_st_luke_evangelist$"
+ omen_st_luke_evangelist:1 "San Lucas"
+ omen_st_luke_evangelist_desc:2 "El evangelista Lucas es el autor del Evangelio de Lucas y de los Hechos de los Apóstoles en el Nuevo Testamento. Lucas es visto ocasionalmente como uno de los setenta discípulos enviados por Jesucristo. Fue colaborador de San Pablo, y se le conoce como un médico que estuvo en algunos de los viajes del Apóstol Pablo. Lucas murió alrededor del año 63 d.c. a la edad de 84 años como obispo de Tebas, pero no se sabe si también sufrió el martirio."
+
+ deity_st_james_zebedee:0 "$omen_st_james_zebedee$"
+ omen_st_james_zebedee:1 "Santiago el Mayor"
+ omen_st_james_zebedee_desc:2 "Santiago el Mayor ('Anciano') fue uno de los doce Apóstoles de Jesucristo y es uno de los santos cristianos más famosos del mundo. Junto con su hermano Juan, Santiago fue uno de los primeros discípulos llamados, junto con Andrés y Simón Pedro. Santiago estaba en el Monte de la Transfiguración con Pedro y Juan cuando Jesús habló con Elías y Moisés, y en el Huerto de Getsemaní vio a Jesús en agonía antes de la Pasión que sufrió. Santiago y Juan recibieron el apodo arameo de 'Boanerges', que significa Hijos del Trueno, de Jesús debido a su naturaleza impetuosa. Después de la Resurrección, Santiago estaba en Jerusalén con los demás Apóstoles. Fue ejecutado a espada durante el reinado de Herodes Agripa I en Judea (41–44 d.c.)"
+
+ deity_st_peter:0 "$omen_st_peter$"
+ omen_st_peter:1 "San Pedro"
+ omen_st_peter_desc:2 "Simón Pedro, hermano de Andrés, fue uno de los primeros judíos llamados por Jesús de Nazaret, el Mesías o Cristo, para seguirlo. Simón fue el vocero de los discípulos o Apóstoles, el primer confesor, pero también negó a Jesús durante su juicio. Según las escrituras cristianas, Jesús respondió a la confesión de Cristo de Simón con una promesa especial, "Tú eres Pedro (griego, petros) y sobre esta roca (petra) edificaré mi iglesia (ekklesia) y los poderes (pylai, literalmente puertas) del inframundo (hades) no abrumarán.' Pedro fue testigo presencial del Señor resucitado y uno de los líderes de la iglesia primitiva en Jerusalén. Pedro fue el primer obispo de Roma y Cristo le dio prioridad a Pedro y a los obispos sucesores de Roma como líderes, maestros y jueces de todos los cristianos. Por lo tanto, también se hace referencia a los papas de Roma como 'sucesores de Pedro'."
+
+ deity_st_mark:0 "$omen_st_mark$"
+ omen_st_mark:1 "San Marcos"
+ omen_st_mark_desc:2 "Juan Marcos (latín, Marcus; griego, Μᾶρκος, arameo, Marqōs) fue uno de los 70 discípulos enviados por Jesucristo. Es el autor del Evangelio de Marcos, y su símbolo es el león alado. El apóstol Pedro se encontró con Marcos y lo tomó como compañero de viaje e intérprete. El evangelista Marcos escribió los sermones de Pedro, componiendo así el Evangelio. Mark nació en Cirene, una ciudad en la Pentápolis del norte de África (ahora Libia) y pudo haber sido primo de Bernabé. Predicó el evangelio en Alejandría, donde fundó la primera iglesia de la ciudad y se convirtió en su primer obispo. Fue martirizado por los paganos de esa misma ciudad en el año 68 d.c."
+
+ ## Archangels ##
+ deity_archangel_gabriel:0 "$omen_archangel_gabriel$"
+ omen_archangel_gabriel:1 "Arcángel Gabriel"
+ omen_archangel_gabriel_desc:2 "Gabriel (en hebreo גַּבְרִיאֵל 'Mi fuerza es Dios') es uno de los arcángeles y es considerado el explicador de visiones y mensajero de Dios. “Sin embargo, en el sexto mes, el ángel Gabriel fue enviado por Dios a una ciudad de Galilea, llamada Nazaret, a una virgen que estaba desposada con un hombre llamado José, de la casa de David, y el nombre de la virgen era María. Y él se acercó a ella y le dijo, 'Saludos, favorecida. El Señor está contigo.' Pero esta palabra la tomó por sorpresa y se preguntó qué tipo de saludo era. Y el ángel le dijo, '¡No temas, María! porque llena eres de gracia delante de Dios. Y he aquí, concebirás y darás a luz un hijo, y lo llamarás Jesús. Este será grande, y será llamado el Hijo del Altísimo, y el Señor Dios le dará el trono de David, su padre. Y reinará sobre la casa de Jacob para siempre y su reino no tendrá fin'."
+
+ deity_archangel_michael:0 "$omen_archangel_michael$"
+ omen_archangel_michael:1 "Arcángel Miguel"
+ omen_archangel_michael_desc:2 "Miguel (en hebreo מיכאל '¿Quién como Dios?') es un arcángel y aparece como el vencedor de Satanás, a quien arroja a la tierra. 'Estalló una batalla en el cielo; Miguel y sus ángeles se levantaron para luchar contra el dragón. El dragón y sus ángeles pelearon, pero no se levantaron y perdieron su lugar en el cielo. fue derribado, el gran dragón, la serpiente antigua, llamada diablo o Satanás, que engañaba al mundo entero; el dragón fue arrojado a la tierra, y con él fueron arrojados sus ángeles'."
+
+ deity_archangel_raphael:0 "$omen_archangel_raphael$"
+ omen_archangel_raphael:1 "Arcángel Rafael"
+ omen_archangel_raphael_desc:2 "Rafael (hebreo רפאל 'Dios sana') es uno de los arcángeles en las escrituras judías y cristianas. Rafael es el ángel que escucha la oración de Tobías (hijo de Tobías), lo acompaña en su viaje de Nínive a Rages, le da a Sara en Ekbatana como esposa y cura a Tobías, el padre de Tobías. Rafael es considerado el patrón de los enfermos y farmacéuticos, así como de los marineros, los emigrantes, y los peregrinos. Se le considera tradicionalmente como patrón de techadores y mineros. \nRafael no es solo el ángel que cura las heridas (la obsesión de Sara, la ceguera de Tobit), sino que también permite 'relaciones curativas'."
+
+ deity_archangel_uriel:0 "$omen_archangel_uriel$"
+ omen_archangel_uriel:1 "Arcángel Uriel"
+ omen_archangel_uriel_desc:2 "Uriel (en hebreo אוּרִיאֵל 'la luz de Dios' o 'mi luz es Dios') es el nombre de un ángel en la tradición hebrea. En la Iglesia Católica Romana, la veneración de Uriel como arcángel se oscureció a raíz de las prohibiciones sobre la adoración y los cultos a los ángeles, que son cuestionables desde el punto de vista de la iglesia. Así, en el 343–380, en el sínodo de Laodicea, se prohibió la adoración falsa de los ángeles y la creación de cultos a los ángeles, que ya habían ganado una gran popularidad en la época de los apóstoles. Uriel se menciona en la antigua escritura judía Ezra 4, "Y el ángel que me fue enviado me respondió con el nombre de Uriel". La declaración incrustada en el elogio de la Iglesia copta "Veneramos a Uriel, como el cuarto entre los ángeles" asegura su posición tradicional."

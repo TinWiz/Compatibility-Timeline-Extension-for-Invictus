@@ -1,6 +1,6 @@
-te_has_germanisch_wanderung_aimod = {
+﻿te_has_germanisch_wanderung_aimod = {
 	trigger = {
-        	current_date > 1128.6.28
+        current_date > 1128.6.28
 		has_country_modifier = germanisch_wanderung
 		any_neighbour_country = {
 			AND = {

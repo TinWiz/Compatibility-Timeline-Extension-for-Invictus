@@ -1,0 +1,79 @@
+﻿l_spanish:
+ barbarian_fury_discipline:0 "Tenaz"
+ barbarian_fury_rage:0 "Furioso"
+ barbarian_invasion_skirmish:0 "Bárbaros Migrando"
+ barbarian_invasion_war:0 "¡Bárbaros Invadiendo!"
+
+ sirte_foederatus:0 "Foederatus"
+
+ late_antiquity_decentralization_city:0 "Despoblación de la Antigüedad tardía"
+ desc_late_antiquity_decentralization_city:1 "La gente se va de esta ciudad a provincias menos pobladas."
+ late_antiquity_decentralization_settlement:0 "Desurbanización de la Antigüedad Tardía."
+ desc_late_antiquity_decentralization_settlement:1 "La gente se muda al campo."
+
+ germanisch_wanderung:0 "Grandes invasiones"
+
+ #######CULTURE#######:0 ""
+ hunnic:0 "Húnico"
+ huna:0 "Huna"
+ ######RELIGIONS######:0 ""
+ christianity:0 "Cristiana"
+ desc_christianity:0 "Cristianismo es el nombre dado a un sistema definido de creencias y prácticas religiosas fundado por un hombre judío, Jesús de Nazaret, en el país de Judea, y que fue promulgado tras la muerte de su fundador para la difusión por todo el mundo por ciertos elegidos entre sus seguidores. Estos comenzaron su misión el día de Pentecostés, alrededor del año 30 d.c, día que se considera, en consecuencia, como el nacimiento de la Iglesia cristiana. Comenzando como una aun desconocida secta del judaísmo, los líderes elegidos entre los seguidores de Jesús, llamados los Apóstoles, viajaron por todo el mundo para difundir las 'Buenas Nuevas' de su fundador, a quien aclamaban como el Mesías o Cristo profetizado ('el ungido'), el Hijo del único dios, que resucitado de entre los muertos para mostrar su poder, prometiendo que algún día regresaría en gloria para juzgar a todas las almas humanas según sus obras. Los Apóstoles enseñaron que quien se arrepienta de sus malos hábitos y ore a este Jesús por misericordia será salvado de la muerte eterna en el inframundo y glorificado con nueva vida eterna en el reino de los bienaventurados."
+
+ manichaeism:0 "Maniquea"
+ desc_manichaeism:0 "El maniqueísmo enseñaba una elaborada cosmología dualista que describía la lucha entre un mundo bueno, espiritual y de luz, y un mundo malvado y material de oscuridad. A través de un proceso continuo que tiene lugar en la historia humana, la luz se retira gradualmente del mundo de la materia y se devuelve al mundo de la luz, de donde provino. Sus creencias se basaban en los movimientos religiosos mesopotámicos locales y el gnosticismo."
+
+ convert_to_christian:0 "Edicto de Evangelización"
+ convert_to_christian_desc:1 "Abraza el evangelio esparcido en nuestras tierras y decreta que el cristianismo sea la religión oficial de este país."
+
+ small_religion_in_country_tooltip:0 "Al menos el 10% de las personas en [SCOPE.GetRootScope.GetCountry.GetName] sigue esta religión."
+
+ convert_to_manichaean:0 "Adoptar el Maniqueísmo"
+ convert_to_manichaean_desc:1 "Estudiad los textos gnósticos, conmovidos por la vida y los escritos de Mani, el último profeta reencarnado de las grandes religiones del mundo, purificado de corrupción, y dedicad el reino a esta nueva iluminación."
+
+ minor_religion_in_country_tooltip:0 "Al menos el 5% de las personas en [SCOPE.GetRootScope.GetCountry.GetName] sigue esta religión."
+
+ early_christian_community:0 "Comunidad Cristiana Primitiva"
+ desc_early_christian_community:0 "A community of Christian believers have established themselves in this province."
+
+ early_christian_church:0 "Iglesia Cristiana Primitiva"
+ desc_early_christian_church:0 "Una gran cantidad de seguidores cristianos han construido aquí una ekklesia o iglesia."
+
+ spared_xians_sympathy:0 "Simpatía Cristiana"
+ spared_xians_hate:0 "Cristianos Perdonados"
+ persecuted_xians_glee:0 "Cristianos Perseguidos"
+ persecuted_xians_sorrow:0 "Dolor de los Cristiano"
+ 
+ christian_church_embelishment:0 "Catedral Embellecida"
+ desc_christian_church_embelishment:0 "Originalmente una estructura bastante modesta, nuestra catedral ha sido embellecida gracias a las generosas donaciones de los fieles cristianos y la intercesión de San Pedro. Con cada generación que pasa, la catedral se realza y, con el tiempo, su apariencia puede llegar a reflejar adecuadamente la sede del obispo como sucesor de los Apóstoles."
+
+ #####PLAGUES#####:0 ""
+ antonine_plague_epidemic:0 "Epidemia de Peste Antonina"
+ desc_antonine_plague_epidemic:0 "Un brote de una enfermedad mortal ha infectado a esta provincia."
+
+ cyprian_plague_epidemic:0 "Epidemia de Peste Cipriana"
+ desc_cyprian_plague_epidemic:0 "Una enfermedad mortal ha infectado a la población de esta provincia."
+
+ #####COUNTRY MODIFIERS#####:0 ""
+ cursed_by_elohim:0 "Maldito por Elohim"
+ desc_cursed_by_elohim:0 "Hemos despreciado a los refugiados judíos y nos hemos negado a darles refugio, y como consecuencia la desgracia ha caído sobre la tierra."
+
+ late_antiquity_pop_decline_central:0 "Disminución de la población de la antigüedad tardía"
+ desc_late_antiquity_pop_decline_central:0 "Una disminución generalizada de la fertilidad está afectando a nuestro pueblo."
+ late_antiquity_pop_decline_occident:1 "Disminución de la población de la antigüedad tardía"
+ desc_late_antiquity_pop_decline_occident:1 "Una disminución generalizada de la fertilidad está afectando a nuestro pueblo."
+ late_antiquity_pop_decline_orient:2 "Disminución de la población de la antigüedad tardía"
+ desc_late_antiquity_pop_decline_orient:2 "Una disminución generalizada de la fertilidad está afectando a nuestro pueblo."
+
+ ai_city_self_rule:0 "Autonomía Municipal"
+ ai_city_self_rule_desc:0 "La confianza y la lealtad van de la mano. Al sancionar los derechos de una de las mayores comunidades de esta cultura, dándoles sus propios órganos electos, derechos fiscales e incluso su propio ejército, podemos ganarnos la lealtad incluso de aquellos que permanecen fuera de los límites municipales, cuando estemos lo suficientemente estables para ofrecer esto."
+
+ #####MISCELLANEOUS MINOR EVENTS#####:0 ""
+ te_migrations.2.t:0 "Oportunidad Foederati"
+ te_migrations.2.desc:0 "Una tribu bárbara de Germania se ha asentado en la provincia despoblada de [foedus_target_province.GetName] en un estado con territorio que actualmente controlamos, y están floreciendo. Podríamos buscar un foedus con ellos y darles tierras en el área a cambio de su lealtad hacia nosotros y el servicio militar de sus soldados para con nosotros."
+ te_migrations.2.a:0 "Sí, ofrezcamoles convertirse en nuestros vasallos."
+ make_foedus_now_plz:0 "#Y Otorgas el control de [foedus_target_state.GetName] a esta tribu migratoria germánica, que te jura lealtad y se convierte en tu vasallo tribal en esa zona.#!"
+ te_migrations.2.b:0 "No, esta tribu no vale la tierra de aquí."
+ no_foedus_now_thx:0 "No sucede nada."
+ 
+ 

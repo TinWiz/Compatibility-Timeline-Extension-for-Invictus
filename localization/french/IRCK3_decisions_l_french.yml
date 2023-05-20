@@ -4,8 +4,4 @@
  divide_roman_empire_invictus:0 "Diviser l'Empire Romain"
  divide_roman_empire_invictus_desc:0 "L'Empire Romain est devenu si vaste qu'il n'est plus possible de gouverner toutes les provinces depuis le siège central de Rome. Pour assurer la survie de l'Etat romain, il peut être judicieux de diviser l'empire en deux parties occidentale et orientale."
  divide_roman_empire_tooltip:0 "Séparez toutes les provinces de l'autre côté de Mare Nostrum et établissez un successeur comme dirigeant dans une nouvelle capitale ici."
-
  te_other_half_roman_empire:0 "Nos cousins romains"
-
- divided_roman_empire_traditions:0 "Restaurer les traditions militaires romaines"
- restore_roman_military_traditions:1 "Restaure certaines des traditions militaires pour la moitié nouvellement coupée de l’Empire romain."

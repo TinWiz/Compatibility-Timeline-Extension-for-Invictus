@@ -93,6 +93,7 @@ l6_christian.2 = {
 	
 	trigger = {
 		current_date >= 789.5.20 #36AD 
+		current_date <= 818.1.25 #65AD
 		has_global_variable = christianity_spreads_locally
 		#p:750 = {
 		#	owner = root
@@ -160,9 +161,6 @@ l6_christian.3 = {
 		NOR = {
 			religion = manichaeism
 			religion = christianity
-			tag = JUD
-			tag = SMA
-			#tag = ISR
 		}
 		any_owned_province = {
 			OR = {
@@ -175,11 +173,16 @@ l6_christian.3 = {
 				has_province_modifier = early_christian_community
 				has_variable = early_xian_persecution
 			}
+			any_pops_in_province = {
+				NOR = { 
+					pop_religion = christianity 
+					pop_religion = judaism
+				}
+			}
 		}
 	}
-	
-	option = {
-		name = "l6_christian.3.a"
+
+	immediate = {
 		random_owned_province = {
 			limit = {
 				OR = {
@@ -198,7 +201,14 @@ l6_christian.3 = {
 						pop_religion = judaism
 					}
 				}
-			}
+			}	
+			save_scope_as = l6_christian_3_target
+		}	
+	}
+	
+	option = {
+		name = "l6_christian.3.a"
+		scope:l6_christian_3_target = {
 			ordered_pops_in_province = {
 				limit = {
 					NOR = {
@@ -250,7 +260,16 @@ l6_christian.4 = {
 	
 	trigger = {
 		has_global_variable = christianity_spreads_locally
-		has_global_variable = jewish_diaspora
+		OR = {
+			has_global_variable = jewish_diaspora
+			NOR = {
+				has_global_variable = jewish_diaspora
+				religion_pops_in_country = {
+					target = christianity
+					value >= rare_deity_svalue
+				}
+			}		 
+		}
 		NOR = {
 			religion = manichaeism
 			religion = christianity
@@ -259,6 +278,9 @@ l6_christian.4 = {
 		any_owned_province = {
 			any_pops_in_province = {
 				pop_religion = judaism
+			}
+			NOT = {
+				dominant_province_religion = christianity
 			}
 		}
 	}
@@ -269,6 +291,9 @@ l6_christian.4 = {
 			limit = {
 				NOT = {
 					province_id = 687
+				}
+				any_pops_in_province = {
+					count > 6
 				}
 				any_pops_in_province = {
 					pop_religion = judaism
@@ -307,6 +332,20 @@ l6_christian.5 = {
 			religion = manichaeism
 			religion = christianity
 		}
+		NAND = {
+			is_ai = yes
+			current_date < 953.12.31
+			NOT = {
+				religion = roman_pantheon
+			}	
+			capital_scope = {
+				dominant_province_religion = christianity
+			}
+			religion_pops_in_country = {
+				target = christianity
+				value >= 25
+			}
+		}
 		any_owned_province = {
 			NOR = {
 				is_in_region = scandinavia_region
@@ -317,6 +356,11 @@ l6_christian.5 = {
 				is_in_region = bohemia_region
 				is_in_region = vistulia_region
 				is_in_region = borysthenia_region
+				is_in_region = tibet_region
+				###Invictus v1.6###########
+				is_in_region = burma_region
+				is_in_region = central_asian_steppes_region
+				dominant_province_religion = christianity
 			}
 			OR = {
 				any_neighbor_province = {
@@ -342,10 +386,15 @@ l6_christian.5 = {
 					is_in_region = venedia_region
 					is_in_region = germania_region
 					is_in_region = germania_superior_region
-					is_in_region = bohemia_area
+					# Vanilla for bohemia_region # is_in_region = bohemia_area
 					is_in_region = bohemia_region
 					is_in_region = vistulia_region
 					is_in_region = borysthenia_region
+					is_in_region = tibet_region
+					###Invictus v1.6###########
+					is_in_region = burma_region
+					is_in_region = central_asian_steppes_region
+					dominant_province_religion = christianity
 				}
 				OR = {
 					any_neighbor_province = {

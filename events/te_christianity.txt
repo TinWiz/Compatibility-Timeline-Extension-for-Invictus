@@ -745,6 +745,12 @@ te_christianity.72 = {
 		has_global_variable = christianity_expands
 		OR = {
 			tag = ROM
+			AND = {
+				capital_scope = {
+					province_id = 1
+				}
+				primary_culture = roman
+			}
 			tag = MAC
 			tag = TRE
 			tag = EGY
@@ -790,8 +796,18 @@ te_christianity.72 = {
 					has_religion = christianity
 				}
 			}
-			add_political_influence = 200
-			add_legitimacy = 70
+			while = {
+				limit = {
+					legitimacy < 70
+				}
+				add_legitimacy = 5
+			}
+			while = {
+				limit = {
+					political_influence < 200
+				}
+				add_political_influence = 20
+			}
 		}
 		else_if = {
 			limit = {
@@ -1053,9 +1069,20 @@ te_christianity.91 = {
 		has_global_variable = christianity_expands
 		any_owned_province = {
 			OR = {
-				is_in_region = arabia_region
+				###Too big in Invictus v1.6### is_in_region = arabia_region
+				#is_in_area = taifa_area
+				is_in_area = arabia_relicta_area
+				is_in_area = arabia_ad_sinus_area
+				#is_in_area = arabia_deserta_area
+				#is_in_area = dedan_area
+				is_in_area = arabia_maritimae_area
 				is_in_region = arabia_felix_region
-				is_in_region = gedrosia_region
+				###Not in Invictus v1.6+### is_in_region = gedrosia_region
+				is_in_area = omana_area
+				is_in_area = central_omana_area
+				is_in_area = east_omana_area
+				is_in_area = gerrha_area
+				is_in_area = qaraah_area
 				is_in_region = nubia_region
 				is_in_region = lower_nubia_region
 				is_in_region = punt_region
@@ -1076,9 +1103,20 @@ te_christianity.91 = {
 		random_owned_province = {
 			limit = {
 				OR = {
-					is_in_region = arabia_region
+					###Too big in Invictus v1.6### is_in_region = arabia_region
+					#is_in_area = taifa_area
+					is_in_area = arabia_relicta_area
+					is_in_area = arabia_ad_sinus_area
+					#is_in_area = arabia_deserta_area
+					#is_in_area = dedan_area
+					is_in_area = arabia_maritimae_area
 					is_in_region = arabia_felix_region
-					is_in_region = gedrosia_region
+					###Not in Invictus v1.6+### is_in_region = gedrosia_region
+					is_in_area = omana_area
+					is_in_area = central_omana_area
+					is_in_area = east_omana_area
+					is_in_area = gerrha_area
+					is_in_area = qaraah_area
 					is_in_region = nubia_region
 					is_in_region = lower_nubia_region
 					is_in_region = punt_region
@@ -1276,6 +1314,9 @@ te_christianity.93 = {
 			OR = {
 				is_in_region = mesopotamia_region
 				is_in_region = persis_region
+				###Invictus v1.6 map#######
+				#is_in_area = harmozeia_area
+				###########################
 				is_in_region = media_region
 				is_in_region = bactriana_region
 				is_in_region = parthia_region
@@ -1560,8 +1601,11 @@ te_christianity.96 = {
 		if = {
 			limit = {
 				NAND = {
-					current_date < 1066.2.2
+					current_date < 1000.10.1
 					dominant_province_religion = christianity
+				}
+				NOT = {
+					owner = { religion = judaism }
 				}
 			}
 			random_pops_in_province = {
@@ -1579,6 +1623,15 @@ te_christianity.96 = {
 						pop_religion = judaism
 					}
 				}
+				set_pop_religion = christianity
+			}
+		}
+		else_if = {
+			limit = {
+				owner = { religion = judaism }
+				dominant_province_religion = judaism
+			}
+			random_pops_in_province = {
 				set_pop_religion = christianity
 			}
 		}
@@ -1602,16 +1655,17 @@ te_christianity.97 = {
 		if = {
 			limit = {
 				NAND = {
-					current_date < 1066.2.2
+					current_date < 1000.10.1
 					#province_id = 1
 					dominant_province_religion = christianity
+				}
+				NOT = {
+					owner = { religion = judaism }
+				}
+				any_pops_in_province = {
+					count > 8
 				}	
 			}
-			#random_pops_in_province = {
-			#	set_pop_religion = christianity
-			#}
-		#}
-		#else = {
 			ordered_pops_in_province = {
 				limit = {
 					NOT = {
@@ -1624,6 +1678,31 @@ te_christianity.97 = {
 					divide = 8
 				}
 				check_range_bounds = no
+				set_pop_religion = christianity
+			}
+		}
+		else_if = {
+			limit = {
+			    owner = { religion = judaism }
+				any_pops_in_province = {
+					count > 8
+				}
+				dominant_province_religion = judaism
+			}
+			random_pops_in_province = {
+				set_pop_religion = christianity
+			}
+			random_pops_in_province = {
+				set_pop_religion = christianity
+			}
+		}
+		else_if = {
+			limit = {
+				any_pops_in_province = {
+					count < 8
+				}
+			}
+			random_pops_in_province = {
 				set_pop_religion = christianity
 			}
 		}		
@@ -1651,7 +1730,7 @@ te_christianity.98 = {
 		}
 		religion_pops_in_country = {
 			target = christianity
-			value >= 20
+			value >= 10 #changed from 20 v0.3.0
 		}
 	}
 
@@ -1682,8 +1761,6 @@ te_christianity.99 = {
 			triggered_desc = { 
 				trigger = {
 					NOT = {
-					#	tag = JUD
-					#	tag = SMA
 						religion = judaism
 					}
 				}
@@ -1691,12 +1768,7 @@ te_christianity.99 = {
 			}
 			triggered_desc = { # Judea or Samaria
 				trigger = { 
-					#OR = {
-					#	tag = JUD
-					#	tag = SMA
-					#	tag = ISR
 						religion = judaism
-					#}
 				}	
 				desc = "te_christianity.99.desc_2"
 			}

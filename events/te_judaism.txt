@@ -60,9 +60,6 @@ te_judaism.2 = {
             c:SMA = {
                 has_land = yes
             }
-            c:ISR = {
-                has_land = yes
-            }
             p:687 = {
                 dominant_province_religion = judaism
             }
@@ -182,6 +179,7 @@ te_judaism.21 = {
         trigger = {
             OR = {
                 tag = MRY
+                tag = BHA
                 is_ai = no
                 #p:4440 = {
                 #    owner = root

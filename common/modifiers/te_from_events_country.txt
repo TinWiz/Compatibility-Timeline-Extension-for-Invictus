@@ -1,5 +1,5 @@
 ﻿barbarian_fury_discipline = {
-	discipline = 0.05
+	discipline = 0.1
 	siege_ability = 0.1 
 	siege_engineers = 1
 }

@@ -17,6 +17,24 @@
 			}	
 		}
 		#
+		p:5297 = {
+			while = {
+                limit = {
+                    any_pops_in_province = {
+                        count < 5
+                    }
+                }
+                create_pop = tribesmen
+            }
+			every_pops_in_province = { 
+				limit = { 
+					pop_type = tribesmen 
+				} 
+				set_pop_culture = irminonic
+				set_pop_religion = germanic_religion
+			}	
+		}
+		#
 		p:5299 = {
 			while = {
                 limit = {
@@ -69,42 +87,6 @@
 				set_pop_culture = sarmatian
 				set_pop_religion = indo_iranian_religion
 			}	
-		}
-		#
-		p:5971 = {
-			while = {
-                limit = {
-                    any_pops_in_province = {
-                        count < 5
-                    }
-                }
-                create_pop = tribesmen
-            }
-			every_pops_in_province = { 
-				limit = { 
-					pop_type = tribesmen 
-				} 
-				set_pop_culture = scythian
-				set_pop_religion = indo_iranian_religion
-			}
-		}
-		#
-		p:5981 = {
-			while = {
-                limit = {
-                    any_pops_in_province = {
-                        count < 5
-                    }
-                }
-                create_pop = tribesmen
-            }
-			every_pops_in_province = { 
-				limit = { 
-					pop_type = tribesmen 
-				} 
-				set_pop_culture = sarmatian
-				set_pop_religion = indo_iranian_religion
-			}
 		}
 		#
 		p:7296 = {
@@ -228,12 +210,6 @@ te_custom_on_action_yearly_country_plagues = {
 		te_plagues.2
 		te_plagues.21
 		te_plagues.22
-		te_plagues.30
-		te_plagues.31
-		te_plagues.32
-		te_plagues.33
-		te_plagues.34
-		te_plagues.35
 		te_plagues.40
 		te_plagues.41
 		te_plagues.42
@@ -361,7 +337,8 @@ te_custom_on_action_yearly_country_tribesmen = {
 		te_barbarians.53
 		te_barbarians.54
 		te_barbarians.55
-		#te_barbarians.56
+		te_barbarians.56
+		#te_barbarians.58
 	}
 
 }

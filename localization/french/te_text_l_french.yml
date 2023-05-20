@@ -1,4 +1,5 @@
 ﻿l_french:
+ barbarian_fury_discipline:0 "Tenace"
  barbarian_fury_rage:0 "Furieux"
  barbarian_invasion_skirmish:0 "Migrations des barbares"
  barbarian_invasion_war:0 "Les barbares nous envahissent !"
@@ -25,8 +26,12 @@
  convert_to_christian:0 "Édit d'évangélisation"
  convert_to_christian_desc:1 "Embrasser l'évangile répandu dans nos pays et décréter que le christianisme devienne la religion officielle de ce pays."
 
+ small_religion_in_country_tooltip:0 "Au moins 10% des habitants de [SCOPE.GetRootScope.GetCountry.GetName] pratiquent cette religion."
+
  convert_to_manichaean:0 "Adopter le manichéisme"
  convert_to_manichaean_desc:1 "Étudier les textes gnostiques, s'émouvoir de la vie et des écrits de Mani, le dernier prophète réincarné des grandes religions du monde, purifié de la corruption, et consacrer le royaume à cette nouvelle illumination."
+
+ minor_religion_in_country_tooltip:0 "Au moins 5% des habitants de [SCOPE.GetRootScope.GetCountry.GetName] pratiquent cette religion."
 
  early_christian_community:0 "La communauté chrétienne primitive"
  desc_early_christian_community:0 "Une communauté de croyants chrétiens s'est établie dans cette province."
