@@ -10,4 +10,7 @@ v0.3.0.1 Quickfix
 *added judea_heritage and samaria_heritage to te_decisions for ai_will_do factor 0
 *added option for ai_constantinople in te_decisions for a country with roman culture and heritage
 
+*removed any_province check in te_plagues.4* triggers
+	-unnecessary, redundant and may cause slowdowns
+
 ##########
