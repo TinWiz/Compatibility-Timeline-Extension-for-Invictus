@@ -10,8 +10,14 @@
 				government = imperium
 				government = dictatorship
 				government = imperial_cult
-			}	
-			tag = ROM
+			}
+			OR = {	
+				tag = ROM
+				AND = {
+					primary_culture = roman
+					heritage = roman_heritage
+				}	
+			}
 			any_owned_province = {
 				is_in_pars_occidentalis_inv_trigger = yes
 			}
