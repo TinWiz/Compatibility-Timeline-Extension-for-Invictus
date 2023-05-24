@@ -749,13 +749,34 @@ te_christianity.72 = {
 				capital_scope = {
 					province_id = 1
 				}
+				heritage = roman_heritage
 				primary_culture = roman
 			}
 			tag = MAC
+			AND = {
+				primary_culture = macedonian
+				heritage = cassanders_heritage
+			}
 			tag = TRE
+			AND = {
+				primary_culture = macedonian
+				heritage = thrace_heritage
+			}
 			tag = EGY
+			AND = {
+				primary_culture = macedonian
+				heritage = ptolemys_heritage
+			}
 			tag = PRY
+			AND = {
+				primary_culture = macedonian
+				heritage = antigonid_heritage
+			}
 			tag = SEL
+			AND = {
+				primary_culture = macedonian
+				heritage = seleucus_heritage
+			}
 			tag = ERE
 			tag = WRE
 		}
