@@ -59,7 +59,7 @@ te_judaism.2 = {
             }
             any_country = {
                 AND = {
-                    has_heritage = judea_heritage
+                    heritage = judea_heritage
                     has_land = yes
                 }
             }
@@ -68,7 +68,7 @@ te_judaism.2 = {
             }
             any_country = {
                 AND = {
-                    has_heritage = samaria_heritage
+                    heritage = samaria_heritage
                     has_land = yes
                 }
             }
