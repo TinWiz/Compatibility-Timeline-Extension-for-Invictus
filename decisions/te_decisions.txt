@@ -108,9 +108,9 @@
 				factor = 0
 				OR = {
 					tag = JUD
-					has_heritage = judea_heritage
+					heritage = judea_heritage
 					tag = SMA
-					has_heritage = samaria_heritage
+					heritage = samaria_heritage
 				}
 			}
 		}
@@ -175,9 +175,9 @@
 				factor = 0
 				OR = {
 					tag = JUD
-					has_heritage = judea_heritage
+					heritage = judea_heritage
 					tag = SMA
-					has_heritage = samaria_heritage
+					heritage = samaria_heritage
 				}
 			}
 		}
