@@ -4,7 +4,10 @@ v0.3.0.1 Quickfix
 	-if primary culture is Roman and heritage is Roman
 *added alternatives for Diadochi tags to trigger in te_christianity.72 to target countries for AI if they have lost a civil war
 	-if primary culture is Macedonian with each Diadochi heritage
+	-also added to ai_convert_to_christian in te_decisions
 *added judea_heritage and samaria_heritage to trigger for judaism.2
 	-also any country with judaism religion and capital in palestine_region
+*added judea_heritage and samaria_heritage to te_decisions for ai_will_do factor 0
+*added option for ai_constantinople in te_decisions for a country with roman culture and heritage
 
 ##########
