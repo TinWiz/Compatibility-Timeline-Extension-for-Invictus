@@ -57,11 +57,31 @@ te_judaism.2 = {
             c:JUD = {
                 has_land = yes
             }
+            any_country = {
+                AND = {
+                    has_heritage = judea_heritage
+                    has_land = yes
+                }
+            }
             c:SMA = {
                 has_land = yes
             }
+            any_country = {
+                AND = {
+                    has_heritage = samaria_heritage
+                    has_land = yes
+                }
+            }
             p:687 = {
                 dominant_province_religion = judaism
+            }
+            any_country = {
+                AND = {
+                    religion = judaism
+                    capital_scope = {
+                        is_in_region = palestine_region
+                    }
+                }
             }
         }           
    } 
