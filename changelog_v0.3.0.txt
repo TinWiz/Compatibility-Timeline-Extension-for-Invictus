@@ -1,6 +1,0 @@
-v0.3.0.1 quickfix
-
-*added alternative potential for IRCK3 decision for dividing Roman Empire if tag is no longer ROM so AI can still take deciion after having lost a civil war
-	-if primary culture is Roman and heritage is Roman
-
-##########
