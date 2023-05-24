@@ -69,7 +69,7 @@
 					tag = ROM
 					AND = {
 						capital_scope = {
-							province_id = 1
+							is_in_area = roma_area
 						}
 						heritage = roman_heritage
 						primary_culture = roman
