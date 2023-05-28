@@ -305,9 +305,6 @@ te_plagues.40 = { #Central add
 	trigger = {
 		has_global_variable = is_playing_invictus
 		current_date > 977.3.13 #224 CE
-		any_province = { #Invictus map check?
-			is_in_region = fezzan_region
-		}
 		OR = {
 			any_owned_province = {
 				is_in_pars_occidentalis_inv_trigger = yes
@@ -373,9 +370,6 @@ te_plagues.41 = { #Central remove
 	trigger = {
 		has_global_variable = is_playing_invictus
 		current_date > 977.3.13
-		any_province = {
-			is_in_region = fezzan_region
-		}
 		OR = {
 			country_culture_group = germanic
 			is_tribal = yes
@@ -437,9 +431,6 @@ te_plagues.42 = { #occident add
 		has_global_variable = is_playing_invictus
 		current_date > 1104.4.30
 		current_date < 1353.10.17
-		any_province = {
-			is_in_region = fezzan_region
-		}
 		NOR = {
 			country_culture_group = germanic
 			is_tribal = yes
@@ -477,9 +468,6 @@ te_plagues.43 = { #occident remove
 	trigger = {
 		has_global_variable = is_playing_invictus
 		current_date > 1104.4.30
-		any_province = {
-			is_in_region = fezzan_region
-		}
 		OR = {
 			country_culture_group = germanic
 			is_tribal = yes
@@ -513,9 +501,6 @@ te_plagues.44 = { #orient add
 	trigger = {
 		has_global_variable = is_playing_invictus
 		current_date > 977.3.13 #224 CE
-		any_province = {
-			is_in_region = fezzan_region
-		}
 		NOR = {
 			any_owned_province = {
 				is_in_pars_occidentalis_inv_trigger = yes
@@ -571,9 +556,6 @@ te_plagues.45 = { #orient remove
 	trigger = {
 		has_global_variable = is_playing_invictus
 		current_date > 977.3.13
-		any_province = {
-			is_in_region = fezzan_region
-		}
 		OR = {
 			any_owned_province = {
 				is_in_pars_occidentalis_inv_trigger = yes
