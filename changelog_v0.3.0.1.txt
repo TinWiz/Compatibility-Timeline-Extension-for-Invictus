@@ -20,3 +20,4 @@ v0.3.0.1 Quickfix
 TO DO:
 !Remove divinity statute for Christianity
 !Add game rule to disable plagues?
+!Add Romaic culture and decision for ERE
