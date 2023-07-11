@@ -17,3 +17,6 @@ v0.3.0.1 Quickfix
 	-unnecessary, redundant and may cause slowdowns
 
 ##########
+TO DO:
+!Remove divinity statute for Christianity
+!Add game rule to disable plagues?
