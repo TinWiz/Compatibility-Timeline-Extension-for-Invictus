@@ -21,3 +21,4 @@ TO DO:
 !Remove divinity statute for Christianity
 !Add game rule to disable plagues?
 !Add Romaic culture and decision for ERE
+!Correct localizations 
