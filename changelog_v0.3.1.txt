@@ -1,4 +1,4 @@
-v0.3.1 Quickfix
+v0.3.1 Update
 
 *removed l6_christian.5.a in option name for te_manichees.14
 *increased random_event on_action for te_manichees.14 from 10 to 15
