@@ -398,7 +398,6 @@ te_manichees.14 = {
     }
     
     option = {
-        name = "l6_christian.5.a"
         random_owned_province = {
             limit = {
                 NOR = {
