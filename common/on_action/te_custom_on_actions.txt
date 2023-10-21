@@ -242,7 +242,7 @@ te_custom_on_action_yearly_country_manichees = {
 		20 = te_manichees.11
 		20 = te_manichees.12
 		20 = te_manichees.13
-		10 = te_manichees.14
+		15 = te_manichees.14
 		10 = te_manichees.15
 	}
 }
