@@ -34,7 +34,7 @@
  minor_religion_in_country_tooltip:0 "Al menos el 5% de las personas en [SCOPE.GetRootScope.GetCountry.GetName] sigue esta religión."
 
  early_christian_community:0 "Comunidad Cristiana Primitiva"
- desc_early_christian_community:0 "A community of Christian believers have established themselves in this province."
+ desc_early_christian_community:0 "En esta provincia se ha establecido una comunidad de creyentes cristianos."
 
  early_christian_church:0 "Iglesia Cristiana Primitiva"
  desc_early_christian_church:0 "Una gran cantidad de seguidores cristianos han construido aquí una ekklesia o iglesia."
