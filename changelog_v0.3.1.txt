@@ -6,7 +6,7 @@ Changelog v0.3.1
 
 *localization corrections
 	-to use Spanish localization for early_christian_community
-	-missing close quote in German localization for small_religion_in_country_tooltip
+	-missing close quote in German localization for small_religion_in_country_tooltip and minor_religion_in_country_tooltip
 
 ##########
 TO DO:
