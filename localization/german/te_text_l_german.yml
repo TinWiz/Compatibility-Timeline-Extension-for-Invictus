@@ -40,12 +40,12 @@
  convert_to_christian:0 "Edikt der Evangelisierung"
  convert_to_christian_desc:1 "Nehmen Sie das Evangelium an, das in unseren Ländern verbreitet ist, und dekretieren Sie, dass das Christentum die offizielle Religion dieses Landes wird."
 
- small_religion_in_country_tooltip:0 "Mindestens 10% der Bevölkerung von [SCOPE.GetRootScope.GetCountry.GetName] folgen dieser Religion.
+ small_religion_in_country_tooltip:0 "Mindestens 10% der Bevölkerung von [SCOPE.GetRootScope.GetCountry.GetName] folgen dieser Religion."
 
  convert_to_manichaean:0 "Manichäismus wahrnehmen"
  convert_to_manichaean_desc:1 "Studieren Sie die gnostischen Texte, bewegt durch das Leben und die Schriften von Mani, dem letzten wiedergeborenen Propheten der großen Weltreligionen, gereinigt von Korruption, und widmen Sie das Reich dieser neuen Erleuchtung."
 
- minor_religion_in_country_tooltip:0 "Mindestens 5% der Bevölkerung von [SCOPE.GetRootScope.GetCountry.GetName] folgen dieser Religion.
+ minor_religion_in_country_tooltip:0 "Mindestens 5% der Bevölkerung von [SCOPE.GetRootScope.GetCountry.GetName] folgen dieser Religion."
 
  early_christian_community:0 "Frühchristliche Gemeinde"
  desc_early_christian_community:0 "In dieser Provinz hat sich eine Gemeinschaft christlicher Gläubiger etabliert."

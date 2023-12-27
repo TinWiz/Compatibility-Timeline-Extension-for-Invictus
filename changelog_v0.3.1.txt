@@ -1,0 +1,15 @@
+Changelog v0.3.1
+
+*removed l6_christian.5.a in option name for te_manichees.14
+*increased random_event on_action for te_manichees.14 from 10 to 15
+	-slightly more spread from pops
+
+*localization corrections
+	-to use Spanish localization for early_christian_community
+	-missing close quote in German localization for small_religion_in_country_tooltip and minor_religion_in_country_tooltip
+
+##########
+TO DO:
+!Remove divinity statute for Christianity?
+!Add game rule to disable plagues?
+!Add Romaic culture and decision for ERE?
