@@ -1,0 +1,44 @@
+Changelog v0.4.0
+
+*deleted deficit.txt events file
+*deleted integrated_culture_decisions_te file
+*blocked off CIVIL_WAR_STATES_THRESHOLD and CIVIL_WAR_CITIES_THRESHOLD lines in te_defines.txt
+  -no longer needed because tag limit in v2.0.4 has been increased to 8192!
+
+*added owner check for ln 21 in te_barbarians.1
+	-error log complaints
+
+*reverted name of bohemia_region to bohemia_area in IRCK3_scripted_triggers is_in_pars_occidentalis_inv_trigger	
+	-seems to have changed back to default name
+		+corrected in l6_christian and removed from te_manichees events
+
+*added AND trigger for te_decisions ai_convert_to_christian to countries not in hellenic culture group AND with roman_pantheon religion
+	-more likely to convert away from hellenism if not of hellenic culture
+	-also added to te_christianity.72 event trigger
+
+*added NOT bracket for te_judaism.1 for Jewish countries
+	-event out of place if India already Jewish
+
+*added new option and localizations te_christianity.41.b:0 for Jewish countries that conquer India
+	-small change to text in te_christianity.10.a:0 localizations
+	-te_christianity_events_l — English, French, German, Russian, and Spanish
+
+*corrected triggered_desc in te_christianity.7
+	-trigger for countries that are either ROM tag or have Roman primary culture and roman_heritage
+		+in case ROM tag lost in civil war or IRCK3 split decision
+	-te_christianity_events_l localization edits for te_christianity.7.desc_2:1 in English, French, German, Russian, and Spanish
+		+last sentence altered for tonal consideration with alternative conquests of Rome
+
+################
+Changelog v0.3.1
+
+*removed l6_christian.5.a in option name for te_manichees.14
+*increased random_event on_action for te_manichees.14 from 10 to 15
+	-slightly more spread from pops
+
+*localization corrections
+	-to use Spanish localization for early_christian_community
+	-missing close quote in German localization for small_religion_in_country_tooltip and minor_religion_in_country_tooltip
+
+##########
+##########
