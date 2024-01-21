@@ -193,6 +193,22 @@ te_christianity.41 = {
 
 	option = {
 		name = "te_christianity.41.a"
+		trigger = {
+			NOT = { religion = judaism }
+		}
+		p:6895 = {
+			random_pops_in_province = {
+				set_pop_religion = christianity
+			}
+			add_permanent_province_modifier = {
+				name = "early_christian_community"
+			}	
+		}
+	}
+
+	option = {
+		name = "te_christianity.41.b"
+		trigger = { religion = judaism }
 		p:6895 = {
 			random_pops_in_province = {
 				set_pop_religion = christianity
@@ -295,13 +311,25 @@ te_christianity.7 = {
 	desc = {
 		first_valid = {
 			triggered_desc = { # Rome
-				trigger = { tag = ROM }	
+				trigger = { 
+					OR = {	
+						tag = ROM
+						AND = {
+							primary_culture = roman
+							heritage = roman_heritage
+						}
+					}	
+				}						
 				desc = "te_christianity.7.desc_1"
 			}
 			triggered_desc = { # Ruma?
 				trigger = {
-					NOT = {
+					NOR = {
 						tag = ROM
+						AND = {
+							primary_culture = roman
+							heritage = roman_heritage
+						}
 					}
 				}
 				desc = "te_christianity.7.desc_2"
@@ -785,6 +813,10 @@ te_christianity.72 = {
 			AND = {
 				primary_culture = macedonian
 				heritage = seleucus_heritage
+			}
+			AND = {
+				NOT = { country_culture_group = hellenic }
+				religion = roman_pantheon
 			}
 			tag = ERE
 			tag = WRE
