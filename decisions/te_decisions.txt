@@ -108,6 +108,10 @@
 						primary_culture = macedonian
 						heritage = seleucus_heritage
 					}
+					AND = {
+						NOT = { country_culture_group = hellenic }
+						religion = roman_pantheon
+					}
 					tag = ERE
 					tag = WRE
 				}	
