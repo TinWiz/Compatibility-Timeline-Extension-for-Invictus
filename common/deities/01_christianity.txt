@@ -40,6 +40,7 @@ deity_st_andrew = {
 		add_greater_stability_effect = yes
 		if = {
 			limit = {
+				religion = christianity
 				OR = {
 					any_owned_province = {
 						is_in_region = thrace_region
@@ -96,6 +97,7 @@ deity_st_thomas = {
 		add_1_free_province_investments = yes
 		if = {
 			limit = {
+				religion = christianity
 				country_culture_group = indian
 				NOT = {
 					has_global_variable = st_thomas_theosis	
@@ -185,6 +187,7 @@ deity_st_paul = {
 		}
 		if = {
 			limit = {
+				religion = christianity
 				OR = {
 					country_culture_group = anatolian
 					country_culture_group = latin
@@ -374,6 +377,7 @@ deity_st_philip = { #children_of_god
 		}	
 		if = {
 			limit = {
+				religion = christianity
 				any_owned_province = {
 					is_in_region = syria_region
 				}
@@ -449,12 +453,14 @@ deity_st_nathanael_bartholomew = {
 		}
 		if = {
 			limit = {
+				religion = christianity
 				OR = {
 					AND = {
-						religion = christianity
+						heritage = armenian_heritage
 						any_owned_province = { 
 							is_in_region = armenia_region 
 						}
+						primary_culture = armenian
 					}
 					tag = ARM
 				}
@@ -524,18 +530,16 @@ deity_st_matthew_levi = {
 		}
 		if = {
 			limit = {
+				religion = christianity
 				OR = {
 					country_culture_group = west_levantine
 					country_culture_group = south_levantine
-					AND = {
-						religion = christianity
-						any_owned_province = {
-							OR = {
-								is_in_region = punt_region
-								is_in_region = palestine_region
-								is_in_region = arabia_region 
-								is_in_region = arabia_felix_region
-							}
+					any_owned_province = {
+						OR = {
+							is_in_region = punt_region
+							is_in_region = palestine_region
+							is_in_region = arabia_region 
+							is_in_region = arabia_felix_region
 						}
 					}
 				}
@@ -584,6 +588,7 @@ deity_st_cornelius_centurion = {
 	on_activate = {
 		if = {
 			limit = {
+				religion = christianity
 				country_culture_group = latin
 				NOT = {
 					has_global_variable = st_cornelius_centurion_theosis	
@@ -649,6 +654,7 @@ deity_st_joseph = {
 	on_activate = {
 		if = {
 			limit = {
+				religion = christianity
 				OR = {
 					tag = EGY
 					any_owned_province = {
@@ -805,6 +811,7 @@ deity_st_luke_evangelist = {
 		}
 		if = {
 			limit = {
+				religion = christianity
 				country_culture_group = hellenic
 				NOT = {
 					has_global_variable = st_luke_evangelist_theosis	
@@ -913,6 +920,7 @@ deity_st_james_zebedee = {
 		}	
 		if = {
 			limit = {
+				religion = christianity
 				any_owned_province = {
 					OR = {
 						is_in_region = gallaecia_region
@@ -1119,6 +1127,7 @@ deity_st_mark = {
 		}
 		if = {
 			limit = {
+				religion = christianity
 				OR = {
 					tag = EGY
 					any_owned_province = {
