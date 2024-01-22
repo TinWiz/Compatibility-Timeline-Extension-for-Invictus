@@ -19,6 +19,9 @@ Changelog v0.4.0
 *added NOT bracket for te_judaism.1 for Jewish countries
 	-event out of place if India already Jewish
 
+*added limit religion = christianity for all christianity saints to trigger theosis events
+	-also armenian_heritage and primary_culture = armenian to st_nathanael_bartholomew
+
 *added new option and localizations te_christianity.41.b:0 for Jewish countries that conquer India
 	-small change to text in te_christianity.10.a:0 localizations
 	-te_christianity_events_l — English, French, German, Russian, and Spanish
