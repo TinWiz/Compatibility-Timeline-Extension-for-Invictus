@@ -2,10 +2,11 @@
  te_christianity.41.t:0 "St. Thomas travels to India"
  te_christianity.41.desc:1 "The Apostle Thomas is believed to have left northwest India when an attack threatened and traveled by vessel to the Malabar Coast, possibly visiting southeast Arabia and Socotra en route, and landing at the flourishing port of Muziris (c. AD 50) in the company of a Jewish merchant. Thomas baptized several families, namely Pakalomattom, Sankarapuri, Kalli, Kaliyankal and more. From there he is said to have preached the gospel throughout the Malabar Coast. The various churches he founded were located mainly on the Periyar River and its tributaries and along the Kerala coast, where there were Jewish colonies."
  te_christianity.41.a:0 "All gods are welcome here. How is this one different?"
+ te_christianity.41.b:0 "This spreading Nazarene sect follows us wherever we go!"
 
  te_christianity.7.t:0 "Church of Rome"
  te_christianity.7.desc_1:1 "News reaches your ears that a new religion has spread up from the land of Judea, and has infected the eternal city of [rome_church_province.GetName] with its foreign doctrine. They say that a man who was crucified as a criminal then resurrected from the dead and now reigns as the one and only true god. Fantastic rumours abound that these cultists gather at night to eat the flesh and drink the blood of this God-Man. Worst of all, these fanatics refuse to offer worship to any of our Roman gods and goddesses!"
- te_christianity.7.desc_2:1 "News reaches your ears that a new religion has spread up from the land of Judea, and has infected the city of [rome_church_province.GetName] with its foreign doctrine. They say that a man who was crucified as a criminal then resurrected from the dead and now reigns as the one and only true god. Fantastic rumours abound that these cultists gather at night to eat the flesh and drink the blood of this God-Man. Worst of all, these fanatics refuse to offer worship to any of our own gods and goddesses!"
+ te_christianity.7.desc_2:1 "News reaches your ears that a new religion has spread up from the land of Judea, and has infected the city of [rome_church_province.GetName] with its foreign doctrine. They say that a man who was crucified as a criminal then resurrected from the dead and now reigns as the one and only true god. Fantastic rumours abound that these cultists gather at night to eat the flesh and drink the blood of this God-Man. Most astounding of all, these fanatics refuse to offer worship to any other gods or goddesses!"
  te_christianity.7.a:0 "We must outlaw this odd superstition before our people abandon their civic duties."
 
  te_christianity.71.t:0 "In hoc signo vinces"
@@ -27,7 +28,7 @@
 
  te_christianity.10.t:0 "Church of Edessa"
  te_christianity.10.desc:1 "Edessa (now Şanlıurfa) in northwestern Mesopotamia was from apostolic times the principal center of Syriac-speaking Christianity. It was the capital of an independent kingdom from 132 BC and celebrated as an important centre of Greco-Syrian culture. Edessa was also noted for its Jewish community, with proselytes in the royal family. Strategically located on the main trade routes of the Fertile Crescent, it was easily accessible from Antioch, where the mission to the Gentiles was inaugurated. When early Christians were scattered abroad because of persecution, some found refuge at Edessa. Thus the Edessan church traced its origin to the Apostolic Age (which may account for its rapid growth), and Christianity even became the state religion for a time. The Church of the East had its inception at a very early date in the buffer zone between the Parthian and Roman Empires in Upper Mesopotamia, known as the Assyrian Church of the East."
- te_christianity.10.a:0 "Our old gods fade like silent statues at the dusk of a forgotten era." 
+ te_christianity.10.a:0 "The old gods fade like silent statues at the dusk of a forgotten era." 
  #, while this God-Man and his disciples arise like jubilant children at the dawn of a new day. Do we cling to our ancestral customs or accept this novel revelation?"
  church_of_edessa:0 "A Christian church is now established in [edessa_church_province.GetName]."
 

@@ -18,9 +18,10 @@ te_barbarians.1 = {
                     country_culture_group = germanic
                     p:5142 = {
                         any_neighbor_province = { 
+                            exists = owner
                             owner = {
                                 country_culture_group = germanic
-                            } 
+                            }    
                         }
                     }
                 }

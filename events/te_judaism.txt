@@ -15,6 +15,9 @@ te_judaism.1 = {
         p:6895 = {
             owner = root
         }
+        NOT = {
+            religion = judaism
+        }
     }
 
     immediate = {
