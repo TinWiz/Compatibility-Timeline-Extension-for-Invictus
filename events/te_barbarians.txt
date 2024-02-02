@@ -2198,6 +2198,8 @@ te_barbarians.6 = {
             tag = SEL
             tag = MRY
             tag = BHA
+            tag = PTH #Parthia
+            tag = ALX #Argead / Hellenistic Empire
         }
     }
     
@@ -2429,6 +2431,8 @@ te_barbarians.7 = {
             tag = SEL
             tag = MRY
             tag = BHA
+            tag = PTH #Parthia
+            tag = ALX #Argead / Hellenistic Empire
         }
     }
 
