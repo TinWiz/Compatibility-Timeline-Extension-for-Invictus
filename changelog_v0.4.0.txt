@@ -5,6 +5,18 @@ Changelog v0.4.0
 *blocked off CIVIL_WAR_STATES_THRESHOLD and CIVIL_WAR_CITIES_THRESHOLD lines in te_defines.txt
   -no longer needed because tag limit in v2.0.4 has been increased to 8192!
 
+*added Armenia to ai_convert_to_christian factor 1000  
+	-either ARM tag or capital scope in armenia_region with armenian primary culture and armenia_heritage
+
+*added cooldowns of 500 days and 1000 days for medium and small countries, respectively, to te_christianity.96, l6_christian.5, and te_manichees.14
+	-medium countries between 10 and 100 territories; small countries 10 or fewer territories
+		+slow down rapid conversion of smaller countries
+
+*added limit for establishing early_christian_church to countries with more than one territory to te_christianity.92–95 and l6_christian.3
+	-slow down rapid conversion of AI OPMs with large cities
+	-rare player with 1 territory would not get flavour events
+		+can still build church with St. Peter deity on_activate effect
+
 *added owner check for ln 21 in te_barbarians.1
 	-error log complaints
 
