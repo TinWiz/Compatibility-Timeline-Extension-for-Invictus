@@ -362,6 +362,8 @@ te_manichees.14 = {
             country_culture_group = baltic
             religion = matrist_religion
             religion = germanic_religion
+            has_variable = medium_mani_gnosis_target
+            has_variable = small_mani_gnosis_target
         }
         any_owned_province = {
             NOR = {
@@ -448,6 +450,30 @@ te_manichees.14 = {
                 set_pop_religion = manichaeism
             }
         }
+    }
+
+    after = {
+        if = {
+			limit = {
+				AND = {
+					num_of_cities <= 100
+					num_of_cities > 10
+				}
+			}
+			set_variable = {
+				name = medium_mani_gnosis_target
+				days = 500
+			}	
+		}
+		else_if = {
+			limit = {
+				num_of_cities <= 10
+			}
+			set_variable = {
+				name = small_mani_gnosis_target
+				days = 1000
+			}
+		}
     }
 }
 
