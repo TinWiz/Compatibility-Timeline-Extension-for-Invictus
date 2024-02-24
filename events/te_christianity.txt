@@ -826,7 +826,7 @@ te_christianity.72 = {
 			government = dictatorship
 		}	
 		is_ai = yes
-		religion = roman_pantheon
+		#religion = roman_pantheon
 		NOT = {
 			has_variable = imperial_evangelization_toggle
 		}
