@@ -5,6 +5,9 @@ Changelog v0.4.0
 *blocked off CIVIL_WAR_STATES_THRESHOLD and CIVIL_WAR_CITIES_THRESHOLD lines in te_defines.txt
   -no longer needed because tag limit in v2.0.4 has been increased to 8192!
 
+*blocked roman_pantheon religion requirement in trigger for te_christianity.72
+	-italic_pantheon would prevent this event from triggering for Rome
+
 *added Armenia to ai_convert_to_christian factor 1000  
 	-either ARM tag or capital scope in armenia_region with armenian primary culture and armenia_heritage
 
