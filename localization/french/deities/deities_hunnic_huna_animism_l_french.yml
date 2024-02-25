@@ -1,0 +1,26 @@
+l_french:
+ ## Default ##
+ deity_infusion_of_war:0 "$omen_infusion_of_war$"
+ omen_infusion_of_war:0 "Passion du combat"
+ omen_infusion_of_war_desc:0 "Les esprits insuffleront chez nos guerriers la force et la discipline. Grâce à leur soutien, nous serons assurés de nombreuses victoires pour les temps à venir." # [LocEditor:AwaitingBatchUpdate]
+ deity_rites_adult:0 "$omen_rites_adult$"
+ omen_rites_adult:0 "Cérémonie de l'âge d'homme"
+ omen_rites_adult_desc:0 "Nos jeunes et nos garçons, nombreux, doivent vivre les rites et devenir des hommes afin de rejoindre les rangs de nos armées. Celles-ci, ainsi renforcées, seront prêtes à affronter tout ennemi qui oserait nous défier." # [LocEditor:AwaitingBatchUpdate]
+ deity_moon_guidance:0 "$omen_moon_guidance$"
+ omen_moon_guidance:0 "Bienveillance de la lune"
+ omen_moon_guidance_desc:0 "La mère lune guidera nos sages et nos savants pour qu'ils acquièrent de grandes connaissances, et leur accordera la connaissance cachée. Avec cette sagesse nouvelle, ils seront un grand avantage pour tout le peuple." # [LocEditor:AwaitingBatchUpdate]
+ deity_wealth_earth:0 "$omen_wealth_earth$"
+ omen_wealth_earth:0 "Fortune de la terre"
+ omen_wealth_earth_desc:0 "Nous devons demander aux nombreux esprits de la terre de nous révéler les riches métaux enfouis sous nos pieds. Avec leur bénédiction, nous deviendrons riches au-delà de ce que l'on peut même imaginer, et pourrons nous préparer à faire face à tout obstacle qui pourrait se dresser à l'avenir face à nous." # [LocEditor:AwaitingBatchUpdate]
+ deity_war_ceremony:0 "$omen_war_ceremony$"
+ omen_war_ceremony:0 "Cérémonie de la guerre"
+ omen_war_ceremony_desc:0 "Nous devons organiser une grande cérémonie pour préparer le peuple à la guerre, afin qu'il comprenne et accepte la nécessité des conflits présents. Avec ce rite, nous serons assurés de convaincre enfin certains de ceux qui refusent tout, et de les ranger à nos côtés – tandis même que nos alliés partageront plus encore qu'ils ne le font nos convictions." # [LocEditor:AwaitingBatchUpdate]
+ deity_guidance_of_the_wind:0 "$omen_guidance_of_the_wind$"
+ omen_guidance_of_the_wind:0 "Bienveillance du vent"
+ omen_guidance_of_the_wind_desc:0 "Les marchands et les négociants seront guidés par les vents jusqu'à des contrées lointaines. Avec les esprits à leurs côtés, ils y trouveront de grandes richesses, qu'ils pourront ramener jusqu'au pays." # [LocEditor:AwaitingBatchUpdate]
+ deity_guidance_of_the_sun:0 "$omen_guidance_of_the_sun$"
+ omen_guidance_of_the_sun:0 "Bienveillance du soleil"
+ omen_guidance_of_the_sun_desc:0 "Le peuple tout entier pourra se réjouir de savoir que nous sommes protégés en ce monde, guidés que nous sommes par le soleil lui-même. Les conflits apaisés, les désaccords oubliés, nous pourrons accéder enfin à une plus grande unité face à l'adversité." # [LocEditor:AwaitingBatchUpdate]
+ deity_blessing_life:0 "$omen_blessing_life$"
+ omen_blessing_life:0 "Bénédiction de la vie"
+ omen_blessing_life_desc:0 "Nous devons offrir des sacrifices aux esprits de la terre afin de les prier de nous donner le croît et de riches moissons pour les années à venir. Protégé du mauvais temps, des dévastations et des mauvaises récoltes, notre peuple pourra se développer plus sereinement qu'il ne l'a fait depuis longtemps." # [LocEditor:AwaitingBatchUpdate]
