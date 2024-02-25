@@ -253,36 +253,37 @@
 
 	}
 
-}
-
-convert_to_hunnic_huna_animism = {
+	convert_to_hunnic_huna_animism = {
 		
-	potential = {
-		num_of_cities >= 1
-		potential_change_religion_trigger = {
-			RELIGION = hunnic_huna_animism
+		potential = {
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = hunnic_huna_animism
+			}
 		}
-	}
-
-	allow = {
-		could_change_religion_trigger = {
-			RELIGION = hunnic_huna_animism
-		}
-	}
 	
-	effect = {
-		change_religion_effect = {
-			RELIGION = hunnic_huna_animism
+		allow = {
+			could_change_religion_trigger = {
+				RELIGION = hunnic_huna_animism
+			}
 		}
-	}
-	
-	ai_will_do = {
-		factor = 0
-		modifier = {
-			add = 1
-			capital_scope = {
-				dominant_province_religion = hunnic_huna_animism
+		
+		effect = {
+			change_religion_effect = {
+				RELIGION = hunnic_huna_animism
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				capital_scope = {
+					dominant_province_religion = hunnic_huna_animism
+				}
 			}
 		}
 	}
+	
 }
+
