@@ -23,6 +23,12 @@
  manichaeism:0 "Manichaean"
  desc_manichaeism:0 "Manichaeism taught an elaborate dualistic cosmology describing the struggle between a good, spiritual world of light, and an evil, material world of darkness. Through an ongoing process that takes place in human history, light is gradually removed from the world of matter and returned to the world of light, whence it came. Its beliefs were based on local Mesopotamian religious movements and Gnosticism."
 
+ hunnic_huna_animism:0 "Ritualistic"
+ desc_hunnic_huna_animism:0 "Representing a variety of localized faiths and folk religions, Ritualism espouses ancestor-worship, animism, and votive offerings."
+
+ convert_to_hunnic_huna_animism:0 "Embrace Ritualistic Traditions"
+ convert_to_hunnic_huna_animism_desc:0 "Animism and ancestor worship have become an important part of the [COUNTRY.GetAdjective] religious ceremonies lately, and we have seen old rituals and traditions flourish in addition to our [COUNTRY.GetReligion.GetName] faith. Maybe it is time to put aside some of these newer ideas and revert back to our ancient heritage?"
+
  convert_to_christian:0 "Edict of Evangelization"
  convert_to_christian_desc:1 "Embrace the gospel spread in our lands and decree that Christianity become the official religion of this country."
 
