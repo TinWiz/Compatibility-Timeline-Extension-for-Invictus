@@ -40,6 +40,15 @@ Changelog v0.4.0
 *added limit religion = christianity for all christianity saints to trigger theosis events
 	-also armenian_heritage and primary_culture = armenian to st_nathanael_bartholomew
 
+*added hunnic_huna_animism to te_religions file for Huns and Huna
+	-vanilla deities setup for eastern_animism (Ritualist) added to setup deities 01_hunnic_huna_animism.txt keys 11150–99
+		+replaced eastern_animism in default province setup with hunnic_huna_animism
+	-vanilla eastern_animism deities added to common deities file 01_hunnic_huna_animism
+		+replaced eastern_animism triggers with hunnic_huna_animism 
+	-vanilla decision convert_to_eastern_animism added for convert_to_hunnic_huna_animism to te_decisions.txt
+	-copied localizations to te_text_l_[language].yml files for English, French, German, Russian, and Spanish
+		+new deities_hunnic_huna_animism_l_[language].yml localization files added; same text as vanilla eastern_animism
+
 *added new option and localizations te_christianity.41.b:0 for Jewish countries that conquer India
 	-small change to text in te_christianity.10.a:0 localizations
 	-te_christianity_events_l — English, French, German, Russian, and Spanish
