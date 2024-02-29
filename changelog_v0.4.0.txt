@@ -5,6 +5,10 @@ Changelog v0.4.0
 *blocked off CIVIL_WAR_STATES_THRESHOLD and CIVIL_WAR_CITIES_THRESHOLD lines in te_defines.txt
   -no longer needed because tag limit in v2.0.4 has been increased to 8192!
 
+*added te_barbarian_triggers.txt file in scripted_triggers  
+	-scripted is_huna_neighbor_trigger
+		+inserted to te_barbarians.6 and te_barbarians.7 events triggers to avoid code duplication
+
 *blocked roman_pantheon religion requirement in trigger for te_christianity.72
 	-italic_pantheon would prevent this event from triggering for AI Rome
 
