@@ -37,6 +37,12 @@
  nestorian:0 "Nestorianisch"
  desc_nestorian:0 "Auch die von der orthodoxen und römisch-katholischen Kirche oft als Nestorianer bezeichnete Assyrische Kirche des Ostens hat nie die vorgeworfenen Lehren vertreten, so dass man vom Nestorianismus lediglich als einem häresiologischen Konstrukt, nicht von einer historischen Bewegung, sprechen kann. Die miaphysitischen Kirchen haben den Nestorianismusvorwurf auch auf die Chalzedonensier, also Orthodoxe und Katholiken, ausgedehnt."
 
+ hunnic_huna_animism:0 "Ritualistisch"
+ desc_hunnic_huna_animism:0 "Der Ritualismus repräsentiert eine Vielzahl von lokalen Religionen und Volksreligionen mit Ahnenanbetung, Animismus und Votivgaben."
+
+ convert_to_hunnic_huna_animism:0 "Ritualistische Traditionen fördern"
+ convert_to_hunnic_huna_animism_desc:0 "Der Animismus und die Ahnenverehrung sind in letzter Zeit zu einem wichtigen Bestandteil der [COUNTRY.GetAdjective]en religiösen Zeremonien geworden und zusätzlich zu unserem Glauben an [COUNTRY.GetReligion.GetName] haben wir alte Rituale und Traditionen aufkommen sehen. Vielleicht ist es an der Zeit, dass auch wir einige dieser neueren Ideenannehmen und zu unserem alten Erbe zurückkehren?"
+
  convert_to_christian:0 "Edikt der Evangelisierung"
  convert_to_christian_desc:1 "Nehmen Sie das Evangelium an, das in unseren Ländern verbreitet ist, und dekretieren Sie, dass das Christentum die offizielle Religion dieses Landes wird."
 

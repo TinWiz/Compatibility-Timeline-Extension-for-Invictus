@@ -23,6 +23,12 @@
  manichaeism:0 "Maniquea"
  desc_manichaeism:0 "El maniqueísmo enseñaba una elaborada cosmología dualista que describía la lucha entre un mundo bueno, espiritual y de luz, y un mundo malvado y material de oscuridad. A través de un proceso continuo que tiene lugar en la historia humana, la luz se retira gradualmente del mundo de la materia y se devuelve al mundo de la luz, de donde provino. Sus creencias se basaban en los movimientos religiosos mesopotámicos locales y el gnosticismo."
 
+ hunnic_huna_animism:0 "Ritualista"
+ desc_hunnic_huna_animism:0 "El ritualismo representa una variedad de creencias y religiones populares locales. Promueve el culto a los ancestros, el animismo y las ofrendas votivas."
+
+ convert_to_hunnic_huna_animism:0 "Adoptar las tradiciones rituales"
+ convert_to_hunnic_huna_animism_desc:0 "El animismo y el culto a los ancestros se han convertido en parte importante de las ceremonias religiosas del país [COUNTRY.GetAdjective]. Los antiguos rituales y tradiciones están prosperando junto a nuestra fe [COUNTRY.GetReligion.GetName]. Tal vez sea hora de dejar de lado estas ideas nuevas y volver a nuestro antiguo patrimonio religioso."
+
  convert_to_christian:0 "Edicto de Evangelización"
  convert_to_christian_desc:1 "Abraza el evangelio esparcido en nuestras tierras y decreta que el cristianismo sea la religión oficial de este país."
 

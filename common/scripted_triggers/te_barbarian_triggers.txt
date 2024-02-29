@@ -1,0 +1,12 @@
+is_huna_neighbor_trigger = {
+	OR = {
+		p:5278 = {
+			any_neighbor_province = { owner = root }
+		}
+		tag = SEL
+		tag = MRY
+		tag = BHA
+		tag = PTH #Parthia
+		tag = ALX #Argead / Hellenistic Empire
+	}
+}

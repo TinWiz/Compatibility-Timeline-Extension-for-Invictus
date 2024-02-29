@@ -20,3 +20,13 @@ manichaeism = { # Manichee
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
+
+hunnic_huna_animism = { # Old Ritualist
+	color = hsv { 0.0  0.0  0.0 } # Different colour from vanilla
+	modifier = { # Different modifiers
+		war_exhaustion = -0.01
+		hostile_attrition = 0.5
+		general_loyalty = -5
+	}
+	religion_category = pantheon
+}

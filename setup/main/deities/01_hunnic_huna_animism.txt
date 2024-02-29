@@ -1,0 +1,37 @@
+deity_manager = {
+	deities_database = { ### KEYS 11150-11199 ###
+		11150 = {
+			key = omen_infusion_of_war
+			deity = deity_infusion_of_war
+		}
+		11151 = {
+			key = omen_guidance_of_the_wind
+			deity = deity_guidance_of_the_wind
+		}
+		11152 = {
+			key = omen_moon_guidance
+			deity = deity_moon_guidance
+		}
+		11153 = {
+			key = omen_blessing_life
+			deity = deity_blessing_life
+		}
+		11154 = {
+			key = omen_rites_adult
+			deity = deity_rites_adult
+		}
+		11155 = {
+			key = omen_wealth_earth
+			deity = deity_wealth_earth
+		}
+		11156 = {
+			key = omen_guidance_of_the_sun
+			deity = deity_guidance_of_the_sun
+		}
+		11157 = {
+			key = omen_war_ceremony
+			deity = deity_war_ceremony
+		}
+	}
+}
+
