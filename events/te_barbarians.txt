@@ -2191,16 +2191,7 @@ te_barbarians.6 = {
         current_date > 1104.04.11 
         current_date < 1107.11.07
         has_global_variable = germanic_migration
-        OR = {
-            p:5278 = {
-                any_neighbor_province = { owner = root }
-            }
-            tag = SEL
-            tag = MRY
-            tag = BHA
-            tag = PTH #Parthia
-            tag = ALX #Argead / Hellenistic Empire
-        }
+        is_huna_neighbor_trigger = yes
     }
     
     immediate = {
@@ -2424,16 +2415,7 @@ te_barbarians.7 = {
         current_date > 1204.04.11 
         current_date < 1207.11.07
         has_global_variable = huns_fourth_wave
-        OR = {
-            p:5278 = {
-                any_neighbor_province = { owner = root }
-            }
-            tag = SEL
-            tag = MRY
-            tag = BHA
-            tag = PTH #Parthia
-            tag = ALX #Argead / Hellenistic Empire
-        }
+        is_huna_neighbor_trigger = yes
     }
 
     immediate = {
