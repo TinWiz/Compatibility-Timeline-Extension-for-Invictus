@@ -19,7 +19,7 @@ Changelog v0.4.0
 	-medium countries between 10 and 100 territories; small countries 10 or fewer territories
 		+slow down rapid conversion of smaller countries
 
-*added limit for establishing early_christian_church to countries with more than one territory to te_christianity.92–95 and l6_christian.3
+*added limit for establishing early_christian_church to countries with more than one territory to te_christianity.91–95 and l6_christian.3
 	-slow down rapid conversion of AI OPMs with large cities
 	-rare player with 1 territory would not get flavour events
 		+can still build church with St. Peter deity on_activate effect
