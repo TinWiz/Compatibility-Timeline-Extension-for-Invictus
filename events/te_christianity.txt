@@ -1263,14 +1263,14 @@ te_christianity.91 = {
 			}
 			set_variable = {
 				name = medium_xian_ekklesia_country
-				days = 500
+				days = 1089
 			}		
 		}
 		else_if = {
 			limit = { num_of_cities <= 10 }
 			set_variable = {
 				name = small_xian_ekklesia_country
-				days = 1000
+				days = 3267
 			}	
 		}
 	}
@@ -1395,7 +1395,7 @@ te_christianity.92 = {
 			}
 			set_variable = {
 				name = medium_xian_ekklesia_country
-				days = 500
+				days = 1089
 			}		
 		}
 		else_if = {
@@ -1404,7 +1404,7 @@ te_christianity.92 = {
 			}
 			set_variable = {
 				name = small_xian_ekklesia_country
-				days = 1000
+				days = 3267
 			}	
 		}
 	}
@@ -1531,7 +1531,7 @@ te_christianity.93 = {
 			}
 			set_variable = {
 				name = medium_xian_ekklesia_country
-				days = 500
+				days = 1089
 			}		
 		}
 		else_if = {
@@ -1540,7 +1540,7 @@ te_christianity.93 = {
 			}
 			set_variable = {
 				name = small_xian_ekklesia_country
-				days = 1000
+				days = 3267
 			}	
 		}
 	}
@@ -1650,7 +1650,7 @@ te_christianity.94 = {
 			}
 			set_variable = {
 				name = medium_xian_ekklesia_country
-				days = 500
+				days = 1089
 			}		
 		}
 		else_if = {
@@ -1659,7 +1659,7 @@ te_christianity.94 = {
 			}
 			set_variable = {
 				name = small_xian_ekklesia_country
-				days = 1000
+				days = 3267
 			}	
 		}
 	}
@@ -1764,14 +1764,14 @@ te_christianity.95 = {
 			}
 			set_variable = {
 				name = medium_xian_ekklesia_country
-				days = 500
+				days = 1089
 			}		
 		}
 		else_if = {
 			limit = { num_of_cities <= 10 }
 			set_variable = {
 				name = small_xian_ekklesia_country
-				days = 1000
+				days = 3267
 			}	
 		}
 	}
@@ -1846,7 +1846,7 @@ te_christianity.96 = {
 			}
 			set_variable = {
 				name = medium_xian_ekklesia_province
-				days = 500
+				days = 726
 			}		
 		}
 		else_if = {
@@ -1855,7 +1855,7 @@ te_christianity.96 = {
 			}
 			set_variable = {
 				name = small_xian_ekklesia_province
-				days = 1000
+				days = 1452
 			}	
 		}
 	}
