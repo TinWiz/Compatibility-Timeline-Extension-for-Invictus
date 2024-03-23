@@ -128,3 +128,41 @@ deity_is_christian_trigger = {
 deity_is_not_christian_trigger = {
     deity_is_christian_trigger = no
 }
+
+is_pentarchy_imperium_ai_trigger = { #country scope
+	AND = {
+		is_ai = yes
+		government = imperium
+		OR = {
+			p:1 = {
+				exists = owner
+				owner = root
+				dominant_province_religion = christianity
+			}	
+			p:1453 = {
+				exists = owner
+				owner = root
+				dominant_province_religion = christianity
+			}
+			p:790 = {
+				exists = owner
+				owner = root
+				dominant_province_religion = christianity
+			}
+			p:687 = {
+				exists = owner
+				owner = root
+				dominant_province_religion = christianity
+			}
+			p:516 = {
+				exists = owner
+				owner = root
+				dominant_province_religion = christianity
+			}    
+		}
+	}
+	NOR = {
+		religion = judaism
+		religion = manichaeism
+	}	
+}
