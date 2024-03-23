@@ -1,5 +1,5 @@
 ﻿christianity = { # Christian
-	color = hsv { 0.16 1.0 1.0 }
+	color = hsv { 0.17 1.0 1.0 }
 	modifier = {
 		global_pop_conversion_speed_modifier = 0.3
 		omen_power = 0.1
