@@ -66,6 +66,7 @@
 			modifier = { 
 				factor = 1000
 				OR = {
+					is_pentarchy_imperium_ai_trigger = yes
 					tag = ARM
 					AND = {
 						capital_scope = {
