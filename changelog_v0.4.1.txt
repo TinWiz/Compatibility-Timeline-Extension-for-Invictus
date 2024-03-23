@@ -10,6 +10,8 @@ Changelog v0.4.1
 
 *changed [small/medium]_christian_ekklesia_target variable in event file te_christianity.96 to [small/medium]_christian_ekklesia_province
 	-added cooldown variables [small/medium]_christian_ekklesia_country to te_christianity.91–95
+		+country cooldowns 1089 days for medium countries and 3267 for small countries
+	-adjusted province cooldowns to 726 days for medium countries and 1452 days for small countries
 
 *Lowered religious technology table in half from 0.01 to 0.005
 	-omen balance issues in late timeline
