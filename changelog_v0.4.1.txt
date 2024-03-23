@@ -1,0 +1,19 @@
+Changelog v0.4.1
+
+*tweaked colour of christianity from hsv 0.16 to 0.17 for slightly better contrast with buddhism
+
+*scripted trigger is_pentarchy_imperium_ai_trigger
+	-added to ai_convert_to_christian factor 1000 in te_decisions
+	-excludes Jewish and Manichaean countries
+
+*added Lugdunum (province_id 2301) to te_christianity.94 to place early_christian_church if population over 20 (city)
+
+*changed [small/medium]_christian_ekklesia_target variable in event file te_christianity.96 to [small/medium]_christian_ekklesia_province
+	-added cooldown variables [small/medium]_christian_ekklesia_country to te_christianity.91–95
+
+*Lowered religious technology table in half from 0.01 to 0.005
+	-omen balance issues in late timeline
+	-more in line with oratory tech progress
+	
+##########
+##########
