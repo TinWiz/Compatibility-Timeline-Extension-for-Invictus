@@ -170,10 +170,11 @@ te_custom_on_action_yearly_country_jewish = {
 	}	
 
 	random_events = {
-		45 = 0
+		35 = 0
 		25 = te_judaism.31
 		10 = te_judaism.3
 		10 = te_judaism.4
+		10 = te_judaism.6
 		5 = te_judaism.21
 		5 = te_judaism.5
 	}
