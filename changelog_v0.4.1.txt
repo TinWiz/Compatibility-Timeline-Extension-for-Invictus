@@ -23,6 +23,10 @@ Changelog v0.4.1
 	-omen balance issues in late timeline
 	-more in line with oratory tech progress
 
+*moved back date trigger for archangels from 1053 to 953 in deities file 01_christianity.txt
+	-sects of angel worshippers existed in 3rd century historically
+	-no need for such a long lag time when theosis events now require Christianity to trigger
+
 *added te_judaism.6 event for Yemeni Jews if global_variable jewish_diaspora is set
 	-conversion event for culture group south_arabian
 	-added to te_custom_on_actions random_events with factor 10; lowered 0 factor from 45 to 35	
