@@ -2,6 +2,7 @@ Changelog v0.4.1
 
 *lowered local_forum_building/Provincial Legation building local_pop_assimilation_speed_modifier from 1 to 0.15
 	-back to vanilla value; assimilation is too fast for a much longer timeline
+	-also lowered migration speed modifier to vanilla 0.75 from Invictus 1.5
 
 *tweaked colour of Christianity from hsv 0.16 to 0.17 for slightly better contrast with Buddhism on map and UI
 
