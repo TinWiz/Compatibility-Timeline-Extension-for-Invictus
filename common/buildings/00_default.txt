@@ -801,7 +801,7 @@ hill_fort = { #Tribal Settlement
 
 local_forum_building = { #Provincial Legation
 	local_pop_assimilation_speed_modifier = 0.15 #vanilla value, lowered from Invictus 1 [100%!]
-	local_migration_speed_modifier = 1.5
+	local_migration_speed_modifier = 0.75 #vanilla value, lowered from Invictus 1.5
 	local_migration_attraction = 3.5
 	max_amount = 1
 	potential = {
