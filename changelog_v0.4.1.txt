@@ -3,7 +3,7 @@ Changelog v0.4.1
 *lowered local_forum_building/Provincial Legation building local_pop_assimilation_speed_modifier from 1 to 0.15
 	-back to vanilla value; assimilation is too fast for a much longer timeline
 
-*tweaked colour of christianity from hsv 0.16 to 0.17 for slightly better contrast with buddhism
+*tweaked colour of Christianity from hsv 0.16 to 0.17 for slightly better contrast with Buddhism on map and UI
 
 *scripted trigger is_pentarchy_imperium_ai_trigger
 	-added to ai_convert_to_christian factor 1000 in te_decisions
