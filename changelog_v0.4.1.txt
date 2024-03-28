@@ -1,5 +1,8 @@
 Changelog v0.4.1
 
+*lowered local_forum_building/Provincial Legation building local_pop_assimilation_speed_modifier from 1 to 0.15
+	-back to vanilla value; assimilation is too fast for a much longer timeline
+
 *tweaked colour of christianity from hsv 0.16 to 0.17 for slightly better contrast with buddhism
 
 *scripted trigger is_pentarchy_imperium_ai_trigger
@@ -7,7 +10,7 @@ Changelog v0.4.1
 	-excludes Jewish and Manichaean countries
 
 *changed aimod name to te_great_germanisch_wanderung_aimod for germanic countries bordering a great_power
-	-increased aggressive to 600, migartion_chance 30; reduced negative trustworthy from -40 to -20
+	-increased aggressive to 600, migration_chance 30; reduced negative trustworthy from -40 to -20
 	-added aimod te_major_germanisch_wanderung_aimod for germanic countries bordering a major power
 		+400 aggressive, 20 migration_chance and -10 trustworthy
 		+should stack if bordering both great and major powers
