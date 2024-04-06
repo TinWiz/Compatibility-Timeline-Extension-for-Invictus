@@ -1,5 +1,10 @@
 Changelog v0.4.2
 
+*added te_minor_germanisch_wanderung_aimod for germanic countries bordering non-germanic regional_power or with 2 or more non-germanic major_power neighbours
+	-aggressive 200, migration_chance 10, trustworthy -5
+	-stacks with te_major– and te_great_germanisch_wanderung_aimod
+		+potential all three aimods stacking adds aggressive 1200, migration_chance 60, trustworthy -35
+
 *added new events te_plagues.13 for Antonine plague and te_plagues.23 for Cyprian plague province territory spread 
 	-added new province outbreak and city outbreak modifiers, separated quarantine modifiers
 		+no additional local_unrest in outbreak, but spreads to provinces
