@@ -40,3 +40,28 @@ te_major_germanisch_wanderung_aimod = {
 	migration_chance = 20
 	trustworthy = -10
 }
+
+te_minor_germanisch_wanderung_aimod = {
+	trigger = {
+        current_date > 1128.6.28
+		has_country_modifier = germanisch_wanderung
+		OR = {
+			any_neighbour_country = {
+				NOT = {
+					country_culture_group = germanic
+				}
+				rank = regional_power
+			}
+			any_neighbour_country = {
+				count >= 2
+				NOT = {
+					country_culture_group = germanic
+				}
+				rank = major_power
+			}
+		}	
+	}
+	aggressive = 200
+	migration_chance = 10
+	trustworthy = -5
+}
