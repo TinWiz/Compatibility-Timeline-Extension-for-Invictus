@@ -28,7 +28,7 @@ te_major_germanisch_wanderung_aimod = {
 				rank = major_power
 			}
 			any_neighbour_country = {
-				count >=2
+				count >= 2
 				NOT = {
 					country_culture_group = germanic
 				}
