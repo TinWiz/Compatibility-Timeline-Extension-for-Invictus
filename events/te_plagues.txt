@@ -29,14 +29,31 @@ fire_only_once = yes
 
 	option = {
 		name = "te_plagues.1.a"
+		custom_tooltip = "plague_quarantine"
 		capital_scope = {
 			add_province_modifier = {
-				name = "antonine_plague_epidemic"
+				name = "antonine_plague_epidemic_quarantine"
 				duration = 1080
 			}	
 		}
 		set_variable = {
-			name = antonine_plague_country
+			name = antonine_plague_country_quarantine
+			days = 5460
+		}
+	}
+
+	option = {
+		name = "te_plagues.1.b"
+		trigger = { is_ai = no }
+		custom_tooltip = "plague_outbreak"
+		capital_scope = {
+			add_province_modifier = {
+				name = "antonine_plague_epidemic_outbreak_city"
+				duration = 1080
+			}	
+		}
+		set_variable = {
+			name = antonine_plague_country_outbreak
 			days = 5460
 		}
 	}
@@ -52,14 +69,23 @@ te_plagues.10 = {
 		has_owner = yes
 		owner = {
 			AND = {
-				has_variable = antonine_plague_country
+				OR = {
+					has_variable = antonine_plague_country_quarantine
+					has_variable = antonine_plague_country_outbreak
+				}
 				num_of_cities > 1
 			}	
 		}	
 		NOR = { 
-			has_province_modifier = "antonine_plague_epidemic"
+			has_province_modifier = "antonine_plague_epidemic_quarantine"
+			has_province_modifier = "antonine_plague_epidemic_outbreak_city"
+			has_province_modifier = "plague_outbreak_province"
 			total_population < 20
-		}		
+		}
+		OR = {
+			has_city_status = yes
+			is_port = yes
+		}	
 	}
 
 	weight_multiplier = {
@@ -70,9 +96,23 @@ te_plagues.10 = {
 	}
 
 	immediate = {
-		add_province_modifier = {
-			name = "antonine_plague_epidemic"
-			duration = 1080
+		if = {
+			limit = {
+				owner = { has_variable = antonine_plague_country_quarantine }
+			}
+			add_province_modifier = {
+				name = "antonine_plague_epidemic_quarantine"
+				duration = 1080
+			}
+		}
+		else_if = {
+			limit = {
+				owner = { has_variable = antonine_plague_country_outbreak }
+			}
+			add_province_modifier = {
+				name = "antonine_plague_epidemic_outbreak_city"
+				duration = 1080
+			}
 		}
 	}
 }
@@ -97,7 +137,8 @@ te_plagues.11 = {
 			p:1 = {
 				owner = root
 			}
-			has_variable = antonine_plague_country	
+			has_variable = antonine_plague_country_outbreak
+			has_variable = antonine_plague_country_quarantine	
 		}
 		any_owned_province = {
 			total_population >= 20
@@ -108,10 +149,7 @@ te_plagues.11 = {
 		add_stability = -20
 		random_owned_province = {
 			limit = {
-				NOR = {
-					has_province_modifier = "antonine_plague_epidemic" 
-					total_population < 20
-				}
+				NOT = { total_population < 20 }
 			}
 			save_scope_as = antonine_plague_city
 		}		
@@ -119,14 +157,30 @@ te_plagues.11 = {
 
 	option = {
 		name = "te_plagues.11.a"
+		trigger = { is_ai = no }
+		custom_tooltip = "plague_outbreak"
 			scope:antonine_plague_city = {	
 				add_province_modifier = {
-					name = "antonine_plague_epidemic"
+					name = "antonine_plague_epidemic_outbreak_city"
 					duration = 1080
 				}
 			}
 		set_variable = {
-			name = antonine_plague_country
+			name = antonine_plague_country_outbreak
+			days = 5460	
+		}			
+	}
+	option = {
+		name = "te_plagues.11.b"
+		custom_tooltip = "plague_quarantine"
+			scope:antonine_plague_city = {	
+				add_province_modifier = {
+					name = "antonine_plague_epidemic_quarantine"
+					duration = 1080
+				}
+			}
+		set_variable = {
+			name = antonine_plague_country_quarantine
 			days = 5460	
 		}			
 	}
@@ -148,6 +202,190 @@ te_plagues.12 = {
 		remove_global_variable = antonine_plague_pandemic
 	}
 }
+
+#Antonine outbreak provinces
+te_plagues.13 = {
+	type = province_event
+	hidden = yes
+
+	trigger = {
+		has_global_variable = antonine_plague_pandemic
+		#total_population > 1
+		has_owner = yes
+		owner = {
+			AND = {
+				#is_ai = no
+				has_variable = antonine_plague_country_outbreak
+				num_of_cities > 1
+			}	
+			NOT = {
+				has_variable = antonine_plague_yearly_limit
+			}
+		}	
+		NOR = { 
+			has_province_modifier = "antonine_plague_epidemic_outbreak_city"
+			has_province_modifier = "antonine_plague_epidemic_quarantine"
+			has_province_modifier = "plague_outbreak_province"
+			has_variable = antonine_plague_spread
+		}	
+		any_neighbor_province = {
+			exists = owner
+			owner = { has_variable = antonine_plague_country_outbreak }
+			OR = {
+				has_province_modifier = "antonine_plague_epidemic_outbreak_city"
+				has_province_modifier = "plague_outbreak_province"
+			}
+		}
+	}
+
+	immediate = {	
+		if = {
+			limit = {
+				total_population < 20
+				owner = {
+					OR = {
+						AND = {
+							num_of_cities > 1000
+							any_owned_province = {
+								count < 100
+								has_variable = antonine_plague_new
+							}	
+						}
+						AND = {
+							num_of_cities > 500
+							num_of_cities <= 1000
+							any_owned_province = {
+								count < 50
+								has_variable = antonine_plague_new
+							}	
+						}
+						AND = {
+							num_of_cities > 100
+							num_of_cities <= 500
+							any_owned_province = {
+								count < 25
+								has_variable = antonine_plague_new
+							}
+						}
+						AND = {
+							num_of_cities > 10
+							num_of_cities <= 100
+							any_owned_province = {
+								count < 10
+								has_variable = antonine_plague_new
+							}
+						}
+						AND = {
+							num_of_cities <= 10
+							any_owned_province = {
+								count <= 1
+								has_variable = antonine_plague_new
+							}
+						}	
+					}		
+				}
+			}
+			add_province_modifier = {
+				name = "plague_outbreak_province"
+				duration = 1080
+			}
+			set_variable = antonine_plague_spread
+			set_variable = {
+				name = antonine_plague_new
+				days = 360
+			}
+		}	
+		else_if = {
+			limit = {
+				total_population >= 20
+				owner = {
+					OR = {
+						AND = {
+							num_of_cities > 1000
+							any_owned_province = {
+								count < 100
+								has_variable = antonine_plague_new
+							}	
+						}
+						AND = {
+							num_of_cities > 500
+							num_of_cities <= 1000
+							any_owned_province = {
+								count < 50
+								has_variable = antonine_plague_new
+							}	
+						}
+						AND = {
+							num_of_cities > 100
+							num_of_cities <= 500
+							any_owned_province = {
+								count < 25
+								has_variable = antonine_plague_new
+							}
+						}
+						AND = {
+							num_of_cities > 10
+							num_of_cities <= 100
+							any_owned_province = {
+								count < 10
+								has_variable = antonine_plague_new
+							}
+						}
+						AND = {
+							num_of_cities <= 10
+							any_owned_province = {
+								count <= 1
+								has_variable = antonine_plague_new
+							}
+						}	
+					}		
+				}
+			}
+			add_province_modifier = {
+				name = "antonine_plague_epidemic_outbreak_city"
+				duration = 1080
+			}
+			set_variable = antonine_plague_spread
+			set_variable = {
+				name = antonine_plague_new
+				days = 360
+			}
+		}
+		else = {	
+			owner = {
+				set_variable = {
+					name = antonine_plague_yearly_limit
+					days = 360
+				}	
+			}
+		}
+	}
+}
+
+#Antonine Last Pop Rescue Sweep
+te_plagues.14 = {
+	type = province_event
+	hidden = yes
+
+	trigger = {
+		has_global_variable = antonine_plague_pandemic
+		has_owner = yes
+		owner = {
+			AND = {
+				#is_ai = no
+				has_variable = antonine_plague_country_outbreak
+				num_of_cities >= 1
+			}
+		}	
+		has_province_modifier = "plague_outbreak_province"		
+		NOT = { has_variable = antonine_plague_new }	
+		total_population = 1
+	}
+
+	immediate = {
+		remove_province_modifier = "plague_outbreak_province"
+	}
+}	
 
 #Cyprian Plague AD249�262
 te_plagues.2 = {
@@ -178,14 +416,30 @@ te_plagues.2 = {
 
 	option = {
 		name = "te_plagues.2.a"
+		trigger = { is_ai = no }
+		custom_tooltip = "plague_outbreak"
 		capital_scope = {
 			add_province_modifier = {
-				name = "cyprian_plague_epidemic"
+				name = "cyprian_plague_epidemic_outbreak_city"
 				duration = 1220
 			}	
 		}
 		set_variable = {
-			name = cyprian_plague_country
+			name = cyprian_plague_country_outbreak
+			days = 4745
+		}
+	}
+	option = {
+		name = "te_plagues.2.b"
+		custom_tooltip = "plague_quarantine"
+		capital_scope = {
+			add_province_modifier = {
+				name = "cyprian_plague_epidemic_quarantine"
+				duration = 1220
+			}	
+		}
+		set_variable = {
+			name = cyprian_plague_country_quarantine
 			days = 4745
 		}
 	}
@@ -201,17 +455,32 @@ te_plagues.20 = {
 		has_owner = yes
 		owner = {
 			AND = {
-				has_variable = cyprian_plague_country
+				OR = {
+					has_variable = cyprian_plague_country_outbreak
+					has_variable = cyprian_plague_country_quarantine
+				}
 				num_of_cities > 1
-			}	
+			}			
 		}	
 		NOR = { 
-			has_province_modifier = "cyprian_plague_epidemic" 
-			total_population < 30	
+			has_province_modifier = "cyprian_plague_epidemic_outbreak_city"
+			has_province_modifier = "cyprian_plague_epidemic_outbreak_town"
+			has_province_modifier = "cyprian_plague_epidemic_quarantine" 
+			has_province_modifier = "cyprian_plague_epidemic_quarantown"
+			has_province_modifier = "plague_outbreak_province" 
+			total_population < 20	
+		}
+		OR = {
+			has_city_status = yes
+			is_port = yes
 		}
 	}
 
 	weight_multiplier = {
+		modifier = {
+			factor = 2
+			total_population > 40
+		}
 		modifier = {
 			factor = 3
 			total_population > 60
@@ -219,9 +488,51 @@ te_plagues.20 = {
 	}
 
 	immediate = {
-		add_province_modifier = {
-			name = "cyprian_plague_epidemic"
-			duration = 1220
+		if = {
+			limit = {
+				owner = { has_variable = cyprian_plague_country_quarantine }
+				total_population >= 30
+			}
+			add_province_modifier = {
+				name = "cyprian_plague_epidemic_quarantine"
+				duration = 1220
+			}
+		}	
+		else_if = {
+			limit = {
+				owner = { has_variable = cyprian_plague_country_outbreak }
+				total_population >= 30
+			}
+			add_province_modifier = {
+				name = "cyprian_plague_epidemic_outbreak_city"
+				duration = 1220
+			}
+		}
+		else_if = {
+			limit = {
+				owner = { has_variable = cyprian_plague_country_quarantine }
+				AND = {
+					total_population >= 20
+					total_population < 30
+				}	
+			}
+			add_province_modifier = {
+				name = "cyprian_plague_epidemic_quarantown"
+				duration = 1220
+			}
+		}
+		else_if = {
+			limit = {
+				owner = { has_variable = cyprian_plague_country_outbreak }
+				AND = {
+					total_population >= 20
+					total_population < 30 
+				}	
+			}
+			add_province_modifier = {
+				name = "cyprian_plague_epidemic_outbreak_town"
+				duration = 1220
+			}
 		}
 	}
 }
@@ -243,39 +554,66 @@ te_plagues.21 = {
 		has_global_variable = cyprian_plague_pandemic
 		num_of_cities > 1
 		NOR = {
-			has_variable = cyprian_plague_country
+			has_variable = cyprian_plague_country_outbreak
+			has_variable = cyprian_plague_country_quarantine
 			p:516 = {
 				owner = root
 			}
 		}
 		any_owned_province = {
-			total_population >= 30
+			total_population >= 20
 		}
 	}
 
 	immediate = {
 		add_stability = -30
-		random_owned_province = {
+		if = {
 			limit = {
-				NOR = {
-					has_province_modifier = "cyprian_plague_epidemic" 
-					total_population < 30
+				any_owned_province = { total_population >= 30 }
+			}
+			random_owned_province = {
+				limit = {
+					NOT = { total_population < 30 }
+				}	
+				save_scope_as = cyprian_plague_city
+			}
+		}
+		else = {
+			random_owned_province = {
+				limit = {
+					NOT = { total_population < 20 }
 				}
-			}	
-			save_scope_as = cyprian_plague_city
-		}	
+				save_scope_as = cyprian_plague_city
+			}
+		}
 	}	
 
 	option = {
 		name = "te_plagues.21.a"
-			scope:cyprian_plague_city = {	
-				add_province_modifier = {
-					name = "cyprian_plague_epidemic"
-					duration = 1220
-				}
+		trigger = { is_ai = no }
+		custom_tooltip = "plague_outbreak"
+		scope:cyprian_plague_city = {	
+			add_province_modifier = {
+				name = "cyprian_plague_epidemic_outbreak_city"
+				duration = 1220
 			}
+		}
 		set_variable = {
-			name = cyprian_plague_country
+			name = cyprian_plague_country_outbreak
+			days = 4745	
+		}			
+	}
+	option = {
+		name = "te_plagues.21.b"
+		custom_tooltip = "plague_quarantine"
+		scope:cyprian_plague_city = {	
+			add_province_modifier = {
+				name = "cyprian_plague_epidemic_quarantine"
+				duration = 1220
+			}
+		}
+		set_variable = {
+			name = cyprian_plague_country_quarantine
 			days = 4745	
 		}			
 	}
@@ -294,6 +632,252 @@ te_plagues.22 = {
 
 	immediate = {
 		remove_global_variable = cyprian_plague_pandemic
+	}
+}
+
+#Cyprian outbreak provinces
+te_plagues.23 = {
+	type = province_event
+	hidden = yes
+
+	trigger = {
+		has_global_variable = cyprian_plague_pandemic
+		has_owner = yes
+		#total_population > 1
+		owner = {
+			AND = {
+				#is_ai = no
+				has_variable = cyprian_plague_country_outbreak
+				num_of_cities > 1
+			}	
+			NOT = {
+				has_variable = cyprian_plague_yearly_limit
+			}
+		}	
+		NOR = { 
+			has_province_modifier = "cyprian_plague_epidemic_outbreak_city"
+			has_province_modifier = "cyprian_plague_epidemic_outbreak_town"
+			has_province_modifier = "cyprian_plague_epidemic_quarantine"
+			has_province_modifier = "cyprian_plague_epidemic_quarantown"
+			has_province_modifier = "plague_outbreak_province"
+			has_variable = cyprian_plague_spread
+		}		
+		any_neighbor_province = {
+			exists = owner
+			owner = { has_variable = cyprian_plague_country_outbreak }
+			OR = {
+				has_province_modifier = "cyprian_plague_epidemic_outbreak_city"
+				has_province_modifier = "cyprian_plague_epidemic_outbreak_town"
+				has_province_modifier = "plague_outbreak_province"
+			}
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				total_population < 20
+				owner = {
+					OR = {
+						AND = {
+							num_of_cities > 1000
+							any_owned_province = {
+								count < 100
+								has_variable = cyprian_plague_new
+							}	
+						}
+						AND = {
+							num_of_cities > 500
+							num_of_cities <= 1000
+							any_owned_province = {
+								count < 50
+								has_variable = cyprian_plague_new
+							}	
+						}
+						AND = {
+							num_of_cities > 100
+							num_of_cities <= 500
+							any_owned_province = {
+								count < 25
+								has_variable = cyprian_plague_new
+							}
+						}
+						AND = {
+							num_of_cities > 10
+							num_of_cities <= 100
+							any_owned_province = {
+								count < 10
+								has_variable = cyprian_plague_new
+							}
+						}
+						AND = {
+							num_of_cities <= 10
+							any_owned_province = {
+								count <= 1
+								has_variable = cyprian_plague_new
+							}
+						}
+					}
+				}
+			}
+			add_province_modifier = {
+				name = "plague_outbreak_province"
+				duration = 1220
+			}
+			set_variable = cyprian_plague_spread
+			set_variable = {
+				name = cyprian_plague_new
+				days = 360
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					total_population >= 20
+					total_population < 30
+				}	
+				owner = {
+					OR = {
+						AND = {
+							num_of_cities > 1000
+							any_owned_province = {
+								count < 100
+								has_variable = cyprian_plague_new
+							}	
+						}
+						AND = {
+							num_of_cities > 500
+							num_of_cities <= 1000
+							any_owned_province = {
+								count < 50
+								has_variable = cyprian_plague_new
+							}	
+						}
+						AND = {
+							num_of_cities > 100
+							num_of_cities <= 500
+							any_owned_province = {
+								count < 25
+								has_variable = cyprian_plague_new
+							}
+						}
+						AND = {
+							num_of_cities > 10
+							num_of_cities <= 100
+							any_owned_province = {
+								count < 10
+								has_variable = cyprian_plague_new
+							}
+						}
+						AND = {
+							num_of_cities <= 10
+							any_owned_province = {
+								count <= 1
+								has_variable = cyprian_plague_new
+							}
+						}
+					}
+				}
+			}
+			add_province_modifier = {
+				name = "cyprian_plague_epidemic_outbreak_town"
+				duration = 1220
+			}
+			set_variable = cyprian_plague_spread
+			set_variable = {
+				name = cyprian_plague_new
+				days = 360
+			}
+		}
+		else_if = {
+			limit = {
+				total_population >= 30	
+				owner = {
+					OR = {
+						AND = {
+							num_of_cities > 1000
+							any_owned_province = {
+								count < 100
+								has_variable = cyprian_plague_new
+							}	
+						}
+						AND = {
+							num_of_cities > 500
+							num_of_cities <= 1000
+							any_owned_province = {
+								count < 50
+								has_variable = cyprian_plague_new
+							}	
+						}
+						AND = {
+							num_of_cities > 100
+							num_of_cities <= 500
+							any_owned_province = {
+								count < 25
+								has_variable = cyprian_plague_new
+							}
+						}
+						AND = {
+							num_of_cities > 10
+							num_of_cities <= 100
+							any_owned_province = {
+								count < 10
+								has_variable = cyprian_plague_new
+							}
+						}
+						AND = {
+							num_of_cities <= 10
+							any_owned_province = {
+								count <= 1
+								has_variable = cyprian_plague_new
+							}
+						}
+					}
+				}
+			}
+			add_province_modifier = {
+				name = "cyprian_plague_epidemic_outbreak_city"
+				duration = 1220
+			}
+			set_variable = cyprian_plague_spread
+			set_variable = {
+				name = cyprian_plague_new
+				days = 360
+			}
+		}
+		else = {
+			owner = {
+				set_variable = {
+					name = cyprian_plague_yearly_limit
+					days = 360
+				}
+			}
+		}
+	}
+}
+
+#Cyprian Last Pop Rescue Sweep
+te_plagues.24 = {
+	type = province_event
+	hidden = yes
+
+	trigger = {
+		has_global_variable = cyprian_plague_pandemic
+		has_owner = yes
+		owner = {
+			AND = {
+				#is_ai = no
+				has_variable = cyprian_plague_country_outbreak
+				num_of_cities >= 1
+			}
+		}	
+		has_province_modifier = "plague_outbreak_province"		
+		NOT = { has_variable = cyprian_plague_new }	
+		total_population = 1
+	}
+
+	immediate = {
+		remove_province_modifier = "plague_outbreak_province"
 	}
 }
 
@@ -323,6 +907,10 @@ te_plagues.40 = { #Central add
 			}		
 			tag = MRY
 			tag = BHA
+			AND = { # eastern blob check
+				capital_scope = { is_in_pars_occidentalis_inv_trigger = no }
+				num_of_cities >= 1200
+			}	
 		}	
 		NOR = {
 			country_culture_group = germanic
@@ -401,6 +989,7 @@ te_plagues.41 = { #Central remove
 				}
 				tag = MRY
 				tag = BHA
+				num_of_cities >= 1200 # eastern blob check
 			}	
 			AND = {	
 				current_date > 1104.4.30
@@ -531,9 +1120,11 @@ te_plagues.44 = { #orient add
 					#province_id = 1453
 				}
 				has_variable = eastern_roman_senior_pars
+				num_of_cities < 600
 			}
 			tag = MRY
 			tag = BHA
+			num_of_cities >= 1200 # eastern blob check
 		}
 	}
 
@@ -584,9 +1175,11 @@ te_plagues.45 = { #orient remove
 					#province_id = 1453
 				}
 				has_variable = eastern_roman_senior_pars
+				num_of_cities < 600
 			}
 			tag = MRY
 			tag = BHA
+			num_of_cities >= 1200 # eastern blob check
 		}
 		has_country_modifier = late_antiquity_pop_decline_orient
 		NOT = {
