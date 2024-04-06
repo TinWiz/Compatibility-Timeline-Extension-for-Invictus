@@ -1,5 +1,8 @@
 Changelog v0.4.2
 
+*added scripted_trigger is_diadochi_descendant_ai_trigger to te_religion_triggers.txt for use in te_christianity.72 and ai_convert_to_christian decision in te_decisions.txt
+	-added Epirus, tag EPI or epirote_heritage with primary culture epirote and capital in epirus_area
+
 *added te_minor_germanisch_wanderung_aimod for germanic countries bordering non-germanic regional_power or with 2 or more non-germanic major_power neighbours
 	-aggressive 200, migration_chance 10, trustworthy -5
 	-stacks with te_major– and te_great_germanisch_wanderung_aimod
