@@ -347,9 +347,15 @@ te_custom_on_action_yearly_country_tribesmen = {
 
 te_custom_on_action_yearly_province_antonine = {
 	trigger = {
+		exists = owner
 		current_date > 917.1.1
 		current_date < 932.12.31
 		has_global_variable = antonine_plague_pandemic
+	}
+
+	events = {
+		te_plagues.13
+		te_plagues.14
 	}
 
 	random_events = {
@@ -360,9 +366,15 @@ te_custom_on_action_yearly_province_antonine = {
 
 te_custom_on_action_yearly_province_cyprian = {
 	trigger = {
+		exists = owner
 		current_date > 1001.1.1
 		current_date < 1014.12.31
 		has_global_variable = cyprian_plague_pandemic
+	}
+
+	events = {
+		te_plagues.23
+		te_plagues.24
 	}
 
 	random_events = {
