@@ -29,7 +29,7 @@ christian_church_embelishment = {
 	local_population_happiness = 0.07
 }
 
-antonine_plague_epidemic = {
+antonine_plague_epidemic_quarantine = {
 	attrition = 10
 	max_attrition = 10
 	local_output_modifier = -2
@@ -46,7 +46,37 @@ antonine_plague_epidemic = {
 	local_unrest = 20
 }
 
-cyprian_plague_epidemic = {
+antonine_plague_epidemic_outbreak_city = {
+	attrition = 10
+	max_attrition = 10
+	local_output_modifier = -2
+	local_population_growth = -20
+	local_tax_modifier = -2
+	local_manpower_modifier = -2
+	local_monthly_food_modifier = -2
+	local_monthly_civilization = -0.2
+	local_country_civilization_value = -20
+	local_population_happiness = -0.2
+	#local_commerce_value_modifier = -0.2
+	local_state_trade_routes = -20
+	#state_commerce_modifier = -0.2
+	#local_unrest = 20
+}
+
+plague_outbreak_province = {
+	attrition = 5
+	max_attrition = 5
+	local_output_modifier = -1
+	local_population_growth = -10
+	local_tax_modifier = -1
+	local_manpower_modifier = -1
+	local_monthly_food_modifier = -1
+	local_monthly_civilization = -0.1
+	local_country_civilization_value = -10
+	local_population_happiness = -0.1
+}
+
+cyprian_plague_epidemic_quarantine = {
 	attrition = 15
 	max_attrition = 15
 	local_output_modifier = -3
@@ -61,6 +91,57 @@ cyprian_plague_epidemic = {
 	local_state_trade_routes = -30
 	#state_commerce_modifier = -0.3
 	local_unrest = 30
+}
+
+cyprian_plague_epidemic_quarantown = { #copy of Antonine plague quarantine modifier for smaller cities < 30 population
+	attrition = 10
+	max_attrition = 10
+	local_output_modifier = -2
+	local_population_growth = -20
+	local_tax_modifier = -2
+	local_manpower_modifier = -2
+	local_monthly_food_modifier = -2
+	local_monthly_civilization = -0.2
+	local_country_civilization_value = -20
+	local_population_happiness = -0.2
+	#local_commerce_value_modifier = -0.2
+	local_state_trade_routes = -20
+	#state_commerce_modifier = -0.2
+	local_unrest = 20
+}
+
+cyprian_plague_epidemic_outbreak_town = { #copy of Antonine city modifier for smaller cities during Cyprian Outbreak < 30 population
+	attrition = 10
+	max_attrition = 10
+	local_output_modifier = -2
+	local_population_growth = -20
+	local_tax_modifier = -2
+	local_manpower_modifier = -2
+	local_monthly_food_modifier = -2
+	local_monthly_civilization = -0.2
+	local_country_civilization_value = -20
+	local_population_happiness = -0.2
+	#local_commerce_value_modifier = -0.2
+	local_state_trade_routes = -20
+	#state_commerce_modifier = -0.2
+	#local_unrest = 20
+}
+
+cyprian_plague_epidemic_outbreak_city = {
+	attrition = 15
+	max_attrition = 15
+	local_output_modifier = -3
+	local_population_growth = -30
+	local_tax_modifier = -3
+	local_manpower_modifier = -3
+	local_monthly_food_modifier = -3
+	local_monthly_civilization = -0.3
+	local_country_civilization_value = -30
+	local_population_happiness = -0.3
+	#local_commerce_value_modifier = -0.3
+	local_state_trade_routes = -30
+	#state_commerce_modifier = -0.3
+	#local_unrest = 30
 }
 
 late_antiquity_decentralization_city = {
