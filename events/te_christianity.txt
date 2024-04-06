@@ -771,6 +771,7 @@ te_christianity.72 = {
 	trigger = {
 		current_date >= 1133.2.27 #Edict of Thessalonica
 		has_global_variable = christianity_expands
+		is_ai = yes
 		OR = {
 			tag = ROM
 			AND = {
@@ -780,44 +781,7 @@ te_christianity.72 = {
 				heritage = roman_heritage
 				primary_culture = roman
 			}
-			tag = MAC
-			AND = {
-				primary_culture = macedonian
-				capital_scope = {
-					is_in_region = macedonia_region
-				}
-				heritage = cassanders_heritage
-			}
-			tag = TRE
-			AND = {
-				primary_culture = macedonian
-				capital_scope = {
-					is_in_region = thrace_region
-				}
-				heritage = thrace_heritage
-			}
-			tag = EGY
-			AND = {
-				primary_culture = macedonian
-				capital_scope = {
-					is_in_region = lower_egypt_region
-				}
-				heritage = ptolemys_heritage
-			}
-			tag = PRY
-			AND = {
-				primary_culture = macedonian
-				heritage = antigonid_heritage
-			}
-			tag = SEL
-			AND = {
-				primary_culture = macedonian
-				heritage = seleucus_heritage
-			}
-			AND = {
-				NOT = { country_culture_group = hellenic }
-				religion = roman_pantheon
-			}
+			is_diadochi_descendant_ai_trigger = yes
 			tag = ERE
 			tag = WRE
 		}
@@ -825,7 +789,6 @@ te_christianity.72 = {
 			government = imperium
 			government = dictatorship
 		}	
-		is_ai = yes
 		#religion = roman_pantheon
 		NOT = {
 			has_variable = imperial_evangelization_toggle
