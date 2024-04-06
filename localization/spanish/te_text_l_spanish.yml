@@ -54,11 +54,22 @@
  desc_christian_church_embelishment:0 "Originalmente una estructura bastante modesta, nuestra catedral ha sido embellecida gracias a las generosas donaciones de los fieles cristianos y la intercesión de San Pedro. Con cada generación que pasa, la catedral se realza y, con el tiempo, su apariencia puede llegar a reflejar adecuadamente la sede del obispo como sucesor de los Apóstoles."
 
  #####PLAGUES#####:0 ""
- antonine_plague_epidemic:0 "Epidemia de Peste Antonina"
- desc_antonine_plague_epidemic:0 "Un brote de una enfermedad mortal ha infectado a esta provincia."
+ antonine_plague_epidemic_quarantine:0 "Epidemia de Peste Antonina"
+ desc_antonine_plague_epidemic_quarantine:0 "Esta ciudad está en cuarentena durante una pandemia mortal."
+ cyprian_plague_epidemic_quarantine:0 "Epidemia de Peste Cipriana"
+ desc_cyprian_plague_epidemic_quarantine:0 "Esta ciudad está en cuarentena durante una pandemia mortal."
+ cyprian_plague_epidemic_quarantown:0 "Epidemia de Peste Cipriana"
+ desc_cyprian_plague_epidemic_quarantown:0 "Esta ciudad está en cuarentena durante una pandemia mortal."
 
- cyprian_plague_epidemic:0 "Epidemia de Peste Cipriana"
- desc_cyprian_plague_epidemic:0 "Una enfermedad mortal ha infectado a la población de esta provincia."
+ plague_outbreak_province:0 "Brote de pestilencia"
+ desc_plague_outbreak_province:0 "Un brote de una enfermedad mortal ha infectado a esta provincia."
+
+ antonine_plague_epidemic_outbreak_city:0 "Epidemia de Peste Antonina"
+ desc_antonine_plague_epidemic_outbreak_city:0 "Una enfermedad mortal ha infectado a la población de esta provincia."
+ cyprian_plague_epidemic_outbreak_city:0 "Epidemia de Peste Cipriana"
+ desc_cyprian_plague_epidemic_outbreak_city:0 "Una enfermedad mortal ha infectado a la población de esta provincia."
+ cyprian_plague_epidemic_outbreak_town:0 "Brote de pestilencia"
+ desc_cyprian_plague_epidemic_outbreak_town:0 "Un brote de una enfermedad mortal ha infectado a esta provincia."
 
  #####COUNTRY MODIFIERS#####:0 ""
  cursed_by_elohim:0 "Maldito por Elohim"
