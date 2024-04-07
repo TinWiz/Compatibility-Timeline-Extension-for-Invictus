@@ -1917,158 +1917,136 @@ te_barbarians.56 = {
 #    }
 #}
 
+#Cultural takeover
 te_barbarians.58 = {
     type = country_event
     hidden = yes
 
     trigger = {
-        OR = {
-            AND = {
-                primary_culture = istvaeonic
-                NOT = {
-                    any_country_culture = {
-                        is_culture = istvaeonic
-                        has_pop_type_right = nobles
-                    }
-                }    
+        current_date > 1203.12.13
+        is_ai = yes
+        NOR = {
+            primary_culture = hunnic    
+            current_ruler = {
+                has_culture = hunnic
             }
-            AND = {
-                primary_culture = irminonic
-                NOT = {
-                    any_country_culture = {
-                        is_culture = irminonic
-                        has_pop_type_right = nobles
-                    }
-                }
+            any_owned_province = {
+                any_neighbor_province = {
+                    province_id = 5952
+                } 
             }
-            AND = {
-                primary_culture = hunnic
-                NOT = {
-                    any_country_culture = {
-                        is_culture = hunnic
-                        has_pop_type_right = nobles
-                    }
-                }
-            }
-            AND = {
-                primary_culture = huna
-                NOT = {
-                    any_country_culture = {
-                        is_culture = huna
-                        has_pop_type_right = nobles
-                    }
-                }
-            }
-            AND = {
-                primary_culture = suiones
-                NOT = {
-                    any_country_culture = {
-                        is_culture = suiones
-                        has_pop_type_right = nobles
-                    }
-                }
-            }
+            has_variable = barbarian_conquest_cooldown
+        }  
+        any_owned_province = {
+            percent > 0.75 
+            dominant_province_culture = hunnic
+        }
+        any_owned_province = {
+            dominant_province_culture = hunnic
+            num_of_tribesmen > 200
         }
     }
 
+    immediate = {
+		#root.current_ruler = {
+		#	set_culture = hunnic
+        #   add_character_modifier = {
+        #        name = switched_char_culture
+        #        duration = 1825
+        #    }
+		#}
+        every_character = {
+            limit = { 
+                OR = {
+                    from_ruler_family = yes 
+                    is_minor_character = yes
+                }    
+            }
+            set_culture = hunnic
+            add_character_modifier = {
+                name = switched_char_culture
+                duration = 1825
+            }
+        } 
+    }
+
     option = {
-        if = {
-            limit = {
-                AND = {
-                    primary_culture = istvaeonic
-                    NOT = {
-                        any_country_culture = {
-                            is_culture = istvaeonic
-                            has_pop_type_right = nobles
-                        }
-                    } 
-                }
-            }
-            random_country_culture = {
-                limit = {
-                    is_culture = istvaeonic
-                }
-                set_country_culture_right = nobles
-            }
-        }
-        else_if = {
-            limit = {
-                AND = {
-                    primary_culture = irminonic
-                    NOT = {
-                        any_country_culture = {
-                            is_culture = irminonic
-                            has_pop_type_right = nobles
-                        }
-                    } 
-                }
-            }
-            random_country_culture = {
-                limit = {
-                    is_culture = irminonic
-                }
-                set_country_culture_right = nobles
-            }
-        }
-        else_if = {
-            limit = {
-                AND = {
-                    primary_culture = hunnic
-                    NOT = {
-                        any_country_culture = {
-                            is_culture = hunnic
-                            has_pop_type_right = nobles
-                        }
-                    } 
-                }
-            }
-            random_country_culture = {
-                limit = {
-                    is_culture = hunnic
-                }
-                set_country_culture_right = nobles
-            }
-        }
-        else_if = {
-            limit = {
-                AND = {
-                    primary_culture = huna
-                    NOT = {
-                        any_country_culture = {
-                            is_culture = huna
-                            has_pop_type_right = nobles
-                        }
-                    } 
-                }
-            }
-            random_country_culture = {
-                limit = {
-                    is_culture = huna
-                }
-                set_country_culture_right = nobles
-            }
-        }
-        else_if = {
-            limit = {
-                AND = {
-                    primary_culture = suiones
-                    NOT = {
-                        any_country_culture = {
-                            is_culture = suiones
-                            has_pop_type_right = nobles
-                        }
-                    } 
-                }
-            }
-            random_country_culture = {
-                limit = {
-                    is_culture = suiones
-                }
-                set_country_culture_right = nobles
-            }
+		set_primary_culture_cleanup_effect = {
+			NEW_PRIMARY_CULTURE = hunnic
+			MAKE_OLD_CULTURE_INTEGRATED = yes
+		}
+    }
+
+    after = {
+        set_variable = {
+            name = barbarian_conquest_cooldown
+            days = 1825
         }
     }
-}
+} 
+
+te_barbarians.59 = {
+    type = country_event
+    hidden = yes
+
+    trigger = {
+        current_date > 1203.12.13
+        is_ai = yes
+        NOR = {
+            primary_culture = huna    
+            current_ruler = {
+                has_culture = huna
+            }
+            has_variable = barbarian_conquest_cooldown
+        }  
+        any_owned_province = {
+            percent > 0.75 
+            dominant_province_culture = huna
+        }
+        any_owned_province = {
+            dominant_province_culture = huna
+            num_of_tribesmen > 200
+        }
+    }
+    
+    immediate = {
+		#root.current_ruler = {
+		#	set_culture = huna
+        #   add_character_modifier = {
+        #       name = switched_char_culture
+        #       duration = 1825
+        #   }
+		#}
+        every_character = {
+            limit = { 
+                OR = {
+                    from_ruler_family = yes 
+                    is_minor_character = yes
+                }    
+            }
+            set_culture = huna
+            add_character_modifier = {
+                name = switched_char_culture
+                duration = 1825
+            }
+        } 
+    }
+
+    option = {
+		set_primary_culture_cleanup_effect = {
+			NEW_PRIMARY_CULTURE = huna
+			MAKE_OLD_CULTURE_INTEGRATED = yes
+		}
+    }
+
+    after = {
+        set_variable = {
+            name = barbarian_conquest_cooldown
+            days = 1825
+        }
+    }
+} 
+
 ##################################################################
 
 te_barbarians.60 = {
@@ -2595,6 +2573,161 @@ te_barbarians.72 = {
     }
 }
 
+#Barbarian takeover primary culture rights? #Not working! Blocked in te_custom_on_actions 
+te_barbarians.80 = {
+    type = country_event
+    hidden = yes
+
+    trigger = {
+        OR = {
+            AND = {
+                primary_culture = istvaeonic
+                NOT = {
+                    any_country_culture = {
+                        is_culture = istvaeonic
+                        has_pop_type_right = nobles
+                    }
+                }    
+            }
+            AND = {
+                primary_culture = irminonic
+                NOT = {
+                    any_country_culture = {
+                        is_culture = irminonic
+                        has_pop_type_right = nobles
+                    }
+                }
+            }
+            AND = {
+                primary_culture = hunnic
+                NOT = {
+                    any_country_culture = {
+                        is_culture = hunnic
+                        has_pop_type_right = nobles
+                    }
+                }
+            }
+            AND = {
+                primary_culture = huna
+                NOT = {
+                    any_country_culture = {
+                        is_culture = huna
+                        has_pop_type_right = nobles
+                    }
+                }
+            }
+            AND = {
+                primary_culture = suiones
+                NOT = {
+                    any_country_culture = {
+                        is_culture = suiones
+                        has_pop_type_right = nobles
+                    }
+                }
+            }
+        }
+    }
+
+    option = {
+        if = {
+            limit = {
+                AND = {
+                    primary_culture = istvaeonic
+                    NOT = {
+                        any_country_culture = {
+                            is_culture = istvaeonic
+                            has_pop_type_right = nobles
+                        }
+                    } 
+                }
+            }
+            random_country_culture = {
+                limit = {
+                    is_culture = istvaeonic
+                }
+                set_country_culture_right = nobles
+            }
+        }
+        else_if = {
+            limit = {
+                AND = {
+                    primary_culture = irminonic
+                    NOT = {
+                        any_country_culture = {
+                            is_culture = irminonic
+                            has_pop_type_right = nobles
+                        }
+                    } 
+                }
+            }
+            random_country_culture = {
+                limit = {
+                    is_culture = irminonic
+                }
+                set_country_culture_right = nobles
+            }
+        }
+        else_if = {
+            limit = {
+                AND = {
+                    primary_culture = hunnic
+                    NOT = {
+                        any_country_culture = {
+                            is_culture = hunnic
+                            has_pop_type_right = nobles
+                        }
+                    } 
+                }
+            }
+            random_country_culture = {
+                limit = {
+                    is_culture = hunnic
+                }
+                set_country_culture_right = nobles
+            }
+        }
+        else_if = {
+            limit = {
+                AND = {
+                    primary_culture = huna
+                    NOT = {
+                        any_country_culture = {
+                            is_culture = huna
+                            has_pop_type_right = nobles
+                        }
+                    } 
+                }
+            }
+            random_country_culture = {
+                limit = {
+                    is_culture = huna
+                }
+                set_country_culture_right = nobles
+            }
+        }
+        else_if = {
+            limit = {
+                AND = {
+                    primary_culture = suiones
+                    NOT = {
+                        any_country_culture = {
+                            is_culture = suiones
+                            has_pop_type_right = nobles
+                        }
+                    } 
+                }
+            }
+            random_country_culture = {
+                limit = {
+                    is_culture = suiones
+                }
+                set_country_culture_right = nobles
+            }
+        }
+    }
+}
+
+#Remove late strongholds
 te_barbarians.98 = {
     type = country_event
     hidden = yes
