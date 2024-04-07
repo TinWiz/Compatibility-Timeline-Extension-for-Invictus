@@ -1,5 +1,9 @@
 Changelog v0.4.2
 
+*added te_barbarians.58 and te_barbarians.59 to change culture in countries overwhelmed by Hunnic or Huna tribesmen from settling barbarian hordes
+	-added to list of events in te_custom_on_actions te_custom_on_action_yearly_country_tribesmen
+*changed defunct event te_barbarians.58 to te_barbarians.80 for now
+
 *added scripted_trigger is_diadochi_descendant_ai_trigger to te_religion_triggers.txt for use in te_christianity.72 and ai_convert_to_christian decision in te_decisions.txt
 	-added Epirus, tag EPI or epirote_heritage with primary culture epirote and capital in epirus_area
 
