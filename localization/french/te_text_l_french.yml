@@ -54,11 +54,22 @@
  desc_christian_church_embelishment:0 "D'origine plutôt modeste, notre cathédrale s'est embellie grâce aux généreuses donations des fidèles chrétiens et à l'intercession de saint Pierre. Avec chaque génération qui passe, la cathédrale s'améliore et, avec le temps, son apparence peut refléter correctement le siège de l'évêque en tant que successeur des apôtres."
 
  #####PLAGUES#####:0 ""
- antonine_plague_epidemic:0 "Epidémie de peste antonine"
- desc_antonine_plague_epidemic:0 "Une épidémie d'une maladie mortelle a infecté cette province."
+ antonine_plague_epidemic_quarantine:0 "Epidémie de peste antonine"
+ desc_antonine_plague_epidemic_quarantine:0 "Cette ville est en quarantaine pendant une pandémie mortelle."
+ cyprian_plague_epidemic_quarantine:0 "Épidémie de peste à Chypre"
+ desc_cyprian_plague_epidemic_quarantine:0 "Cette ville est en quarantaine pendant une pandémie mortelle."
+ cyprian_plague_epidemic_quarantown:0 "Épidémie de peste à Chypre"
+ desc_cyprian_plague_epidemic_quarantown:0 "Cette ville est en quarantaine pendant une pandémie mortelle."
 
- cyprian_plague_epidemic:0 "Épidémie de peste à Chypre"
- desc_cyprian_plague_epidemic:0 "Une maladie mortelle a infecté la population ici."
+ plague_outbreak_province:0 "Épidémie de peste"
+ desc_plague_outbreak_province:0 "Une épidémie d'une maladie mortelle a infecté cette province."
+
+ antonine_plague_epidemic_outbreak_city:0 "Epidémie de peste antonine"
+ desc_antonine_plague_epidemic_outbreak_city:0 "Une maladie mortelle a infecté la population ici."
+ cyprian_plague_epidemic_outbreak_city:0 "Épidémie de peste à Chypre"
+ desc_cyprian_plague_epidemic_outbreak_city:0 "Une maladie mortelle a infecté la population ici."
+ cyprian_plague_epidemic_outbreak_town:0 "Épidémie de peste à Chypre"
+ desc_cyprian_plague_epidemic_outbreak_town:0 "Une épidémie d'une maladie mortelle a infecté cette province."
 
  #####COUNTRY MODIFIERS#####:0 ""
  cursed_by_elohim:0 "Maudit par Elohim"

@@ -66,6 +66,7 @@
 			modifier = { 
 				factor = 1000
 				OR = {
+					is_pentarchy_imperium_ai_trigger = yes
 					tag = ARM
 					AND = {
 						capital_scope = {
@@ -82,40 +83,7 @@
 						heritage = roman_heritage
 						primary_culture = roman
 					}
-					tag = MAC
-					AND = {
-						primary_culture = macedonian
-						capital_scope = {
-							is_in_region = macedonia_region
-						}
-						heritage = cassanders_heritage
-					}
-					tag = TRE
-					AND = {
-						primary_culture = macedonian
-						capital_scope = {
-							is_in_region = thrace_region
-						}
-						heritage = thrace_heritage
-					}
-					tag = EGY
-					AND = {
-						primary_culture = macedonian
-						capital_scope = {
-							is_in_region = lower_egypt_region
-						}
-						heritage = ptolemys_heritage
-					}
-					tag = PRY
-					AND = {
-						primary_culture = macedonian
-						heritage = antigonid_heritage
-					}
-					tag = SEL
-					AND = {
-						primary_culture = macedonian
-						heritage = seleucus_heritage
-					}
+					is_diadochi_descendant_ai_trigger = yes
 					AND = {
 						NOT = { country_culture_group = hellenic }
 						religion = roman_pantheon

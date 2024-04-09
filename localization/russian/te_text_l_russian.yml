@@ -27,7 +27,7 @@
  desc_hunnic_huna_animism:0 "Представляя собой ряд местных культов и народных верований, ритуализм сочетает в себе поклонение предкам, анимизм и практику жертвоприношений."
 
  convert_to_hunnic_huna_animism:0 "Принять ритуализм"
- convert_to_hunnic_huna_animism_desc:0 "Анимизм и поклонение духам предков стали в последнее время важной частью [COUNTRY.GetAdjective]их религиозных церемоний: старые обряды и [COUNTRY.GetReligion.GetName] существуют бок о бок. Возможно, пора отказаться от некоторых новейших веяний и вернуться к нашему древнему наследию?"
+ convert_to_hunnic_huna_animism_desc:0 "Анимизм и поклонение духам предков стали в последнее время важной частью [COUNTRY.GetAdjective] их религиозных церемоний; старые обряды и [COUNTRY.GetReligion.GetName] существуют бок о бок. Возможно, пора отказаться от некоторых новейших веяний и вернуться к нашему древнему наследию?"
 
  convert_to_christian:0 "Указ о евангелизации"
  convert_to_christian_desc:1 "Примите Евангелие, распространяемое в наших землях, и постановите, чтобы христианство стало официальной религией этой страны."
@@ -54,11 +54,22 @@
  desc_christian_church_embelishment:0 "Первоначально довольно скромное строение, наш собор был украшен щедрыми пожертвованиями верующих христиан и заступничеством св. Петра. С каждым поколением собор совершенствуется, и со временем его внешний вид может правильно отражать резиденцию епископа как преемника апостолов."
 
  #####PLAGUES#####:0 ""
- antonine_plague_epidemic:0 "Антонинская Эпидемия чумы"
- desc_antonine_plague_epidemic:0 "Вспышка смертельной болезни поразила эту провинцию."
+ antonine_plague_epidemic_quarantine:0 "Антонинская Эпидемия чумы"
+ desc_antonine_plague_epidemic_quarantine:0 "Этот город находится на карантине во время смертельной пандемии."
+ cyprian_plague_epidemic_quarantine:0 "Эпидемия кипрской чумы"
+ desc_cyprian_plague_epidemic_quarantine:0 "Этот город находится на карантине во время смертельной пандемии."
+ cyprian_plague_epidemic_quarantown:0 "Эпидемия кипрской чумы"
+ desc_cyprian_plague_epidemic_quarantown:0 "Этот город находится на карантине во время смертельной пандемии."
 
- cyprian_plague_epidemic:0 "Эпидемия кипрской чумы"
- desc_cyprian_plague_epidemic:0 "Смертельная болезнь заразила здесь население."
+ plague_outbreak_province:0 "Вспышка чумы"
+ desc_plague_outbreak_province:0 "Вспышка смертельной болезни поразила эту провинцию."
+
+ antonine_plague_epidemic_outbreak_city:0 "Антонинская Эпидемия чумы"
+ desc_antonine_plague_epidemic_outbreak_city:0 "Смертельная болезнь заразила здесь население."
+ cyprian_plague_epidemic_outbreak_city:0 "Эпидемия кипрской чумы"
+ desc_cyprian_plague_epidemic_outbreak_city:0 "Смертельная болезнь заразила здесь население."
+ cyprian_plague_epidemic_outbreak_town:0 "Вспышка чумы"
+ desc_cyprian_plague_epidemic_outbreak_town:0 "Вспышка смертельной болезни поразила эту провинцию."
 
  #####COUNTRY MODIFIERS#####:0 ""
  cursed_by_elohim:0 "Проклят Элохимом"

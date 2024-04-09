@@ -1,0 +1,7 @@
+﻿religious_tech = {
+
+	icon = religious_icon
+	skill = zeal
+
+	omen_power = 0.005 # Lowered from 0.01
+}

@@ -542,3 +542,66 @@ te_judaism.5 = {
         }    
 	}
 }
+
+#South Arabian Jews
+te_judaism.6 = {
+    type = country_event
+    title = "te_judaism.6.t"
+    desc = "te_judaism.6.desc"
+    picture = te_jewish_emigration
+
+    trigger = {
+		has_global_variable = jewish_diaspora
+        any_owned_province = {
+            dominant_province_culture_group = culture_group:south_arabian
+            NOT = {
+                dominant_province_religion = judaism
+            }
+            any_pops_in_province = {
+                NOR = {
+                    pop_religion = christianity
+                    pop_religion = judaism
+                    pop_religion = manichaeism
+                }
+            }	
+        }        
+	}
+
+    option = {
+        name = "te_judaism.6.a"
+        random_owned_province = {
+            limit = {
+                dominant_province_culture_group = culture_group:south_arabian
+                any_pops_in_province = {
+                    NOR = {
+                        pop_religion = judaism
+                        pop_religion = christianity
+                        pop_religion = manichaeism
+                    }
+                }
+            } 
+            weight = {
+                base = 1
+                modifier = {
+                    add = 10
+                    is_port = yes
+                }
+            }
+            ordered_pops_in_province = {
+                limit = {
+                        NOR = {
+                            pop_religion = christianity
+                            pop_religion = manichaeism
+                        }	
+                }
+                order_by = pop_hapiness
+                max = {
+                    value = total_population
+                    divide = 4
+                }
+                check_range_bounds = no
+                set_pop_religion = judaism
+            }      
+        }    
+	}
+}    

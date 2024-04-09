@@ -54,11 +54,22 @@
  desc_christian_church_embelishment:0 "Originally a rather modest structure, our cathedral has been beautified through the generous donations of the Christian faithful and the intercession of St. Peter. With each passing generation the cathedral is enhanced and in time its appearance may come to properly reflect the seat of the bishop as a successor of the Apostles."
 
  #####PLAGUES#####:0 ""
- antonine_plague_epidemic:0 "Antonine Plague Epidemic"
- desc_antonine_plague_epidemic:0 "An outbreak of a deadly disease has infected this province."
+ antonine_plague_epidemic_quarantine:0 "Antonine Plague Epidemic"
+ desc_antonine_plague_epidemic_quarantine:0 "This city is under quarantine during a deadly pandemic."
+ cyprian_plague_epidemic_quarantine:0 "Cyprian Plague Epidemic"
+ desc_cyprian_plague_epidemic_quarantine:0 "This city is under quarantine during a deadly pandemic."
+ cyprian_plague_epidemic_quarantown:0 "Cyprian Plague Epidemic"
+ desc_cyprian_plague_epidemic_quarantown:0 "This city is under quarantine during a deadly pandemic."
 
- cyprian_plague_epidemic:0 "Cyprian Plague Epidemic"
- desc_cyprian_plague_epidemic:0 "A deadly disease has infected the population here."
+ plague_outbreak_province:0 "Plague Outbreak"
+ desc_plague_outbreak_province:0 "An outbreak of a deadly disease has spread to this province."
+
+ antonine_plague_epidemic_outbreak_city:0 "Antonine Plague Epidemic"
+ desc_antonine_plague_epidemic_outbreak_city:0 "A deadly disease has infected the population here."
+ cyprian_plague_epidemic_outbreak_city:0 "Cyprian Plague Epidemic"
+ desc_cyprian_plague_epidemic_outbreak_city:0 "A deadly disease has infected the population here."
+ cyprian_plague_epidemic_outbreak_town:0 "Cyprian Plague Outbreak"
+ desc_cyprian_plague_epidemic_outbreak_town:0 "An outbreak of a deadly disease has spread to this province."
 
  #####COUNTRY MODIFIERS#####:0 ""
  cursed_by_elohim:0 "Cursed by Elohim"

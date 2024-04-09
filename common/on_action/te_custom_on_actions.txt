@@ -170,10 +170,11 @@ te_custom_on_action_yearly_country_jewish = {
 	}	
 
 	random_events = {
-		45 = 0
+		35 = 0
 		25 = te_judaism.31
 		10 = te_judaism.3
 		10 = te_judaism.4
+		10 = te_judaism.6
 		5 = te_judaism.21
 		5 = te_judaism.5
 	}
@@ -324,7 +325,7 @@ te_custom_on_action_barbarians_morale_pulse = {
 
 }
 
-###STOP-BRAKE pulse for runaway tribesmen###
+###STOP-BRAKE pulse for runaway tribesmen### Conquered territories
 te_custom_on_action_yearly_country_tribesmen = {
 	trigger = {
 		has_global_variable = germanic_migration
@@ -338,7 +339,9 @@ te_custom_on_action_yearly_country_tribesmen = {
 		te_barbarians.54
 		te_barbarians.55
 		te_barbarians.56
-		#te_barbarians.58
+		te_barbarians.58
+		te_barbarians.59
+		#te_barbarians.80
 	}
 
 }
@@ -346,9 +349,15 @@ te_custom_on_action_yearly_country_tribesmen = {
 
 te_custom_on_action_yearly_province_antonine = {
 	trigger = {
+		exists = owner
 		current_date > 917.1.1
 		current_date < 932.12.31
 		has_global_variable = antonine_plague_pandemic
+	}
+
+	events = {
+		te_plagues.13
+		te_plagues.14
 	}
 
 	random_events = {
@@ -359,9 +368,15 @@ te_custom_on_action_yearly_province_antonine = {
 
 te_custom_on_action_yearly_province_cyprian = {
 	trigger = {
+		exists = owner
 		current_date > 1001.1.1
 		current_date < 1014.12.31
 		has_global_variable = cyprian_plague_pandemic
+	}
+
+	events = {
+		te_plagues.23
+		te_plagues.24
 	}
 
 	random_events = {

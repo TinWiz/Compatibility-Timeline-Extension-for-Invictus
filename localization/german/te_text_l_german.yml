@@ -68,11 +68,22 @@
  desc_christian_church_embelishment:0 "Ursprünglich eine eher bescheidene Struktur, wurde unsere Kathedrale durch die großzügigen Spenden der christlichen Gläubigen und die Fürsprache des heiligen Petrus verschönert. Mit jeder Generation, die vergeht, wird die Kathedrale aufgewertet und mit der Zeit kann ihr Aussehen den Sitz des Bischofs als Nachfolger der Apostel angemessen widerspiegeln."
  
  #####PLAGUES#####:0 ""
- antonine_plague_epidemic:0 "Antonine-Pest-Epidemie"
- desc_antonine_plague_epidemic:0 "Ein Ausbruch einer tödlichen Krankheit hat diese Provinz infiziert."
+ antonine_plague_epidemic_quarantine:0 "Antoninische Pestepidemie"
+ desc_antonine_plague_epidemic_quarantine:0 "Diese Stadt steht während einer tödlichen Pandemie unter Quarantäne."
+ cyprian_plague_epidemic_quarantine:0 "Cyprianische Pestepidemie"
+ desc_cyprian_plague_epidemic_quarantine:0 "Diese Stadt steht während einer tödlichen Pandemie unter Quarantäne."
+ cyprian_plague_epidemic_quarantown:0 "Cyprianische Pestepidemie"
+ desc_cyprian_plague_epidemic_quarantown:0 "Diese Stadt steht während einer tödlichen Pandemie unter Quarantäne."
 
- cyprian_plague_epidemic:0 "Cyprianische Pestepidemie"
- desc_cyprian_plague_epidemic:0 "Eine tödliche Krankheit hat die Bevölkerung hier infiziert."
+ plague_outbreak_province:0 "Ausbruch der Pest"
+ desc_plague_outbreak_province:0 "Ein Ausbruch einer tödlichen Krankheit hat diese Provinz infiziert."
+
+ antonine_plague_epidemic_outbreak_city:0 "Antoninische Pestepidemie"
+ desc_antonine_plague_epidemic_outbreak_city:0 "Eine tödliche Krankheit hat die Bevölkerung hier infiziert."
+ cyprian_plague_epidemic_outbreak_city:0 "Cyprianische Pestepidemie"
+ desc_cyprian_plague_epidemic_outbreak_city:0 "Eine tödliche Krankheit hat die Bevölkerung hier infiziert."
+ cyprian_plague_epidemic_outbreak_town:0 "Ausbruch der Cyprianische Pest"
+ desc_cyprian_plague_epidemic_outbreak_town:0 "Ein Ausbruch einer tödlichen Krankheit hat diese Provinz infiziert."
 
  #####COUNTRY MODIFIERS#####:0 ""
  cursed_by_elohim:0 "Verflucht von Elohim"

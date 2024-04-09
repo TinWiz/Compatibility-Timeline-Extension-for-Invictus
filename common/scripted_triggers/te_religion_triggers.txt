@@ -128,3 +128,89 @@ deity_is_christian_trigger = {
 deity_is_not_christian_trigger = {
     deity_is_christian_trigger = no
 }
+
+is_pentarchy_imperium_ai_trigger = { #country scope
+	AND = {
+		is_ai = yes
+		government = imperium
+		OR = {
+			p:1 = {
+				exists = owner
+				owner = root
+				dominant_province_religion = christianity
+			}	
+			p:1453 = {
+				exists = owner
+				owner = root
+				dominant_province_religion = christianity
+			}
+			p:790 = {
+				exists = owner
+				owner = root
+				dominant_province_religion = christianity
+			}
+			p:687 = {
+				exists = owner
+				owner = root
+				dominant_province_religion = christianity
+			}
+			p:516 = {
+				exists = owner
+				owner = root
+				dominant_province_religion = christianity
+			}    
+		}
+	}
+	NOR = {
+		religion = judaism
+		religion = manichaeism
+	}	
+}
+
+is_diadochi_descendant_ai_trigger = {
+	is_ai = yes
+	OR = {
+		tag = MAC
+		AND = {
+			primary_culture = macedonian
+			capital_scope = {
+				is_in_region = macedonia_region
+			}
+			heritage = cassanders_heritage
+		}
+		tag = TRE
+		AND = {
+			primary_culture = macedonian
+			capital_scope = {
+				is_in_region = thrace_region
+			}
+			heritage = thrace_heritage
+		}
+		tag = EGY
+		AND = {
+			primary_culture = macedonian
+			capital_scope = {
+				is_in_region = lower_egypt_region
+			}
+			heritage = ptolemys_heritage
+		}
+		tag = PRY
+		AND = {
+			primary_culture = macedonian
+			heritage = antigonid_heritage
+		}
+		tag = SEL
+		AND = {
+			primary_culture = macedonian
+			heritage = seleucus_heritage
+		}
+		tag = EPI
+		AND = {
+			capital_scope = {
+				is_in_area = epirus_area
+			}
+			primary_culture = epirote
+			heritage = epirote_heritage
+		}
+	}	
+}
