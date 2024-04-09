@@ -1,0 +1,13 @@
+Changelog v0.4.3
+
+*added minor country events te_plagues.90 and te_plagues.91 to give option to character with military traits to reduce tyranny
+	-te_plagues.90 for ruler with military traits daring, original_thinker or tactician
+		+te_plagues.91 for co-ruler or government military officer with daring, original_thinker or tactician
+	-provides option to reduce 5/10/20 tyranny for 50/100/200 military experience
+		+only one option triggered by maximum amount of country's military experience
+			> choose to sacrifice hoarded amount of military experience or not
+	-triggers after late_antiquity_population_decline, useful for players that want to tear down cities for food settlements
+	-added te_custom_on_action_yearly_country_tyranny_manager to te_custom_on_actions.txt and to l6_te_yearly_country_pulse 
+
+
+##########
