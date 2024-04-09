@@ -19,6 +19,8 @@
 		te_custom_on_action_yearly_country_tribesmen
 		delay = { days = { 1 364 } }
 		te_custom_on_action_yearly_country_migrations
+		delay = { days = { 1 364 } }
+		te_custom_on_action_yearly_country_tyranny_manager
 	}
 
 }

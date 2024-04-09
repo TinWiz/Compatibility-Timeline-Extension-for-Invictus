@@ -224,6 +224,27 @@ te_custom_on_action_yearly_country_plagues = {
 	}
 }
 
+te_custom_on_action_yearly_country_tyranny_manager = {
+
+	trigger = {
+		current_date > 989.8.9
+		has_land = yes 
+		is_tribal = no
+		current_ruler = {
+			popularity >= 40
+		}
+		tyranny >= 50
+		military_experience >= 50
+	}
+
+	events = {
+		te_plagues.90
+		te_plagues.91
+		te_plagues.92
+	}
+
+}
+
 te_custom_on_action_yearly_country_manichees = {
 
 	trigger = {
