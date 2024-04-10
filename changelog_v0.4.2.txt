@@ -1,3 +1,9 @@
+Quickfix v0.4.2.1
+
+*blocked owner check for province_id 1471 Malta in te_christianity.7 event
+	-if island uncolonized would prevent Rome early_christian_church from firing
+
+################
 Changelog v0.4.2
 
 *added te_barbarians.58 and te_barbarians.59 to change culture in countries overwhelmed by Hunnic or Huna tribesmen from settling barbarian hordes
