@@ -11,3 +11,6 @@ Changelog v0.4.3
 
 
 ##########
+TO DO: 
+! finish tyranny management events and localizations
+! switch big blobs > 1200 to monthly pulse for conversion events?
