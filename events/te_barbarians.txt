@@ -1913,7 +1913,7 @@ te_barbarians.56 = {
 #                    save_scope_as = irminonic_invaded_area
 #                }
 #            }    
-#        }
+#        
 #    }
 #}
 
