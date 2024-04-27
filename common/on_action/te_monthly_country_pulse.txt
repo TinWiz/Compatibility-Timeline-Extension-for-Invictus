@@ -3,6 +3,8 @@
 	on_actions = {
 		delay = { days = { 1 15 } }
 		te_custom_on_action_barbarians_morale_pulse
+		delay = { days = { 1 15 } }
+		te_custom_on_action_monthly_country_xian_blob
 	}
 	
 }	

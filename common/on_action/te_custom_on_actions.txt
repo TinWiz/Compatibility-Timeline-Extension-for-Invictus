@@ -177,6 +177,7 @@ te_custom_on_action_yearly_country_jewish = {
 		10 = te_judaism.6
 		5 = te_judaism.21
 		5 = te_judaism.5
+		1 = te_judaism.50
 	}
 
 }	
@@ -486,5 +487,27 @@ te_late_antiquity_deurbanization = {
 	events = {
 		te_plagues.50
 		te_plagues.51
+	}
+}
+
+################ teinv_occident_blob_trigger RANDOM EVENTS SHIFT ###################
+
+te_custom_on_action_monthly_country_xian_blob = {
+
+	trigger = {
+		current_date > 753.3.25
+		teinv_occident_blob_trigger = yes
+	}
+	events = {
+
+	}
+
+	random_events = {
+		75 = 0
+		5 = te_christianity.195
+		5 = te_christianity.194
+		5 = te_christianity.193
+		5 = te_christianity.192
+		5 = te_christianity.191
 	}
 }
