@@ -164,6 +164,10 @@
 						#}
 						capital_scope = {
 							increase_province_rank_effect = yes
+							add_province_modifier = {
+								name = "ai_constantinople_capital"
+								duration = 4359
+							}
 						}
 						#change_country_name = "Eastern Roman Empire"
 						#change_country_adjective = "Eastern Roman"
