@@ -92,5 +92,5 @@ late_antiquity_pop_decline_orient = {
 }
 
 sirte_foederatus = {
-	loyalty_to_overlord = -50
+	loyalty_to_overlord = -40
 }
