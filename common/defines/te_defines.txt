@@ -17,3 +17,7 @@ NGreatWork = {
 	#GW_BASE_CONSTRUCTION_SPEED = 1
 	GW_WORK_COST_SCALEFACTOR = 2 #raised from 1
 }	
+
+NAI = {
+	PANTHEON_STICKINESS_WEIGHT = 1.0 ##Restored vanilla value #Additive Value: Extra stickiness for currently selected deities to discourage strobing.
+}
