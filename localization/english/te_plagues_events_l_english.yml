@@ -29,3 +29,17 @@
  te_plagues_ruler_military_tyrant_no:0 "#G You decide to save your military experience.#!"
  te_plagues.90.b:0 "Yes, we must use all our power to govern the realm."
  te_plagues_ruler_military_tyrant_yes:0 "#Y You spend military experience to reduce tyranny.#! This option is available because of your military traits."
+
+ te_plagues.91.t:0 "Militant Tyranny Control"
+ te_plagues.91.desc:1 "Your tyrannous rule has caused the people to question their loyalty towards you and murmurs of rebellion are gaining volume. With the daring, original tactics or improvisation skill of [current_co_ruler.GetName] you might use some military experience to exert your will further and accomplish necessary government projects while improving the trust and compliance of your subjects."
+ te_plagues.91.a:0 "No, our soldiers need our military experience for war."
+ te_plagues_militant_co-ruler_no:0 "#G You decide to save your military experience.#!"
+ te_plagues.91.b:0 "Yes, we must use all our power to govern the realm."
+ te_plagues_militant_co-ruler_yes:0 "#Y You spend military experience to reduce tyranny.#! This option is available because of your co-ruler's military traits."
+
+ te_plagues.92.t:0 "Militant Tyranny Support"
+ te_plagues.92.desc:1 "Your tyrannous rule has caused the people to question their loyalty towards you and murmurs of rebellion are gaining volume. One of your officers, [te_plagues_govt_militant_officer.GetName], can with daring, original tactics or improvisation, skillfully use some military experience in support of your will to further accomplish necessary government projects while improving the trust and compliance of your subjects towards you."
+ te_plagues.92.a:0 "No, our soldiers need our military experience for war."
+ te_plagues_govt_militant_officer_no:0 "#G You decide to save your military experience.#!"
+ te_plagues.92.b:0 "Yes, we must use all our power to govern the realm."
+ te_plagues_govt_militant_officer_yes:0 "#Y You spend military experience to reduce tyranny.#! This option is available because of your officer's military traits."
