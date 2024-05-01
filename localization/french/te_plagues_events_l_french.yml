@@ -20,3 +20,26 @@
  te_plagues.21.desc:1 "'Ensuite, une peste effroyable se déclara, et la destruction excessive d'une maladie détestable envahit successivement toutes les maisons de la population tremblante, emportant jour après jour, par une attaque brutale, d'innombrables personnes, chacune dans sa propre maison. Tous frémissaient, fuyaient, évitaient la contagion, exposaient impudiquement leurs propres amis, comme si, en excluant la personne qui était sûre de mourir de la peste, on pouvait aussi exclure la mort elle-même. Pendant ce temps, dans toute la ville, gisaient non plus des corps, mais les carcasses d'un grand nombre de personnes qui, par la contemplation d'un sort qui serait à leur tour le leur, réclamaient pour elles-mêmes la pitié des passants. Personne ne considérait autre chose que ses cruels gains. Personne ne tremblait au souvenir d'un événement semblable. Personne ne faisait à autrui ce qu'il voulait lui-même vivre."
  te_plagues.21.a:0 "Nous n’avons ni remède ni refuge contre ce souffle cruel de mort implacable."
  te_plagues.21.b:0 "Que personne ne quitte les villes, nous devons faire tout notre possible pour contenir la propagation."
+
+ ########## Late Antiquity minor country events tyranny management #############
+ 
+ te_plagues.90.t:0 "Gestion de la tyrannie militante"
+ te_plagues.90.desc:1 "Votre règne tyrannique a amené le peuple à remettre en question sa loyauté envers vous, et les murmures de rébellion se multiplient. Avec de l’audace, des tactiques originales ou de l’improvisation, vous pourriez utiliser votre expérience militaire pour exercer votre volonté et accomplir les projets gouvernementaux nécessaires tout en améliorant la confiance et la conformité de vos sujets."
+ te_plagues.90.a:0 "Non, nos soldats ont besoin de notre expérience militaire pour mener des batailles."
+ te_plagues_ruler_military_tyrant_no:0 "#G Vous décidez de sauvegarder votre expérience militaire.#!"
+ te_plagues.90.b:0 "Oui, nous devons utiliser tous nos pouvoirs pour gouverner."
+ te_plagues_ruler_military_tyrant_yes:0 "#Y Vous dépensez de l'expérience militaire pour réduire la tyrannie.#! Cette option est disponible en raison de vos caractéristiques militaires."
+
+ te_plagues.91.t:0 "Contrôle de la tyrannie militante"
+ te_plagues.91.desc:1 "Votre règne tyrannique a amené le peuple à remettre en question sa loyauté envers vous et les murmures de rébellion gagnent en volume. Avec l’audace, la tactique originale ou l’habileté d’improvisation de [current_co_ruler.GetName] vous pouvez utiliser une certaine expérience militaire pour exercer votre volonté et accomplir les projets gouvernementaux nécessaires tout en améliorant la confiance et la conformité de vos sujets."
+ te_plagues.91.a:0 "Non, nos soldats ont besoin de notre expérience militaire pour mener des batailles."
+ te_plagues_militant_co-ruler_no:0 "#G Vous décidez de sauvegarder votre expérience militaire.#!"
+ te_plagues.91.b:0 "Oui, nous devons utiliser tous nos pouvoirs pour gouverner."
+ te_plagues_militant_co-ruler_yes:0 "#Y Vous dépensez de l'expérience militaire pour réduire la tyrannie.#! Cette option est disponible en raison des caractéristiques militaires de votre co-dirigeant."
+
+ te_plagues.92.t:0 "Soutien à la tyrannie militante"
+ te_plagues.92.desc:1 "Votre règne tyrannique a amené le peuple à remettre en question sa loyauté envers vous et les murmures de rébellion gagnent en volume. L’un de vos officiers, [te_plagues_govt_militant_officer.GetName], peut, avec des tactiques audacieuses et originales ou de l’improvisation, utiliser habilement une certaine expérience militaire à l’appui de votre volonté pour accomplir les projets gouvernementaux nécessaires tout en améliorant la confiance et la conformité de vos sujets envers vous."
+ te_plagues.92.a:0 "Non, nos soldats ont besoin de notre expérience militaire pour mener des batailles."
+ te_plagues_govt_militant_officer_no:0 "#G Vous décidez de sauvegarder votre expérience militaire.#!"
+ te_plagues.92.b:0 "Oui, nous devons utiliser tous nos pouvoirs pour gouverner."
+ te_plagues_govt_militant_officer_yes:0 "#Y Vous dépensez de l'expérience militaire pour réduire la tyrannie.#! Cette option est disponible en raison des caractéristiques de votre fonctionnaire militaire."
