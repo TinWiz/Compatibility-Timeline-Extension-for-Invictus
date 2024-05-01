@@ -1,5 +1,23 @@
 ﻿inv_te_on_game_initialized = {
 	effect = {
+		p:5113 = {
+			while = {
+				limit = {
+					any_pops_in_province = {
+						count < 5
+					}
+				}
+				create_pop = tribesmen
+			}
+			every_pops_in_province = {
+				limit = {
+					pop_type = tribesmen
+				}
+				set_pop_culture = getian
+				set_pop_religion = shamanism
+			}
+		}
+		#
 		p:5278 = {
 			while = {
                 limit = {
@@ -272,7 +290,7 @@ te_custom_on_action_yearly_country_manichees = {
 
 te_custom_on_action_yearly_country_barbarians = {
 	trigger = {
-		current_date > 1053.3.15
+		current_date > 1033.3.15
 		num_of_cities >= 1
 		NOR = {
 			tag = BAR
@@ -300,6 +318,10 @@ te_custom_on_action_yearly_country_barbarians = {
 		te_barbarians.7
 		te_barbarians.98
 		te_barbarians.99
+		te_barbarians.101
+		te_barbarians.102
+		te_barbarians.103
+		te_barbarians.104
 	}
 
 	random_events = {
@@ -317,6 +339,12 @@ te_custom_on_action_barbarians_morale_pulse = {
 		}
 		OR = {
 			AND = {
+				has_global_variable = germanic_migration
+				current_date > 1054.5.1
+				current_date < 1104.4.30
+				num_of_cities > 1
+			}
+			AND = {
 				has_global_variable = huns_second_wave
 				current_date > 1148.3.15
 				current_date < 1208.11.15
@@ -324,7 +352,7 @@ te_custom_on_action_barbarians_morale_pulse = {
 			}
 			AND = {
 				has_variable = huna_invasion
-				current_date > 1104.04.11
+				current_date > 1104.05.1
 				current_date < 1144.12.15
 				num_of_cities >= 10
 			}
@@ -337,12 +365,13 @@ te_custom_on_action_barbarians_morale_pulse = {
 	}
 
 	events = {
-
+		
 	}
 
 	random_events = {
 		50 = 0
 		50 = te_barbarians.50
+		50 = te_barbarians.150
 	}
 
 }
