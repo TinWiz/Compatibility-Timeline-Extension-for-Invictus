@@ -97,6 +97,10 @@ te_rel_flavor.1 = {
 				limit = {
 					has_variable = xian_community_killer
 				}
+				change_variable = {
+					name = xian_community_killer
+					add = -1
+				}
 				add_trait = arbitrary
 			}
 			else_if = {
@@ -131,7 +135,29 @@ te_rel_flavor.1 = {
 			add_popularity = 20
 			add_trait = harsh
 			remove_trait = benefactor
-			set_variable = xian_community_killer
+		}
+		if = {
+			limit = {
+				current_ruler = {
+					NOT = {
+						has_variable = xian_community_killer
+					}
+				}
+			}
+			current_ruler = {
+				set_variable = {
+					name = xian_community_killer
+					value = 1
+				}
+			}
+		}
+		else = {
+			current_ruler = {
+				change_variable = {
+					name = xian_community_killer
+					add = 1
+				}
+			}
 		}
 		add_political_influence = 20
 		add_tyranny = 5
@@ -168,6 +194,104 @@ te_rel_flavor.1 = {
 			trigger_event = {
 				id = te_rel_flavor.2
 				days = 750
+			}
+		}
+	}
+
+	after = {
+		if = {
+			limit = {
+				current_ruler = {
+					has_variable = xian_community_killer
+					var:xian_community_killer > 2
+				}
+			}
+			current_ruler = {
+				change_variable = {
+					name = xian_community_killer
+					add = -2
+				}
+			}
+			random_character = {
+				limit = {
+					is_ruler = no
+					is_primary_heir = no
+					AND = {
+						has_any_religious_office_trigger = no
+						has_any_office = yes
+					}	
+					has_same_religion_as = root.current_ruler
+					NOR = {
+						has_religion = christianity
+						has_religion = manichaeism
+						has_character_modifier = switched_char_religion
+					}
+				}
+				trigger_event = {
+					id = te_rel_flavor.3
+					days = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				current_ruler = {
+					has_variable = xian_community_killer
+					var:xian_community_killer > 1
+				}
+			}	
+			random_character = {
+				limit = {
+					is_ruler = no
+					is_primary_heir = no
+					has_any_religious_office_trigger = no
+					OR = {
+						in_command = yes
+						is_general = yes
+						is_admiral = yes
+					}	
+					NOT = {
+						has_character_modifier = switched_char_religion
+					}
+					prisoner = no
+					NOR = {
+						has_religion = christianity
+						has_religion = manichaeism
+						has_character_modifier = switched_char_religion
+					}
+				}
+				trigger_event = {
+					id = te_rel_flavor.4
+					days = 2
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				current_ruler = {
+					has_variable = xian_community_killer
+					var:xian_community_killer = 1
+				}
+			}
+			random_character = {
+				limit = {
+					is_ruler = no
+					is_primary_heir = no
+					has_any_religious_office_trigger = no
+					is_minor_character = no
+					NOT = {
+						has_character_modifier = switched_char_religion
+					}
+					NOR = {
+						has_religion = christianity
+						has_religion = manichaeism
+						has_character_modifier = switched_char_religion
+					}
+				}
+				trigger_event = {
+					id = te_rel_flavor.5
+					days = 3
+				}
 			}
 		}
 	}
@@ -302,6 +426,279 @@ te_rel_flavor.2 = {
 				name = early_xian_persecution
 				days = 3600
 			}
+		}
+	}
+
+	after = {
+		random_character = {
+			limit = {
+				is_ruler = no
+				is_primary_heir = no
+				AND = {
+					has_any_religious_office_trigger = no
+					has_any_office = yes
+				}	
+				has_same_religion_as = root.current_ruler
+				NOR = {
+					has_religion = christianity
+					has_religion = manichaeism
+					has_character_modifier = switched_char_religion
+				}
+			}
+			trigger_event = {
+				id = te_rel_flavor.3
+				days = 1
+			}
+		}
+	}
+}
+
+te_rel_flavor.3 = {
+	type = character_event
+	hidden = yes
+	
+	trigger = {
+		is_ruler = no
+		is_primary_heir = no
+		AND = {
+			has_any_religious_office_trigger = no
+			has_any_office = yes
+		}	
+		has_religion = root.employer.religion
+		NOR = {
+			has_religion = christianity
+			has_religion = manichaeism
+			has_character_modifier = switched_char_religion
+		}
+	}
+	
+	weight_multiplier = {
+		modifier = {
+			factor = 1.5
+			has_trait = tolerant
+		}
+		modifier = {
+			factor = 1.5
+			has_trait = lapsed
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = devout
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = sceptical
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = abrasive
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = pious
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = zealous
+		}
+		
+	}
+	
+	immediate = {
+		set_character_religion = christianity
+		add_character_modifier = {
+			name = switched_char_religion
+			duration = 1825
+		}
+		if = {
+			limit = {
+				has_trait = lapsed
+			}
+			remove_trait = lapsed
+		}
+		country = {
+			random_character = {
+				limit = {
+					is_ruler = no
+					is_primary_heir = no
+					has_any_religious_office_trigger = no
+					OR = {
+						in_command = yes
+						is_general = yes
+						is_admiral = yes
+					}	
+					NOT = {
+						has_character_modifier = switched_char_religion
+					}
+					NOR = {
+						has_religion = christianity
+						has_religion = manichaeism
+						has_character_modifier = switched_char_religion
+					}
+				}
+				trigger_event = {
+					id = te_rel_flavor.4
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+te_rel_flavor.4 = {
+	type = character_event
+	hidden = yes
+	
+	trigger = {
+		is_ruler = no
+		is_primary_heir = no
+		has_any_religious_office_trigger = no
+		OR = {
+			in_command = yes
+			is_general = yes
+			is_admiral = yes
+		}	
+		NOT = {
+			has_character_modifier = switched_char_religion
+		}
+		NOR = {
+			has_religion = christianity
+			has_religion = manichaeism
+			has_character_modifier = switched_char_religion
+		}
+	}
+	
+	weight_multiplier = {
+		modifier = {
+			factor = 1.5
+			has_trait = tolerant
+		}
+		modifier = {
+			factor = 1.5
+			has_trait = lapsed
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = devout
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = sceptical
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = abrasive
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = pious
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = zealous
+		}
+		
+	}
+	
+	immediate = {
+		set_character_religion = christianity
+		add_character_modifier = {
+			name = switched_char_religion
+			duration = 1825
+		}
+		if = {
+			limit = {
+				has_trait = lapsed
+			}
+			remove_trait = lapsed
+		}
+		country = {
+			random_character = {
+				limit = {
+					is_ruler = no
+					is_primary_heir = no
+					has_any_religious_office_trigger = no
+					is_minor_character = no
+					NOT = {
+						has_character_modifier = switched_char_religion
+					}
+					NOR = {
+						has_religion = christianity
+						has_religion = manichaeism
+						has_character_modifier = switched_char_religion
+					}
+				}
+				trigger_event = {
+					id = te_rel_flavor.5
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+te_rel_flavor.5 = {
+	type = character_event
+	hidden = yes
+	
+	trigger = {
+		is_ruler = no
+		is_primary_heir = no
+		has_any_religious_office_trigger = no
+		is_minor_character = no
+		NOT = {
+			has_character_modifier = switched_char_religion
+		}
+		NOR = {
+			has_religion = christianity
+			has_religion = manichaeism
+			has_character_modifier = switched_char_religion
+		}
+	}
+	
+	weight_multiplier = {
+		modifier = {
+			factor = 1.5
+			has_trait = tolerant
+		}
+		modifier = {
+			factor = 1.5
+			has_trait = lapsed
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = devout
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = sceptical
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = abrasive
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = pious
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = zealous
+		}
+		
+	}
+	
+	immediate = {
+		set_character_religion = christianity
+		add_character_modifier = {
+			name = switched_char_religion
+			duration = 1825
+		}
+		if = {
+			limit = {
+				has_trait = lapsed
+			}
+			remove_trait = lapsed
 		}
 	}
 }
