@@ -133,6 +133,21 @@
 				}
 				add_deity_to_pantheon = { deity = deity:omen_st_luke_evangelist }
 			}
+			else_if = {
+				limit = {
+					OR = {
+						tag = ARM
+						AND = {
+							capital_scope = {
+								is_in_region = armenia_region
+							}
+							heritage = armenian_heritage
+							primary_culture = armenian
+						}
+					}
+				}
+				add_deity_to_pantheon = { deity = deity:omen_st_nathanael_bartholomew }
+			}
 		}
 		
 		ai_will_do = {
