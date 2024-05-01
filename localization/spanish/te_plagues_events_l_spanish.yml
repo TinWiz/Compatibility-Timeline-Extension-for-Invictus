@@ -20,3 +20,26 @@
  te_plagues.21.desc:1 ""Después estalló una peste espantosa, y la destructividad excesiva de una enfermedad odiosa invadió cada casa en sucesión del tembloroso populacho, llevándose día tras día con repentino ataque a innumerables personas, cada uno de su propia casa. Todos temblaban, huían, rehuían el contagio, exponían impíamente a sus propios amigos, como si con la exclusión del que estaba seguro de morir de la peste se pudiera excluir también a la muerte misma. Allí yacían mientras tanto, sobre toda la ciudad, ya no cuerpos, sino los cadáveres de muchos, y, por la contemplación de un lote que a su vez sería suyo, exigía la piedad de los transeúntes para sí mismos. Nadie consideraba nada más que sus crueles ganancias. Nadie tembló ante el recuerdo de un evento similar. Nadie hizo a otro lo que él mismo deseaba experimentar”."
  te_plagues.21.a:0 "No tenemos cura para esta enfermedad mortal ni refugio contra este maligno aliento de muerte implacable."
  te_plagues.21.b:0 "Nadie debería abandonar las ciudades, debemos hacer todo lo posible para contener la propagación."
+
+ ########## Late Antiquity minor country events tyranny management #############
+ 
+ te_plagues.90.t:0 "Manejar la tiranía militante"
+ te_plagues.90.desc:1 "Tu gobierno tiránico ha hecho que la gente cuestione su lealtad hacia ti, y los rumores de rebelión están creciendo. Con audacia, tácticas originales o improvisación, podía usar su experiencia militar para ejercer su voluntad y llevar a cabo los proyectos gubernamentales necesarios, al tiempo que mejoraba la confianza y el cumplimiento de sus súbditos."
+ te_plagues.90.a:0 "No, nuestros soldados necesitan nuestra experiencia militar."
+ te_plagues_ruler_military_tyrant_no:0 "#G Decides guardar tu experiencia militar.#!"
+ te_plagues.90.b:0 "Sí, debemos utilizar todos nuestros poderes para gobernar."
+ te_plagues_ruler_military_tyrant_yes:0 "#Y Gastas experiencia militar para reducir la tiranía.#! Esta opción está disponible debido a tus características militares."
+
+ te_plagues.91.t:0 "Control de la tiranía militante"
+ te_plagues.91.desc:1 "Tu gobierno tiránico ha hecho que la gente cuestione su lealtad hacia ti, y los rumores de rebelión están aumentando en volumen. Con la audacia, las tácticas originales o la capacidad de improvisación de [current_co_ruler.GetName], puede utilizar algo de experiencia militar para ejercer la voluntad del gobierno y llevar a cabo los proyectos necesarios mientras mejora la confianza y el cumplimiento de nuestros súbditos."
+ te_plagues.91.a:0 "No, nuestros soldados necesitan nuestra experiencia militar."
+ te_plagues_militant_co-ruler_no:0 "#G Decides guardar tu experiencia militar.#!"
+ te_plagues.91.b:0 "Sí, debemos utilizar todos nuestros poderes para gobernar."
+ te_plagues_militant_co-ruler_yes:0 "#Y Gastas experiencia militar para reducir la tiranía.#! Esta opción está disponible debido a las características militares de su co-gobernante."
+
+ te_plagues.92.t:0 "Apoyo a la tiranía militante"
+ te_plagues.92.desc:1 "Tu gobierno tiránico ha hecho que la gente cuestione su lealtad hacia ti, y los susurros de rebelión están creciendo en volumen. Uno de sus oficiales, [te_plagues_govt_militant_officer.GetName], puedes, con tácticas audaces y originales o improvisación, utilizar hábilmente algo de experiencia militar en apoyo de tu mando para llevar a cabo los proyectos gubernamentales necesarios, al tiempo que aumentas la confianza y la conformidad de tus súbditos contigo."
+ te_plagues.92.a:0 "No, nuestros soldados necesitan nuestra experiencia militar."
+ te_plagues_govt_militant_officer_no:0 "#G Decides guardar tu experiencia militar.#!"
+ te_plagues.92.b:0 "Sí, debemos utilizar todos nuestros poderes para gobernar."
+ te_plagues_govt_militant_officer_yes:0 "#Y Gastas experiencia militar para reducir la tiranía.#! Esta opción está disponible debido a las características de un funcionario militar del gobierno."
