@@ -1,0 +1,81 @@
+Changelog v0.5.0
+
+*added levels to barbarian_fury_discipline country modifiers and barbarian_fury_rage unit modifiers
+	-now split into two levels *_1 and *_2 each
+	-added to te_barbarians.50 and te_barbarians.150
+		+added to te_custom_on_actions te_custom_on_action_barbarians_morale_pulse
+	-localizations added in te_text_l_[language].yml files
+
+*added Rome province_id to te_christianity.94 and te_christianity.194 to add early_christian_church if earlier destroyed
+	-after cooldown for early_xian_persecution
+
+*added new hidden character events te_rel_flavor.3–5 for converting characters if communities and/or churches destroyed
+	-edited te_rel_flavor.1 and te_rel_flavor.2 events to trigger te_rel_flavor.3–5
+		+character variable xian_community_killer value added for te_rel_flavor.1 as trigger check 
+
+*added x_te_desecrate_holysite.txt file in common \ unit_abilities
+	-added NOT limit for christianity to Militant Epicureanism check
+		+will not give 10 stability if Christian
+
+*Gothic spawn point added to province_id 5113
+	-changed starting province setup te_default to gothonic culture and germanic_religion
+	-added to inv_te_on_game_initialized in te_custom_on_actions to switch culture back to getian and religion back to shamanism
+	-events te_barbarians.101 to te_barbarians.104
+		+added to te_custom_on_action_yearly_country_barbarians 
+			>adjusted start date back to 1033
+	-localizations added to all te_barbarians_events_l_[language].yml files	
+
+*added minor country events te_plagues.90–92 to give option to character with military traits to reduce tyranny
+	-te_plagues.90 for ruler with military traits daring, original_thinker or tactician
+		+te_plagues.91 for co-ruler and te_plagues.92 for government military officer with daring, original_thinker or tactician
+	-provides option to reduce 5/10/20 tyranny for 50/100/200 military experience
+		+only one option triggered by maximum amount of country's military experience
+			> choose to sacrifice hoarded amount of military experience or not
+	-triggers after late_antiquity_population_decline, useful for players that want to tear down cities for food settlements
+	-added te_custom_on_action_yearly_country_tyranny_manager to te_custom_on_actions.txt and to l6_te_yearly_country_pulse 
+	-localizations added to all te_plagues_events_l_[language].yml files
+
+*added scripted_trigger teinv_occident_blob_trigger for num_of_cities > 1200 with any_owned_province is_in_pars_occidentalis_inv_trigger yes
+	-added te_custom_on_action_monthly_country_xian_blob to te_monthly_country_pulse and te_custom_on_actions
+		+duplicates of te_christianity events 91–95 added, te_christianity.191–195
+			> teinv_occident_blob trigger no added 91–95, yes te_christianity.191–195
+	-huge blobs with any provinces in the western part of the map will switch to a monthly pulse for establishing early_christian_community or early_christian_church modifiers
+		+tend to have very slow growth because target regions are spread out
+			> especially when there are civil wars that wipe modifiers [corrected in latest 2.0.4 patch?]
+
+*cleared errant brace from te_barbarians.57 commented out
+
+*added te_judaism.50 for Roman Jewish pops
+	-added to te_custom_on_actions te_custom_on_action_yearly_country_jewish random_events = 1
+*commented out christianity from NOR triggers in te_judaism.6
+	-historical rail with reference to Himyarite Kingdom
+
+*added ai_constantinople_capital modifier to effect for te_decisions ai_constantinople
+	-to build up Byzantion if it has < 20 population
+	-also added to ln 167 in IRCK3_decisions for new AI ERE
+
+*Restored vanilla PANTHEON_STICKINESS_WEIGHT = 1.0 from Invictus increase 5x
+	-too sticky; AI that converts sometimes does not change any deity in the pantheon	
+
+*added global happiness_for_wrong_religion_modifier -0.05 to religion modifiers for christianity
+	-local_happiness_for_wrong_religion_modifier -1 to early_christian_church
+		+commented out for now, not working?
+
+*reduced foederatus te_from_events_country modifier loyalty malus from -50 to -40
+
+*added select Christianity saints to ai_convert_to_christian with add_deity_to_pantheon effect
+	-for ROM and all Diadochi tags in is_diadochi_descendant_ai_trigger
+		+also for ARM or country with primary_culture armenian, armenian_heritage and capital_scope in armenia_region
+	-large AI empires often did not add any saints to pantheon
+
+##########
+TO DO: 
+! testing tyranny management events
+! test switch big blobs > 1200 to monthly pulse for early_christian_church and early_christian_community events
+	? switch local powers < 25 cities to decade pulse? 
+		→ change small l6_christian.5 and te_manichees.14 small countries from < 10 to < 25 territories
+	? switch regional powers < 100 cities to biyearly pulse?
+! test foederati allowed_to_declare_war_against_others
+	? new subject type?
+! trigger Arab tribe spawn if Arabia conquered
+! test C3rd modifier for barbarian spawn
