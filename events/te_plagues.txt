@@ -1502,6 +1502,7 @@ te_plagues.92 = {
 		}
 		NAND = {
 			has_co_ruler_government = yes
+			exists = current_co_ruler
 			current_co_ruler = {
 				OR = {
 					has_trait = daring
