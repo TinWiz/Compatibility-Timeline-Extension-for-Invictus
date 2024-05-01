@@ -20,3 +20,27 @@
  te_plagues.21.desc:1 "'Danach brach eine schreckliche Seuche aus, und die übermäßige Zerstörung einer hasserfüllten Krankheit drang in jedes Haus nacheinander der zitternden Bevölkerung ein und trug Tag für Tag mit abrupten Angriffen unzählige Menschen, jeden aus seinem eigenen Haus. Alle schauderten, flohen, mieden die Ansteckung, entlarvten gottlos ihre eigenen Freunde, als ob man mit dem Ausschluss der Person, die sicher an der Pest sterben würde, auch den Tod selbst ausschließen könnte. Inzwischen lagen nicht mehr Leiber über der ganzen Stadt, sondern die Leichen vieler, und indem sie an ein Schicksal dachten, das ihrerseits das ihre sein würde, forderten sie das Mitleid der Passanten für sich. Niemand betrachtete irgendetwas außer seinen grausamen Gewinnen. Niemand zitterte bei der Erinnerung an ein ähnliches Ereignis. Niemand tat einem anderen das an, was er selbst erleben wollte'."
  te_plagues.21.a:0 "Wir haben kein Heilmittel und keine Zuflucht vor diesem üblen Atem des unerbittlichen Todes."
  te_plagues.21.b:0 "Niemand soll die Städte verlassen, wir müssen tun, was wir können, um die Ausbreitung einzudämmen."
+
+ ########## Late Antiquity minor country events tyranny management #############
+ 
+ te_plagues.90.t:0 "Militante Führung"
+ te_plagues.90.desc:1 "Deine tyrannische Herrschaft hat dazu geführt, dass das Volk an seiner Loyalität dir gegenüber zweifelt und das Murren der Rebellion immer lauter wird. Mit waghalsigen, originellen Taktiken oder Improvisation kannst du deine militärische Erfahrung nutzen, um deinen Willen durchzusetzen und notwendige Regierungsprojekte zu verwirklichen und gleichzeitig das Vertrauen und die Gefolgschaft deiner Untertanen zu stärken."
+ te_plagues.90.a:0 "Nein, die Soldaten brauchen unsere militärische Erfahrung."
+ te_plagues_ruler_military_tyrant_no:0 "#G Du beschließt, deine militärische Erfahrung zu schonen.#!"
+ te_plagues.90.b:0 "Ja, wir müssen unsere ganze Macht einsetzen."
+ te_plagues_ruler_military_tyrant_yes:0 "#Y Du gibst militärische Erfahrung aus, um die Tyrannei einzudämmen.#! Diese Option ist aufgrund deiner militärischen Eigenschaften verfügbar."
+
+ te_plagues.91.t:0 "Militanter Zweitherrscher"
+ te_plagues.91.desc:1 "Eure tyrannische Herrschaft hat dazu geführt, dass das Volk seine Loyalität euch gegenüber in Frage stellt, und das Gemurmel der Rebellion nimmt zu. Mit der waghalsigen, originellen Taktik oder Improvisationskunst von [current_co_ruler.GetName] könnt ihr etwas militärische Erfahrung nutzen, um euren Willen weiter zu lenken und notwendige Regierungsprojekte zu verwirklichen, während ihr das Vertrauen verbessert."
+ te_plagues.91.a:0 "Nein, die Soldaten brauchen unsere militärische Erfahrung."
+ te_plagues_militant_co-ruler_no:0 "#G Ihr beschließt, eure militärische Erfahrung zu schonen.#!"
+ te_plagues.91.b:0 "Ja, wir müssen unsere ganze Macht einsetzen."
+ te_plagues_militant_co-ruler_yes:0 "#Y Ihr gebt militärische Erfahrung aus, um die Tyrannei einzudämmen.#! Diese Option ist aufgrund der militärischen Eigenschaften des Zweitherrschers verfügbar."
+
+ te_plagues.92.t:0 "Unterstützung der militanten Tyrannei"
+ te_plagues.92.desc:1 "Deine tyrannische Herrschaft hat dazu geführt, dass das Volk seine Loyalität dir gegenüber in Frage stellt, und das Gemurmel der Rebellion nimmt zu. Einer deiner Amtsträger, [te_plagues_govt_militant_officer.GetName], kann mit waghalsiger, origineller Taktik oder Improvisation geschickt etwas militärische Erfahrung zur Unterstützung deines Willens einsetzen, um notwendige Regierungsprojekte weiter zu verwirklichen."
+ # und gleichzeitig das Vertrauen und die Willfährigkeit deiner Untertanen dir gegenüber zu verbessern."
+ te_plagues.92.a:0 "Nein, die Soldaten brauchen unsere militärische Erfahrung."
+ te_plagues_govt_militant_officer_no:0 "#G Du beschließt, deine militärische Erfahrung zu schonen.#!"
+ te_plagues.92.b:0 "Ja, wir müssen unsere ganze Macht einsetzen."
+ te_plagues_govt_militant_officer_yes:0 "#Y Ihr gebt militärische Erfahrung aus, um die Tyrannei einzudämmen.#! Diese Option ist aufgrund der militärischen Eigenschaften eines Amtsträgers verfügbar."
