@@ -1,7 +1,13 @@
-﻿barbarian_fury_discipline = {
+﻿barbarian_fury_discipline_1 = {
 	discipline = 0.1
-	siege_ability = 0.1 
+	siege_ability = 0.2 
 	siege_engineers = 1
+}
+
+barbarian_fury_discipline_2 = {
+	discipline = 0.2
+	siege_ability = 0.3
+	siege_engineers = 2
 }
 
 cursed_by_elohim = {
