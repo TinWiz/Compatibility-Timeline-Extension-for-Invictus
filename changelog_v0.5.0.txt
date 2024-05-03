@@ -68,6 +68,15 @@ Changelog v0.5.0
 		+also for ARM or country with primary_culture armenian, armenian_heritage and capital_scope in armenia_region
 	-large AI empires often did not add any saints to pantheon
 
+*added global variable is_playing_teinv_0_5	to te_custom_on_actions inv_te_on_game_initialized
+	-check for variable added to trigger for te_barbarians.101
+		+Goths won't spawn for players not playing this version of the mod
+
+*increased medium_xian_kerygma_target cooldown to 726 days and small_xian_kerygma_target cooldown to 1452 days in l6_christian.5
+	-same as medium_xian_ekklesia_province and small_xian_ekklesia_province cooldowns in te_christianity.96
+*changed num_of_cities for medium_xian_kerygma_target in l6_christian.5 and medium_xian_ekklesia_province in te_christianity.96 to between 25 and 100 cities
+	-changed num_of_cities for small_xian_kerygma_target and small_xian_ekklesia_province to less than 25 cities
+
 ##########
 TO DO: 
 ! testing tyranny management events
