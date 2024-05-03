@@ -440,7 +440,7 @@ l6_christian.5 = {
 			limit = {
 				AND = {
 					num_of_cities <= 100
-					num_of_cities > 10
+					num_of_cities >= 25
 				}
 			}
 			set_variable = {
@@ -450,7 +450,7 @@ l6_christian.5 = {
 		}
 		else_if = {
 			limit = {
-				num_of_cities <= 10
+				num_of_cities < 25
 			}
 			set_variable = {
 				name = small_xian_kerygma_target
