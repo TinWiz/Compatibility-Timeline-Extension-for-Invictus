@@ -2935,6 +2935,7 @@ te_barbarians.101 = {
     left_portrait = current_ruler
 
     trigger = {
+        has_global_variable = is_playing_teinv_0_5
         current_date > 1033.4.30 #AD 280 
         current_date < 1133.10.31 #AD 380
         NOR = { 

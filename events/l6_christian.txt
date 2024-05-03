@@ -445,7 +445,7 @@ l6_christian.5 = {
 			}
 			set_variable = {
 				name = medium_xian_kerygma_target
-				days = 500
+				days = 726 
 			}	
 		}
 		else_if = {
@@ -454,7 +454,7 @@ l6_christian.5 = {
 			}
 			set_variable = {
 				name = small_xian_kerygma_target
-				days = 1000
+				days = 1452
 			}
 		}
 	}
