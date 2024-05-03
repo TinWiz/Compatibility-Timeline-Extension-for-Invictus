@@ -17,6 +17,7 @@
 				set_pop_religion = shamanism
 			}
 		}
+		set_global_variable = is_playing_teinv_0_5
 		#
 		p:5278 = {
 			while = {
