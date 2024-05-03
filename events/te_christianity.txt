@@ -1812,7 +1812,7 @@ te_christianity.96 = {
 				owner = {
 					AND = {
 						num_of_cities <= 100
-						num_of_cities > 10
+						num_of_cities >= 25
 					}
 				}	
 			}
@@ -1823,7 +1823,7 @@ te_christianity.96 = {
 		}
 		else_if = {
 			limit = {
-				owner = { num_of_cities <= 10 }
+				owner = { num_of_cities < 25 }
 			}
 			set_variable = {
 				name = small_xian_ekklesia_province
