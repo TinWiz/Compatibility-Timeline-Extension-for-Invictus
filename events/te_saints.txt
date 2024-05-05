@@ -32,8 +32,8 @@ te_saints.1 = {
         hidden_effect = {
             create_character = {
                 ### Optional properties ###
-                first_name = "Andrew"
-                nickname="the Apostle"
+                first_name = "Andreas"
+                nickname = "NICKNAME_ANDREW" #"the Apostle"
                 family_name = "Prōtoklētos"
                 # dna = ""
                 culture = hebrew # or scope
@@ -102,7 +102,7 @@ te_saints.2 = {
             create_character = {
                 ### Optional properties ###
                 first_name = "Thomas"
-                nickname="the Doubter"
+                nickname = "NICKNAME_THOMAS" #"the Doubter"
                 family_name = "Didymus"
                 # dna = ""
                 culture = hebrew # or scope
@@ -170,8 +170,8 @@ te_saints.3 = {
             create_character = {
                 ### Optional properties ###
                 first_name = "Saul"
-                nickname="the Apostle"
-                family_name = "of Tarsus"
+                nickname = "NICKNAME_PAUL" #"the Apostle"
+                family_name = "ha-Tarsi"
                 # dna = ""
                 culture = hebrew # or scope
                 religion = christianity # or scope
@@ -239,9 +239,9 @@ te_saints.4 = {
         hidden_effect = {
             create_character = {
                 ### Optional properties ###
-                first_name = "John"
-                nickname= "the Revelator"
-                family_name = "of Patmos"
+                first_name = "Yohanan"
+                nickname= "NICKNAME_JOHN" #the Revelator"
+                family_name = "ben Zevdi"
                 # dna = ""
                 culture = hebrew # or scope
                 religion = christianity # or scope
@@ -251,7 +251,7 @@ te_saints.4 = {
                 #birth_province = 681 or scope
                 female = no
 
-                birth_date = 768.05.26
+                birth_date = 760.05.26
                 death_date = 853.12.27
                 no_traits = yes
                 ### Effects on character ###
@@ -307,9 +307,9 @@ te_saints.5 = {
         hidden_effect = {
             create_character = {
                 ### Optional properties ###
-                first_name = "Philip"
-                nickname= "the Apostle"
-                family_name = "of Bethsaida"
+                first_name = "Philippos"
+                nickname = "NICKNAME_PHILIP" #"the Apostle"
+                family_name = "FAMILY_NAME_PHILIP" #"Bethsaida"
                 # dna = ""
                 culture = hebrew # or scope
                 religion = christianity # or scope
@@ -376,8 +376,8 @@ te_saints.6 = {
             create_character = {
                 ### Optional properties ###
                 first_name = "Nathanael"
-                nickname= "the Apostle"
-                family_name = "Bartholomew"
+                nickname = "NICKNAME_NATHANAEL" #"the Apostle"
+                family_name = "bar Tolmai"
                 # dna = ""
                 culture = hebrew # or scope
                 religion = christianity # or scope
@@ -443,8 +443,8 @@ te_saints.7 = {
         hidden_effect = {
             create_character = {
                 ### Optional properties ###
-                first_name = "Matthew"
-                nickname= "the Evangelist"
+                first_name = "Matityahu"
+                nickname = "NICKNAME_MATTHEW" #"the Evangelist"
                 family_name = "Levi"
                 # dna = ""
                 culture = hebrew # or scope
@@ -513,7 +513,7 @@ te_saints.8 = {
             create_character = {
                 ### Optional properties ###
                 first_name = "Cornelius"
-                nickname= "the Centurion"
+                nickname= "NICKNAME_CORNELIUS" #"the Centurion"
                 family_name = "Romanorum"
                 # dna = ""
                 culture = roman # or scope
@@ -580,9 +580,9 @@ te_saints.9 = {
         hidden_effect = {
             create_character = {
                 ### Optional properties ###
-                first_name = "Joseph"
-                nickname= "the Foster-Father"
-                family_name = "of Bethlehem"
+                first_name = "Yosef"
+                nickname = "NICKNAME_JOSEPH" #"the Foster-Father"
+                family_name = "FAMILY_NAME_JOSEPH" #"of Bethlehem"
                 # dna = ""
                 culture = hebrew # or scope
                 religion = christianity # or scope
@@ -679,9 +679,9 @@ te_saints.11 = {
         hidden_effect = {
             create_character = {
                 ### Optional properties ###
-                first_name = "Luke"
-                nickname= "the Evangelist"
-                family_name = "of Antioch"
+                first_name = "Loukas"
+                nickname = "NICKNAME_LUKE" #"the Evangelist"
+                family_name = "FAMILY_NAME_LUKE" #"of Antioch"
                 # dna = ""
                 culture = hellenistic # or scope
                 religion = christianity # or scope
@@ -748,9 +748,9 @@ te_saints.12 = {
         hidden_effect = {
             create_character = {
                 ### Optional properties ###
-                first_name = "James"
-                nickname= "the Greater"
-                family_name = "Zebedee"
+                first_name = "Yaakov"
+                nickname = "NICKNAME_JAMES" #"the Greater"
+                family_name = "ben Zevdi"
                 # dna = ""
                 culture = hebrew # or scope
                 religion = christianity # or scope
@@ -818,7 +818,7 @@ te_saints.13 = {
             create_character = {
                 ### Optional properties ###
                 first_name = "Simeon"
-                nickname = "the Leader"
+                nickname = "NICKNAME_PETER" #the Leader"
                 family_name = "Kepha"
                 # dna = ""
                 culture = hebrew # or scope
@@ -886,9 +886,9 @@ te_saints.14 = {
         hidden_effect = {
             create_character = {
                 ### Optional properties ###
-                first_name = "John Mark"
-                nickname = "the Evangelist"
-                family_name = "of Alexandria"
+                first_name = "Markos"
+                nickname = "NICKNAME_MARK" #"the Evangelist"
+                family_name = "FAMILY_NAME_MARK" #"of Alexandria"
                 # dna = ""
                 culture = hebrew # or scope
                 religion = christianity # or scope

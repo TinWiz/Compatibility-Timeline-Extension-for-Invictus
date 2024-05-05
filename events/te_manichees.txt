@@ -590,8 +590,8 @@ te_manichees.2 = {
             create_character = {
                 ### Optional properties ###
                 first_name = "Mani"
-                nickname="'Prophet of Light'"
-                family_name = "son of Pātik"
+                nickname = "NICKNAME_MANI" #"'Prophet of Light'"
+                family_name = "Pātikpūr"
                 # dna = ""
                 culture = parthian # or scope
                 religion = manichaeism # or scope
