@@ -322,7 +322,7 @@
 						owns = 3571
 					}
 					p:3571 = {
-						set_owned_by = WRE
+						#set_owned_by = WRE
 						remove_province_modifier = early_christian_community
 						add_permanent_province_modifier = {
 							name = "early_christian_church"
@@ -353,7 +353,7 @@
 						owns = 142
 					}
 					p:142 = {
-						set_owned_by = WRE
+						#set_owned_by = WRE
 						if = {
 							limit = {
 								has_province_modifier = early_christian_community
@@ -385,9 +385,9 @@
 					}	
 				}
 				else = {
-					p:1 = {
-						set_owned_by = WRE
-					}
+					#p:1 = {
+					#	set_owned_by = WRE
+					#}
 					hidden_effect = {
 						p:1 = { ## Rome
 							create_country = {
@@ -413,17 +413,17 @@
 					save_scope_as = new_WRE_ruler
 				}
 
-				scope:new_WRE_ruler = {
-					move_country = WRE
-					every_holdings = {
-						limit = { 
-							is_in_pars_occidentalis_inv_trigger = no 
-						}
-						holding_owner = {
-							remove_holding = PREV	
-						}	
-					}
-				}
+				#scope:new_WRE_ruler = {
+				#	move_country = WRE
+				#	every_holdings = {
+				#		limit = { 
+				#			is_in_pars_occidentalis_inv_trigger = no 
+				#		}
+				#		holding_owner = {
+				#			remove_holding = PREV	
+				#		}	
+				#	}
+				#}
 				
 				hidden_effect = {
 					scope:new_WRE_ruler = {
