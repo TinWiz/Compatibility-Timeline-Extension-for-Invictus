@@ -1,5 +1,12 @@
 Changelog v0.5.0
 
+*changed te_saints.txt events names to more historical transliterations and localized nicknames
+	-localizations added to te_saints_events_l_[language].yml
+		+small correction in Russian localization deities\deities_christianity_l_russian.yml
+	-also changed te_manichees.2 event for Mani to add NICKNAME localizations
+		+te_manichees_events_l_[language].yml
+	-corrected birth year for St. John in te_saints.4
+
 *added levels to barbarian_fury_discipline country modifiers and barbarian_fury_rage unit modifiers
 	-now split into two levels *_1 and *_2 each
 	-added to te_barbarians.50 and te_barbarians.150
@@ -15,7 +22,7 @@ Changelog v0.5.0
 
 *added x_te_desecrate_holysite.txt file in common \ unit_abilities
 	-added NOT limit for christianity to Militant Epicureanism check
-		+will not give 10 stability if Christian
+		+will not give 10 stability if Christian destroying own holy sites
 
 *Gothic spawn point added to province_id 5113
 	-changed starting province setup te_default to gothonic culture and germanic_religion
@@ -26,8 +33,8 @@ Changelog v0.5.0
 	-localizations added to all te_barbarians_events_l_[language].yml files	
 
 *added minor country events te_plagues.90–92 to give option to character with military traits to reduce tyranny
-	-te_plagues.90 for ruler with military traits daring, original_thinker or tactician
-		+te_plagues.91 for co-ruler and te_plagues.92 for government military officer with daring, original_thinker or tactician
+	-te_plagues.90 for ruler with military traits daring, original_thinker, improviser, or tactician
+		+te_plagues.91 for co-ruler and te_plagues.92 for government military officer with daring, original_thinker, improviser, or tactician
 	-provides option to reduce 5/10/20 tyranny for 50/100/200 military experience
 		+only one option triggered by maximum amount of country's military experience
 			> choose to sacrifice hoarded amount of military experience or not
@@ -68,7 +75,7 @@ Changelog v0.5.0
 		+also for ARM or country with primary_culture armenian, armenian_heritage and capital_scope in armenia_region
 	-large AI empires often did not add any saints to pantheon
 
-*added global variable is_playing_teinv_0_5	to te_custom_on_actions inv_te_on_game_initialized
+*added global variable is_playing_teinv_0_5 to te_custom_on_actions inv_te_on_game_initialized
 	-check for variable added to trigger for te_barbarians.101
 		+Goths won't spawn for players not playing this version of the mod
 
@@ -77,13 +84,27 @@ Changelog v0.5.0
 *changed num_of_cities for medium_xian_kerygma_target in l6_christian.5 and medium_xian_ekklesia_province in te_christianity.96 to between 25 and 100 cities
 	-changed num_of_cities for small_xian_kerygma_target and small_xian_ekklesia_province to less than 25 cities
 
+*altered te_barbarians.50 to start on earlier current_date 1034.5.1 
+	-altered te_custom_on_action_barbarians_morale_pulse for same trigger date
+		+blocked requirement for has_global_variable germanic_migration
+
+*corrected IRCK3_decisions for split Roman Empire to comment out set_owned_by and move_ruler effects for empty WRE tag
+	-"target was null" errors in error log
+*added endgame_tags file teinv_form_italia.txt to overwrite Invictus form_italia.txt file
+	-edited NOR trigger to exclude WRE tag
+		+AI would form Italia :/
+
+*edited IRCK3_scripted_triggers is_in_pars_occidentalis_inv_trigger to add marsonia_area
+	-Invictus map edit for a "Moesia Superior" region is not aligned with WRE historical border
+
+*added tribal_chiefdom government to NOR trigger for te_christianity.91–95 events
+	-migratory tribes will no longer get early_xian_community or early_xian_church modifiers
+		+doesn't really make sense for migratory tribes
+
 ##########
 TO DO: 
 ! testing tyranny management events
 ! test switch big blobs > 1200 to monthly pulse for early_christian_church and early_christian_community events
-	? switch local powers < 25 cities to decade pulse? 
-		→ change small l6_christian.5 and te_manichees.14 small countries from < 10 to < 25 territories
-	? switch regional powers < 100 cities to biyearly pulse?
 ! test foederati allowed_to_declare_war_against_others
 	? new subject type?
 ! trigger Arab tribe spawn if Arabia conquered
