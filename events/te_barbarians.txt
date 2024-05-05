@@ -1136,7 +1136,7 @@ te_barbarians.50 = {
     hidden = yes
 
     trigger = {
-        current_date > 1054.5.1
+        current_date > 1034.5.1
         current_date < 1104.4.30
         NOT = {
            has_variable = barbarian_fury_1
