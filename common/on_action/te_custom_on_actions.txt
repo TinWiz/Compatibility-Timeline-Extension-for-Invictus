@@ -340,10 +340,10 @@ te_custom_on_action_barbarians_morale_pulse = {
 		}
 		OR = {
 			AND = {
-				has_global_variable = germanic_migration
-				current_date > 1054.5.1
+				#has_global_variable = germanic_migration
+				current_date > 1034.5.1
 				current_date < 1104.4.30
-				num_of_cities > 1
+				num_of_cities >= 10
 			}
 			AND = {
 				has_global_variable = huns_second_wave
@@ -355,7 +355,7 @@ te_custom_on_action_barbarians_morale_pulse = {
 				has_variable = huna_invasion
 				current_date > 1104.05.1
 				current_date < 1144.12.15
-				num_of_cities >= 10
+				num_of_cities >= 25
 			}
 			AND = {		
 				has_variable = huna_invasion_again
