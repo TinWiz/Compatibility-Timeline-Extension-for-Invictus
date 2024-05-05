@@ -209,7 +209,7 @@ te_rel_flavor.1 = {
 			current_ruler = {
 				change_variable = {
 					name = xian_community_killer
-					add = -2
+					add = -3
 				}
 			}
 			random_character = {
