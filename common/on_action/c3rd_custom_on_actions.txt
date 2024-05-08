@@ -1,0 +1,51 @@
+c3rd_barbarian_sack = {
+
+	trigger = {
+		current_date > 1033.3.3 #TE edit
+		has_land = yes
+		any_owned_province = {
+			is_previous_controller = root
+			controller = { tag = BAR }
+			is_state_capital = yes
+			state = {
+				NOT = {
+					has_state_modifier = barbarians_border
+				}
+				any_state_province = {
+					count <= 4
+					NOT = {
+						controller = { tag = BAR }
+					}
+				}
+			}
+		}
+	}
+	
+	effect = {
+		every_province = {
+			limit = {
+				is_previous_controller = root
+				controller = { tag = BAR }
+				is_state_capital = yes
+				state = {
+					any_state_province = {
+						count <= 4
+						NOT = {
+							controller = { tag = BAR }
+						}
+					}
+					NOT = {
+						has_state_modifier = barbarians_border
+					}
+				}
+			}
+			state = {
+				add_state_modifier = {
+					name = barbarians_border
+					duration = 1850
+				}
+			}
+		}
+	}
+
+}
