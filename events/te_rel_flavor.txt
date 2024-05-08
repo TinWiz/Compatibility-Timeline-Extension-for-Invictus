@@ -516,6 +516,18 @@ te_rel_flavor.3 = {
 			}
 			remove_trait = lapsed
 		}
+		if = {
+			limit = {
+				has_loyalty = spared_xians_hate
+			}
+			remove_loyalty = spared_xians_hate
+		}
+		if = {
+			limit = {
+				has_loyalty = persecuted_xians_glee
+			}
+			remove_loyalty = persecuted_xians_glee
+		}
 		country = {
 			random_character = {
 				limit = {
@@ -612,6 +624,18 @@ te_rel_flavor.4 = {
 			}
 			remove_trait = lapsed
 		}
+		if = {
+			limit = {
+				has_loyalty = spared_xians_hate
+			}
+			remove_loyalty = spared_xians_hate
+		}
+		if = {
+			limit = {
+				has_loyalty = persecuted_xians_glee
+			}
+			remove_loyalty = persecuted_xians_glee
+		}
 		country = {
 			random_character = {
 				limit = {
@@ -699,6 +723,18 @@ te_rel_flavor.5 = {
 				has_trait = lapsed
 			}
 			remove_trait = lapsed
+		}
+		if = {
+			limit = {
+				has_loyalty = spared_xians_hate
+			}
+			remove_loyalty = spared_xians_hate
+		}
+		if = {
+			limit = {
+				has_loyalty = persecuted_xians_glee
+			}
+			remove_loyalty = persecuted_xians_glee
 		}
 	}
 }
