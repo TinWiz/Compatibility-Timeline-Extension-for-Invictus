@@ -19,6 +19,7 @@ Changelog v0.5.0
 *added new hidden character events te_rel_flavor.3–5 for converting characters if communities and/or churches destroyed
 	-edited te_rel_flavor.1 and te_rel_flavor.2 events to trigger te_rel_flavor.3–5
 		+character variable xian_community_killer value added for te_rel_flavor.1 as trigger check 
+	-added check for loyalty modifiers spared_xians_hate and persecuted_xians_glee to remove from new convert characters	
 
 *added x_te_desecrate_holysite.txt file in common \ unit_abilities
 	-added NOT limit for christianity to Militant Epicureanism check
@@ -100,6 +101,16 @@ Changelog v0.5.0
 *added tribal_chiefdom government to NOR trigger for te_christianity.91–95 events
 	-migratory tribes will no longer get early_xian_community or early_xian_church modifiers
 		+doesn't really make sense for migratory tribes
+
+*added c3rd_barbarian_sack on_action to c3rd_monthly_country.txt and c3rd_custom_on_actions.txt
+	-and barbarians_border state modifier to c3rd_modifiers.txt 
+	-Thanks to Diskianterezh for offering to let me import this script directly
+		+Crisis of the third century mod adds a lot of great content for extra challenges
+	-edited trigger current_date > 1033 (~280 CE)
+	-localizations added to c3rd_l_[language].yml files
+
+*deleted loyalty\te_diplomatic_actions.txt
+	-not used
 
 ##########
 TO DO: 
