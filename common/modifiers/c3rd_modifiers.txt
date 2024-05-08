@@ -1,0 +1,7 @@
+barbarians_border = {
+	local_monthly_civilization = -0.05
+	local_unrest = 2
+	local_migration_attraction = -5
+	local_migration_speed = 2
+	local_pop_assimilation_speed = -1
+}
