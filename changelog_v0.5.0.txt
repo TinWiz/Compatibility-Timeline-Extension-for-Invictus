@@ -69,6 +69,7 @@ Changelog v0.5.0
 	-added icon to gfx\interface\icons\modifiers happiness_for_wrong_religion_modifier.dds
 		+thanks to Invictus modders for this icon!
 	-added reference to common\modifier_icons te_modifier_icons.txt happiness_for_wrong_religion_modifier
+*added war_score_cost 0.05 to Manichaeism
 
 *reduced foederatus te_from_events_country modifier loyalty malus from -50 to -40
 
