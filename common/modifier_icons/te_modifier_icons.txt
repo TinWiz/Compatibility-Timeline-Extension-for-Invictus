@@ -1,0 +1,3 @@
+happiness_for_wrong_religion_modifier = {
+	positive = "gfx/interface/icons/modifiers/happiness_for_wrong_religion_modifier.dds"
+}
