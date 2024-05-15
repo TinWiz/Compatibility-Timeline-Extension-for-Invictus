@@ -39,6 +39,7 @@ is_in_pars_occidentalis_inv_trigger = {
 		is_in_region = scandinavia_region
 		is_in_rhaetia_trigger = yes
 		is_in_italy_trigger = yes
+		is_in_area = marsonia_area ##TEInv 0.5 # Invictus map region edit Moesia Superior out of line with historical WRE border
 		##is_in_region = illyria_region
 		is_in_area = histria_area
 		is_in_area = dalmatia_occidentalis_area

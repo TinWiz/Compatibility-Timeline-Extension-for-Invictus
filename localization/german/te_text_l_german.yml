@@ -1,6 +1,8 @@
 ﻿l_german:
- barbarian_fury_discipline:0 "Verbissen"
- barbarian_fury_rage:0 "Wütend"
+ barbarian_fury_discipline_1:0 "Verbissen"
+ barbarian_fury_rage_1:0 "Wütend"
+ barbarian_fury_discipline_2:0 "Verbissen"
+ barbarian_fury_rage_2:0 "Wütend"
  barbarian_invasion_skirmish:0 "Barbaren wandern"
  barbarian_invasion_war:0 "Einmarsch der Barbaren!"
 
@@ -12,6 +14,8 @@
  desc_late_antiquity_decentralization_settlement:1 "Menschen ziehen in die Siedlungen."
 
  germanisch_wanderung:0 "Völkerwanderung"
+
+ ai_constantinople_capital:0 "Nova Roma"
 
  #######CULTURE#######:0 ""
  hunnic:0 "Hunnisch"

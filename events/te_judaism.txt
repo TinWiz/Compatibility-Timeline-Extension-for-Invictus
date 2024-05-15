@@ -543,6 +543,59 @@ te_judaism.5 = {
 	}
 }
 
+#Roman Jews
+te_judaism.50 = {
+    type = country_event
+    hidden = yes
+	
+	#left_portrait = current_ruler
+	
+	#
+	
+	trigger = {
+		has_global_variable = jewish_diaspora
+        any_owned_province = {
+            dominant_province_culture = roman
+            any_pops_in_province = {
+                NOR = {
+                    pop_religion = judaism
+                    pop_religion = manichaeism
+                }
+            }
+        }        
+	}
+	
+	option = {
+        random_owned_province = {
+            limit = {
+                dominant_province_culture = roman
+                any_pops_in_province = {
+                    NOR = {
+                        pop_religion = judaism
+                        pop_religion = manichaeism
+                    }
+                }
+            } 
+            weight = {
+                base = 1
+                modifier = {
+                    add = 10
+                    is_port = yes
+                }
+            }
+            random_pops_in_province = {
+				limit = {
+					NOR = {
+						pop_religion = judaism
+						pop_religion = manichaeism
+					}
+				}
+				set_pop_religion = judaism
+			}       
+        }    
+	}
+}
+
 #South Arabian Jews
 te_judaism.6 = {
     type = country_event
@@ -559,7 +612,7 @@ te_judaism.6 = {
             }
             any_pops_in_province = {
                 NOR = {
-                    pop_religion = christianity
+                    #pop_religion = christianity
                     pop_religion = judaism
                     pop_religion = manichaeism
                 }
@@ -575,7 +628,7 @@ te_judaism.6 = {
                 any_pops_in_province = {
                     NOR = {
                         pop_religion = judaism
-                        pop_religion = christianity
+                        #pop_religion = christianity
                         pop_religion = manichaeism
                     }
                 }
@@ -590,7 +643,7 @@ te_judaism.6 = {
             ordered_pops_in_province = {
                 limit = {
                         NOR = {
-                            pop_religion = christianity
+                            #pop_religion = christianity
                             pop_religion = manichaeism
                         }	
                 }

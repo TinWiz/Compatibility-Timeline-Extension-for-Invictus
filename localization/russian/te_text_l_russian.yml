@@ -1,6 +1,8 @@
 ﻿l_russian:
- barbarian_fury_discipline:0 "Упорный" 
- barbarian_fury_rage:0 "Яростный"
+ barbarian_fury_discipline_1:0 "Упорный" 
+ barbarian_fury_rage_1:0 "Яростный"
+ barbarian_fury_discipline_2:0 "Упорный" 
+ barbarian_fury_rage_2:0 "Яростный"
  barbarian_invasion_skirmish:0 "Мигрирующие варвары"
  barbarian_invasion_war:0 "Вторжение варваров!"
 
@@ -12,6 +14,8 @@
  desc_late_antiquity_decentralization_settlement:1 "Люди переезжают в сельскую местность."
 
  germanisch_wanderung:0 "Вели́кое переселе́ние"
+
+ ai_constantinople_capital:0 "Nova Roma"
 
  #######CULTURE#######:0 ""
  hunnic:0 "Гуннский"

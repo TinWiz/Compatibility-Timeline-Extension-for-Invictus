@@ -1,6 +1,8 @@
 ﻿l_french:
- barbarian_fury_discipline:0 "Tenace"
- barbarian_fury_rage:0 "Furieux"
+ barbarian_fury_discipline_1:0 "Tenace"
+ barbarian_fury_rage_1:0 "Furieux"
+ barbarian_fury_discipline_2:0 "Tenace"
+ barbarian_fury_rage_2:0 "Furieux"
  barbarian_invasion_skirmish:0 "Migrations des barbares"
  barbarian_invasion_war:0 "Les barbares nous envahissent !"
 
@@ -12,6 +14,8 @@
  desc_late_antiquity_decentralization_settlement:1 "Les gens s’installent ici à la campagne."
 
  germanisch_wanderung:0 "Grandes invasions"
+
+ ai_constantinople_capital:0 "Nova Roma"
 
  #######CULTURE#######:0 ""
  hunnic:0 "Hunnique"

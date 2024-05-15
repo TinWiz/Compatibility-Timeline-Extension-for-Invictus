@@ -1,6 +1,8 @@
 ﻿l_english:
- barbarian_fury_discipline:0 "Dogged"
- barbarian_fury_rage:0 "Furious"
+ barbarian_fury_discipline_1:0 "Dogged"
+ barbarian_fury_discipline_2:0 "Dogged"
+ barbarian_fury_rage_1:0 "Furious"
+ barbarian_fury_rage_2:0 "Furious"
  barbarian_invasion_skirmish:0 "Barbarians Migrating"
  barbarian_invasion_war:0 "Barbarians Invading!"
 
@@ -12,6 +14,8 @@
  desc_late_antiquity_decentralization_settlement:1 "People are moving into the countryside."
 
  germanisch_wanderung:0 "Germanic Migrations"
+
+ ai_constantinople_capital:0 "Nova Roma"
 
  #######CULTURE#######:0 ""
  hunnic:0 "Hunnic"

@@ -1,5 +1,24 @@
 ﻿inv_te_on_game_initialized = {
 	effect = {
+		p:5113 = {
+			while = {
+				limit = {
+					any_pops_in_province = {
+						count < 5
+					}
+				}
+				create_pop = tribesmen
+			}
+			every_pops_in_province = {
+				limit = {
+					pop_type = tribesmen
+				}
+				set_pop_culture = getian
+				set_pop_religion = shamanism
+			}
+		}
+		set_global_variable = is_playing_teinv_0_5
+		#
 		p:5278 = {
 			while = {
                 limit = {
@@ -177,6 +196,7 @@ te_custom_on_action_yearly_country_jewish = {
 		10 = te_judaism.6
 		5 = te_judaism.21
 		5 = te_judaism.5
+		1 = te_judaism.50
 	}
 
 }	
@@ -224,6 +244,27 @@ te_custom_on_action_yearly_country_plagues = {
 	}
 }
 
+te_custom_on_action_yearly_country_tyranny_manager = {
+
+	trigger = {
+		current_date > 989.8.9
+		has_land = yes 
+		is_tribal = no
+		current_ruler = {
+			popularity >= 40
+		}
+		tyranny >= 50
+		military_experience >= 50
+	}
+
+	events = {
+		te_plagues.90
+		te_plagues.91
+		te_plagues.92
+	}
+
+}
+
 te_custom_on_action_yearly_country_manichees = {
 
 	trigger = {
@@ -250,7 +291,7 @@ te_custom_on_action_yearly_country_manichees = {
 
 te_custom_on_action_yearly_country_barbarians = {
 	trigger = {
-		current_date > 1053.3.15
+		current_date > 1033.3.15
 		num_of_cities >= 1
 		NOR = {
 			tag = BAR
@@ -278,6 +319,10 @@ te_custom_on_action_yearly_country_barbarians = {
 		te_barbarians.7
 		te_barbarians.98
 		te_barbarians.99
+		te_barbarians.101
+		te_barbarians.102
+		te_barbarians.103
+		te_barbarians.104
 	}
 
 	random_events = {
@@ -295,6 +340,12 @@ te_custom_on_action_barbarians_morale_pulse = {
 		}
 		OR = {
 			AND = {
+				#has_global_variable = germanic_migration
+				current_date > 1034.5.1
+				current_date < 1104.4.30
+				num_of_cities >= 10
+			}
+			AND = {
 				has_global_variable = huns_second_wave
 				current_date > 1148.3.15
 				current_date < 1208.11.15
@@ -302,9 +353,9 @@ te_custom_on_action_barbarians_morale_pulse = {
 			}
 			AND = {
 				has_variable = huna_invasion
-				current_date > 1104.04.11
+				current_date > 1104.05.1
 				current_date < 1144.12.15
-				num_of_cities >= 10
+				num_of_cities >= 25
 			}
 			AND = {		
 				has_variable = huna_invasion_again
@@ -315,12 +366,13 @@ te_custom_on_action_barbarians_morale_pulse = {
 	}
 
 	events = {
-
+		
 	}
 
 	random_events = {
 		50 = 0
 		50 = te_barbarians.50
+		50 = te_barbarians.150
 	}
 
 }
@@ -465,5 +517,27 @@ te_late_antiquity_deurbanization = {
 	events = {
 		te_plagues.50
 		te_plagues.51
+	}
+}
+
+################ teinv_occident_blob_trigger RANDOM EVENTS SHIFT ###################
+
+te_custom_on_action_monthly_country_xian_blob = {
+
+	trigger = {
+		current_date > 753.3.25
+		teinv_occident_blob_trigger = yes
+	}
+	events = {
+
+	}
+
+	random_events = {
+		75 = 0
+		5 = te_christianity.195
+		5 = te_christianity.194
+		5 = te_christianity.193
+		5 = te_christianity.192
+		5 = te_christianity.191
 	}
 }

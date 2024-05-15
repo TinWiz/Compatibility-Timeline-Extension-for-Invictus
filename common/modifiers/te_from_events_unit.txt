@@ -1,4 +1,13 @@
-﻿barbarian_fury_rage = {
+﻿barbarian_fury_rage_1 = {
+    army_movement_speed = 0.5
+    land_unit_attrition = -0.50
+    experience_decay = -0.05
+    land_morale_modifier = 0.75
+    land_morale_recovery = 0.15
+    monthly_experience_gain = 0.1
+}
+
+barbarian_fury_rage_2 = {
     army_movement_speed = 1
     land_unit_attrition = -0.75
     experience_decay = -0.1

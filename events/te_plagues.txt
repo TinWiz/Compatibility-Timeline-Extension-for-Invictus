@@ -1320,3 +1320,278 @@ te_plagues.51 = {
 		}
 	}	
 }
+
+######### Minor events #########
+#####Late antiquity population decline metropolis/city destruction tyranny management
+##Military trait, military experience
+#Ruler's military traits
+te_plagues.90 = {
+	type = minor_country_event
+	title = "te_plagues.90.t"
+	desc = "te_plagues.90.desc"
+	interface_lock = no
+
+	left_portrait = current_ruler
+
+	goto_location = capital_scope
+
+	trigger = {
+		current_date > 989.8.9
+		num_of_cities >= 100
+		is_tribal = no
+		current_ruler = {
+			popularity >= 40
+			OR = {
+				has_trait = daring
+				has_trait = original_thinker
+				has_trait = tactician
+				has_trait = improviser
+			}
+		}
+		tyranny >= 50
+		military_experience >= 50
+	}
+
+	option = { #No
+		name = "te_plagues.90.a"
+		custom_tooltip = "te_plagues_ruler_military_tyrant_no"
+		add_stability = 1
+	}
+
+	option = { #Yes 50 → 5
+		trigger = { military_experience < 100 }
+		name = "te_plagues.90.b"
+		custom_tooltip = "te_plagues_ruler_military_tyrant_yes"
+		highlight = yes
+		add_military_experience = -50
+		add_tyranny = -5
+	}
+
+	option = { #Yes 100 → 10
+		trigger = { 
+			AND = {
+				military_experience >= 100 
+				military_experience < 200
+			}
+		}	
+		name = "te_plagues.90.b"
+		custom_tooltip = "te_plagues_ruler_military_tyrant_yes"
+		highlight = yes
+		add_military_experience = -100
+		add_tyranny = -10
+	}
+
+	option = { #Yes 200 → 20
+		trigger = { military_experience = 200 }
+		name = "te_plagues.90.b"
+		custom_tooltip = "te_plagues_ruler_military_tyrant_yes"
+		highlight = yes
+		add_military_experience = -200
+		add_tyranny = -20
+	}	
+}
+
+#Co-ruler military traits
+te_plagues.91 = {
+	type = minor_country_event
+	title = "te_plagues.91.t"
+	desc = "te_plagues.91.desc"
+	interface_lock = no
+
+	left_portrait = current_co_ruler
+
+	goto_location = capital_scope
+
+	trigger = { 
+		current_date > 989.8.9
+		num_of_cities >= 100
+		is_tribal = no
+		current_ruler = {
+			popularity >= 50
+		}
+		has_co_ruler_government = yes
+		exists = current_co_ruler
+		NOT = {
+			current_ruler = {
+				OR = {
+					has_trait = daring
+					has_trait = original_thinker
+					has_trait = tactician	
+					has_trait = improviser		
+				}
+			}
+		}
+		current_co_ruler = {
+			OR = {
+				has_trait = daring
+				has_trait = original_thinker
+				has_trait = tactician
+				has_trait = improviser
+			}
+		}
+		tyranny >= 75
+		military_experience >= 50
+	}	
+
+	option = { #No
+		name = "te_plagues.91.a"
+		custom_tooltip = "te_plagues_militant_co-ruler_no"
+		add_stability = 0.5
+	}
+
+	option = { #Yes 50 → 5
+		trigger = { military_experience < 100 }
+		name = "te_plagues.91.b"
+		custom_tooltip = "te_plagues_militant_co-ruler_yes"
+		highlight = yes
+		add_military_experience = -50
+		add_tyranny = -5
+	}
+
+	option = { #Yes 100 → 10
+		trigger = { 
+			AND = {
+				military_experience >= 100 
+				military_experience < 200
+			}
+		}	
+		name = "te_plagues.91.b"
+		custom_tooltip = "te_plagues_militant_co-ruler_yes"
+		highlight = yes
+		add_military_experience = -100
+		add_tyranny = -10
+	}
+
+	option = { #Yes 200 → 20
+		trigger = { military_experience = 200 }
+		name = "te_plagues.91.b"
+		custom_tooltip = "te_plagues_militant_co-ruler_yes"
+		highlight = yes
+		add_military_experience = -200
+		add_tyranny = -20
+	}	
+}
+
+#Military officer military traits
+te_plagues.92 = {
+	type = minor_country_event
+	title = "te_plagues.92.t"
+	desc = "te_plagues.92.desc"
+	interface_lock = no
+
+	left_portrait = scope:te_plagues_govt_militant_officer
+
+	goto_location = capital_scope
+
+	trigger = { 
+		current_date > 989.8.9
+		num_of_cities >= 100
+		is_tribal = no
+		current_ruler = {
+			popularity >= 60
+		}
+		NOT = {
+			current_ruler = {
+				OR = {
+					has_trait = daring
+					has_trait = original_thinker
+					has_trait = tactician	
+					has_trait = improviser		
+				}
+			}
+		}
+		NAND = {
+			has_co_ruler_government = yes
+			exists = current_co_ruler
+			current_co_ruler = {
+				OR = {
+					has_trait = daring
+					has_trait = original_thinker
+					has_trait = tactician
+					has_trait = improviser
+				}
+			}
+		}
+		any_character = {
+			AND = {
+				OR = {
+					has_office = office_marshal
+					has_office = office_master_of_the_guard
+					has_office = office_tribune_of_the_soldiers
+					has_office = office_tribune_of_the_treasury
+				}
+				OR = {
+					has_trait = daring
+					has_trait = original_thinker
+					has_trait = tactician
+					has_trait = improviser
+				}
+			}	
+		}
+		tyranny >= 90
+		military_experience >= 50
+	}	
+
+	immediate = {
+		random_character = {
+			limit = {
+				AND = {
+					OR = {
+						has_office = office_marshal
+						has_office = office_master_of_the_guard
+						has_office = office_tribune_of_the_soldiers
+						has_office = office_tribune_of_the_treasury
+					}
+					OR = {
+						has_trait = daring
+						has_trait = original_thinker
+						has_trait = tactician
+						has_trait = improviser
+					}
+				}
+			}
+			weight = {
+				title_importance_modifier = yes
+			}
+			save_scope_as = te_plagues_govt_militant_officer
+		}
+	}
+
+	option = { #No
+		name = "te_plagues.92.a"
+		custom_tooltip = "te_plagues_govt_militant_officer_no"
+		add_stability = 0.25
+	}
+
+	option = { #Yes 50 → 5
+		trigger = { military_experience < 100 }
+		name = "te_plagues.92.b"
+		custom_tooltip = "te_plagues_govt_militant_officer_yes"
+		highlight = yes
+		add_military_experience = -50
+		add_tyranny = -5
+	}
+
+	option = { #Yes 100 → 10
+		trigger = { 
+			AND = {
+				military_experience >= 100 
+				military_experience < 200
+			}
+		}	
+		name = "te_plagues.92.b"
+		custom_tooltip = "te_plagues_govt_militant_officer_yes"
+		highlight = yes
+		add_military_experience = -100
+		add_tyranny = -10
+	}
+
+	option = { #Yes 200 → 20
+		trigger = { military_experience = 200 }
+		name = "te_plagues.92.b"
+		custom_tooltip = "te_plagues_govt_militant_officer_yes"
+		highlight = yes
+		add_military_experience = -200
+		add_tyranny = -20
+	}	
+}

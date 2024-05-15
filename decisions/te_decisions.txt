@@ -49,6 +49,105 @@
 			change_religion_effect = {
 				RELIGION = christianity
 			}
+			if = {
+				limit = {
+					OR = {
+						tag = ROM
+						AND = {
+							capital_scope = {
+								is_in_area = roma_area
+							}
+							heritage = roman_heritage
+							primary_culture = roman
+						}
+					}	
+				}
+				add_deity_to_pantheon = { deity = deity:omen_st_peter }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						tag = EGY
+						AND = {
+							primary_culture = macedonian
+							capital_scope = {
+								is_in_region = lower_egypt_region
+							}
+							heritage = ptolemys_heritage
+						}
+					}	
+				}
+				add_deity_to_pantheon = { deity = deity:omen_st_mark }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						tag = TRE
+						AND = {
+							primary_culture = macedonian
+							capital_scope = {
+								is_in_region = thrace_region
+							}
+							heritage = thrace_heritage
+						}
+					}	
+				}
+				add_deity_to_pantheon = { deity = deity:omen_st_andrew }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						tag = MAC
+						AND = {
+							primary_culture = macedonian
+							capital_scope = {
+								is_in_region = macedonia_region
+							}
+							heritage = cassanders_heritage
+						}
+					}	
+				}
+				add_deity_to_pantheon = { deity = deity:omen_st_john }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						tag = PRY
+						AND = {
+							primary_culture = macedonian
+							heritage = antigonid_heritage
+						}
+					}	
+				}
+				add_deity_to_pantheon = { deity = deity:omen_st_paul }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						tag = SEL
+						AND = {
+							primary_culture = macedonian
+							heritage = seleucus_heritage
+						}
+					}	
+				}
+				add_deity_to_pantheon = { deity = deity:omen_st_luke_evangelist }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						tag = ARM
+						AND = {
+							capital_scope = {
+								is_in_region = armenia_region
+							}
+							heritage = armenian_heritage
+							primary_culture = armenian
+						}
+					}
+				}
+				add_deity_to_pantheon = { deity = deity:omen_st_nathanael_bartholomew }
+			}
 		}
 		
 		ai_will_do = {
@@ -212,7 +311,24 @@
 			}
 			capital_scope = {
 				increase_province_rank_effect = yes
-			}	
+			}
+			if = {
+				limit = {
+					p:1453 = {
+						total_population < 20
+						NOT = {
+							has_variable = moved_nova_roma
+						}
+					}
+				}	
+				p:1453 = {
+					add_province_modifier = {
+						name = "ai_constantinople_capital"
+						duration = 4359
+					}
+				}
+				set_variable = moved_nova_roma
+			}
 		}
 
 		ai_will_do = {

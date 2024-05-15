@@ -1,0 +1,7 @@
+monthly_country_pulse = {
+
+	on_actions = {
+		c3rd_barbarian_sack
+	}
+
+}
