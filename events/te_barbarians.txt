@@ -932,14 +932,14 @@ te_barbarians.4 = {
                 is_tribal = no
                 num_of_cities > 100
             }
-            add_stability = -60
+            add_stability = -50
         }    
         else_if = {
             limit = {
                 is_tribal = no
                 num_of_cities < 100
             }
-            add_stability = -30
+            add_stability = -25
         }
     }       
 
@@ -1045,6 +1045,10 @@ te_barbarians.5 = {
         current_date > 1187.3.15 #AD 434
         current_date < 1189.11.15
         has_global_variable = huns_third_wave
+        NAND = {
+            is_huna_neighbor_trigger = yes
+            num_of_cities < 500 
+        }
     }
 
     immediate = {
