@@ -10,6 +10,10 @@ Changelog v0.5.1
 		+more than 200 tribesmen events triggered by germanic_migration_4 global_variable
 			>created country also takes provinces set_owned_by from AI countries in surrounding areas
 
+*lowered stability hit from -60 to -50 in te_barbarians.4
+*added NAND trigger to te_barbarians.5 for is_huna_neighbor_trigger = yes and num_of_cities < 500
+	-excessive Huns stability hits for distant countries already affected by Huna events
+
 ##########
 TO DO: 
 ! test foederati allowed_to_declare_war_against_others
