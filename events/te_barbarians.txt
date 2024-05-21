@@ -932,14 +932,14 @@ te_barbarians.4 = {
                 is_tribal = no
                 num_of_cities > 100
             }
-            add_stability = -60
+            add_stability = -50
         }    
         else_if = {
             limit = {
                 is_tribal = no
                 num_of_cities < 100
             }
-            add_stability = -30
+            add_stability = -25
         }
     }       
 
@@ -1045,6 +1045,10 @@ te_barbarians.5 = {
         current_date > 1187.3.15 #AD 434
         current_date < 1189.11.15
         has_global_variable = huns_third_wave
+        NAND = {
+            is_huna_neighbor_trigger = yes
+            num_of_cities < 500 
+        }
     }
 
     immediate = {
@@ -2725,6 +2729,357 @@ te_barbarians.80 = {
         }
     }
 }
+
+#Germanic takeover events
+te_barbarians.81 = {
+    type = country_event
+	hidden = yes
+
+    trigger = {
+        is_ai = yes
+        has_global_variable = germanic_migration_2
+        current_date < 1102.11.02
+        NOT = {
+            has_variable = germanic_invasion
+        }
+        NOT = { country_culture_group = germanic }
+        num_of_cities >= 1
+        any_owned_province = {
+            any_neighbor_province = { province_id = 5140 }
+            dominant_province_culture = istvaeonic
+            num_of_tribesmen > 100
+        }               
+    }
+
+    immediate = {
+        random_owned_province = {
+            limit = {
+                any_neighbor_province = { province_id = 5140 }
+                num_of_tribesmen > 100
+                dominant_province_culture = istvaeonic
+            }
+            save_scope_as = istvaeonic_invaded_province
+        }
+    }
+
+    option = {
+        scope:istvaeonic_invaded_province = {
+            create_country = {
+                save_scope_as = istvaeonic_conquest
+            }
+        }
+    }
+    
+    after = {
+        every_ownable_province = {
+            limit = {
+                exists = owner
+                owner = { 
+                    is_ai = yes 
+                    NOT = { country_culture_group = germanic }
+                }
+                is_in_area = scope:istvaeonic_invaded_province
+            }
+            set_owned_by = scope:istvaeonic_conquest
+        }
+    }
+
+}    
+
+te_barbarians.82 = {
+    type = country_event
+	hidden = yes
+
+    trigger = {
+        is_ai = yes
+        has_global_variable = germanic_migration_4
+        current_date > 1102.11.02
+        NOT = {
+            has_variable = germanic_invasion
+        }
+        NOT = { country_culture_group = germanic }
+        num_of_cities >= 1
+        any_owned_province = {
+            any_neighbor_province = { province_id = 5140 }
+            dominant_province_culture = istvaeonic
+            num_of_tribesmen > 200
+        }               
+    }
+
+    immediate = {
+        random_owned_province = {
+            limit = {
+                any_neighbor_province = { province_id = 5140 }
+                num_of_tribesmen > 200
+                dominant_province_culture = istvaeonic
+            }
+            save_scope_as = istvaeonic_invaded_province
+        }
+    }
+
+    option = {
+        scope:istvaeonic_invaded_province = {
+            create_country = {
+                save_scope_as = istvaeonic_conquest
+            }
+        }
+    }
+    
+    after = {
+        every_ownable_province = {
+            limit = {
+                exists = owner
+                owner = { 
+                    is_ai = yes 
+                    NOT = { country_culture_group = germanic }
+                }
+                OR = {
+                    is_in_area = scope:istvaeonic_invaded_province
+                    is_in_area = turonia_area #TEInv Invictus area
+                    is_in_area = chamavia_area
+                    is_in_area = sicambria_area
+                    is_in_area = bructeria_area
+                }    
+            }
+            set_owned_by = scope:istvaeonic_conquest
+        }
+    }
+
+}    
+
+te_barbarians.83 = {
+    type = country_event
+	hidden = yes
+
+    trigger = {
+        is_ai = yes
+        has_global_variable = germanic_migration_2
+        current_date < 1102.11.02
+        NOT = {
+            has_variable = germanic_invasion
+        }
+        NOT = { country_culture_group = germanic }
+        num_of_cities >= 1
+        any_owned_province = {
+            any_neighbor_province = { province_id = 5142 }
+            dominant_province_culture = irminonic
+            num_of_tribesmen > 100
+        }               
+    }
+
+    immediate = {
+        random_owned_province = {
+            limit = {
+                any_neighbor_province = { province_id = 5142 }
+                num_of_tribesmen > 100
+                dominant_province_culture = irminonic
+            }
+            save_scope_as = irminonic_invaded_prov5142
+        }
+    }
+
+    option = {
+        scope:irminonic_invaded_prov5142 = {
+            create_country = {
+                save_scope_as = irminonic_conquest_5142
+            }
+        }
+    }
+    
+    after = {
+        every_ownable_province = {
+            limit = {
+                exists = owner
+                owner = { 
+                    is_ai = yes 
+                    NOT = { country_culture_group = germanic }
+                }
+                is_in_area = scope:irminonic_invaded_prov5142
+            }
+            set_owned_by = scope:irminonic_conquest_5142
+        }
+    }
+
+}    
+
+te_barbarians.84 = {
+    type = country_event
+	hidden = yes
+
+    trigger = {
+        is_ai = yes
+        has_global_variable = germanic_migration_4
+        current_date > 1102.11.02
+        NOT = {
+            has_variable = germanic_invasion
+        }
+        NOT = { country_culture_group = germanic }
+        num_of_cities >= 1
+        any_owned_province = {
+            any_neighbor_province = { province_id = 5142 }
+            dominant_province_culture = irminonic
+            num_of_tribesmen > 200
+        }               
+    }
+
+    immediate = {
+        random_owned_province = {
+            limit = {
+                any_neighbor_province = { province_id = 5142 }
+                num_of_tribesmen > 200
+                dominant_province_culture = irminonic
+            }
+            save_scope_as = irminonic_invaded_prov5142
+        }
+    }
+
+    option = {
+        scope:irminonic_invaded_prov5142 = {
+            create_country = {
+                save_scope_as = irminonic_conquest_5142
+            }
+        }
+    }
+    
+    after = {
+        every_ownable_province = {
+            limit = {
+                exists = owner
+                owner = { 
+                    is_ai = yes 
+                    NOT = { country_culture_group = germanic }
+                }
+                OR = {
+                    is_in_area = scope:irminonic_invaded_prov5142
+                    area = {
+                        any_area_province = {
+                            any_neighbor_province = { province_id = 5142 }
+                        }    
+                    }
+                }
+            }
+            set_owned_by = scope:irminonic_conquest_5142
+        }
+    }
+
+}   
+
+te_barbarians.85 = {
+    type = country_event
+	hidden = yes
+
+    trigger = {
+        is_ai = yes
+        has_global_variable = germanic_migration_2
+        current_date < 1102.11.02
+        NOT = {
+            has_variable = germanic_invasion
+        }
+        NOT = { country_culture_group = germanic }
+        num_of_cities >= 1
+        any_owned_province = {
+            any_neighbor_province = { province_id = 5146 }
+            dominant_province_culture = irminonic
+            num_of_tribesmen > 100
+        }               
+    }
+
+    immediate = {
+        random_owned_province = {
+            limit = {
+                any_neighbor_province = { province_id = 5146 }
+                num_of_tribesmen > 100
+                dominant_province_culture = irminonic
+            }
+            save_scope_as = irminonic_invaded_prov5146
+        }
+    }
+
+    option = {
+        scope:irminonic_invaded_prov5146 = {
+            create_country = {
+                save_scope_as = irminonic_conquest_5146
+            }
+        }
+    }
+    
+    after = {
+        every_ownable_province = {
+            limit = {
+                exists = owner
+                owner = { 
+                    is_ai = yes 
+                    NOT = { country_culture_group = germanic }
+                }
+                is_in_area = scope:irminonic_invaded_prov5146
+            }
+            set_owned_by = scope:irminonic_conquest_5146
+        }
+    }
+
+}    
+
+te_barbarians.86 = {
+    type = country_event
+	hidden = yes
+
+    trigger = {
+        is_ai = yes
+        has_global_variable = germanic_migration_4
+        current_date > 1102.11.02
+        NOT = {
+            has_variable = germanic_invasion
+        }
+        NOT = { country_culture_group = germanic }
+        num_of_cities >= 1
+        any_owned_province = {
+            any_neighbor_province = { province_id = 5146 }
+            dominant_province_culture = irminonic
+            num_of_tribesmen > 200
+        }               
+    }
+
+    immediate = {
+        random_owned_province = {
+            limit = {
+                any_neighbor_province = { province_id = 5146 }
+                num_of_tribesmen > 200
+                dominant_province_culture = irminonic
+            }
+            save_scope_as = irminonic_invaded_prov5146
+        }
+    }
+
+    option = {
+        scope:irminonic_invaded_prov5146 = {
+            create_country = {
+                save_scope_as = irminonic_conquest_5146
+            }
+        }
+    }
+    
+    after = {
+        every_ownable_province = {
+            limit = {
+                exists = owner
+                owner = { 
+                    is_ai = yes 
+                    NOT = { country_culture_group = germanic }
+                }
+                OR = {
+                    is_in_area = scope:irminonic_invaded_prov5146
+                    area = {
+                        any_area_province = {
+                            any_neighbor_province = { province_id = 5146 }
+                        }    
+                    }
+                }
+            }
+            set_owned_by = scope:irminonic_conquest_5146
+        }
+    }
+
+} 
 
 #Remove late strongholds
 te_barbarians.98 = {

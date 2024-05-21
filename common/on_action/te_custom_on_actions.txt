@@ -394,6 +394,12 @@ te_custom_on_action_yearly_country_tribesmen = {
 		te_barbarians.58
 		te_barbarians.59
 		#te_barbarians.80
+		te_barbarians.81
+		te_barbarians.82
+		te_barbarians.83
+		te_barbarians.84
+		te_barbarians.85
+		te_barbarians.86
 	}
 
 }

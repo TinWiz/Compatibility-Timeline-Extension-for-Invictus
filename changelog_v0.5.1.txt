@@ -1,0 +1,21 @@
+Changelog v0.5.1
+
+*added offensive increase to barbarian_fury modifiers in te_from_events_country.txt
+	-increase offensive by plus 0.1 to barbarian_fury_discipline_1 and 0.2 to barbarian_fury_discipline_2
+*discipline increased in barbarian_fury modifiers to 0.15 for *_1 and 0.25 for *_2
+*lowered land_morale_modifier in barbarian_fury_discipline_2 down from 1.75 to 1.5 in te_from_events_unit.txt
+
+*added events te_barbarians.81–86 to te_barbarians.txt and on_action te_custom_on_action_yearly_country_tribesmen
+	-create istvaeonic or irminonic country in neighbor province of 5140/5142/5146 with more than 100 or 200 tribesmen
+		+more than 200 tribesmen events triggered by germanic_migration_4 global_variable
+			>created country also takes provinces set_owned_by from AI countries in surrounding areas
+
+*lowered stability hit from -60 to -50 in te_barbarians.4
+*added NAND trigger to te_barbarians.5 for is_huna_neighbor_trigger = yes and num_of_cities < 500
+	-excessive Huns stability hits for distant countries already affected by Huna events
+
+##########
+TO DO: 
+! test foederati allowed_to_declare_war_against_others
+	? new subject type?
+! trigger Arab tribe spawn if Arabia conquered
