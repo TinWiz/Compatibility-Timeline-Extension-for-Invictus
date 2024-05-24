@@ -1,6 +1,6 @@
 Changelog v0.5.2
 
-*increased division of pops in te_manichees.12 from 3 to 2
+*increased division of pops in te_manichees.12 from = 3 to = 2 on ln 261
 	-should make more converts of these cultures
 
 ##########
