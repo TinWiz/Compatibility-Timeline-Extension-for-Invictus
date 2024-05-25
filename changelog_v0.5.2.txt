@@ -15,4 +15,3 @@ Changelog v0.5.2
 TO DO: 
 ! test foederati allowed_to_declare_war_against_others
 	? new subject type?
-! trigger Arab tribe spawn if Arabia conquered
