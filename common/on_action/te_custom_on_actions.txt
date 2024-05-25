@@ -317,6 +317,9 @@ te_custom_on_action_yearly_country_barbarians = {
 		te_barbarians.6
 		te_barbarians.70
 		te_barbarians.7
+		te_barbarians.90
+		te_barbarians.91
+		te_barbarians.92
 		te_barbarians.98
 		te_barbarians.99
 		te_barbarians.101
