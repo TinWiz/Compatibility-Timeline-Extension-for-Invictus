@@ -4,7 +4,7 @@ Changelog v0.5.2
 	-should make some more converts of target cultures to Manichaeism in eastern part of map
 
 *added events te_barbarians.90–92 for Bedouin uprising, based on similar events te_barbarians.13–15 for Scandian barbarians
-	-barbarian stronghold appears in province_id 8883 after 1043 AUC / 390 CE if surrounding cultures are neither south_levantine culture, south_arabian culture, nor arabian_pantheon religion
+	-barbarian stronghold appears in province_id 8883 after 1043 AUC / 290 CE if surrounding cultures are neither south_levantine culture, south_arabian culture, nor arabian_pantheon religion
 		+tribes with yamama culture and arabian_pantheon, ~40K stacks
 		+provinces with more than 200 tribesmen in arabia_region to create_country taking all provinces in that area
 	-maintain some Bedouin presence on the map and thematic challenge in the south as countries blob and migrate
