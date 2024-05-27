@@ -70,6 +70,14 @@
  
  christian_church_embelishment:0 "Verschönerte Kathedrale"
  desc_christian_church_embelishment:0 "Ursprünglich eine eher bescheidene Struktur, wurde unsere Kathedrale durch die großzügigen Spenden der christlichen Gläubigen und die Fürsprache des heiligen Petrus verschönert. Mit jeder Generation, die vergeht, wird die Kathedrale aufgewertet und mit der Zeit kann ihr Aussehen den Sitz des Bischofs als Nachfolger der Apostel angemessen widerspiegeln."
+
+ manichaean_temple:0 "Manichäischer Tempel"
+ desc_manichaean_temple:0 "Du hast deine Offenheit für verschiedene religiöse Ideen gezeigt, indem du der neuen Sekte der Manichäer erlaubt hast, hier einen Tempel zu errichten." 
+ 
+ allowed_manichees:0 "Erlaubte Manichäer"
+ disallowed_manichees:0 "Unerlaubte Manichäer"
+ manichee_appreciation:0 "Manichäische Wertschätzung"
+ manichee_resentment:0 "Manichäischer Groll"
  
  #####PLAGUES#####:0 ""
  antonine_plague_epidemic_quarantine:0 "Antoninische Pestepidemie"

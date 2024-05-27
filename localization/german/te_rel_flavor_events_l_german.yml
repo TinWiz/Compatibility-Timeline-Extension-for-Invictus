@@ -14,4 +14,11 @@
  spare_xian_church:0 "#Y Du förderst deinen Soldaten auf, sie sollen zurückziehen und Christen von der Staatsreligion ausnehmen.#!"
  te_rel_flavor.2.b:0 "Jage sie alle, richte sie hin und zerstöre ihr Eigentum!"
  destroy_xian_church:0 "#R Soldaten greifen die Kirche an und brennen sie nieder, wobei viele Christen verhaftet und hingerichtet werden. Viele andere entkommen.#!"
+
+ te_rel_flavor.6.t:0 "Manichäische Gesandte"
+ te_rel_flavor.6.desc:1 "Gesandte der manichäischen Auserwählten, gekleidet in weiße Gewänder mit den Symbolen der Sonne und des Kreuzes des Lichts, sind eingetroffen und erbitten eine Audienz. Diese Anhänger ihres Propheten Mani predigen eine dualistische Religion und glauben, dass die Welt im Kampf zwischen Licht und Dunkelheit gefangen ist. Sie ersuchen inständig um das Recht, einen manichäischen Tempel in unserer schönen Hauptstadt zu errichten. Sie bieten Gold für Land an und versprechen, unser Reich mit ihrem geheimen Wissen aus Babylon, Persien und Indien zu erleuchten."
+ te_rel_flavor.6.a:0 "Willkommen, Kinder des Lichts!"
+ allow_manichaean_temple:0 "#Y Die Präsenz der Manichäer in Eurer Hauptstadt wird wachsen.#!"
+ te_rel_flavor.6.b:0 "Weist diese fremden Okkultisten ab!"
+ disallow_manichaean_temple:0 "Dies wird die Verbreitung des Manichäismus in Eurem Reich nicht beeinflussen."
  
