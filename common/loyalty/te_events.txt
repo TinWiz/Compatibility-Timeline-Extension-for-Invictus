@@ -17,3 +17,23 @@ persecuted_xians_sorrow = {
 	value = -20
 	months = 30
 }
+
+allowed_manichees = {
+	value = -10
+	months = 60
+}
+
+disallowed_manichees = {
+	value = 10
+	months = 60
+}
+
+manichee_appreciation = {
+	value = 20
+	months = 60
+}
+
+manichee_resentment = {
+	value = -20
+	months = 60
+}
