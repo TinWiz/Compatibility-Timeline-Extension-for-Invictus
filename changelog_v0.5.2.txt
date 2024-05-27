@@ -3,13 +3,34 @@ Changelog v0.5.2
 *increased division of total pops in te_manichees.12 from = 3 to = 2 on ln 261
 	-should make some more converts of target cultures to Manichaeism in eastern part of map
 
-*added events te_barbarians.90–92 for Bedouin uprising, based on similar events te_barbarians.13–15 for Scandian barbarians
+*added events te_barbarians.90–92 for Bedouin barbarian uprising, based on similar events te_barbarians.13–15 for Scandian barbarians
 	-barbarian stronghold appears in province_id 8883 after 1043 AUC / 290 CE if surrounding cultures are neither south_levantine culture, south_arabian culture, nor arabian_pantheon religion
 		+tribes with yamama culture and arabian_pantheon, ~40K stacks
 		+provinces with more than 200 tribesmen in arabia_region to create_country taking all provinces in that area
 	-maintain some Bedouin presence on the map and thematic challenge in the south as countries blob and migrate
 	-listed in te_custom_on_action_yearly_country_barbarians
 	-localizations added to te_barbarians_events_l_[language].yml
+
+*created new te_rel_flavor.6 event for players only (will not fire for AI) to allow increased Manichaean spread in capital
+	-loyalty modifiers added to common\loyalty\te_events.txt allowed_manichees or disallowed_manichees, manichee_appreciation or manichee_resentment
+		+affects characters with any religious office trigger or Manichaean characters
+			>adds or subtracts 10 loyalty to religious offices for 60 months
+			>adds or subtracts 20 loyalty to Manichaean characters for 60 months
+	-fires once only for rulers that have at least one of a list of personality traits, then sets a variable in the NOT trigger
+		+also adds a variable manichaean_supplication_cooldown of 2100 days
+	-added local_happiness_for_wrong_religion_modifier in common\modifier_icons\te_modifier_icons.txt
+		+for te_from_events_province.txt modifier manichaean_temple
+	-added to te_custom_on_actions.txt te_custom_on_action_yearly_country_rel_flavor
+	-localizations added to te_rel_flavor_events_l_[language].yml
+*added new event te_rel_flavor.7 to remove modifier added by te_rel_flavor.6 if ruler does not have variable
+	-NOT if country is_republic
+*added te_manichees.4 for province modifier manichaean_temple added in te_rel_flavor.6 to convert pops to manichaeism
+	-listed in on_action te_custom_on_actions.txt te_custom_on_action_yearly_province_churches
+	-localizations added to te_text_l_[language].yml
+*edited te_manichees.3 and te_manichees.30 to fire if the dominant_province_religion in the capital_scope is manichaeism
+	-creates Manichaean character, required for potential trigger of conversion decision
+
+*small correction to te_relics_l_german.yml localization for treasure_paul_epistle_desc:1
 
 ##########
 TO DO: 
