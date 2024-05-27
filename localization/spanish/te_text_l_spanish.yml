@@ -57,6 +57,14 @@
  christian_church_embelishment:0 "Catedral Embellecida"
  desc_christian_church_embelishment:0 "Originalmente una estructura bastante modesta, nuestra catedral ha sido embellecida gracias a las generosas donaciones de los fieles cristianos y la intercesión de San Pedro. Con cada generación que pasa, la catedral se realza y, con el tiempo, su apariencia puede llegar a reflejar adecuadamente la sede del obispo como sucesor de los Apóstoles."
 
+ manichaean_temple:0 "Templo maniqueo"
+ desc_manichaean_temple:0 "Has demostrado tu mentalidad abierta a las diversas ideas religiosas al permitir que la nueva secta de los maniqueos construya un templo aquí." 
+ 
+ allowed_manichees:0 "Maniqueos permitidos"
+ disallowed_manichees:0 "Maniqueos prohibidos"
+ manichee_appreciation:0 "Aprecio maniqueo"
+ manichee_resentment:0 "Resentimiento maniqueo"
+
  #####PLAGUES#####:0 ""
  antonine_plague_epidemic_quarantine:0 "Epidemia de Peste Antonina"
  desc_antonine_plague_epidemic_quarantine:0 "Esta ciudad está en cuarentena durante una pandemia mortal."
