@@ -171,7 +171,13 @@ te_custom_on_action_yearly_country_rel_flavor = {
 	}
 
 	events = {
-		te_rel_flavor.1
+		te_rel_flavor.7
+	}
+
+	random_events = {
+		0 = 0
+		50 = te_rel_flavor.1
+		50 = te_rel_flavor.6
 	}
 
 }
@@ -454,7 +460,7 @@ te_custom_on_action_yearly_province_churches = {
 	}
 	
 	events = {
-		
+		te_manichees.4
 	}
 
 	random_events = {
