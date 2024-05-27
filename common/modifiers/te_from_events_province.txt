@@ -167,4 +167,8 @@ ai_constantinople_capital = {
 	local_output_modifier = 0.1
 }
 
+manichaean_temple = {
+	local_happiness_for_wrong_religion_modifier = 0.025
+}
+
 #########################################
