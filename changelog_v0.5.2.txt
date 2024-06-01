@@ -1,5 +1,11 @@
 Changelog v0.5.2
 
+*removed 0 chance for random_events te_custom_on_action_yearly_country_rel_flavor in te_custom_on_actions.txt
+	-te_rel_flavor.1 and te_rel_flavor.6 each have 50 chance
+
+*added defensive increase to te_from_events_country.txt barbarian_fury_discipline_* modifiers for each unit type
+	-toughen up barbarians and make them more of a threat to powerful countries
+
 *increased division of total pops in te_manichees.12 from = 3 to = 2 on ln 261
 	-should make some more converts of target cultures to Manichaeism in eastern part of map
 
