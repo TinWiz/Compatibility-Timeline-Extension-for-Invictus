@@ -57,6 +57,14 @@
  christian_church_embelishment:0 "Cathédrale embellie"
  desc_christian_church_embelishment:0 "D'origine plutôt modeste, notre cathédrale s'est embellie grâce aux généreuses donations des fidèles chrétiens et à l'intercession de saint Pierre. Avec chaque génération qui passe, la cathédrale s'améliore et, avec le temps, son apparence peut refléter correctement le siège de l'évêque en tant que successeur des apôtres."
 
+ manichaean_temple:0 "Temple manichéen"
+ desc_manichaean_temple:0 "Vous avez démontré votre ouverture d'esprit aux idées religieuses diverses en permettant à la nouvelle secte des manichéens de construire un temple ici." 
+
+ allowed_manichees:0 "Manichéens autorisés"
+ disallowed_manichees:0 "Manichéens interdits"
+ manichee_appreciation:0 "Appréciation manichéenne"
+ manichee_resentment:0 "Ressentiment manichéen"
+
  #####PLAGUES#####:0 ""
  antonine_plague_epidemic_quarantine:0 "Epidémie de peste antonine"
  desc_antonine_plague_epidemic_quarantine:0 "Cette ville est en quarantaine pendant une pandémie mortelle."

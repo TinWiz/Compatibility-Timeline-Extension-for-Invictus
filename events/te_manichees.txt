@@ -258,7 +258,7 @@ te_manichees.12 = {
                 order_by = pop_hapiness
                 max = {
                     value = total_population
-                    divide = 3
+                    divide = 2
                 }
                 check_range_bounds = no
                 set_pop_religion = manichaeism
@@ -652,9 +652,14 @@ te_manichees.3 = {
                 has_variable = new_minor_manichee
             }
         }
-        religion_pops_in_country = {
-            target = manichaeism
-            value >= 5
+        OR = {
+            religion_pops_in_country = {
+                target = manichaeism
+                value >= 5
+            }
+            capital_scope = {
+                dominant_province_religion = manichaeism
+            }
         }
     }
 
@@ -701,9 +706,14 @@ te_manichees.30 = {
                 has_variable = new_minor_manichee
             }
         }
-        religion_pops_in_country = {
-            target = manichaeism
-            value >= 5
+        OR = {
+            religion_pops_in_country = {
+                target = manichaeism
+                value >= 5
+            }
+            capital_scope = {
+                dominant_province_religion = manichaeism
+            }
         }
     }
 
@@ -774,3 +784,54 @@ te_manichees.31 = {
         #}
     }
 }
+
+#Manichaean temple
+te_manichees.4 = {
+	type = province_event
+	hidden = yes
+
+	trigger = {
+		current_date > 1035.3.15
+		has_global_variable = manichaeism_spreads
+		has_province_modifier = manichaean_temple
+		has_owner = yes
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = {
+					dominant_province_religion = manichaeism
+				}
+				any_pops_in_province = {
+					count > 8
+				}	
+			}
+			ordered_pops_in_province = {
+				limit = {
+					NOT = {
+						pop_religion = judaism
+					}
+				}
+				order_by = pop_hapiness
+				max = {
+					value = total_population
+					divide = 8
+				}
+				check_range_bounds = no
+				set_pop_religion = manichaeism
+			}
+		}
+		else_if = {
+			limit = {
+				any_pops_in_province = {
+					count < 8
+				}
+			}
+			random_pops_in_province = {
+				set_pop_religion = manichaeism
+			}
+		}		
+	}
+}	
+

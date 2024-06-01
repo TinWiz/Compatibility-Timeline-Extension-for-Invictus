@@ -14,4 +14,12 @@
  spare_xian_church:0 "#Y You tell your soldiers to stand down and exempt Christians from the state religion.#!"
  te_rel_flavor.2.b:0 "Hunt them down, execute them all, and destroy their property!"
  destroy_xian_church:0 "#R Soldiers attack and burn the church, arresting and executing many Christians. Many others escape.#!"
+
+ te_rel_flavor.6.t:0 "Manichaean Emissaries"
+ te_rel_flavor.6.desc:1 "Emissaries of Manichaean Elect, clad in white robes emblazoned with the symbols of the Sun and Cross of Light, have arrived seeking an audience. These followers of their prophet Mani preach a dualistic faith, believing the world is trapped in the struggle between Light and Darkness. They earnestly request the rights to construct a Manichaean temple in your fair capital city. They offer gold for land and promise to enlighten our realm with their arcane knowledge from Babylon, Persia and India."
+ te_rel_flavor.6.a:0 "Welcome the Children of the Light!"
+ allow_manichaean_temple:0 "#Y The presence of Manichaeans in your capital city will grow.#!"
+ te_rel_flavor.6.b:0 "Turn away these foreign occultists!"
+ disallow_manichaean_temple:0 "This will not alter the spread of Manichaeism in your realm."
+ 
  

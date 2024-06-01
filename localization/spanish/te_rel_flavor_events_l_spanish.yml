@@ -15,3 +15,9 @@
  te_rel_flavor.2.b:0 "¡Persíguelos, ejecútalos a todos y destruye sus propiedades!"
  destroy_xian_church:0 "#R Los soldados atacan y queman la iglesia, arrestando y ejecutando a muchos cristianos. Muchos otros escapan.#!"
  
+ te_rel_flavor.6.t:0 "Emisarios maniqueos"
+ te_rel_flavor.6.desc:1 "Emisarios de los Elegidos maniqueos, vestidos con túnicas blancas con los símbolos del Sol y la Cruz de la Luz, han llegado y han solicitado una audiencia. Estos seguidores de su profeta Mani predican una fe dualista, creyendo que el mundo está atrapado en la lucha entre la Luz y la Oscuridad. Piden fervientemente el derecho a construir un templo maniqueo en nuestra hermosa capital. Ofrecen oro a cambio de tierras y prometen iluminar nuestro reino con su conocimiento arcano de Babilonia, Persia e India."
+ te_rel_flavor.6.a:0 "¡Bienvenidos, Hijos de la Luz!"
+ allow_manichaean_temple:0 "#Y La presencia de los maniqueos en tu capital crecerá.#!"
+ te_rel_flavor.6.b:0 "¡Rechazar a estos ocultistas extranjeros!"
+ disallow_manichaean_temple:0 "Esto no alterará la propagación del maniqueísmo en tu reino."

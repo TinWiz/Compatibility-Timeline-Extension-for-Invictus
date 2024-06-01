@@ -14,4 +14,11 @@
  spare_xian_church:0 "#Y Vous dites à vos soldats de se retirer et vous exemptez les chrétiens de la religion d'État.#!"
  te_rel_flavor.2.b:0 "Traquez-les, exécutez-les tous, et détruisez leurs biens !"
  destroy_xian_church:0 "#R Les soldats attaquent et brûlent l'église, arrêtant et exécutant de nombreux chrétiens. Beaucoup d'autres s'échappent.#!"
+
+ te_rel_flavor.6.t:0 "Émissaires manichéens"
+ te_rel_flavor.6.desc:1 "Des émissaires des Élus manichéens, vêtus de robes blanches ornées des symboles du Soleil et de la Croix de Lumière, sont arrivés pour demander une audience. Ces disciples de leur prophète Mani prêchent une foi dualiste, croyant que le monde est piégé dans la lutte entre la Lumière et les Ténèbres. Ils demandent d’urgence le droit de construire un temple manichéen dans votre belle capitale. Ils offrent de l’or pour la terre et promettent d’éclairer notre pays avec leur connaissance obscure de Babylone, de la Perse et de l’Inde."
+ te_rel_flavor.6.a:0 "Accueillons les Enfants de la Lumière !"
+ allow_manichaean_temple:0 "#Y La présence des manichéens dans votre capitale grandira.#!"
+ te_rel_flavor.6.b:0 "Repoussez ces occultistes étrangers !"
+ disallow_manichaean_temple:0 "Cela ne modifiera en rien la propagation du manichéisme dans votre pays."
  

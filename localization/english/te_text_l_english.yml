@@ -57,6 +57,14 @@
  christian_church_embelishment:0 "Embellished Cathedral"
  desc_christian_church_embelishment:0 "Originally a rather modest structure, our cathedral has been beautified through the generous donations of the Christian faithful and the intercession of St. Peter. With each passing generation the cathedral is enhanced and in time its appearance may come to properly reflect the seat of the bishop as a successor of the Apostles."
 
+ manichaean_temple:0 "Manichaean Temple"
+ desc_manichaean_temple:0 "You have demonstrated your open-mindedness to diverse religious ideas by allowing the new sect of Manichaeans to build a temple here."
+
+ allowed_manichees:0 "Allowed Manichees"
+ disallowed_manichees:0 "Disallowed Manichees"
+ manichee_appreciation:0 "Manichee Appreciation"
+ manichee_resentment:0 "Manichee Resentment"
+
  #####PLAGUES#####:0 ""
  antonine_plague_epidemic_quarantine:0 "Antonine Plague Epidemic"
  desc_antonine_plague_epidemic_quarantine:0 "This city is under quarantine during a deadly pandemic."

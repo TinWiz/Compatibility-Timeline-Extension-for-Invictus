@@ -738,3 +738,165 @@ te_rel_flavor.5 = {
 		}
 	}
 }
+
+#Manichaean emissaries
+te_rel_flavor.6 = {
+	type = country_event
+	title = "te_rel_flavor.6.t"
+	desc = "te_rel_flavor.6.desc"
+    picture = te_manichaean_cosmology
+
+	left_portrait = current_ruler
+
+	trigger = {
+		current_date > 1035.3.15
+		has_global_variable = manichaeism_spreads
+        is_ai = no
+		is_tribal = no
+        NOR = {
+			has_variable = manichaean_supplication_cooldown
+			var:ban_manichees >= 3
+			country_culture_group = germanic
+            country_culture_group = baltic
+			country_culture_group = gaelic
+			religion = judaism
+			religion = christianity
+            religion = manichaeism
+            religion = matrist_religion
+            religion = germanic_religion
+        } 
+		any_owned_province = {
+			any_pops_in_province = { pop_religion = manichaeism }
+		}
+		current_ruler = {
+			is_adult = yes
+			NOR = {
+				has_religion = manichaeism
+				has_religion = christianity
+				has_religion = judaism
+				has_religion = matrist_religion
+				has_religion = germanic_religion
+				has_variable = manichaean_supplication
+			}
+			OR = {
+				has_trait = wise
+				has_trait = scholar
+				has_trait = polymath
+				has_trait = intelligent
+				has_trait = generous
+				has_trait = tolerant
+				has_trait = prominent
+				has_trait = good_natured
+				has_trait = benefactor
+				has_trait = founder
+				has_trait = ambitious
+				has_trait = trusting
+			}
+		}
+	}
+
+	option = {
+		custom_tooltip = "allow_manichaean_temple"
+		name = "te_rel_flavor.6.a"
+		highlight = yes
+		add_treasury = 150
+		capital_scope = {
+			add_province_modifier = {
+				name = "manichaean_temple"
+				duration = 21000
+			}
+		}
+		every_character = {
+			limit = {
+				AND = {
+					has_any_religious_office_trigger = yes
+					has_same_religion_as = root.current_ruler
+					is_alive = yes
+					prisoner = no
+				}
+			}
+			add_loyalty = allowed_manichees
+		}
+		every_character = {
+			limit = {
+				has_religion = manichaeism
+				is_alive = yes
+			}
+			add_loyalty = manichee_appreciation
+		}
+	}
+
+	option = {
+		custom_tooltip = "disallow_manichaean_temple"
+		name = "te_rel_flavor.6.b"
+		every_character = {
+			limit = {
+				AND = {
+					has_any_religious_office_trigger = yes
+					has_same_religion_as = root.current_ruler
+					is_alive = yes
+					prisoner = no
+				}
+			}
+			add_loyalty = disallowed_manichees
+		}
+		every_character = {
+			limit = {
+				has_religion = manichaeism
+				is_alive = yes
+			}
+			add_loyalty = manichee_resentment
+		}
+		if = {
+			limit = {
+				has_variable = ban_manichees
+			}
+			change_variable = {
+				name = ban_manichees
+				add = 1
+			}
+		}
+		else = {
+			set_variable = {
+				name = ban_manichees
+				value = 1
+			}
+		}
+	}
+
+	after = {
+		current_ruler = {
+			set_variable = manichaean_supplication
+		}
+		set_variable = {
+			name = manichaean_supplication_cooldown
+			days = 2100
+		}	
+	}
+}
+
+te_rel_flavor.7 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		current_date > 1035.3.15
+		has_global_variable = manichaeism_spreads
+		is_republic = no
+		NOR = {
+			has_variable = manichaean_supplication_cooldown
+			current_ruler = {
+				has_variable = manichaean_supplication
+			}
+		}
+		capital_scope = {
+			has_province_modifier = manichaean_temple
+		}
+	}
+
+	immediate = {
+		capital_scope = {
+			remove_province_modifier = manichaean_temple
+		}
+	}
+}
