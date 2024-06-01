@@ -175,7 +175,6 @@ te_custom_on_action_yearly_country_rel_flavor = {
 	}
 
 	random_events = {
-		0 = 0
 		50 = te_rel_flavor.1
 		50 = te_rel_flavor.6
 	}
