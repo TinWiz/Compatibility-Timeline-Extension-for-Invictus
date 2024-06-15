@@ -1,3 +1,10 @@
+Hotfix v0.5.2.1
+
+*edited te_rel_flavor.txt, line 758 to check has_variable ban_manichees
+	-crashes for line to check var:ban_manichees >= 3 if player did not have variable
+	-thanks to Diskiant for noticing, finding and fixing this bug!
+
+##################
 Changelog v0.5.2
 
 *removed 0 chance for random_events te_custom_on_action_yearly_country_rel_flavor in te_custom_on_actions.txt
