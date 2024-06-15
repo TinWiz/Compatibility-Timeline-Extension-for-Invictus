@@ -754,16 +754,19 @@ te_rel_flavor.6 = {
         is_ai = no
 		is_tribal = no
         NOR = {
-			has_variable = manichaean_supplication_cooldown
+		has_variable = manichaean_supplication_cooldown
+		AND = {
+			has_variable = ban_manichees
 			var:ban_manichees >= 3
-			country_culture_group = germanic
-            country_culture_group = baltic
-			country_culture_group = gaelic
-			religion = judaism
-			religion = christianity
-            religion = manichaeism
-            religion = matrist_religion
-            religion = germanic_religion
+		}
+		country_culture_group = germanic
+            	country_culture_group = baltic
+		country_culture_group = gaelic
+		religion = judaism
+		religion = christianity
+            	religion = manichaeism
+            	religion = matrist_religion
+            	religion = germanic_religion
         } 
 		any_owned_province = {
 			any_pops_in_province = { pop_religion = manichaeism }
