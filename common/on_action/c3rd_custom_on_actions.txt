@@ -25,6 +25,7 @@ c3rd_barbarian_sack = {
 		every_province = {
 			limit = {
 				is_previous_controller = root
+				exists = controller #TEInv add for error log complaints
 				controller = { tag = BAR }
 				is_state_capital = yes
 				state = {
