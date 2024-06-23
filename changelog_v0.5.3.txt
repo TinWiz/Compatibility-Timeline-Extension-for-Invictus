@@ -1,5 +1,18 @@
 Changelog v0.5.3
 
+*corrected late_antiquity_population_decline events for Eastern Roman Empire depending on size
+	-added NAND bracket check for more than 1200 territories and province in occidentalis trigger to te_plagues.40 and te_plagues.41
+		+should not add central modifier to ERE if less than 1201 territories and doesn't own land in occidental part of map
+		+bonus ERE relief and incentive to take IRCK3 split empire decision
+	-added NAND bracket for ERE check with less than 600 territories to NOR trigger for te_plagues.44
+		+should not add orient modifier only if ERE more than 1200 territories with land in occidentalis
+			>AND if ERE with less than 600 territories at all
+		+also added to end of NOR trigger to exclude ERE from general eastern blob check if it has no land occidentalis
+	-added NAND bracket for ERE check with less than 600 territories to OR trigger for te_plagues.45
+		+also added to end of OR trigger to exclude ERE from general eastern blob check	if it does not have land in occidentalis
+		
+*added exists = controller check for effect in c3rd_barbarian_sack in c3rd_custom_on_actions.txt
+
 ###############
 Hotfix v0.5.2.1
 
