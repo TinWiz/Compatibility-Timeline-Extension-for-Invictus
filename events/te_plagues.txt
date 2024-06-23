@@ -890,9 +890,7 @@ te_plagues.40 = { #Central add
 		has_global_variable = is_playing_invictus
 		current_date > 977.3.13 #224 CE
 		OR = {
-			any_owned_province = {
-				is_in_pars_occidentalis_inv_trigger = yes
-			}
+			any_owned_province = { is_in_pars_occidentalis_inv_trigger = yes }
 			capital_scope = {
 				OR = {
 					is_in_region = borysthenia_region
@@ -926,6 +924,10 @@ te_plagues.40 = { #Central add
 					#province_id = 1453
 				}
 				has_variable = eastern_roman_senior_pars
+				NAND = {
+					num_of_cities >= 1200
+					any_owned_province = { is_in_pars_occidentalis_inv_trigger = yes }
+				}	
 			}
 			AND = {
 				current_date > 1104.4.30
@@ -970,6 +972,10 @@ te_plagues.41 = { #Central remove
 					#province_id = 1453
 				}
 				has_variable = eastern_roman_senior_pars
+				NAND = {
+					num_of_cities >= 1200
+					any_owned_province = { is_in_pars_occidentalis_inv_trigger = yes }
+				}
 			}
 			NOR = {
 				any_owned_province = {
@@ -989,7 +995,18 @@ te_plagues.41 = { #Central remove
 				}
 				tag = MRY
 				tag = BHA
-				num_of_cities >= 1200 # eastern blob check
+				AND = {
+					num_of_cities >= 1200 # eastern blob check
+					NAND = { #Eastern Roman Empire relief
+						has_global_variable = roman_empire_divided
+						capital_scope = {
+							is_in_pars_occidentalis_inv_trigger = no
+							#province_id = 1453
+						}
+						has_variable = eastern_roman_senior_pars
+						any_owned_province = { is_in_pars_occidentalis_inv_trigger = no }
+					}
+				}	
 			}	
 			AND = {	
 				current_date > 1104.4.30
@@ -1091,9 +1108,18 @@ te_plagues.44 = { #orient add
 		has_global_variable = is_playing_invictus
 		current_date > 977.3.13 #224 CE
 		NOR = {
-			any_owned_province = {
-				is_in_pars_occidentalis_inv_trigger = yes
-			}
+			AND = {
+				any_owned_province = { is_in_pars_occidentalis_inv_trigger = yes }
+				NAND = {
+					has_global_variable = roman_empire_divided
+					capital_scope = {
+						is_in_pars_occidentalis_inv_trigger = no
+						#province_id = 1453
+					}
+					has_variable = eastern_roman_senior_pars 
+					num_of_cities >= 600
+				}
+			}	
 			capital_scope = {
 				OR = {
 					is_in_pars_occidentalis_inv_trigger = yes
@@ -1124,7 +1150,18 @@ te_plagues.44 = { #orient add
 			}
 			tag = MRY
 			tag = BHA
-			num_of_cities >= 1200 # eastern blob check
+			AND = {
+				num_of_cities >= 1200 # eastern blob check
+				NAND = {
+					has_global_variable = roman_empire_divided
+					capital_scope = {
+						is_in_pars_occidentalis_inv_trigger = no
+						#province_id = 1453
+					}
+					has_variable = eastern_roman_senior_pars
+					any_owned_province = { is_in_pars_occidentalis_inv_trigger = no }
+				}	
+			}
 		}
 	}
 
@@ -1148,9 +1185,19 @@ te_plagues.45 = { #orient remove
 		has_global_variable = is_playing_invictus
 		current_date > 977.3.13
 		OR = {
-			any_owned_province = {
-				is_in_pars_occidentalis_inv_trigger = yes
-			}
+			AND = {
+				any_owned_province = { is_in_pars_occidentalis_inv_trigger = yes }
+				NAND = {
+					has_global_variable = roman_empire_divided
+					capital_scope = {
+						is_in_pars_occidentalis_inv_trigger = no
+						#province_id = 1453
+					}
+					has_variable = eastern_roman_senior_pars
+					num_of_cities >= 600
+					num_of_cities < 1200
+				}
+			}	
 			capital_scope = {
 				OR = {
 					is_in_pars_occidentalis_inv_trigger = yes
@@ -1179,7 +1226,18 @@ te_plagues.45 = { #orient remove
 			}
 			tag = MRY
 			tag = BHA
-			num_of_cities >= 1200 # eastern blob check
+			AND = {
+				num_of_cities >= 1200 # eastern blob check
+				NAND = {
+					has_global_variable = roman_empire_divided
+					capital_scope = {
+						is_in_pars_occidentalis_inv_trigger = no
+						#province_id = 1453
+					}
+					has_variable = eastern_roman_senior_pars
+					any_owned_province = { is_in_pars_occidentalis_inv_trigger = no }
+				}
+			}
 		}
 		has_country_modifier = late_antiquity_pop_decline_orient
 		NOT = {
