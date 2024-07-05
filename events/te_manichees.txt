@@ -28,6 +28,8 @@ te_manichees.1 = {
                     is_in_region = britain_region
                     is_in_region = caledonia_region
                     is_in_region = borysthenia_region
+                    ########Invictus v1.8########
+                    is_in_region = hyperborea_region
                 }    
             }
         }
@@ -376,6 +378,9 @@ te_manichees.14 = {
                 is_in_region = britain_region
                 is_in_region = caledonia_region
                 is_in_region = borysthenia_region
+                ########Invictus v1.8###########
+                is_in_region = hyperborea_region
+                ################################
                 dominant_province_culture_group = culture_group:baltic
                 dominant_province_culture_group = culture_group:germanic
                 dominant_province_religion = germanic_religion
@@ -410,6 +415,9 @@ te_manichees.14 = {
                     is_in_region = britain_region
                     is_in_region = caledonia_region
                     is_in_region = borysthenia_region
+                    ########Invictus v1.8###########
+                    is_in_region = hyperborea_region
+                    ################################
                     dominant_province_culture_group = culture_group:baltic
                     dominant_province_culture_group = culture_group:germanic
                     dominant_province_religion = germanic_religion
