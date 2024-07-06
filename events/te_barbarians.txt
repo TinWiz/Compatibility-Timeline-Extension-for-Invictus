@@ -3654,7 +3654,7 @@ te_barbarians.101 = {
     trigger = {
         has_global_variable = is_playing_teinv_0_5
         current_date > 1033.4.30 #AD 280 
-        current_date < 1133.10.31 #AD 380
+        current_date < 1148.10.31 #AD 395
         NOR = { 
             has_global_variable = ostrogothic_conquest_cooldown 
             has_variable = ostrogothic_invasion
@@ -3787,7 +3787,7 @@ te_barbarians.102 = {
 
     trigger = {
         current_date > 1034.7.29
-        current_date < 1134.11.30 #AD 380
+        current_date < 1149.11.30 #AD 396
         p:5113 = {
             AND = {
                 has_province_modifier = barbarian_invasion_skirmish
@@ -3816,7 +3816,7 @@ te_barbarians.103 = {
 
     trigger = {
         current_date > 1034.7.21
-        current_date < 1134.11.30 #AD 380
+        current_date < 1149.11.30 #AD 396
 	    NOT = { has_global_variable = ostrogothic_conquest_cooldown }	
         p:5113 = {
             AND = {
@@ -3902,7 +3902,7 @@ te_barbarians.104 = {
     hidden = yes
 
     trigger = {
-        current_date > 1135.11.25
+        current_date > 1150.11.25 #AD 397
         p:5113 = {
             AND = {
                 any_neighbor_province = {
