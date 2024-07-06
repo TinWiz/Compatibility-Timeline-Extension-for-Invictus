@@ -12,4 +12,6 @@ Changelog v0.6
 *added is_in_hyperborea_inland_area_inv_trigger to IRCK3_scripted_triggers.txt
 	-used in te_plagues.40–45 for late_antiquity_pop_decline modifiers
 
+*extended Ostrogothic spawn events te_barbarians.101–104 by ~15 years until ~1148 AUC
+
 ##########
