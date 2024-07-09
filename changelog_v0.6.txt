@@ -1,0 +1,17 @@
+Changelog v0.6
+
+*compatibility with Invictus v1.8 map expansion:
+*added province_id 5981 impassable to setup\provinces\te_default.txt with hunnic culture and hunnic_huna_animism
+	-reverts to sarmatian indo_iranian_religion in inv_te_on_game_initialized for te_custom_on_actions.txt
+*added province_id 5981 to all te_barbarians.txt events next to effects for province_id 5970
+	-starts with barbarian_invasion_war modifier
+*added ilmandu areas from new Invictus v1.8 hyperborea_region to IRCK3 is_in_pars_occidentalis_inv_trigger
+	-also added touggourt_area, ouargla_area and ghardaia_area from atlas_region expansion
+*added hyperborea_region to NOR trigger for l6_christian.5 event
+	-also added to te_manichees.1 and te_manichees.14
+*added is_in_hyperborea_inland_area_inv_trigger to IRCK3_scripted_triggers.txt
+	-used in te_plagues.40–45 for late_antiquity_pop_decline modifiers
+
+*extended Ostrogothic spawn events te_barbarians.101–104 by ~15 years until ~1148 AUC
+
+##########

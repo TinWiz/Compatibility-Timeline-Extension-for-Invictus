@@ -108,6 +108,24 @@
 			}	
 		}
 		#
+		p:5981 = {
+			while = {
+				limit = {
+					any_pops_in_province = {
+						count < 5
+					}
+				}
+				create_pop = tribesmen
+			}
+			every_pops_in_province = { 
+				limit = { 
+					pop_type = tribesmen 
+				} 
+				set_pop_culture = sarmatian
+				set_pop_religion = indo_iranian_religion
+			}	
+		}
+		#
 		p:7296 = {
 			while = {
 				limit = {

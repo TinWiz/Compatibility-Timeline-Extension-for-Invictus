@@ -18,7 +18,11 @@
 is_in_pars_occidentalis_inv_trigger = {
 	has_global_variable = is_playing_invictus
 	OR = {
-		####Invictus v1.6 regions####
+		########Invictus v1.8########
+		####hyperborea_region
+		is_in_area = ilmandu_superior_area
+		is_in_area = ilmandu_inferior_area
+		######Invictus v1.6 regions######
 		is_in_britain_trigger = yes
 		is_in_gaul_trigger = yes
 		is_in_belgium_trigger = yes
@@ -68,6 +72,10 @@ is_in_pars_occidentalis_inv_trigger = {
 		is_in_area = figuig_area
 		is_in_area = saharan_atlas_area
 		is_in_area = jedi_area
+		######Invictus v1.8 expansion atlas_region expansion######
+		is_in_area = touggourt_area
+		is_in_area = ouargla_area
+		is_in_area = ghardaia_area
 		#is_in_area = chefia_area
 		#is_in_numidia_trigger = yes
 		is_in_area = numidia_occidentalis_area
@@ -105,4 +113,14 @@ is_in_pars_occidentalis_inv_trigger = {
 		is_in_area = tripolitania_centralis_area
 		is_in_area = tripolitania_orientalis_area
 	}
+}
+
+########Invictus v1.8 map expansion area check
+is_in_hyperborea_inland_area_inv_trigger = { 
+	is_in_area = velho_area
+	is_in_area = joki_area
+	is_in_area = dyakovo_area
+	is_in_area = androphagia_superior_area
+	is_in_area = gorodets_area
+	is_in_area = sarmatia_hyperborealis_area
 }

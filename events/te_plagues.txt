@@ -901,6 +901,8 @@ te_plagues.40 = { #Central add
 					###Invictus v1.6 new region
 					is_in_region = central_asian_steppes_region
 					is_in_region = taurica_region
+					####Invictus v1.8 new region
+					is_in_hyperborea_inland_area_inv_trigger = yes
 				}
 			}		
 			tag = MRY
@@ -921,6 +923,7 @@ te_plagues.40 = { #Central add
 				has_global_variable = roman_empire_divided
 				capital_scope = {
 					is_in_pars_occidentalis_inv_trigger = no
+					is_in_hyperborea_inland_area_inv_trigger = no
 					#province_id = 1453
 				}
 				has_variable = eastern_roman_senior_pars
@@ -931,11 +934,17 @@ te_plagues.40 = { #Central add
 			}
 			AND = {
 				current_date > 1104.4.30
-				capital_scope = {
-					is_in_pars_occidentalis_inv_trigger = yes
-				}
-				NOT = { #Western Roman Empire relief
+				OR = { 
+					capital_scope = {
+						is_in_pars_occidentalis_inv_trigger = yes
+					}
+					capital_scope = {
+						is_in_hyperborea_inland_area_inv_trigger = yes
+					}
+				}	
+				NOR = { #Western/Northeastern Roman Empire relief
 					has_variable = western_roman_senior_pars
+					has_variable = eastern_roman_senior_pars
 				}		
 			}
 		}
@@ -970,6 +979,7 @@ te_plagues.41 = { #Central remove
 				capital_scope = {
 					is_in_pars_occidentalis_inv_trigger = no
 					#province_id = 1453
+					is_in_hyperborea_inland_area_inv_trigger = no
 				}
 				has_variable = eastern_roman_senior_pars
 				NAND = {
@@ -991,6 +1001,8 @@ te_plagues.41 = { #Central remove
 						###Invictus v1.6 new region
 						is_in_region = central_asian_steppes_region
 						is_in_region = taurica_region
+						####Invictus v1.8 new region
+						is_in_hyperborea_inland_area_inv_trigger = yes
 					}
 				}
 				tag = MRY
@@ -1002,6 +1014,7 @@ te_plagues.41 = { #Central remove
 						capital_scope = {
 							is_in_pars_occidentalis_inv_trigger = no
 							#province_id = 1453
+							is_in_hyperborea_inland_area_inv_trigger = no
 						}
 						has_variable = eastern_roman_senior_pars
 						any_owned_province = { is_in_pars_occidentalis_inv_trigger = no }
@@ -1010,11 +1023,17 @@ te_plagues.41 = { #Central remove
 			}	
 			AND = {	
 				current_date > 1104.4.30
-				capital_scope = {
-					is_in_pars_occidentalis_inv_trigger = yes
+				OR = {
+					capital_scope = {
+						is_in_pars_occidentalis_inv_trigger = yes
+					}	
+					capital_scope = {
+						is_in_hyperborea_inland_area_inv_trigger = yes
+					}
 				}	
-				NOT = { #Western Roman Empire relief
+				NOR = { #Western/Northeastern Roman Empire relief
 					has_variable = western_roman_senior_pars
+					has_variable = eastern_roman_senior_pars
 				}		
 			}
 		}
@@ -1046,11 +1065,17 @@ te_plagues.42 = { #occident add
 			has_country_modifier = late_antiquity_pop_decline_orient
 		}
 		AND = {
-			capital_scope = {
-				is_in_pars_occidentalis_inv_trigger = yes
-			}
-			NOT = { #Western Roman Empire relief
+			OR = {
+				capital_scope = {
+					is_in_pars_occidentalis_inv_trigger = yes
+				}
+				capital_scope = {
+					is_in_hyperborea_inland_area_inv_trigger = yes
+				}
+			}	
+			NOR = { #Western/Northeastern Roman Empire relief
 				has_variable = western_roman_senior_pars
+				has_variable = eastern_roman_senior_pars
 			}	
 		}		
 	}
@@ -1077,14 +1102,21 @@ te_plagues.43 = { #occident remove
 		OR = {
 			country_culture_group = germanic
 			is_tribal = yes
-			NOT = {
+			NOR = {
 				capital_scope = {
 					is_in_pars_occidentalis_inv_trigger = yes
+				}
+				capital_scope = {
+					is_in_hyperborea_inland_area_inv_trigger = yes
 				}
 			}
 			AND = { #Western Roman Empire relief
 				has_global_variable = roman_empire_divided
 				has_variable = western_roman_senior_pars
+			}
+			AND = { #Eastern Roman Empire 
+				has_global_variable = roman_empire_divided
+				has_variable = eastern_roman_senior_pars
 			}
 			current_date > 1353.10.17
 			num_of_cities < 2
@@ -1115,9 +1147,11 @@ te_plagues.44 = { #orient add
 					capital_scope = {
 						is_in_pars_occidentalis_inv_trigger = no
 						#province_id = 1453
+						is_in_hyperborea_inland_area_inv_trigger = no
 					}
 					has_variable = eastern_roman_senior_pars 
 					num_of_cities >= 600
+					num_of_cities < 1200
 				}
 			}	
 			capital_scope = {
@@ -1131,6 +1165,8 @@ te_plagues.44 = { #orient add
 					###Invictus v1.6 new region
 					is_in_region = central_asian_steppes_region
 					is_in_region = taurica_region
+					####Invictus v1.8 new region
+					is_in_hyperborea_inland_area_inv_trigger = yes
 				}	
 			}
 			country_culture_group = germanic
@@ -1144,6 +1180,7 @@ te_plagues.44 = { #orient add
 				capital_scope = {
 					is_in_pars_occidentalis_inv_trigger = no
 					#province_id = 1453
+					is_in_hyperborea_inland_area_inv_trigger = no
 				}
 				has_variable = eastern_roman_senior_pars
 				num_of_cities < 600
@@ -1157,6 +1194,7 @@ te_plagues.44 = { #orient add
 					capital_scope = {
 						is_in_pars_occidentalis_inv_trigger = no
 						#province_id = 1453
+						is_in_hyperborea_inland_area_inv_trigger = no
 					}
 					has_variable = eastern_roman_senior_pars
 					any_owned_province = { is_in_pars_occidentalis_inv_trigger = no }
@@ -1192,6 +1230,7 @@ te_plagues.45 = { #orient remove
 					capital_scope = {
 						is_in_pars_occidentalis_inv_trigger = no
 						#province_id = 1453
+						is_in_hyperborea_inland_area_inv_trigger = no
 					}
 					has_variable = eastern_roman_senior_pars
 					num_of_cities >= 600
@@ -1209,6 +1248,8 @@ te_plagues.45 = { #orient remove
 					###Invictus v1.6 new region
 					is_in_region = central_asian_steppes_region
 					is_in_region = taurica_region
+					####Invictus v1.8 new region
+					is_in_hyperborea_inland_area_inv_trigger = yes
 				}
 			}
 			country_culture_group = germanic
@@ -1219,6 +1260,7 @@ te_plagues.45 = { #orient remove
 				has_global_variable = roman_empire_divided
 				capital_scope = {
 					is_in_pars_occidentalis_inv_trigger = no
+					is_in_hyperborea_inland_area_inv_trigger = no
 					#province_id = 1453
 				}
 				has_variable = eastern_roman_senior_pars
@@ -1232,6 +1274,7 @@ te_plagues.45 = { #orient remove
 					has_global_variable = roman_empire_divided
 					capital_scope = {
 						is_in_pars_occidentalis_inv_trigger = no
+						is_in_hyperborea_inland_area_inv_trigger = no
 						#province_id = 1453
 					}
 					has_variable = eastern_roman_senior_pars
