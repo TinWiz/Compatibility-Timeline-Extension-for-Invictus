@@ -60,7 +60,7 @@ germanisch_wanderung = {
 	global_manpower_modifier = 0.4 # 0.25 added from 50% Very hard below   
 	manpower_recovery_speed = 0.3 # 0.1 added from Antagonist below
 	land_morale_recovery = 0.05
-	land_morale = 0.15
+	land_morale = 0.30 #TEInv base morale boost doubled v0.6.1
 
 	## Hard / Very Hard AI mods 50% from Antagonist bonus
 	land_morale_modifier = 0.15 # same as very hard AI plus 50%
@@ -84,6 +84,25 @@ germanisch_wanderung = {
 	war_exhaustion = -0.1
 	integrate_speed = 2
 	subject_opinions = 40
+
+	#Extra
+	discipline = 0.15
+	siege_ability = 0.2 
+	siege_engineers = 1
+	archers_offensive = 0.1
+	archers_defensive = 0.1
+	light_infantry_offensive = 0.1
+	light_infantry_defensive = 0.1
+	#horse_archers_offensive = 0.1
+	#horse_archers_defensive = 0.1
+	light_cavalry_offensive = 0.1
+	light_cavalry_defensive = 0.1
+	#heavy_cavalry_offensive = 0.1
+	#heavy_cavalry_defensive = 0.1
+	chariots_offensive = 0.1
+	chariots_defensive = 0.1
+	#heavy_infantry_offensive = 0.1
+	#heavy_infantry_defensive = 0.1
 }
 
 late_antiquity_pop_decline_central = {
