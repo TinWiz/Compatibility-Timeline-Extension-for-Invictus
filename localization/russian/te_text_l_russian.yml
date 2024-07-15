@@ -15,6 +15,9 @@
 
  germanisch_wanderung:0 "Вели́кое переселе́ние"
 
+ teinv_hyperborean_winter:0 "Гиперборейский голод"
+ desc_teinv_hyperborean_winter:1 "Здесь ощущаются суровые условия этой приграничной дикой местности."
+
  ai_constantinople_capital:0 "Nova Roma"
 
  #######CULTURE#######:0 ""
