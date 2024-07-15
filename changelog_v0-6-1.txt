@@ -1,0 +1,48 @@
+Changelog v0.6.1
+
+*corrected is_in_hyperborea_inland_area_inv_trigger with missing OR bracket
+
+*removed set_global_variable is_playing_teinv_0_5 from inv_te_on_game_initialized on_action
+	-blocked is_playing_teinv_0_5 from te_barbarians.101
+
+*added on_action files teinv_biyearly_country.txt and teinv_custom_on_actions.txt
+	-new on_action teinv_custom_on_action_biyearly_country_hyperbarians
+		+only triggers for AI countries with more than 100 territories
+
+*added te_barbarians.161 to te_barbarians.txt events and teinv_custom_on_action_biyearly_country_hyperbarians
+	-barbarian_invasion_skirmish strongholds added for countries that are not in the fennic culture group (scythians and baltics exempt), nor have uralic_pantheon
+		+creates finnic_group and uralic_pantheon tribesmen in random hyperborea_region province
+			>tribesmen culture depends on area
+*added te_barbarians.162 to create new finnic_group country in province overrun by tribesmen
+	-with more than 100 tribesmen and dominant_province_culture_group in finnic_group
+	-triggered by after bracket in te_barbarians.161
+*added te_barbarians.163 for AI countries with states in hyperborea_region that is all finnic_group and uralic_pantheon to create breakaway countries
+	-added to teinv_custom_on_action_biyearly_country_hyperbarians
+		+random_events 50/50 with te_barbarians.161
+*localizations added for te_barbarians.162 to te_barbarians_events_l_[language].yml files
+
+*added teinv_hyperborean_winter modifier to lower population capacity, food and migration attraction for hyperborea region with non-fennic, baltic or scythian groups
+	-thanks to Shinymewtwo99 for this idea
+	-localizations for modifier added to te_text_l_[language].yml files
+
+*added bonuses from barbarian_fury_discipline_1 to germanisch_wanderung modifier
+*base morale boost doubled to 0.30 for germanisch_wanderung modifier on end-game germanic tribes
+
+###################################################
+Changelog v0.6
+
+*compatibility with Invictus v1.8 map expansion:
+*added province_id 5981 impassable to setup\provinces\te_default.txt with hunnic culture and hunnic_huna_animism
+	-reverts to sarmatian indo_iranian_religion in inv_te_on_game_initialized for te_custom_on_actions.txt
+*added province_id 5981 to all te_barbarians.txt events next to effects for province_id 5970
+	-starts with barbarian_invasion_war modifier
+*added ilmandu areas from new Invictus v1.8 hyperborea_region to IRCK3 is_in_pars_occidentalis_inv_trigger
+	-also added touggourt_area, ouargla_area and ghardaia_area from atlas_region expansion
+*added hyperborea_region to NOR trigger for l6_christian.5 event
+	-also added to te_manichees.1 and te_manichees.14
+*added is_in_hyperborea_inland_area_inv_trigger to IRCK3_scripted_triggers.txt
+	-used in te_plagues.40–45 for late_antiquity_pop_decline modifiers
+
+*extended Ostrogothic spawn events te_barbarians.101–104 by ~15 years until ~1148 AUC
+
+################################################################################################################################
