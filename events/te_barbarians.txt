@@ -3652,7 +3652,7 @@ te_barbarians.101 = {
     left_portrait = current_ruler
 
     trigger = {
-        has_global_variable = is_playing_teinv_0_5
+        #has_global_variable = is_playing_teinv_0_5
         current_date > 1033.4.30 #AD 280 
         current_date < 1148.10.31 #AD 395
         NOR = { 
@@ -3976,4 +3976,454 @@ te_barbarians.150 = {
             days = 185
          }
     }
+}   
+
+######################################################################################
+#Hyperborea barbarians
+
+te_barbarians.161 = {
+    type = country_event 
+    hidden = yes
+
+    trigger = {
+        current_date > 834.4.28
+        NOT = { has_global_variable = teinv_hyperbarian_conquest_cooldown }
+        NOR = { 
+            primary_culture = fennic
+            primary_culture = mordvin
+            primary_culture = androphagian
+            primary_culture = volgaic
+            religion = uralic_pantheon
+        } 	
+        any_owned_province = {
+            is_in_region = hyperborea_region
+            total_population < 40
+            NOR = {
+                has_province_modifier = barbarian_invasion_skirmish
+                has_province_modifier = barbarian_invasion_war
+            }
+            OR = {
+                NOR = { 
+                    dominant_province_culture_group = culture_group:finnic_group
+                    dominant_province_culture_group = culture_group:scythia
+                    dominant_province_culture_group = culture_group:baltic 
+                }
+                NOR = { 
+                    dominant_province_religion = uralic_pantheon 
+                    dominant_province_religion = matrist_religion
+                }
+            }
+        }
+    }
+
+    immediate = {
+        random_owned_province = {
+            limit = {
+                is_in_region = hyperborea_region
+                total_population < 40
+                NOR = {
+                    has_province_modifier = barbarian_invasion_skirmish
+                    has_province_modifier = barbarian_invasion_war
+                }
+                OR = {
+                    NOR = { 
+                        dominant_province_culture_group = culture_group:finnic_group
+                        dominant_province_culture_group = culture_group:scythia
+                        dominant_province_culture_group = culture_group:baltic 
+                    }
+                    NOR = { 
+                        dominant_province_religion = uralic_pantheon 
+                        dominant_province_religion = matrist_religion
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    current_date > 1034.4.30
+                }
+                while = {
+                    limit = {
+                        num_of_tribesmen < 16
+                    }
+                    create_pop = tribesmen
+                }
+            }
+            else = {
+                while = {
+                    limit = {
+                        num_of_tribesmen < 8
+                    }
+                    create_pop = tribesmen
+                }
+            }
+            save_scope_as = teinv_hyperbarian_target_province
+        }
+    }
+
+    option = {
+        trigger = { current_date > 1034.4.30 }
+        exclusive = yes
+        scope:teinv_hyperbarian_target_province = {
+            while = {
+                count = 16
+                random_pops_in_province = {
+                    limit = {
+                        pop_type = tribesmen 
+                    }
+                    set_pop_religion = uralic_pantheon
+                }
+            }
+            if = {
+                limit = {
+                    OR = {
+                        is_in_area = ilmandu_superior_area
+                        is_in_area = ilmandu_inferior_area
+                        is_in_area = velho_area
+                    }
+                }
+                while = {
+					count = 16
+					random_pops_in_province = {
+						limit = {
+							pop_type = tribesmen 
+						}
+						set_pop_culture = fennic
+					}
+				}
+            }
+            else_if = {
+                limit = {
+                    OR = {
+                        is_in_area = joki_area
+                        is_in_area = androphagia_superior_area
+                    }
+                }
+                while = {
+					count = 16
+					random_pops_in_province = {
+						limit = {
+							pop_type = tribesmen 
+						}
+						set_pop_culture = androphagian
+					}
+				}
+            }
+            else_if = {
+                limit = {
+                    is_in_area = dyakovo_area
+                }
+                while = {
+					count = 16
+					random_pops_in_province = {
+						limit = {
+							pop_type = tribesmen 
+						}
+						set_pop_culture = volgaic
+					}
+				}
+            }
+            else_if = {
+                limit = {
+                    OR = {
+                        is_in_area = gorodets_area
+                        is_in_area = sarmatia_hyperborealis_area
+                    }    
+                }
+				while = {
+					count = 16
+					random_pops_in_province = {
+						limit = {
+							pop_type = tribesmen 
+						}
+						set_pop_culture = mordvin
+					}
+				}
+            }
+        }
+    }
+
+    option = {
+        trigger = { current_date <= 1034.4.30 }
+        exclusive = yes
+        scope:teinv_hyperbarian_target_province = {
+            ordered_pops_in_province = {
+                limit = {
+                    pop_type = tribesmen
+                }
+                order_by = pop_hapiness
+                max = 8
+                check_range_bounds = no
+                set_pop_religion = uralic_pantheon
+            }
+            if = {
+                limit = {
+                    OR = {
+                        is_in_area = ilmandu_superior_area
+                        is_in_area = ilmandu_inferior_area
+                        is_in_area = velho_area
+                    }
+                }
+                ordered_pops_in_province = {
+                    limit = {
+                        pop_type = tribesmen
+                    }
+                    order_by = pop_hapiness
+                    max = 8
+                    check_range_bounds = no
+                    set_pop_culture = fennic
+                }
+            }
+            else_if = {
+                limit = {
+                    OR = {
+                        is_in_area = joki_area
+                        is_in_area = androphagia_superior_area
+                    }
+                }
+                ordered_pops_in_province = {
+                    limit = {
+                        pop_type = tribesmen
+                    }
+                    order_by = pop_hapiness
+                    max = 8
+                    check_range_bounds = no
+                    set_pop_culture = androphagian
+                }
+            }
+            else_if = {
+                limit = {
+                    is_in_area = dyakovo_area
+                }
+                ordered_pops_in_province = {
+                    limit = {
+                        pop_type = tribesmen
+                    }
+                    order_by = pop_hapiness
+                    max = 8
+                    check_range_bounds = no
+                    set_pop_culture = volgaic
+                }
+            }
+            else_if = {
+                limit = {
+                    OR = {
+                        is_in_area = gorodets_area
+                        is_in_area = sarmatia_hyperborealis_area
+                    }    
+                }
+                ordered_pops_in_province = {
+                    limit = {
+                        pop_type = tribesmen
+                    }
+                    order_by = pop_hapiness
+                    max = 8
+                    check_range_bounds = no
+                    set_pop_culture = mordvin
+                }
+            }
+        }
+    }
+
+    after = {
+        scope:teinv_hyperbarian_target_province = {
+            add_province_modifier = {
+                name = "barbarian_invasion_skirmish"
+                duration = 1454
+            }
+            if = {
+                limit = {
+                    NOT = { has_province_modifier = teinv_hyperborean_winter }
+                }
+                add_province_modifier = {
+                    name = "teinv_hyperborean_winter"
+                    duration = 1818
+                }
+            }
+        }
+        trigger_event = {
+            id = te_barbarians.162
+            days = 727
+        }
+    }
+}
+
+te_barbarians.162 = {
+	type = minor_country_event
+	title = "te_barbarians.162.t"
+	desc = "te_barbarians.162.desc"
+	interface_lock = no
+
+    left_portrait = current_ruler
+
+    goto_location = scope:teinv_hyperbarian_invaded_province
+    
+    trigger = {
+        NOT = { has_global_variable = teinv_hyperbarian_conquest_cooldown }	
+        OR = {
+            any_owned_province = {
+                is_in_region = hyperborea_region
+                num_of_tribesmen > 20
+                dominant_province_culture_group = culture_group:finnic_group
+            }
+            any_country_state = {
+                any_state_province = {
+                    is_in_region = hyperborea_region
+                } 
+                has_state_modifier = barbarians_border
+                any_state_province = {
+                    percent > 0.50
+                    dominant_province_culture_group = culture_group:finnic_group
+                } 
+            }    
+        }
+    }
+
+    immediate = {
+        random_owned_province = {
+            limit = {
+                is_in_region = hyperborea_region
+                OR = {
+                    AND = { 
+                        num_of_tribesmen > 20
+                        dominant_province_culture_group = culture_group:finnic_group
+                    } 
+                    state = {
+                        has_state_modifier = barbarians_border
+                        any_state_province = {
+                            percent > 0.50
+                            dominant_province_culture_group = culture_group:finnic_group
+                        }
+                    }   
+                }    
+            }
+            save_scope_as = teinv_hyperbarian_invaded_province
+        }
+    }
+
+    option = {
+        name = "te_barbarians.162.a"
+		custom_tooltip = "teinv_hyperbarian_invasion_tooltip"
+		add_stability = -10
+        hidden_effect = {
+            scope:teinv_hyperbarian_invaded_province = {
+                create_country = {
+                    change_government = tribal_kingdom
+                    save_scope_as = teinv_hyperbarian_conquest_country
+                }
+            }
+            every_owned_province = {
+                limit = { is_in_area = scope:teinv_hyperbarian_invaded_province }
+                set_owned_by = scope:teinv_hyperbarian_conquest_country
+            }   
+        }     
+    }
+
+    after = {
+        scope:teinv_hyperbarian_invaded_province = {
+            if = {
+                limit = {
+                    has_province_modifier = barbarian_invasion_skirmish
+                }
+                remove_province_modifier = barbarian_invasion_skirmish
+            }
+            else_if = {
+                limit = {
+                    has_province_modifier = barbarian_invasion_war
+                }
+                remove_province_modifier = barbarian_invasion_war
+            }
+        }
+        scope:teinv_hyperbarian_conquest_country = {
+            set_country_religion = uralic_pantheon
+        }
+        set_global_variable = {
+            name = teinv_hyperbarian_conquest_cooldown
+            days = 3636
+        }
+    }
+}
+
+te_barbarians.163 = {
+    type = country_event 
+    hidden = yes
+
+    trigger = {
+        is_ai = yes
+        current_date > 855.5.25
+        NOT = { has_global_variable = teinv_hyperbarian_conquest_cooldown }
+        NOR = { 
+            primary_culture = fennic
+            primary_culture = mordvin
+            primary_culture = androphagian
+            primary_culture = volgaic
+            religion = uralic_pantheon
+        }  
+        any_country_state = {
+            any_state_province = { 
+                count = all
+                is_in_region = hyperborea_region
+                dominant_province_culture_group = culture_group:finnic_group
+                dominant_province_religion = uralic_pantheon
+            } 
+            any_state_province = { total_population > 20 }   
+        }
+    }
+
+    immediate = {
+        random_country_state = {
+            limit = {
+                any_state_province = {
+                    count = all
+                    is_in_region = hyperborea_region
+                    dominant_province_culture_group = culture_group:finnic_group
+                    dominant_province_religion = uralic_pantheon
+                }
+                any_state_province = { total_population > 20 }
+            }
+            random_state_province = {
+                limit = {
+                    total_population > 20
+                }
+                save_scope_as = teinv_hyperbarian_breakaway_territory
+            }
+        }
+    }
+
+    option = {
+        scope:teinv_hyperbarian_breakaway_territory = {
+            create_country = {
+                change_government = tribal_kingdom
+                save_scope_as = teinv_hyperbarian_breakaway_tribe
+            }
+        }
+        every_owned_province = {
+            limit = { is_in_area = scope:teinv_hyperbarian_breakaway_territory }
+            set_owned_by = scope:teinv_hyperbarian_breakaway_tribe
+        }
+    }
+
+    after = {
+        scope:teinv_hyperbarian_breakaway_tribe = {
+            set_country_religion = uralic_pantheon
+            every_owned_province = {
+                if = {
+                    limit = {
+                        has_province_modifier = barbarian_invasion_skirmish
+                    }
+                    remove_province_modifier = barbarian_invasion_skirmish
+                }
+                else_if = {
+                    limit = {
+                        has_province_modifier = barbarian_invasion_war
+                    }
+                    remove_province_modifier = barbarian_invasion_war
+                }
+            }
+        }
+        set_global_variable = { 
+            name = teinv_hyperbarian_conquest_cooldown
+            days = 3636
+        }    
+    }
+    
 }    
