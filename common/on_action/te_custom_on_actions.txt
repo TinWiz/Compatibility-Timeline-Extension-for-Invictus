@@ -1,5 +1,6 @@
 ﻿inv_te_on_game_initialized = {
 	effect = {
+		#set_global_variable = teinv_is_playing_inv_1_8
 		p:5113 = {
 			while = {
 				limit = {
@@ -17,7 +18,6 @@
 				set_pop_religion = shamanism
 			}
 		}
-		set_global_variable = is_playing_teinv_0_5
 		#
 		p:5278 = {
 			while = {
