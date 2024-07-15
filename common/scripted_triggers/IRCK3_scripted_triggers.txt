@@ -117,10 +117,12 @@ is_in_pars_occidentalis_inv_trigger = {
 
 ########Invictus v1.8 map expansion area check
 is_in_hyperborea_inland_area_inv_trigger = { 
-	is_in_area = velho_area
-	is_in_area = joki_area
-	is_in_area = dyakovo_area
-	is_in_area = androphagia_superior_area
-	is_in_area = gorodets_area
-	is_in_area = sarmatia_hyperborealis_area
+	OR = {
+		is_in_area = velho_area
+		is_in_area = joki_area
+		is_in_area = dyakovo_area
+		is_in_area = androphagia_superior_area
+		is_in_area = gorodets_area
+		is_in_area = sarmatia_hyperborealis_area
+	}	
 }
