@@ -15,6 +15,9 @@
 
  germanisch_wanderung:0 "Grandes invasions"
 
+ teinv_hyperborean_winter:0 "Manque hyperboréen"
+ desc_teinv_hyperborean_winter:1 "Les conditions difficiles de cette nature sauvage frontalière se font sentir ici."
+
  ai_constantinople_capital:0 "Nova Roma"
 
  #######CULTURE#######:0 ""

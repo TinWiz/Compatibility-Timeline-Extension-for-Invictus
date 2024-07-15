@@ -58,4 +58,10 @@
  te_barbarians.101.t:0 "Goths aux portes"
  te_barbarians.101.desc:1 "Des tribus barbares connues sous le nom de Goths sont apparues et descendent avec de grandes forces des Carpates et maraudent à travers notre territoire. Ils sont primitifs mais organisés, ont une certaine connaissance de l’art de la guerre et semblent déterminés à rester. Nous devons faire face à cette menace et protéger nos terres."
  te_barbarians.101.a:0 "Devons-nous les détruire ou régler avec eux ?"
+
+ te_barbarians.162.t:0 "Territoire hyperboréen perdu !"
+ te_barbarians.162.desc:1 "Les indigènes hyperboréens qui migrent dans nos territoires frontaliers ont submergé nos colons en [teinv_hyperbarian_invaded_province.GetName] et revendiquent maintenant la terre de la région pour eux-mêmes."
+ te_barbarians.162.a:0 "Peut-être devrions-nous leur laisser la terre pour le moment."
+ teinv_hyperbarian_invasion_tooltip:0 "#Y Il y a trop de membres de tribu hyperboréennes dans cette région reculée pour que vous puissiez contrôler la terre.#!"
+
  
