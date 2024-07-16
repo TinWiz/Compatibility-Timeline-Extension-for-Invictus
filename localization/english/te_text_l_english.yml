@@ -15,6 +15,9 @@
 
  germanisch_wanderung:0 "Germanic Migrations"
 
+ teinv_hyperborean_winter:0 "Hyperborean Scarcity"
+ desc_teinv_hyperborean_winter:1 "Harsh conditions of this frontier wilderness are felt here."
+
  ai_constantinople_capital:0 "Nova Roma"
 
  #######CULTURE#######:0 ""

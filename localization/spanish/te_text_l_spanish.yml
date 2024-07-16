@@ -15,6 +15,9 @@
 
  germanisch_wanderung:0 "Grandes invasiones"
 
+ teinv_hyperborean_winter:0 "Escasez hiperbórea"
+ desc_teinv_hyperborean_winter:1 "Las duras condiciones de esta tierra fronteriza se sienten aquí."
+
  ai_constantinople_capital:0 "Nova Roma"
 
  #######CULTURE#######:0 ""

@@ -1,0 +1,22 @@
+teinv_custom_on_action_biyearly_country_hyperbarians = {
+
+	trigger = {
+		current_date > 834.4.27
+		OR = {
+			AND = {
+				is_ai = yes
+				num_of_cities > 100
+			}	
+			AND = {
+				is_ai = no
+				num_of_cities > 600 #player semi-blob check
+			}
+		}	
+	}
+
+	random_events = {
+		50 = te_barbarians.161
+		50 = te_barbarians.163
+	}
+
+}

@@ -15,6 +15,9 @@
 
  germanisch_wanderung:0 "Völkerwanderung"
 
+ teinv_hyperborean_winter:0 "Hyperboreische Knappheit"
+ desc_teinv_hyperborean_winter:1 "Hier sind die harten Bedingungen dieser Grenzwildnis zu spüren."
+
  ai_constantinople_capital:0 "Nova Roma"
 
  #######CULTURE#######:0 ""

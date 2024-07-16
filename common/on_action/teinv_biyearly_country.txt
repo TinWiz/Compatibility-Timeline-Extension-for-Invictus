@@ -1,0 +1,8 @@
+biyearly_country_pulse = {
+
+	on_actions = {
+		delay = { days = { 1 364 } }
+		teinv_custom_on_action_biyearly_country_hyperbarians
+	}
+
+}
