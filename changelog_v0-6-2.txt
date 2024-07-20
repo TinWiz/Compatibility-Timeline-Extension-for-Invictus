@@ -2,7 +2,7 @@ Changelog v0.6.2
 
 *added exists = owner checks for all any_area_province brackets in te_migrations.txt events
 *added te_migrations.4 to give owned land by Latin great power in germanic tribal vassal capital area to that tribal vassal
-	-occasional OPM germanic tribal_vassals to receive area in their capital states for end game
+	-occasional OPM germanic tribal vassals to receive area in their capital states for end game
 		+only triggers for AI, not for players
 		+devolve large end-game Roman/Latin great powers if they already have germanic tribal vassals
 	-added to te_custom_on_action_yearly_country_migrations
