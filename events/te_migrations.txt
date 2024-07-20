@@ -180,6 +180,7 @@ te_migrations.2 = {
 				}
 				area = {
 					any_area_province = {
+						exists = owner
 						owner = ROOT
 					}
 				}
@@ -223,6 +224,7 @@ te_migrations.2 = {
 					}
 					area = {
 						any_area_province = {
+							exists = owner
 							owner = ROOT
 						}
 					}
@@ -262,6 +264,7 @@ te_migrations.2 = {
 					}
 					area = {
 						any_area_province = {
+							exists = owner
 							owner = ROOT
 						}
 					}
@@ -289,6 +292,13 @@ te_migrations.2 = {
 	option = {
 		name = "te_migrations.2.a"
 		custom_tooltip = "make_foedus_now_plz"
+		if = {
+			limit = {
+				is_ai = no
+			}
+			add_stability = 10
+			add_political_influence = influence_large
+		}
 		highlight = yes
 		if = {
 			limit = {
@@ -484,3 +494,90 @@ te_migrations.3 = {
 	}
 
 }	
+
+te_migrations.4 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		has_global_variable = germanic_migration_2
+		country_culture_group = latin
+		is_ai = yes
+		is_tribal = no
+		is_overlord = yes
+		num_of_cities > 500
+		NOR = {
+			has_variable = sirte_foedus_cooldown
+			has_variable = sirte_foederatus_landgrab_cooldown
+		}
+		is_subject = no
+		war = no
+		has_civil_war = no
+		any_subject = {
+			is_tribal = yes	
+			country_culture_group = germanic
+			has_country_modifier = sirte_foederatus
+			capital_scope = {
+				NOR = {
+					is_in_italy_trigger = yes
+					is_in_greece_trigger = yes
+					is_in_area = ROOT.capital_scope
+				}
+				area = {
+					any_area_province = {
+						exists = owner
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		random_subject = {
+			limit = {
+				is_tribal = yes	
+				country_culture_group = germanic
+				has_country_modifier = sirte_foederatus
+				capital_scope = {
+					NOR = {
+						is_in_italy_trigger = yes
+						is_in_greece_trigger = yes
+						is_in_area = ROOT.capital_scope
+					}
+					area = {
+						any_area_province = {
+							exists = owner
+							owner = ROOT
+						}
+					}
+				}
+			}
+			save_scope_as = sirte_foederatus_available_land
+		}
+	}
+
+	option = {
+		scope:sirte_foederatus_available_land = {
+			capital_scope = {
+				area = {
+					every_area_province = {
+						limit = {
+							exists = owner
+							owner = ROOT
+						}
+						set_owned_by = scope:sirte_foederatus_available_land
+					}
+				}
+			}
+		}
+	}
+
+	after = {
+		set_variable = {
+			name = sirte_foederatus_landgrab_cooldown
+			days = 2000
+		}
+	}
+
+}
