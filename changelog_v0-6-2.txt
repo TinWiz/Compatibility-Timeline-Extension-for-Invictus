@@ -9,6 +9,11 @@ Changelog v0.6.2
 *inserted add_stability = 10 and add_political_influence = influence_large to te_migrations.2.a option if is_ai = no
 	-some more incentive for players to use this option, which also increases population growth in that area
 
+*corrected teinv_form_italia.txt with formable_region_province_effect change from formable_area_province_effect
+	-Invictus v1.8 change
+
+*added supply_limit_modifier = -0.15 to teinv_hyperborean_winter modifier in te_from_events_province.txt
+
 ######################################################################################################################################################################
 Changelog v0.6.1
 
