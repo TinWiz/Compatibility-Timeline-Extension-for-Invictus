@@ -751,10 +751,11 @@ te_rel_flavor.6 = {
 	trigger = {
 		current_date > 1035.3.15
 		has_global_variable = manichaeism_spreads
-        is_ai = no
+        	is_ai = no
 		is_tribal = no
-        NOR = {
+        	NOR = {
 			has_variable = manichaean_supplication_cooldown
+			capital_scope = { has_province_modifier = manichaean_temple }
 			AND = {
 				has_variable = ban_manichees
 				var:ban_manichees >= 3
@@ -771,7 +772,7 @@ te_rel_flavor.6 = {
 			religion = manichaeism
 			religion = matrist_religion
 			religion = germanic_religion
-        } 
+        	} 
 		any_owned_province = {
 			any_pops_in_province = { pop_religion = manichaeism }
 		}
