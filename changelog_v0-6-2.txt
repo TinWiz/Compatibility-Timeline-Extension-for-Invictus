@@ -1,3 +1,9 @@
+Quickfix v0.6.2.1
+
+*edited trigger for te_rel_flavor.6 event with capital_scope = { has_province_modifier = manichaean_temple } check in NOR bracket
+	-event should not pop up again for republics with new ruler
+
+###########################################################################################################################
 Changelog v0.6.2
 
 *added exists = owner checks for all any_area_province brackets in te_migrations.txt events
