@@ -530,6 +530,7 @@ te_custom_on_action_yearly_country_migrations = {
 		te_migrations.10
 		te_migrations.11
 		te_migrations.3
+		te_migrations.4
 	}
 
 	random_events = {
