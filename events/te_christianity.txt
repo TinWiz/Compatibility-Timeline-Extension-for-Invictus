@@ -1778,8 +1778,9 @@ te_christianity.96 = {
 					current_date < 1000.10.1
 					dominant_province_religion = christianity
 				}
-				NOT = {
+				NOR = {
 					owner = { religion = judaism }
+					owner = { religion = zoroaster }
 				}
 			}
 			random_pops_in_province = {
@@ -1802,7 +1803,12 @@ te_christianity.96 = {
 		}
 		else_if = {
 			limit = {
-				owner = { religion = judaism }
+				owner = { 
+					OR = { 
+						religion = judaism 
+						religion = zoroaster
+					}
+				}	
 				dominant_province_religion = judaism
 			}
 			random_pops_in_province = {
@@ -1859,8 +1865,9 @@ te_christianity.97 = {
 					#province_id = 1
 					dominant_province_religion = christianity
 				}
-				NOT = {
+				NOR = {
 					owner = { religion = judaism }
+					owner = { religion = zoroaster }
 				}
 				any_pops_in_province = {
 					count > 8
@@ -1883,11 +1890,19 @@ te_christianity.97 = {
 		}
 		else_if = {
 			limit = {
-			    owner = { religion = judaism }
+			    owner = { 
+					OR = {
+						religion = judaism 
+						religion = zoroaster
+					}
+				}	
 				any_pops_in_province = {
 					count > 8
 				}
-				dominant_province_religion = judaism
+				OR = {
+					dominant_province_religion = judaism
+					dominant_province_religion = zoroaster
+				}
 			}
 			random_pops_in_province = {
 				set_pop_religion = christianity
