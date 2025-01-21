@@ -9,6 +9,10 @@
 *edited te_christianity.96 and te_christianity.97 events to add same limit for judaism owner if owner religion = zoroaster
 	-slows down conversion to Christianity somewhat in Zoroastrian countries
 
+*variable bedouin_invasion delay for te_barbarians.90 increased to 4800 from 3600
+	-stab hit -40 limited to great powers >= 500 cities
+		+foreign culture blob check
+
 
 *********************
 
