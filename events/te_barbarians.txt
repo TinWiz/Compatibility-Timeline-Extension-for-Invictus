@@ -3255,14 +3255,14 @@ te_barbarians.90 = {
 	    if = {
             limit = {
                 #is_tribal = no
-                num_of_cities >= 100
+                num_of_cities >= 500
             }
             add_stability = -40
         }
         else_if = {
             limit = {
                 #is_tribal = no
-                num_of_cities < 100
+                num_of_cities < 500
             }
             add_stability = -20
         }
@@ -3285,7 +3285,7 @@ te_barbarians.90 = {
         }
         set_variable = {
             name = bedouin_invasion
-            days = 3600
+            days = 4800
         }
     }
 }
