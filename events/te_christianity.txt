@@ -1809,7 +1809,10 @@ te_christianity.96 = {
 						religion = zoroaster
 					}
 				}	
-				dominant_province_religion = judaism
+				OR = {
+					dominant_province_religion = judaism
+					dominant_province_religion = zoroaster
+				}
 			}
 			random_pops_in_province = {
 				set_pop_religion = christianity
