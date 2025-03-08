@@ -2,7 +2,7 @@ Quickfix v0.7.1.1
 
 *added dominant_province_religion = zoroaster to limit trigger for te_christianity.96
 **************************************************
->>Changelog version 0.7.1<<
+Changelog version 0.7.1
 
 *updated buildings file again for Invictus rework
 	-rework of ai chance using script values
