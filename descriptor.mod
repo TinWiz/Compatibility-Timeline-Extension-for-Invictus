@@ -1,4 +1,4 @@
-version="0.7"
+version="0.7.1"
 name="Timeline Extension for Invictus"
 dependencies={
 	"Imperator: Invictus"
