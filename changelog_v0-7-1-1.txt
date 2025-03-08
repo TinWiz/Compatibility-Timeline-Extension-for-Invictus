@@ -8,7 +8,7 @@ Quickfix v0.7.1.1
 	-rework of ai chance using script values
 
 ************************
-Changelog version 0.7.1
+Changelog version 0.7
 
 *updated buildings file for some alignment with Invictus
 	-fortress_ramparts_building (Earthworks) local-defensive increased from vanilla 0.25 to Invictus 0.50
