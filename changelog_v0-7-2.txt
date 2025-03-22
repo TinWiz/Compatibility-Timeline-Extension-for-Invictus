@@ -1,3 +1,9 @@
+Changelog version 0.7.2
+
+*increased global_manpower_modifier for germanisch_wanderung from 0.4 to 0.5 
+
+
+**************************************************************************************
 Quickfix v0.7.1.1
 
 *added dominant_province_religion = zoroaster to limit trigger for te_christianity.96
