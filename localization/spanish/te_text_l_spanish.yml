@@ -24,6 +24,9 @@
  hunnic:0 "Húnico"
  huna:0 "Huna"
  ######RELIGIONS######:0 ""
+ religion_category_saints:0 "Santo"
+ religion_pantheon_saints:0 "Hagiarquía"
+
  christianity:0 "Cristiana"
  desc_christianity:0 "Cristianismo es el nombre dado a un sistema definido de creencias y prácticas religiosas fundado por un hombre judío, Jesús de Nazaret, en el país de Judea, y que fue promulgado tras la muerte de su fundador para la difusión por todo el mundo por ciertos elegidos entre sus seguidores. Estos comenzaron su misión el día de Pentecostés, alrededor del año 30 d.c, día que se considera, en consecuencia, como el nacimiento de la Iglesia cristiana. Comenzando como una aun desconocida secta del judaísmo, los líderes elegidos entre los seguidores de Jesús, llamados los Apóstoles, viajaron por todo el mundo para difundir las 'Buenas Nuevas' de su fundador, a quien aclamaban como el Mesías o Cristo profetizado ('el ungido'), el Hijo del único dios, que resucitado de entre los muertos para mostrar su poder, prometiendo que algún día regresaría en gloria para juzgar a todas las almas humanas según sus obras. Los Apóstoles enseñaron que quien se arrepienta de sus malos hábitos y ore a este Jesús por misericordia será salvado de la muerte eterna en el inframundo y glorificado con nueva vida eterna en el reino de los bienaventurados."
 
