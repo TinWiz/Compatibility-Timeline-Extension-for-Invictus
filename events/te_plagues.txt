@@ -194,7 +194,12 @@ te_plagues.12 = {
 	trigger = {
 		current_date > 933.12.31
 		current_date < 999.12.31
-		owns = 1
+		OR = {
+			owns = 1
+			any_owned_province = {
+				is_in_region = central_italy_region
+			}
+		}	
 		has_global_variable = antonine_plague_pandemic
 	}
 
@@ -626,7 +631,12 @@ te_plagues.22 = {
 
 	trigger = {
 		current_date > 1024.12.31
-		owns = 516
+		OR = {
+			owns = 516
+			any_owned_province = {
+				is_in_region = lower_egypt_region
+			}
+		}	
 		has_global_variable = cyprian_plague_pandemic
 	}
 
