@@ -1,0 +1,15 @@
+Changelog version 1.0
+
+*updates for v2.0.5
+	-added localization for religion_category_saints and religion_pantheon_saints to te_text_l_[language].yml files
+		+English, French, German, Russian, and Spanish
+	-added is_monotheistic = yes for Christianity
+	-increased TAG_LIMIT in defines to 8192
+		+just in case
+
+*edited pandemic flag removal for te_plagues.12 and te_plagues.22 to check for any_owned_province in the region
+	-would not fire if P:1 or P:516 were depopulated
+	-thanks to Diskiant for finding this potential loophole
+
+*********************
+

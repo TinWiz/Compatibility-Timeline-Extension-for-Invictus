@@ -6,6 +6,7 @@
 		happiness_for_wrong_religion_modifier = -0.05
 	}
 	religion_category = saints
+	is_monotheistic = yes
 	can_deify_ruler = no
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"

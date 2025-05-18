@@ -24,6 +24,9 @@
  hunnic:0 "Hunnisch"
  huna:0 "Huna"
  ######RELIGIONS######:0 ""
+ religion_category_saints:0 "Heiliger"
+ religion_pantheon_saints:0 "Hagiarchie"
+
  convert_to_christian:0 "Evangelisierung"
  convert_to_christian_desc:1 "Evangelisierung bezeichnet die Verbreitung des Evangeliums von Jesus Christus. Sie kann sowohl im Sinne der Missionierung Nicht- oder Andersgläubiger betrieben werden, die auf die Bekehrung (Konversion) und Taufe der Angesprochenen abzielt, als auch im Sinne einer Katechese zur Neubelebung oder Wiedererweckung des Glaubens bereits getaufter Christen."
 
