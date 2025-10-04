@@ -290,7 +290,11 @@
 				}
 				has_global_variable = roman_empire_divided
 			}
-			government = imperium
+
+			OR = {
+				government = imperium
+				government = imperial_cult
+			}
 		}
 
 		allow = {
@@ -370,4 +374,5 @@
 	}
 	
 }
+
 
