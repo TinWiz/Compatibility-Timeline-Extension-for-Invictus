@@ -501,7 +501,7 @@ te_manichees.14 = {
 			}
 			set_variable = {
 				name = OPM_mani_gnosis_target
-				days = 2500
+				days = 2000
 			}
 		}        
     }
