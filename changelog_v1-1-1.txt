@@ -9,9 +9,10 @@ Changelog version 1.1.1
 *added tiny_xian_kerygma_target to l6_christian.5 event
 	-for countries with fewer than 5 provinces
 	-cooldown 4x longer
+*added tiny_xian_ekklesia_province to te_christianity.96 event
 *added OPM_mani_gnosis_target to te_manichees.14 event
 	-for one-province city-states	
-	-cooldown 2500 days
+	-cooldown 2000 days
 
 *removed variable checks for medium_xian_ekklesia_country and small_xian_ekklesia_country in te_christianity.txt random events shift
 	-if it's teinv_occident_blob_trigger = yes then no need for these 
