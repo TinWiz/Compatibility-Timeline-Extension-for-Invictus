@@ -2075,10 +2075,8 @@ te_christianity.191 = {
 				has_variable = early_xian_persecution
 			}
 		}
-		NOR = {
+		NOT = {
 			religion = manichaeism
-			has_variable = small_xian_ekklesia_country
-			has_variable = medium_xian_ekklesia_country
 		}
 	}
 
@@ -2206,10 +2204,8 @@ te_christianity.192 = {
 				has_variable = early_xian_persecution
 			}
 		}
-		NOR = {
+		NOT = {
 			religion = manichaeism
-			has_variable = small_xian_ekklesia_country
-			has_variable = medium_xian_ekklesia_country
 		}
 	}
 
@@ -2317,10 +2313,8 @@ te_christianity.193 = {
 				has_variable = early_xian_persecution
 			}
 		}
-		NOR = {
+		NOT = {
 			religion = manichaeism
-			has_variable = small_xian_ekklesia_country
-			has_variable = medium_xian_ekklesia_country
 		}
 	}
 	
@@ -2425,10 +2419,8 @@ te_christianity.194 = {
 				has_variable = early_xian_persecution
 			}
 		}
-		NOR = {
+		NOT = {
 			religion = manichaeism
-			has_variable = small_xian_ekklesia_country
-			has_variable = medium_xian_ekklesia_country
 		}
 	}
 
@@ -2529,10 +2521,8 @@ te_christianity.195 = {
 				has_variable = early_xian_persecution
 			}
 		}
-		NOR = {
+		NOT = {
 			religion = manichaeism
-			has_variable = small_xian_ekklesia_country
-			has_variable = medium_xian_ekklesia_country
 		}
 	}
 	
