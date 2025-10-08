@@ -1,4 +1,20 @@
->> Changelog version 1.1.1 <<
+Changelog version 1.1.1
+
+*switched province_id = 5970 "Shokka" to uninhabitable
+	-added to uninhabitable list in map_data default.map
+	-blocked from setup/provinces te_default.txt 
+		+edited in te_hyperborea_region.txt to remove tribesmen and civilization value, change culture to hunnic and religion to hunnic_huna_animism
+	-edited te_custom_on_actions.txt to switch culture to androphagian and religion to uralic_pantheon
+
+*added tiny_xian_kerygma_target to l6_christian.5 event
+	-for countries with fewer than 5 provinces
+	-cooldown 4x longer
+*added OPM_mani_gnosis_target to te_manichees.14 event
+	-for one-province city-states	
+	-cooldown 2500 days
+
+*removed variable checks for medium_xian_ekklesia_country and small_xian_ekklesia_country in te_christianity.txt random events shift
+	-if it's teinv_occident_blob_trigger = yes then no need for these 
 
 *added government = imperial_cult potential to ai_constantinople decision in te_decisions.txt
 	-same change as in Simple I:R Timeline Extender v1.3.0.2
@@ -8,10 +24,8 @@
 Changelog version 1.1
 
 *updated buildings file to align with Invictus update
-	-granaries now give 0.03 food instead of 0.02
+	-granaries now give 0.03 food instead of 0.04
 	-slave estate gives 40% monthly food modifier
 
 *********************
-
-
 
