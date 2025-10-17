@@ -20,6 +20,10 @@ Changelog version 1.1.1
 *added government = imperial_cult potential to ai_constantinople decision in te_decisions.txt
 	-same change as in Simple I:R Timeline Extender v1.3.0.2
 
+*created Timeline Extension for INR - Invictus
+	-swapped map_data default.map for compatibility with INR - Invictus
+		+thanks to Licarius Fenrir
+
 
 ********************************************************
 Changelog version 1.1
