@@ -1856,7 +1856,7 @@ te_christianity.96 = {
 			}
 			set_variable = {
 				name = tiny_xian_ekklesia_province
-				days = 2094
+				days = 2904
 			}	
 		}		
 	}
@@ -2597,3 +2597,4 @@ te_christianity.195 = {
 	}
 
 }
+
