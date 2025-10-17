@@ -22,7 +22,7 @@ Changelog version 1.1.1
 
 *created Timeline Extension for INR - Invictus
 	-swapped map_data default.map for compatibility with INR - Invictus
-		+thanks to Licarius Fenrir
+		+thanks to Licarious Fenrir
 
 
 ********************************************************
