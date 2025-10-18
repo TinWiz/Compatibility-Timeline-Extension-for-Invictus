@@ -29,9 +29,10 @@
 Changelog version 1.1
 
 *updated buildings file to align with Invictus update
-	-granaries now give 0.03 food instead of 0.04
+	-granaries now give 0.03 food instead of 0.02
 	-slave estate gives 40% monthly food modifier
 
 *********************
+
 
 
