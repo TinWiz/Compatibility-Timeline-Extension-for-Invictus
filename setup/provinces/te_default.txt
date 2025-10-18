@@ -97,16 +97,16 @@
 	trade_goods=""
 }
 #
-5970=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="hunnic"
-	province_rank=""
-	religion="hunnic_huna_animism"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
+#5970=
+#{
+#	barbarian_power=0
+#	civilization_value=0
+#	culture="hunnic"
+#	province_rank=""
+#	religion="hunnic_huna_animism"
+#	terrain="impassable_terrain"
+#	trade_goods=""
+#}
 #
 5981=
 {
