@@ -1,0 +1,9 @@
+5970={ #Shokka
+	terrain="forest"
+	culture="hunnic"
+	religion="hunnic_huna_animism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}

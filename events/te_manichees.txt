@@ -373,6 +373,7 @@ te_manichees.14 = {
             religion = germanic_religion
             has_variable = medium_mani_gnosis_target
             has_variable = small_mani_gnosis_target
+            has_variable = OPM_mani_gnosis_target
         }
         any_owned_province = {
             NOR = {
@@ -487,12 +488,22 @@ te_manichees.14 = {
 		else_if = {
 			limit = {
 				num_of_cities <= 10
+                num_of_cities > 1
 			}
 			set_variable = {
 				name = small_mani_gnosis_target
 				days = 1000
 			}
 		}
+		else_if = {
+			limit = {
+				num_of_cities = 1
+			}
+			set_variable = {
+				name = OPM_mani_gnosis_target
+				days = 2000
+			}
+		}        
     }
 }
 

@@ -334,6 +334,7 @@ l6_christian.5 = {
 			religion = christianity
 			has_variable = medium_xian_kerygma_target
 			has_variable = small_xian_kerygma_target
+			has_variable = tiny_xian_kerygma_target
 		}
 		NAND = {
 			is_ai = yes
@@ -457,12 +458,22 @@ l6_christian.5 = {
 		else_if = {
 			limit = {
 				num_of_cities < 25
+				num_of_cities >= 5
 			}
 			set_variable = {
 				name = small_xian_kerygma_target
 				days = 1452
 			}
 		}
+		else_if = {
+			limit = {
+				num_of_cities < 5
+			}
+			set_variable = {
+				name = tiny_xian_kerygma_target
+				days = 2904
+			}
+		}		
 	}
 }
 

@@ -1768,6 +1768,7 @@ te_christianity.96 = {
 		NOR = {	
 			has_variable = medium_xian_ekklesia_province
 			has_variable = small_xian_ekklesia_province
+			has_variable = tiny_xian_ekklesia_province
 		}	
 	}
 
@@ -1837,13 +1838,27 @@ te_christianity.96 = {
 		}
 		else_if = {
 			limit = {
-				owner = { num_of_cities < 25 }
+				owner = { 
+					AND = { 
+						num_of_cities < 25 
+						num_of_cities >= 5
+					}
+				}	
 			}
 			set_variable = {
 				name = small_xian_ekklesia_province
 				days = 1452
 			}	
 		}
+		else_if = {
+			limit = {
+				owner = { num_of_cities < 5 }
+			}
+			set_variable = {
+				name = tiny_xian_ekklesia_province
+				days = 2904
+			}	
+		}		
 	}
 }
 
@@ -2075,10 +2090,8 @@ te_christianity.191 = {
 				has_variable = early_xian_persecution
 			}
 		}
-		NOR = {
+		NOT = {
 			religion = manichaeism
-			has_variable = small_xian_ekklesia_country
-			has_variable = medium_xian_ekklesia_country
 		}
 	}
 
@@ -2206,10 +2219,8 @@ te_christianity.192 = {
 				has_variable = early_xian_persecution
 			}
 		}
-		NOR = {
+		NOT = {
 			religion = manichaeism
-			has_variable = small_xian_ekklesia_country
-			has_variable = medium_xian_ekklesia_country
 		}
 	}
 
@@ -2317,10 +2328,8 @@ te_christianity.193 = {
 				has_variable = early_xian_persecution
 			}
 		}
-		NOR = {
+		NOT = {
 			religion = manichaeism
-			has_variable = small_xian_ekklesia_country
-			has_variable = medium_xian_ekklesia_country
 		}
 	}
 	
@@ -2425,10 +2434,8 @@ te_christianity.194 = {
 				has_variable = early_xian_persecution
 			}
 		}
-		NOR = {
+		NOT = {
 			religion = manichaeism
-			has_variable = small_xian_ekklesia_country
-			has_variable = medium_xian_ekklesia_country
 		}
 	}
 
@@ -2529,10 +2536,8 @@ te_christianity.195 = {
 				has_variable = early_xian_persecution
 			}
 		}
-		NOR = {
+		NOT = {
 			religion = manichaeism
-			has_variable = small_xian_ekklesia_country
-			has_variable = medium_xian_ekklesia_country
 		}
 	}
 	
@@ -2592,3 +2597,4 @@ te_christianity.195 = {
 	}
 
 }
+

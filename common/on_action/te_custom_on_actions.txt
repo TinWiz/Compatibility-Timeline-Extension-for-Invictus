@@ -103,8 +103,8 @@
 				limit = { 
 					pop_type = tribesmen 
 				} 
-				set_pop_culture = sarmatian
-				set_pop_religion = indo_iranian_religion
+				set_pop_culture = androphagian
+				set_pop_religion = uralic_pantheon
 			}	
 		}
 		#
