@@ -1,0 +1,20 @@
+>>Changelog version 1.3.1<<
+
+*updated default.map in line with Invictus v1.11.0.3 Germanicus
+	-province_id 5945 moves from wasteland to impassable
+*adjusted buildings files
+	-removed value_civilization_cap from modification_display to align with Invictus or vanilla, accordingly
+
+
+
+**************************************************************************
+Changelog version 1.3
+
+*edited default.map in line with Invictus 1.11
+*added levy_template = levy_sogdian to Bactrian culture file te_bactrian
+	-alignment with Invictus
+*checked buildings file
+	-no substantial changes
+
+
+*******************************************************
