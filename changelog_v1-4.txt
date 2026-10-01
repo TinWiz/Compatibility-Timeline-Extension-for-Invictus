@@ -1,10 +1,16 @@
 >>Changelog version 1.4<<
 
-*updated default.map in line with Invictus v1.11.0.3 Germanicus
+*updated default.map in line with Invictus
 	-province_id 5945 moves from wasteland to impassable
 *adjusted buildings file
 	-removed value_civilization_cap from modification_display to align with Invictus or vanilla, accordingly
 
+*edited modifier teinv_hyperborean_winter in te_from_events_province.txt 
+	-added 	local_nobles_happyness = -20
+			local_citizen_happyness = -15
+			local_freemen_happyness = -10
+			local_slaves_happyness = -5
+			
 **************************************************************************
 Changelog version 1.3
 
