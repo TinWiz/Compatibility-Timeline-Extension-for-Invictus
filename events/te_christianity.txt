@@ -530,12 +530,25 @@ te_christianity.71 = {
 		current_ruler = {
 			set_character_religion = christianity
 		}
-		while = {
+		if = {
 			limit = {
-				political_influence < 500
-			}	
+				OR = {
+					government = imperium
+					government = dictatorship
+				}
+			}
+			while = {
+				limit = { political_influence < 500 }	
 			add_political_influence = 1
+			}
 		}
+		else = {
+			while = {
+				limit = { political_influence < 200 }
+			add_political_influence = 1
+			}
+		}
+
 	}
 
 	option = { #Never
