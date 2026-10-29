@@ -1,4 +1,4 @@
-Changelog version 1.4.1
+>>Changelog version 1.4.1<<
 
 *added if/else check in te_christianity.71 event option 1
 	-else while loop to add 200 political influence instead of 500
