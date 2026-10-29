@@ -1,0 +1,23 @@
+Changelog version 1.4.1
+
+*added if/else check in te_christianity.71 event option 1
+	-else while loop to add 200 political influence instead of 500
+	-reduce political influence gain if not an empire or dictatorship
+	-thematic and curbs excessive gains by successive rulers if a republic
+
+*************************************************************************
+Changelog version 1.4
+
+*updated default.map in line with Invictus
+	-province_id 5945 moves from wasteland to impassable
+*adjusted buildings file
+	-removed value_civilization_cap from modification_display to align with Invictus or vanilla, accordingly
+
+*edited modifier teinv_hyperborean_winter in te_from_events_province.txt 
+	-added 	local_nobles_happyness = -0.2
+		local_citizen_happyness = -0.15
+		local_freemen_happyness = -0.1
+		local_slaves_happyness = -0.05
+			
+**************************************************************************
+
