@@ -20,19 +20,19 @@ sea_zones = RANGE { 4722 4749 }
 sea_zones = RANGE { 5670 5865 }
 sea_zones = RANGE { 4589 4599 }
 sea_zones = RANGE { 7743 7750 }
-sea_zones = RANGE { 7847 7852 } # New Impassable Seazones
-sea_zones = LIST { 7557 7563 7564 7566 } # New Impassable Seazones (previously part of the Arabian desert)
+sea_zones = RANGE { 7847 7852 }	# New Impassable Seazones
+sea_zones = LIST { 7557 7563 7564 7566 }	# New Impassable Seazones (previously part of the Arabian desert)
 sea_zones = RANGE { 8798 8802 }
 sea_zones = RANGE { 9418 9431 }
 sea_zones = LIST { 6418 6436 6437 7906 7907 8019 8020 8278 8279 8336 8337 8339 8340 8341 8344 8345 8748 8749 }
 
 #Wastelands, List:
-wasteland = LIST { 3222 5020 5944 5945 5946 5973 5976 5981 5990 7565 7640 7641 7643 7860 } #impassable - will never be colored in any map mode (includes impassable oceans)
+wasteland = LIST { 3222 5020 5944 5946 5973 5976 5981 5990 7565 7640 7641 7643 7860 }	#impassable - will never be colored in any map mode
 wasteland = RANGE { 5942 5943 }
 wasteland = RANGE { 5951 5967 }
 wasteland = LIST { 5969 }
-wasteland = RANGE { 7847 7852 } # New Impassable Seazones
-wasteland = RANGE { 9424 9427 } # Baltic Mara Incognita
+wasteland = RANGE { 7847 7852 }	# New Impassable Seazones
+wasteland = RANGE { 9424 9427 }	# Baltic Mara Incognita
 
 #Impassables, Ranges:
 impassable_terrain = RANGE { 5000 5019 }	#impassable - will get neighboring provinces' color in some map modes
@@ -49,34 +49,32 @@ impassable_terrain = RANGE { 5977 5980 }
 impassable_terrain = RANGE { 5993 5999 }
 impassable_terrain = RANGE { 6050 6063 }
 impassable_terrain = RANGE { 7282 7297 }
-impassable_terrain = RANGE { 7733 7737 } # Volcanoes
-impassable_terrain = RANGE { 7751 7759 } # New Anatolian Impassables
-#impassable_terrain = RANGE { 7800 7801 } # New Greek impassables
-impassable_terrain = RANGE { 7909 7913 } # New Anatolian impassables
-impassable_terrain = RANGE { 7915 7933 } # New Anatolian impassables
-impassable_terrain = RANGE { 7943 7946 } # New Anatolian impassables
-impassable_terrain = RANGE { 7965 7967 } # New Anatolian impassables
-impassable_terrain = RANGE { 7972 7980 } # New Anatolian impassables
-impassable_terrain = RANGE { 7982 7984 } # New Anatolian impassables
-impassable_terrain = RANGE { 7987 7989 } # New Anatolian impassables
-impassable_terrain = RANGE { 7995 7997 } # New Anatolian impassables
-impassable_terrain = RANGE { 8000 8002 } # New Anatolian impassables
-impassable_terrain = RANGE { 8004 8006 } # New Anatolian impassables
-impassable_terrain = RANGE { 8055 8062 } # New Anatolian impassables
-impassable_terrain = RANGE { 8792 8797 } # New Burma
-impassable_terrain = RANGE { 8882 8889 } #New Arabia
-impassable_terrain = RANGE { 9117 9120 } #New Steppe
-impassable_terrain = RANGE { 9133 9145 } #New Africa
-impassable_terrain = RANGE { 7853 7859 } #Seazones Reused from Vanilla for Africa
-impassable_terrain = RANGE { 9283 9295 } #India Jungle and Iberian Impassables
+impassable_terrain = RANGE { 7733 7737 }	# Volcanoes
+impassable_terrain = RANGE { 7751 7759 }	# New Anatolian Impassables
+impassable_terrain = RANGE { 7909 7913 }	# New Anatolian impassables
+impassable_terrain = RANGE { 7915 7933 }	# New Anatolian impassables
+impassable_terrain = RANGE { 7943 7946 }	# New Anatolian impassables
+impassable_terrain = RANGE { 7965 7967 }	# New Anatolian impassables
+impassable_terrain = RANGE { 7972 7980 }	# New Anatolian impassables
+impassable_terrain = RANGE { 7982 7984 }	# New Anatolian impassables
+impassable_terrain = RANGE { 7987 7989 }	# New Anatolian impassables
+impassable_terrain = RANGE { 7995 7997 }	# New Anatolian impassables
+impassable_terrain = RANGE { 8000 8002 }	# New Anatolian impassables
+impassable_terrain = RANGE { 8004 8006 }	# New Anatolian impassables
+impassable_terrain = RANGE { 8055 8062 }	# New Anatolian impassables
+impassable_terrain = RANGE { 8792 8797 }	# New Burma
+impassable_terrain = RANGE { 8882 8889 }	#New Arabia
+impassable_terrain = RANGE { 9117 9120 }	#New Steppe
+impassable_terrain = RANGE { 9133 9145 }	#New Africa
+impassable_terrain = RANGE { 7853 7859 }	#Seazones Reused from Vanilla for Africa
+impassable_terrain = RANGE { 9283 9295 }	#India Jungle and Iberian Impassables
 #impassable_terrain = RANGE { 5076 7931 }
 impassable_terrain = RANGE { 9566 9579 }
 impassable_terrain = RANGE { 9586 9598 } 
 
-
 #Impassables, List:
-impassable_terrain = LIST { 768 783 3138 3316 5947 5948 5949 5950 5962 5963 5968 5972 5974 5975 5984 5985 5986 5987 5988 5989 5991 5992 6044 6045 6046 6048 6049 6064 6300 6482 6483 6488 6493 6494 6495 6496 6497 6498 6499 7279 7280 7281 7646 7647 7648 7649 7761 7762 7764 7797 7861 7895 7900 7940 7950 7952 7953 7955 7957 7959 7960 7969 7970 7992 7993 8012 8013 8014 8017 }
-impassable_terrain = LIST { 5667 5669 7800 8115 8116 8117 8118 8119 8120 8135 8148 8150 8165 8167 8176 8177 8183 8185 8186 8187 8188 8240 8390 8392 8550 8678 8691 8692 8693 8694 8716 8717 8718 8719 8720 8737 8758 8803 8893 8894 9244 9246 9250 9465 9466 9467 5971 7554 9581 } #New
+impassable_terrain = LIST { 768 783 3138 3316 5945 5947 5948 5949 5950 5962 5963 5968 5972 5974 5975 5984 5985 5986 5987 5988 5989 5991 5992 6044 6045 6046 6048 6049 6064 6300 6482 6483 6488 6493 6494 6495 6496 6497 6498 6499 7279 7280 7281 7646 7647 7648 7649 7761 7762 7764 7797 7861 7895 7900 7940 7950 7952 7953 7955 7957 7959 7960 7969 7970 7992 7993 8012 8013 8014 8017 }
+impassable_terrain = LIST { 5667 5669 7800 8115 8116 8117 8118 8119 8120 8135 8148 8150 8165 8167 8176 8177 8183 8185 8186 8187 8188 8240 8390 8392 8550 8678 8691 8692 8693 8694 8716 8717 8718 8719 8720 8737 8758 8803 8893 8894 9244 9246 9250 9465 9466 9467 5971 7554 9581 }	#New
 
 #Uninhabitables, Ranges:
 uninhabitable = LIST { 7555 7558 }
@@ -94,47 +92,134 @@ uninhabitable = LIST { 1673 1749 1750 1870 4992 5436 5443 5444 5446 5572 5585 55
 
 #Lakes, Ranges:
 lakes = RANGE { 5982 5983 }
-lakes = RANGE { 6303 6310 }
+lakes = RANGE { 6303 6305 }
+lakes = RANGE { 6307 6310 }
 LAKES = RANGE { 6312 6332 }
-LAKES = RANGE { 6334 6353 }
-LAKES = RANGE { 6356 6375 }
+LAKES = RANGE { 6334 6350 }
+LAKES = RANGE { 6357 6372 }
 lakes = RANGE { 6377 6396 }
 lakes = RANGE { 6400 6417 }
-lakes = RANGE { 6421 6430 }
-lakes = RANGE { 6438 6468 }
+lakes = RANGE { 6423 6428 }
+lakes = RANGE { 6445 6450 }
+lakes = RANGE { 6452 6468 }
 lakes = RANGE { 7661 7664 }
-lakes = RANGE { 4569 4588 } #Caspian
-lakes = RANGE { 2988 2999 } #Caspian
-lakes = RANGE { 8040 8041 } # Marius/ Eblu+Aksehir
-lakes = RANGE { 8052 8054 } # Marius
+
+lakes = RANGE { 8040 8041 }	# Marius/ Eblu+Aksehir
+lakes = RANGE { 8052 8054 }	# Marius
 lakes = RANGE { 9582 9585 } #Saharan Lakes
-lakes = LIST { 5367 6299 6398 6419 6432 6434 6435 8388 8394 8721 8745 8746 8747 8814 }
+lakes = LIST { 6299 6352 6353 6375 6398 6419 6421 6432 6438 6441 6442 8388 8394 8721 8745 8746 8747 8814 }
 
 #Major Rivers
-river_provinces = RANGE { 7666 7667 } # Nile River
-river_provinces = RANGE { 7669 7687 } # Nile River
-river_provinces = RANGE { 7692 7700 } # Indus River
-river_provinces = RANGE { 7701 7708 } # Ganges River
-river_provinces = RANGE { 7709 7709 } # Gallikos River
-river_provinces = RANGE { 7710 7722 } # Euphrates & Tigris River
-river_provinces = RANGE { 7724 7731 } # Rhine River
-river_provinces = RANGE { 7766 7795 } # New Rivers in Livy
-river_provinces = RANGE { 7862 7888 } # Additional New Rivers in Livy
-river_provinces = RANGE { 8028 8039 } # Marius/ Pyramus+Padus+Abus+Tamesis+Iberus
-river_provinces = RANGE { 8042 8049 } # Marius/ Tanais+Rha
-river_provinces = RANGE { 8572 8581 } # Borysthenes ext
-river_provinces = RANGE { 8582 8585 } # Tanais ext
-river_provinces = RANGE { 8586 8589 } # Daugava
-river_provinces = RANGE { 9146 9158 } # Nile ext
-river_provinces = RANGE { 9158 9164 } # Iberian ext
-river_provinces = RANGE { 9165 9173 } # Gallish ext
-river_provinces = RANGE { 9174 9176 } # Britan ext
-river_provinces = RANGE { 9177 9183 } # Baltic ext
-river_provinces = RANGE { 9184 9190 } # Danube ext
-river_provinces = RANGE { 9191 9198 } # Steppe ext
-river_provinces = RANGE { 9199 9234 } # India ext
-river_provinces = RANGE { 9405 9417 } # Steppe ext2
+river_provinces = RANGE { 7666 7667 }	# Nile River
+river_provinces = RANGE { 7669 7687 }	# Nile River
+river_provinces = RANGE { 7692 7700 }	# Indus River
+river_provinces = RANGE { 7701 7708 }	# Ganges River
+river_provinces = RANGE { 7709 7709 }	# Gallikos River
+river_provinces = RANGE { 7710 7722 }	# Euphrates & Tigris River
+river_provinces = RANGE { 7724 7731 }	# Rhine River
+river_provinces = RANGE { 7766 7795 }	# New Rivers in Livy
+river_provinces = RANGE { 7862 7888 }	# Additional New Rivers in Livy
+river_provinces = RANGE { 8028 8039 }	# Marius/ Pyramus+Padus+Abus+Tamesis+Iberus
+river_provinces = RANGE { 8042 8049 }	# Marius/ Tanais+Rha
+river_provinces = RANGE { 8572 8581 }	# Borysthenes ext
+river_provinces = RANGE { 8582 8585 }	# Tanais ext
+river_provinces = RANGE { 8586 8589 }	# Daugava
+river_provinces = RANGE { 9146 9158 }	# Nile ext
+river_provinces = RANGE { 9158 9164 }	# Iberian ext
+river_provinces = RANGE { 9165 9173 }	# Gallish ext
+river_provinces = RANGE { 9174 9176 }	# Britan ext
+river_provinces = RANGE { 9177 9183 }	# Baltic ext
+river_provinces = RANGE { 9184 9190 }	# Danube ext
+river_provinces = RANGE { 9191 9198 }	# Steppe ext
+river_provinces = RANGE { 9199 9234 }	# India ext
+river_provinces = RANGE { 9405 9417 }	# Steppe ext2
 river_provinces = LIST { 6333 6354 6355 6376 7741 7742 7665 7846 8051 9235 }
 
+
+#INR									493 - 57
+
+#Europe											240
+#	Italia											15
+river_provinces = RANGE { 9599 9608 }	# Padus ext		10
+river_provinces = RANGE { 9609 9610 }	# Arnus			2
+river_provinces = RANGE { 9611 9613 }	# Tiberis			3
+#	Iberia											20
+river_provinces = RANGE { 9614 9616 }	# Baetis ext 		3
+river_provinces = RANGE { 9616 9621 }	# Flumen Anas ext	5
+river_provinces = RANGE { 9622 9625 }	# Tagus ext		4
+river_provinces = RANGE { 9626 9628 }	# Durius			3
+river_provinces = RANGE { 9629 9633 }	# Iberus ext		5
+#	Gaulish											41
+river_provinces = RANGE { 9634 9641 }	# Garumna ext		8
+river_provinces = RANGE { 9642 9647 }	# Liger ext		6
+river_provinces = RANGE { 9648 9664 }	# Sequana ext		17
+river_provinces = RANGE { 9665 9668 }	# Scaldis			4
+river_provinces = RANGE { 9669 9674 }	# Rhodanus ext	6
+#	Britain											11
+river_provinces = LIST { 9675 }	# Tamesis ext			1
+river_provinces = RANGE { 9676 9680 }	# Sabrina			5
+river_provinces = RANGE { 9681 9685 }	# Abus ext		5
+#	Germanic										36
+river_provinces = RANGE { 9686 9702 }	# Rhenus ext		17
+river_provinces = RANGE { 9703 9704 }	# Amisius			2
+river_provinces = RANGE { 9705 9706 }	# Visurgis		2
+river_provinces = RANGE { 9707 9711 }	# Albis ext		5
+river_provinces = RANGE { 9712 9720 }	# Viadua ext		9
+river_provinces = LIST { 9721 }	# Gota Alv				1
+#	Baltic											23
+river_provinces = RANGE { 9722 9734 }	# Ouistoula		13
+river_provinces = RANGE { 9735 9744 }	# Turuntus		10
+#	Central Europe									66
+river_provinces = LIST { 9745 }	# Strymon				1
+river_provinces = RANGE { 9746 9748 }	# Evros			3
+river_provinces = RANGE { 9749 9810 }	# Danuvius ext	62
+#	Pontic Steppe									28		
+river_provinces = RANGE { 9811 9814 }	# Tyras ext		4
+river_provinces = RANGE { 9815 9817 }	# Hypanis ext		3
+river_provinces = RANGE { 9818 9822 }	# Tanais ext		5
+river_provinces = RANGE { 9823 9828 }	# Rha ext			6
+river_provinces = RANGE { 9829 9834 }	# Kuban			6
+river_provinces = RANGE { 9835 9838 }	# Terek			4
+
+#Africa											45	
+river_provinces = RANGE { 9839 9840 }	# Sububus	ext		2
+river_provinces = RANGE { 9841 9842 }	# Mater Vernis	2
+river_provinces = LIST { 9843 }	# Tritonis				1
+river_provinces = RANGE { 9844 9883 }	# Nile ext		40
+
+#Asia											207
+#	Central Asia									43
+river_provinces = RANGE { 9884 9889 }	# Daikos			6
+river_provinces = RANGE { 9890 9911 }	# Oxus			22
+river_provinces = RANGE { 9912 9922 }	# Jaxartes		11
+sea_zones = RANGE { 9923 9926 }	# Aral					4
+#	Western India									26
+river_provinces = RANGE { 9927 9941 }	# Indus ext		15	
+river_provinces = RANGE { 9942 9945 }	# Mahi			4
+river_provinces = RANGE { 9946 9948 }	# Narmada ext		3
+river_provinces = RANGE { 9949 9952 }	# Tapi ext		4
+#	Eastern India									60
+river_provinces = RANGE { 9953 9958 }	# Mahanadi		6
+river_provinces = RANGE { 9959 9962 }	# Brahmani		4
+river_provinces = RANGE { 9963 10007 }	# Ganges ext		45
+river_provinces = RANGE { 10008 10012 }	# Irrawaddy		5
+#	Southern India									35
+river_provinces = RANGE { 10013 10023 }	# Godavari ext	11
+river_provinces = RANGE { 10024 10038 }	# Krishna ext		15
+river_provinces = RANGE { 10039 10041 }	# Penner ext		3
+river_provinces = RANGE { 10042 10043 }	# Palar			2
+river_provinces = RANGE { 10044 10045 }	# Ponnaiyar		2
+river_provinces = LIST { 10046 10080 }	# Mahaweli			2
+#	Middle East										43
+river_provinces = RANGE { 10047 10049 }	# Phasis			3
+river_provinces = RANGE { 10050 10055 }	# Kur				6
+river_provinces = RANGE { 10056 10089 }	# Mesopotamia		34
+
+ 
+#changed vanilla
+river_provinces = LIST { 5367 6306 6351 6356 6373 6374 6422 6429 6430 6434 6435 6439 6440 6443 6451 }	#misc
+sea_zones = LIST { 6444 }
+sea_zones = RANGE { 4569 4588 }	#Caspian
+sea_zones = RANGE { 2988 2999 }	#Caspian
 
 
